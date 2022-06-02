@@ -75,11 +75,18 @@ namespace font {
 class pango_text
 {
 public:
-
 	pango_text();
 
-	pango_text(const pango_text &) = delete;
-	pango_text & operator = (const pango_text &) = delete;
+	pango_text(const pango_text&) = delete;
+	pango_text& operator=(const pango_text&) = delete;
+
+	/**
+	 * Returns the rendered text texture from the cache.
+	 *
+	 * If the surface is flagged dirty it will first be re-rendered and a new
+	 * texture added to the cache upon redraw.
+	 */
+	texture& render_and_get_texture();
 
 	/**
 	 * Returns the rendered text as a texture.
@@ -288,7 +295,6 @@ private:
 	/** The SDL surface to render upon used as a cache. */
 	mutable surface surface_;
 
-
 	/** The text to draw (stored as UTF-8). */
 	std::string text_;
 
@@ -394,6 +400,12 @@ private:
 	/** The area that's cached in surface_, which is the area that was rendered when surface_dirty_ was last set to false. */
 	SDL_Rect rendered_viewport_;
 
+	/** Hash for the current settings (text, size, etc) configuration. */
+	std::size_t hash_;
+
+	/** Allow specialization of std::hash for pango_text. */
+	friend struct std::hash<pango_text>;
+
 	/**
 	 * Renders the text.
 	 *
@@ -475,3 +487,14 @@ pango_text& get_text_renderer();
 int get_max_height(unsigned size, font::family_class fclass = font::FONT_SANS_SERIF, pango_text::FONT_STYLE style = pango_text::STYLE_NORMAL);
 
 } // namespace font
+
+// Specialize std::hash for pango_text
+namespace std
+{
+template<>
+struct hash<font::pango_text>
+{
+	std::size_t operator()(const font::pango_text&) const;
+};
+
+} // namespace std
