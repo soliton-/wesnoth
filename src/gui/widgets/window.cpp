@@ -609,6 +609,37 @@ void window::draw()
 		return;
 	}
 
+	/***** ***** Layout ***** *****/
+	if(need_layout_) {
+		layout();
+		need_layout_ = false;
+	} else {
+		// Let widgets update themselves.
+		layout_children();
+	}
+
+	// Draw background.
+	this->draw_background();
+
+	// Draw children.
+	this->draw_children();
+
+	// Draw foreground.
+	this->draw_foreground();
+
+	if(callback_next_draw_ != nullptr) {
+		callback_next_draw_();
+		callback_next_draw_ = nullptr;
+	}
+
+	return;
+#if 0
+	/***** ***** ***** ***** Init ***** ***** ***** *****/
+	// Prohibited from drawing?
+	if(suspend_drawing_) {
+		return;
+	}
+
 	/***** ***** Layout and get dirty list ***** *****/
 	if(need_layout_) {
 		// Restore old surface. In the future this phase will not be needed
@@ -768,6 +799,7 @@ void window::draw()
 		callback_next_draw_();
 		callback_next_draw_ = nullptr;
 	}
+#endif
 }
 
 void window::undraw()

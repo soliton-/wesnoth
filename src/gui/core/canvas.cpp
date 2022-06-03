@@ -124,9 +124,9 @@ void rectangle_shape::draw(wfl::map_formula_callable& variables)
 	const color_t border_color = border_color_(variables);
 
 	// Draw the border
+	DBG_GUI_D << "border thickness " << border_thickness_ << ", colour " << border_color << std::endl;
 	draw::set_color(border_color);
-	DBG_GUI_D << "border thickness " << border_thickness_
-		<< ", colour " << border_color << std::endl;
+
 	for(int i = 0; i < border_thickness_; ++i) {
 		const SDL_Rect dimensions {
 			x + i,
@@ -455,29 +455,33 @@ void text_shape::draw(wfl::map_formula_callable& variables)
 	const int y = y_(local_variables);
 	const int w = w_(local_variables);
 	const int h = h_(local_variables);
-	rect dst_rect{x, y, w, h};
 
-	// Get the visible portion of text.
-	rect visible = dst_rect.intersect(draw::get_clip());
-
-	// Get the source region of text for clipping.
-	rect clip_in = visible;
-	clip_in.x -= x;
-	clip_in.y -= y;
-
-	// Source region for high-dpi text needs to have pixel scale applied.
-	clip_in *= CVideo::get_singleton().get_pixel_scale();
-
-	// Render the currently visible portion of text
-	// TODO: highdpi - it would be better to render this all, but some things currently have far too much text. Namely the credits screen.
-	texture tex = text_renderer.render_texture(clip_in);
+	texture& tex = text_renderer.render_and_get_texture();
 	if(!tex) {
 		DBG_GUI_D << "Text: Rendering '" << text << "' resulted in an empty canvas, leave.\n";
 		return;
 	}
 
-	// TODO: highdpi - this /should/ be fine. But, in some cases (Credits) the maximum viewport height is exceeded. This is bad, but at least it shows something and doesn't crash.
-	draw::blit(tex, visible);
+	const int unscaled_draw_w = tex.w();
+	const int unscaled_draw_h = tex.h();
+
+	// Warn if text will be clipped.
+	if(unscaled_draw_w > w) {
+		WRN_GUI_D << "Text: text is too wide for the canvas and will be clipped.\n";
+	}
+
+	if(unscaled_draw_h > h) {
+		WRN_GUI_D << "Text: text is too high for the canvas and will be clipped.\n";
+	}
+
+	const SDL_Rect dst_rect {
+		static_cast<int>(x),
+		static_cast<int>(y),
+		unscaled_draw_w,
+		unscaled_draw_h
+	};
+
+	draw::blit(tex, dst_rect);
 }
 
 /***** ***** ***** ***** ***** CANVAS ***** ***** ***** ***** *****/
