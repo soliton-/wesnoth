@@ -629,21 +629,6 @@ void grid::layout_children()
 	}
 }
 
-void grid::child_populate_dirty_list(window& caller,
-									  const std::vector<widget*>& call_stack)
-{
-	assert(!call_stack.empty() && call_stack.back() == this);
-
-	for(auto & child : children_)
-	{
-
-		assert(child.get_widget());
-
-		std::vector<widget*> child_call_stack = call_stack;
-		child.get_widget()->populate_dirty_list(caller, child_call_stack);
-	}
-}
-
 widget* grid::find_at(const point& coordinate, const bool must_be_active)
 {
 	return grid_implementation::find_at<widget>(
@@ -1008,7 +993,6 @@ void grid::impl_draw_children()
 	 */
 
 	assert(get_visible() == widget::visibility::visible);
-	set_is_dirty(false);
 
 	for(auto & child : children_)
 	{
@@ -1027,7 +1011,6 @@ void grid::impl_draw_children()
 		widget->draw_background();
 		widget->draw_children();
 		widget->draw_foreground();
-		widget->set_is_dirty(false);
 	}
 }
 

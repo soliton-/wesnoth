@@ -404,15 +404,6 @@ void title_screen::update_tip(const bool previous)
 	}
 
 	tip_pages->select_page(page);
-
-	/**
-	 * @todo Look for a proper fix.
-	 *
-	 * This dirtying is required to avoid the blurring to be rendered wrong.
-	 * Not entirely sure why, but since we plan to move to SDL2 that change
-	 * will probably fix this issue automatically.
-	 */
-	get_window()->set_is_dirty(true);
 }
 
 void title_screen::show_debug_clock_window()

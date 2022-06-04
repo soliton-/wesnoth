@@ -195,7 +195,6 @@ void loading_screen::draw_callback()
 	}
 
 	animation_->get_drawing_canvas().set_variable("time", wfl::variant(duration_cast<milliseconds>(now - *animation_start_).count()));
-	animation_->set_is_dirty(true);
 }
 
 loading_screen::~loading_screen()

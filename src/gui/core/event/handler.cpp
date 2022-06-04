@@ -564,11 +564,6 @@ void sdl_event_handler::disconnect(dispatcher* disp)
 	}
 
 	/***** Set proper state for the other dispatchers. *****/
-	for(auto d : dispatchers_)
-	{
-		dynamic_cast<widget&>(*d).set_is_dirty(true);
-	}
-
 	activate();
 
 	/***** Validate post conditions. *****/
@@ -604,10 +599,6 @@ void sdl_event_handler::draw()
 
 void sdl_event_handler::draw_everything()
 {
-	for(auto dispatcher : dispatchers_) {
-		dynamic_cast<widget&>(*dispatcher).set_is_dirty(true);
-	}
-
 	draw();
 }
 
