@@ -150,11 +150,6 @@ public:
 	 */
 	void draw();
 
-	/**
-	 * Undraws the window.
-	 */
-	void undraw();
-
 	/** The status of the window. */
 	enum class status {
 		NEW,           /**< The window is new and not yet shown. */
@@ -469,9 +464,6 @@ private:
 
 	/** Whether the window has other windows behind it */
 	bool is_toplevel_;
-
-	/** When the window closes this texture is used to undraw the window. */
-	texture restorer_;
 
 	/** Do we wish to place the widget automatically? */
 	const bool automatic_placement_;

@@ -288,7 +288,6 @@ window::window(const builder_window::window_resolution& definition)
 	, suspend_drawing_(true)
 	, restore_(true)
 	, is_toplevel_(!is_in_dialog())
-	, restorer_()
 	, automatic_placement_(definition.automatic_placement)
 	, horizontal_placement_(definition.horizontal_placement)
 	, vertical_placement_(definition.vertical_placement)
@@ -579,7 +578,6 @@ int window::show(const bool restore, const unsigned auto_close_timeout)
 
 		// restore area
 		if(restore_) {
-			draw::blit(restorer_, get_rectangle());
 			font::undraw_floating_labels();
 		}
 		throw;
@@ -589,7 +587,6 @@ int window::show(const bool restore, const unsigned auto_close_timeout)
 
 	// restore area
 	if(restore_) {
-		draw::blit(restorer_, get_rectangle());
 		font::undraw_floating_labels();
 	}
 
@@ -629,13 +626,6 @@ void window::draw()
 	if(callback_next_draw_ != nullptr) {
 		callback_next_draw_();
 		callback_next_draw_ = nullptr;
-	}
-}
-
-void window::undraw()
-{
-	if(restore_ && restorer_) {
-		draw::blit(restorer_, get_rectangle());
 	}
 }
 
