@@ -22,6 +22,8 @@
 #include "sdl/utils.hpp"
 #include "video.hpp"
 
+#include <boost/algorithm/string.hpp>
+
 #include <map>
 #include <set>
 #include <stack>
@@ -97,6 +99,37 @@ int floating_label::xpos(std::size_t width) const
 
 bool floating_label::create_texture()
 {
+	if(!tex_) {
+		//
+		// Render text
+		//
+
+		// Strip trailing newlines.
+		boost::trim_right(text_);
+
+		// No text, so no point trying to render.
+		if(text_.empty()) {
+			return tex_;
+		}
+
+		// TODO: figure out why the global text renderer object gives too large a size.
+		static font::pango_text renderer;
+
+		renderer.set_foreground_color(color_);
+		renderer.set_font_size(font_size_);
+		renderer.set_maximum_width(width_ < 0 ? clip_rect_.w : width_);
+		renderer.set_maximum_height(height_ < 0 ? clip_rect_.h : height_, true);
+
+		// Add text outline if we're not drawing the background.
+		renderer.set_add_outline(bgcolor_.a == 255);
+		renderer.set_text(text_, use_markup_);
+
+		tex_ = renderer.render_and_get_texture();
+	}
+
+	return tex_;
+
+#if 0
 	if(tex_ == nullptr) {
 		DBG_FT << "creating floating label texture" << std::endl;
 		font::pango_text& text = font::get_text_renderer();
@@ -171,7 +204,7 @@ bool floating_label::create_texture()
 		tex_.set_draw_width(tex_.w() / ps);
 		tex_.set_draw_height(tex_.h() / ps);
 	}
-
+#endif
 	return tex_ != nullptr;
 }
 
