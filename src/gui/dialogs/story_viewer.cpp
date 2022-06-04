@@ -222,9 +222,6 @@ void story_viewer::display_part()
 
 	window_canvas.set_cfg(cfg);
 
-	// Needed to make the background redraw correctly.
-	window_canvas.set_is_dirty(true);
-
 	//
 	// Title
 	//
@@ -355,9 +352,6 @@ void story_viewer::draw_floating_image(floating_image_list::const_iterator image
 
 		cfg.add_child("image", std::move(image));
 		window_canvas.append_cfg(std::move(cfg));
-
-		// Needed to make the background redraw correctly.
-		window_canvas.set_is_dirty(true);
 
 		// If a delay is specified, schedule the next image draw and break out of the loop.
 		const unsigned int draw_delay = floating_image.display_delay();
