@@ -83,12 +83,6 @@ public:
 	/** Returns the cached texture, or creates a new one otherwise. */
 	texture render_and_get_texture();
 
-	/** Returns the width needed for the text. */
-	int get_width();
-
-	/** Returns the height needed for the text. */
-	int get_height();
-
 	/** Returns the size of the text, in drawing coordinates. */
 	point get_size();
 
