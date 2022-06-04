@@ -456,7 +456,7 @@ void text_shape::draw(wfl::map_formula_callable& variables)
 	const int w = w_(local_variables);
 	const int h = h_(local_variables);
 
-	texture& tex = text_renderer.render_and_get_texture();
+	texture tex = text_renderer.render_and_get_texture();
 	if(!tex) {
 		DBG_GUI_D << "Text: Rendering '" << text << "' resulted in an empty canvas, leave.\n";
 		return;

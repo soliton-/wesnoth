@@ -43,26 +43,10 @@
 
 namespace font
 {
-namespace
-{
-/**
- * The text texture cache.
- *
- * Each time a specific bit of text is rendered, a corresponding texture is created and
- * added to the cache. We don't store the surface since there isn't really any use for
- * it. If we need texture size that can be easily queried.
- *
- * @todo Figure out how this can be optimized with a texture atlas. It should be possible
- * to store smaller bits of text in the atlas and construct new textures from them.
- */
-std::map<std::size_t, texture> rendered_text_cache;
-}
-
 pango_text::pango_text()
 	: context_(pango_font_map_create_context(pango_cairo_font_map_get_default()), g_object_unref)
 	, layout_(pango_layout_new(context_.get()), g_object_unref)
 	, rect_()
-	, surface_()
 	, text_()
 	, markedup_text_(false)
 	, link_aware_(false)
@@ -81,9 +65,6 @@ pango_text::pango_text()
 	, calculation_dirty_(true)
 	, length_(0)
 	, pixel_scale_(1)
-	, surface_dirty_(true)
-	, rendered_viewport_()
-	, hash_(0)
 	, surface_buffer_()
 {
 	// With 72 dpi the sizes are the same as with SDL_TTF so hardcoded.
@@ -110,40 +91,32 @@ pango_text::pango_text()
 	cairo_font_options_destroy(fo);
 }
 
-texture pango_text::render_texture(const SDL_Rect& viewport)
+texture pango_text::render_and_get_texture()
 {
-	return with_draw_scale(texture(render(viewport)));
-}
+	/**
+	 * The text texture cache.
+	 *
+	 * Each time a specific bit of text is rendered, a corresponding texture is created and
+	 * added to the cache. We don't store the surface since there isn't really any use for
+	 * it. If we need texture size that can be easily queried.
+	 *
+	 * @todo Figure out how this can be optimized with a texture atlas. It should be possible
+	 * to store smaller bits of text in the atlas and construct new textures from them.
+	 */
+	static std::map<std::size_t, texture> rendered_cache{};
 
-texture pango_text::render_texture()
-{
-	return with_draw_scale(texture(render()));
-}
-
-texture& pango_text::render_and_get_texture()
-{
+	// Update our settings then hash them.
 	update_pixel_scale(); // TODO: this should be in recalculate()
 	recalculate();
-	SDL_Rect viewport{0, 0, rect_.x + rect_.width, rect_.y + rect_.height};
-	rerender(viewport);
-	return rendered_text_cache[hash_];
-}
+	const std::size_t hash = std::hash<pango_text>{}(*this);
 
-surface& pango_text::render(const SDL_Rect& viewport)
-{
-	update_pixel_scale(); // TODO: this should be in recalculate()
-	recalculate();
-	rerender(viewport);
-	return surface_;
-}
-
-surface& pango_text::render()
-{
-	update_pixel_scale(); // TODO: this should be in recalculate()
-	recalculate();
-	SDL_Rect viewport{0, 0, rect_.x + rect_.width, rect_.y + rect_.height};
-	rerender(viewport);
-	return surface_;
+	// If we already have the appropriate texture in-cache, use it.
+	if(const auto iter = rendered_cache.find(hash); iter != rendered_cache.end()) {
+		return with_draw_scale(iter->second);
+	} else {
+		const auto& [new_iter, added] = rendered_cache.try_emplace(hash, create_surface());
+		return with_draw_scale(new_iter->second);
+	}
 }
 
 int pango_text::get_width()
@@ -370,7 +343,6 @@ bool pango_text::set_text(const std::string& text, const bool markedup)
 		length_ = wide.size();
 		markedup_text_ = markedup;
 		calculation_dirty_ = true;
-		surface_dirty_ = true;
 	}
 
 	return true;
@@ -381,7 +353,6 @@ pango_text& pango_text::set_family_class(font::family_class fclass)
 	if(fclass != font_class_) {
 		font_class_ = fclass;
 		calculation_dirty_ = true;
-		surface_dirty_ = true;
 	}
 
 	return *this;
@@ -394,7 +365,6 @@ pango_text& pango_text::set_font_size(unsigned font_size)
 	if(font_size != font_size_) {
 		font_size_ = font_size;
 		calculation_dirty_ = true;
-		surface_dirty_ = true;
 	}
 
 	return *this;
@@ -405,7 +375,6 @@ pango_text& pango_text::set_font_style(const pango_text::FONT_STYLE font_style)
 	if(font_style != font_style_) {
 		font_style_ = font_style;
 		calculation_dirty_ = true;
-		surface_dirty_ = true;
 	}
 
 	return *this;
@@ -415,7 +384,6 @@ pango_text& pango_text::set_foreground_color(const color_t& color)
 {
 	if(color != foreground_color_) {
 		foreground_color_ = color;
-		surface_dirty_ = true;
 	}
 
 	return *this;
@@ -432,7 +400,6 @@ pango_text& pango_text::set_maximum_width(int width)
 	if(width != maximum_width_) {
 		maximum_width_ = width;
 		calculation_dirty_ = true;
-		surface_dirty_ = true;
 	}
 
 	return *this;
@@ -444,7 +411,6 @@ pango_text& pango_text::set_characters_per_line(const unsigned characters_per_li
 		characters_per_line_ = characters_per_line;
 
 		calculation_dirty_ = true;
-		surface_dirty_ = true;
 	}
 
 	return *this;
@@ -470,7 +436,6 @@ pango_text& pango_text::set_maximum_height(int height, bool multiline)
 		pango_layout_set_height(layout_.get(), !multiline ? -1 : height * PANGO_SCALE);
 		maximum_height_ = height;
 		calculation_dirty_ = true;
-		surface_dirty_ = true;
 	}
 
 	return *this;
@@ -484,7 +449,6 @@ pango_text& pango_text::set_ellipse_mode(const PangoEllipsizeMode ellipse_mode)
 		pango_layout_set_ellipsize(layout_.get(), ellipse_mode);
 		ellipse_mode_ = ellipse_mode;
 		calculation_dirty_ = true;
-		surface_dirty_ = true;
 	}
 
 	// According to the docs of pango_layout_set_height, the behavior is undefined if a height other than -1 is combined
@@ -502,7 +466,6 @@ pango_text &pango_text::set_alignment(const PangoAlignment alignment)
 	if (alignment != alignment_) {
 		pango_layout_set_alignment(layout_.get(), alignment);
 		alignment_ = alignment;
-		surface_dirty_ = true;
 	}
 
 	return *this;
@@ -525,7 +488,6 @@ pango_text& pango_text::set_link_aware(bool b)
 {
 	if (link_aware_ != b) {
 		calculation_dirty_ = true;
-		surface_dirty_ = true;
 		link_aware_ = b;
 	}
 	return *this;
@@ -536,7 +498,6 @@ pango_text& pango_text::set_link_color(const color_t& color)
 	if(color != link_color_) {
 		link_color_ = color;
 		calculation_dirty_ = true;
-		surface_dirty_ = true;
 	}
 
 	return *this;
@@ -547,7 +508,6 @@ pango_text& pango_text::set_add_outline(bool do_add)
 	if(do_add != add_outline_) {
 		add_outline_ = do_add;
 		//calculation_dirty_ = true;
-		surface_dirty_ = true;
 	}
 
 	return *this;
@@ -604,8 +564,6 @@ void pango_text::recalculate() const
 		assert(layout_ != nullptr);
 
 		calculation_dirty_ = false;
-		surface_dirty_ = true;
-
 		rect_ = calculate_size(*layout_);
 	}
 }
@@ -811,67 +769,50 @@ void pango_text::render(PangoLayout& layout, const SDL_Rect& viewport, const uns
 	pango_cairo_show_layout(cr.get(), &layout);
 }
 
-void pango_text::rerender(const SDL_Rect& viewport)
+surface pango_text::create_surface()
 {
-	if(surface_dirty_ || !SDL_RectEquals(&rendered_viewport_, &viewport)) {
-		assert(layout_.get());
+	assert(layout_.get());
 
-		this->recalculate();
-		surface_dirty_ = false;
-		rendered_viewport_ = viewport;
+	// TODO: highdpi - this was customizable. Do we want that behavior?
+	SDL_Rect viewport{0, 0, rect_.x + rect_.width, rect_.y + rect_.height};
 
-		// Calculate hash for the current settings
-		hash_ = std::hash<pango_text>{}(*this);
+	cairo_format_t format = CAIRO_FORMAT_ARGB32;
+	const int stride = cairo_format_stride_for_width(format, viewport.w);
 
-		// If we already have the appropriate texture in-cache, use it.
-		auto iter = rendered_text_cache.find(hash_);
-		if(iter != rendered_text_cache.end()) {
-			return;
-		}
-
-		// Else, render the updated text...
-		cairo_format_t format = CAIRO_FORMAT_ARGB32;
-		const int stride = cairo_format_stride_for_width(format, viewport.w);
-
-		// The width and stride can be zero if the text is empty or the stride can be negative to indicate an error from
-		// Cairo. Width isn't tested here because it's implied by stride.
-		if(stride <= 0 || viewport.h <= 0) {
-			surface_ = surface(0, 0);
-			surface_buffer_.clear();
-			return;
-		}
-
-		// Check to prevent arithmetic overflow when calculating (stride * height).
-		// The size of the viewport should already provide a far lower limit on the
-		// maximum size, but this is left in as a sanity check.
-		if(viewport.h > std::numeric_limits<int>::max() / stride) {
-			throw std::length_error("Text is too long to render");
-		}
-
-		// Resize buffer appropriately and set all pixel values to 0.
-		surface_ = nullptr; // Don't leave a dangling pointer to the old buffer
-		surface_buffer_.assign(viewport.h * stride, 0);
-
-		// Try rendering the whole text in one go. If this throws a length_error
-		// then leave it to the caller to handle; one reason it may throw is that
-		// cairo surfaces are limited to approximately 2**15 pixels in height.
-		render(*layout_, viewport, stride);
-
-		// The cairo surface is in CAIRO_FORMAT_ARGB32 which uses
-		// pre-multiplied alpha. SDL doesn't use that so the pixels need to be
-		// decoded again.
-		for(int y = 0; y < viewport.h; ++y) {
-			uint32_t* pixels = reinterpret_cast<uint32_t*>(&surface_buffer_[y * stride]);
-			for(int x = 0; x < viewport.w; ++x) {
-				from_cairo_format(pixels[x]);
-			}
-		}
-
-		surface_ = SDL_CreateRGBSurfaceWithFormatFrom(
-			&surface_buffer_[0], viewport.w, viewport.h, 32, stride, SDL_PIXELFORMAT_ARGB8888);
-
-		rendered_text_cache.try_emplace(hash_, surface_);
+	// The width and stride can be zero if the text is empty or the stride can be negative to indicate an error from
+	// Cairo. Width isn't tested here because it's implied by stride.
+	if(stride <= 0 || viewport.h <= 0) {
+		surface_buffer_.clear();
+		return nullptr;
 	}
+
+	// Check to prevent arithmetic overflow when calculating (stride * height).
+	// The size of the viewport should already provide a far lower limit on the
+	// maximum size, but this is left in as a sanity check.
+	if(viewport.h > std::numeric_limits<int>::max() / stride) {
+		throw std::length_error("Text is too long to render");
+	}
+
+	// Resize buffer appropriately and set all pixel values to 0.
+	surface_buffer_.assign(viewport.h * stride, 0);
+
+	// Try rendering the whole text in one go. If this throws a length_error
+	// then leave it to the caller to handle; one reason it may throw is that
+	// cairo surfaces are limited to approximately 2**15 pixels in height.
+	render(*layout_, viewport, stride);
+
+	// The cairo surface is in CAIRO_FORMAT_ARGB32 which uses
+	// pre-multiplied alpha. SDL doesn't use that so the pixels need to be
+	// decoded again.
+	for(int y = 0; y < viewport.h; ++y) {
+		uint32_t* pixels = reinterpret_cast<uint32_t*>(&surface_buffer_[y * stride]);
+		for(int x = 0; x < viewport.w; ++x) {
+			from_cairo_format(pixels[x]);
+		}
+	}
+
+	return SDL_CreateRGBSurfaceWithFormatFrom(
+		&surface_buffer_[0], viewport.w, viewport.h, 32, stride, SDL_PIXELFORMAT_ARGB8888);
 }
 
 bool pango_text::set_markup(std::string_view text, PangoLayout& layout)
