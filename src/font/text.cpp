@@ -1035,30 +1035,20 @@ namespace std
 {
 std::size_t hash<font::pango_text>::operator()(const font::pango_text& t) const
 {
-	using boost::hash_value;
-	using boost::hash_combine;
+	std::size_t hash = 0;
 
-	//
-	// Text hashing uses 32-bit FNV-1a.
-	// http://isthe.com/chongo/tech/comp/fnv/#FNV-1a
-	//
-
-	std::size_t hash = 2166136261;
-	for(const char& c : t.text_) {
-		hash |= c;
-		hash *= 16777619;
-	}
-
-	hash_combine(hash, t.font_class_);
-	hash_combine(hash, t.font_size_);
-	hash_combine(hash, t.font_style_);
-	hash_combine(hash, t.foreground_color_.to_rgba_bytes());
-	hash_combine(hash, t.get_width());
-	hash_combine(hash, t.get_height());
-	hash_combine(hash, t.maximum_width_);
-	hash_combine(hash, t.maximum_height_);
-	hash_combine(hash, t.alignment_);
-	hash_combine(hash, t.ellipse_mode_);
+	boost::hash_combine(hash, t.text_);
+	boost::hash_combine(hash, t.font_class_);
+	boost::hash_combine(hash, t.font_size_);
+	boost::hash_combine(hash, t.font_style_);
+	boost::hash_combine(hash, t.foreground_color_.to_rgba_bytes());
+	boost::hash_combine(hash, t.rect_.width);
+	boost::hash_combine(hash, t.rect_.height);
+	boost::hash_combine(hash, t.maximum_width_);
+	boost::hash_combine(hash, t.maximum_height_);
+	boost::hash_combine(hash, t.alignment_);
+	boost::hash_combine(hash, t.ellipse_mode_);
+	boost::hash_combine(hash, t.add_outline_);
 
 	return hash;
 }
