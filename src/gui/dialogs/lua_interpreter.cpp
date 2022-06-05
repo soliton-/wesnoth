@@ -385,13 +385,12 @@ public:
 	/** Bind my pointers to the widgets found in the window */
 	void bind(window& window);
 
-	void handle_copy_button_clicked(window & window);
-	void handle_clear_button_clicked(window & window);
+	void handle_copy_button_clicked();
+	void handle_clear_button_clicked();
 
 	void input_keypress_callback(bool& handled,
 						   bool& halt,
-						   const SDL_Keycode key,
-						   window& window);
+						   const SDL_Keycode key);
 
 	/** Update the view based on the model */
 	void update_view();
@@ -457,22 +456,19 @@ void lua_interpreter::controller::bind(window& window)
 						this,
 						std::placeholders::_3,
 						std::placeholders::_4,
-						std::placeholders::_5,
-						std::ref(window)));
+						std::placeholders::_5));
 
 	copy_button = find_widget<button>(&window, "copy", false, true);
 	connect_signal_mouse_left_click(
 			*copy_button,
 			std::bind(&lua_interpreter::controller::handle_copy_button_clicked,
-						this,
-						std::ref(window)));
+						this));
 
 	clear_button = find_widget<button>(&window, "clear", false, true);
 	connect_signal_mouse_left_click(
 			*clear_button,
 			std::bind(&lua_interpreter::controller::handle_clear_button_clicked,
-						this,
-						std::ref(window)));
+						this));
 
 	if (!desktop::clipboard::available()) {
 		copy_button->set_active(false);
@@ -483,14 +479,14 @@ void lua_interpreter::controller::bind(window& window)
 }
 
 /** Copy text to the clipboard */
-void lua_interpreter::controller::handle_copy_button_clicked(window & /*window*/)
+void lua_interpreter::controller::handle_copy_button_clicked()
 {
 	assert(lua_model_);
 	desktop::clipboard::copy_to_clipboard(lua_model_->get_raw_log(), false);
 }
 
 /** Clear the text */
-void lua_interpreter::controller::handle_clear_button_clicked(window & /*window*/)
+void lua_interpreter::controller::handle_clear_button_clicked()
 {
 	assert(lua_model_);
 	lua_model_->clear_log();
@@ -501,8 +497,7 @@ void lua_interpreter::controller::handle_clear_button_clicked(window & /*window*
 /** Handle return key (execute) or tab key (tab completion) */
 void lua_interpreter::controller::input_keypress_callback(bool& handled,
 							   bool& halt,
-							   const SDL_Keycode key,
-							   window& window)
+							   const SDL_Keycode key)
 {
 	assert(lua_model_);
 	assert(text_entry);
