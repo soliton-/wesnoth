@@ -113,10 +113,15 @@ texture pango_text::render_and_get_texture()
 	// If we already have the appropriate texture in-cache, use it.
 	if(const auto iter = rendered_cache.find(hash); iter != rendered_cache.end()) {
 		return with_draw_scale(iter->second);
-	} else {
-		const auto& [new_iter, added] = rendered_cache.try_emplace(hash, create_surface());
+	}
+
+	if(surface text_surf = create_surface(); text_surf) {
+		const auto& [new_iter, added] = rendered_cache.try_emplace(hash, std::move(text_surf));
 		return with_draw_scale(new_iter->second);
 	}
+
+	// Render output was null for some reason. Don't cache.
+	return {};
 }
 
 texture pango_text::with_draw_scale(const texture& t) const
