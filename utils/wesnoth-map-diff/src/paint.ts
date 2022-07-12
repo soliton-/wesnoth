@@ -28,6 +28,7 @@ const getTileImageCoordenates = (tileX: number, tileY: number) => {
 const producePainters = (output: Jimp, images: ImagesDict, leftPadding: number) => {
   const paintTile = (x: number, y: number, baseCode: string) => {
     const baseImage = images.tile[baseCode]
+    if (!baseImage) console.error(`No image for '$baseCode' found!`)
     output.composite(baseImage, x + leftPadding, y)
   }
 
@@ -38,6 +39,7 @@ const producePainters = (output: Jimp, images: ImagesDict, leftPadding: number) 
     }
 
     const misctileImage = images.tile[`${baseCode}^${miscCode}`] || images.tile[`^${miscCode}`]
+    if (!misctileImage) console.error(`No image for '${baseCode}^${miscCode}' or '^${miscCode}' found!`)
     output.composite(misctileImage, x + leftPadding, y)
   }
 
