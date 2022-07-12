@@ -18,7 +18,7 @@ const getDictTerrainType2ImagesPath = async () => {
         return acc
       }
 
-      acc[terrainType.string.value] = terrainType.symbol_image.value
+      acc[terrainType.string.value.replace(/ +#.*$/, '')] = terrainType.symbol_image.value
       return acc
   }, {} as { [terrainType: string]: string })
 
