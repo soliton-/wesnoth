@@ -83,8 +83,8 @@ const WmlLang = createLanguage({
   AttributeValueText: () => {
     return seqMap(
       regex(/(_ )?/),
-      regex(/ *([^# +][^ +]* +)*|[^+\n]*/),
-      regex(/#.*/),
+      regex(/[^+\n]*/),
+      regex(/(#.*)?/),
       (translatable, value) => (
         {
           value: value.trim(),
