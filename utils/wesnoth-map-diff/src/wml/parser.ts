@@ -84,7 +84,6 @@ const WmlLang = createLanguage({
     return seqMap(
       regex(/(_ )?/),
       regex(/[^+\n]*/),
-      regex(/(#.*)?/),
       (translatable, value) => (
         {
           value: value.trim(),
