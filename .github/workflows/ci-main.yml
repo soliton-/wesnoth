@@ -164,13 +164,13 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: Source
-          path: utils/dockerbuilds/wesnoth-*.tar.bz2
+          path: wesnoth-*.tar.bz2
 
       - name: Upload Windows-Installer
         uses: actions/upload-artifact@v3
         with:
           name: Windows-Installer
-          path: /wesnoth-*-win64.exe
+          path: utils/dockerbuilds/wesnoth-*-win64.exe
 
   flatpak:
     runs-on: ubuntu-latest
