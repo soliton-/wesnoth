@@ -116,7 +116,7 @@ jobs:
           ./wesnoth --version
           for opt in config data userconfig userdata
           do
-            output=$(./wesnoth --"$opt"-path)
+            output=$(./wesnoth --nobanner --"$opt"-path)
             if [ "$output" = "" ]; then printf 'option --%s-path prints nothing to stdout!' "$opt" >&2; exit 1; fi
             printf '%s-path: %s\n' "$opt" "$output"
           done
