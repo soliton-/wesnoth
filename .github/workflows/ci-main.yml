@@ -19,6 +19,9 @@ jobs:
     steps:
       - { uses: actions/checkout@v3, with: { submodules: "recursive" } }
 
+      - name: Check wesnoth-map-diff dependencies
+        run: npm install --package-lock-only; cat package-lock.json
+        working-directory: utils/wesnoth-map-diff
       - name: Check for invalid characters
         run: |
           ./utils/CI/check_utf8.sh
