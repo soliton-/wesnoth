@@ -1333,24 +1333,22 @@ namespace { // Helpers for attack_type::special_active()
 	}
 
 	/**
-	 * Determines if a unit/weapon combination matches the specified child
-	 * (normally a [filter_*] child) of the provided filter.
+	 * Determines if a unit/weapon combination matches the specified filter.
 	 * @param[in]  u           A unit to filter.
 	 * @param[in]  u2          Another unit to filter.
 	 * @param[in]  loc         The presumed location of @a unit.
 	 * @param[in]  weapon      The attack_type to filter.
-	 * @param[in]  filter      The filter containing the child filter to use.
-	 * @param[in]  for_listing
-	 * @param[in]  child_tag   The tag of the child filter to use.
+	 * @param[in]  filter      The filter to use.
+	 * @param[in]  for_listing Ignore the filter if true
 	 * @param[in]  tag_name    Parameter used for don't have infinite recusion for some filter attribute.
 	 */
 	static bool special_unit_matches(unit_const_ptr & u,
 		                             unit_const_ptr & u2,
 		                             const map_location & loc,
 		                             const_attack_ptr weapon,
-		                             const config & filter,
-									 const bool for_listing,
-		                             const std::string & child_tag, const std::string& tag_name)
+		                             const optional_config& filter,
+		                             const bool for_listing,
+		                             const std::string& tag_name)
 	{
 		if (for_listing && !loc.valid())
 			// The special's context was set to ignore this unit, so assume we pass.
@@ -1360,8 +1358,7 @@ namespace { // Helpers for attack_type::special_active()
 			// need to select an appropriate opponent.)
 			return true;
 
-		auto filter_child = filter.optional_child(child_tag);
-		if ( !filter_child )
+		if(!filter)
 			// The special does not filter on this unit, so we pass.
 			return true;
 
@@ -1370,13 +1367,13 @@ namespace { // Helpers for attack_type::special_active()
 			return false;
 		}
 
-		unit_filter ufilt{vconfig(*filter_child)};
+		unit_filter ufilt{vconfig(*filter)};
 
 		// If the other unit doesn't exist, try matching without it
 
 
 		// Check for a weapon match.
-		if (auto filter_weapon = filter_child->optional_child("filter_weapon") ) {
+		if (auto filter_weapon = filter->optional_child("filter_weapon") ) {
 			if ( !weapon || !weapon->matches_filter(*filter_weapon, tag_name) )
 				return false;
 		}
@@ -1879,16 +1876,16 @@ bool attack_type::special_active_impl(
 	//then the type of special must be entered to avoid calling
 	//the function of this special in matches_filter()
 	std::string self_tag_name = whom_is_self ? tag_name : "";
-	if (!special_unit_matches(self, other, self_loc, self_attack, special, is_for_listing, filter_self, self_tag_name))
+	if (!special_unit_matches(self, other, self_loc, self_attack, special.optional_child(filter_self), is_for_listing, self_tag_name))
 		return false;
 	std::string opp_tag_name = !whom_is_self ? tag_name : "";
-	if (!special_unit_matches(other, self, other_loc, other_attack, special_backstab, is_for_listing, "filter_opponent", opp_tag_name))
+	if (!special_unit_matches(other, self, other_loc, other_attack, special_backstab.optional_child("filter_opponent"), is_for_listing, opp_tag_name))
 		return false;
 	std::string att_tag_name = is_attacker ? tag_name : "";
-	if (!special_unit_matches(att, def, att_loc, att_weapon, special, is_for_listing, "filter_attacker", att_tag_name))
+	if (!special_unit_matches(att, def, att_loc, att_weapon, special.optional_child("filter_attacker"), is_for_listing, att_tag_name))
 		return false;
 	std::string def_tag_name = !is_attacker ? tag_name : "";
-	if (!special_unit_matches(def, att, def_loc, def_weapon, special, is_for_listing, "filter_defender", def_tag_name))
+	if (!special_unit_matches(def, att, def_loc, def_weapon, special.optional_child("filter_defender"), is_for_listing, def_tag_name))
 		return false;
 
 	const auto adjacent = get_adjacent_tiles(self_loc);
