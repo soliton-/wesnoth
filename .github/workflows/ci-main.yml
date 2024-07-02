@@ -14,7 +14,7 @@ jobs:
 
     name: Discord Notification
 
-    needs: [ubuntu-1604-scons-gcc-release, ubuntu-1604-scons-clang-debug, ubuntu-1604-cmake-clang-debug, macos-master-release, macos-master-debug]
+    needs: [ubuntu-2204-scons-gcc-release, ubuntu-2204-scons-clang-debug, ubuntu-2204-cmake-clang-debug, macos-master-release, macos-master-debug]
     if: always()
 
     steps:
@@ -29,7 +29,7 @@ jobs:
             commit: ${{ github.event.head_commit.message }}
             commit url: ${{ github.event.head_commit.url }}
 
-  ubuntu-1604-scons-gcc-release:
+  ubuntu-2204-scons-gcc-release:
     runs-on: ubuntu-20.04
 
     steps:
@@ -37,10 +37,10 @@ jobs:
         with:
           submodules: "recursive"
 
-      - name: Ubuntu 1604
+      - name: Ubuntu 2204
         run: |
-          export BRANCH=1.14
-          export IMAGE=1604
+          export BRANCH=master
+          export IMAGE=2204
           export NLS=false
           export TOOL=scons
           export CC=gcc
@@ -51,7 +51,7 @@ jobs:
           export CACHE_DIR=/home/wesnoth-travis/build
           ./.github/workflows/ci-scripts/ubuntu.sh
 
-  ubuntu-1604-scons-clang-debug:
+  ubuntu-2204-scons-clang-debug:
     runs-on: ubuntu-20.04
 
     steps:
@@ -59,10 +59,10 @@ jobs:
         with:
           submodules: "recursive"
 
-      - name: Ubuntu 1604
+      - name: Ubuntu 2204
         run: |
-          export BRANCH=1.14
-          export IMAGE=1604
+          export BRANCH=master
+          export IMAGE=2204
           export NLS=false
           export TOOL=scons
           export CC=clang
@@ -81,7 +81,7 @@ jobs:
             ~/build-cache/wesnoth
             ~/build-cache/wesnothd
 
-  ubuntu-1604-cmake-clang-debug:
+  ubuntu-2204-cmake-clang-debug:
     runs-on: ubuntu-20.04
 
     steps:
@@ -89,10 +89,10 @@ jobs:
         with:
           submodules: "recursive"
 
-      - name: Ubuntu 1604
+      - name: Ubuntu 2204
         run: |
-          export BRANCH=1.14
-          export IMAGE=1604
+          export BRANCH=master
+          export IMAGE=2204
           export NLS=false
           export TOOL=cmake
           export CC=clang
@@ -104,17 +104,17 @@ jobs:
           ./.github/workflows/ci-scripts/ubuntu.sh
 
   translations:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v2
         with:
           submodules: "recursive"
 
-      - name: Ubuntu 1604
+      - name: Ubuntu 2204
         run: |
-          export BRANCH=1.14
-          export IMAGE=1604
+          export BRANCH=master
+          export IMAGE=2204
           export NLS=only
           export TOOL=cmake
           export CC=clang
@@ -126,7 +126,7 @@ jobs:
           ./.github/workflows/ci-scripts/ubuntu.sh
 
   macos-master-release:
-    runs-on: macos-10.15
+    runs-on: macos-12
 
     steps:
       - uses: actions/checkout@v2
@@ -140,7 +140,7 @@ jobs:
           ./.github/workflows/ci-scripts/macos.sh
 
   macos-master-debug:
-    runs-on: macos-10.15
+    runs-on: macos-12
 
     steps:
       - uses: actions/checkout@v2
