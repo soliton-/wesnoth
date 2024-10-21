@@ -651,6 +651,7 @@ std::vector<texture> game_display::get_reachmap_images(const map_location& loc) 
 	const std::string* image_prefix_ = &game_config::reach_map_prefix;
 	DBG_DP << "Loaded image prefix: " << game_config::reach_map_prefix;
 
+	bool surrounded = true;
 	for(int i = 0; i < 6; ++i) {
 		if(reach_map_.find(adjacent[i]) != reach_map_.end()) {
 			DBG_DP << "Adjacent " << std::to_string(i) << " to tile " << loc << " is REACHABLE";
@@ -658,18 +659,12 @@ std::vector<texture> game_display::get_reachmap_images(const map_location& loc) 
 		} else {
 			DBG_DP << "Adjacent " << std::to_string(i) << " to tile " << loc << " is NOT REACHABLE";
 			tiles[i] = CLEAR;
+			surrounded = false;
 		}
 	}
 
 	// Find out if location is in the inner part of reachmap (surrounded by reach)
-	int s;
-	for(s = 0; s != 6; ++s) {
-		if(tiles[s] != REACH) {
-			break;
-		}
-	}
-
-	if(s == 6) {
+	if(surrounded) {
 		// Completely surrounded by reach. This may have a special graphic.
 		DBG_DP << "Tried completely surrounding";
 		std::string name = *image_prefix_ + "-all.png";
