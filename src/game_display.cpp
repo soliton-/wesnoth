@@ -819,6 +819,7 @@ std::vector<texture> game_display::get_reachmap_images(const map_location& loc) 
 	enum visibility { REACH = 0, ENEMY = 1, CLEAR = 2 };
 	std::array<visibility, 6> tiles;
 
+	bool surrounded = true;
 	for(int i = 0; i < 6; ++i) {
 		// look for units adjacent to loc
 		std::string test_location = std::to_string(adjacent[i].x) + "," + std::to_string(adjacent[i].y);
@@ -842,18 +843,12 @@ std::vector<texture> game_display::get_reachmap_images(const map_location& loc) 
 		} else {
 			DBG_DP << test_location << " is NOT REACHABLE";
 			tiles[i] = CLEAR;
+			surrounded = false;
 		}
 	}
 
 	// Find out if location is in the inner part of reachmap (surrounded by reach)
-	int s;
-	for(s = 0; s != 6; ++s) {
-		if(tiles[s] != REACH) {
-			break;
-		}
-	}
-
-	if(s == 6) {
+	if(surrounded) {
 		// Completely surrounded by reach. This may have a special graphic.
 		DBG_DP << "Tried completely surrounding";
 		std::string name = game_config::reach_map_prefix + "-all.png";
