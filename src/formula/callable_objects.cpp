@@ -94,7 +94,7 @@ variant attack_type_callable::get_value(const std::string& key) const
 	} else if(key == "range") {
 		return variant(att_->range());
 	} else if(key == "alignment") {
-		return variant(att_->alignment_str());
+		return variant(att_->alignment_filtering());
 	} else if(key == "damage") {
 		return variant(att_->damage());
 	} else if(key == "number_of_attacks" || key == "number" || key == "num_attacks" || key == "attacks") {
@@ -177,8 +177,8 @@ int attack_type_callable::do_compare(const formula_callable* callable) const
 		return att_->range().compare(att_callable->att_->range());
 	}
 
-	if(att_->alignment_str() != att_callable->att_->alignment_str()) {
-		return att_->alignment_str().compare(att_callable->att_->alignment_str());
+	if(att_->alignment_filtering() != att_callable->att_->alignment_filtering()) {
+		return att_->alignment_filtering().compare(att_callable->att_->alignment_filtering());
 	}
 
 	const auto self_specials = att_->specials().all_children_range();

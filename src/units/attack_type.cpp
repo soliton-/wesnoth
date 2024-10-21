@@ -82,9 +82,12 @@ attack_type::attack_type(const config& cfg)
 	}
 }
 
-std::string attack_type::alignment_str() const
+std::string attack_type::alignment_filtering() const
 {
-	return alignment_ ? unit_alignments::get_string(*alignment()) : "";
+	if(!alignment_str().empty()){
+		return alignment_str();
+	}
+	return self_ ? unit_alignments::get_string(self_->alignment()) : "";
 }
 
 std::string attack_type::accuracy_parry_description() const
@@ -156,7 +159,7 @@ static bool matches_simple_filter(const attack_type & attack, const config & fil
 	if (!filter_attacks_used.empty() && !in_ranges(attack.attacks_used(), utils::parse_ranges_unsigned(filter_attacks_used)))
 		return false;
 
-	if(!filter_alignment.empty() && filter_alignment.count(attack.alignment_str()) == 0)
+	if(!filter_alignment.empty() && filter_alignment.count(attack.alignment_filtering()) == 0)
 		return false;
 
 	if ( !filter_name.empty() && filter_name.count(attack.id()) == 0)
