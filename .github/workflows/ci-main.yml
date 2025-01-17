@@ -359,6 +359,9 @@ jobs:
           name: WMLTest-userdata-Windows
           path: ud
 
+      - name: Run unit tests
+        run: python run_boost_tests -e %CFG%/boost_unit_tests.exe
+
 # run after all other jobs have completed to check overall build status
   notification:
     runs-on: ubuntu-latest
