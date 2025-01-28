@@ -153,6 +153,13 @@ jobs:
           export LTO=false
           export CACHE_DIR=/home/wesnoth-CI/build
           ./.github/workflows/ci-scripts/ubuntu.sh
+          
+      - name: Upload flatpak bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: Flatpak-Bundle
+          path: wesnoth.flatpak
+
 
   translations:
     runs-on: ubuntu-20.04
