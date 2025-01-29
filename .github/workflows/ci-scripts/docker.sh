@@ -93,6 +93,7 @@ elif [ "$IMAGE" == "flatpak" ]; then
     EXIT_VAL=$?
     rm -R "$CACHE_DIR"/*
     cp -R .flatpak-builder/. "$CACHE_DIR"/
+    mv wesnoth.flatpak "$CACHE_DIR"/
     chmod -R 777 "$CACHE_DIR"/
     exit $EXIT_VAL
 else
