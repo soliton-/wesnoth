@@ -84,7 +84,7 @@ elif [ "$IMAGE" == "flatpak" ]; then
 # therefore manually move stuff between where flatpak needs it and where CI caching can see it
     rm -R .flatpak-builder/*
     cp -R "$CACHE_DIR"/. .flatpak-builder/
-    jq '.modules |= map(select(.name == "wesnoth") | ."build-commands"[0]+=" appdata_filepath=org.wesnoth.Wesnoth.appdata.xml" | .sources[0]={type:"dir",path:"."})' packaging/flatpak/org.wesnoth.Wesnoth.json > wesnoth-manifest.json
+    jq '.modules |= map(select(.name == "wesnoth")."build-commands"[0]+=" appdata_filepath=org.wesnoth.Wesnoth.appdata.xml" | select(.name == "wesnoth").sources[0]={type:"dir",path:"."})' packaging/flatpak/org.wesnoth.Wesnoth.json > wesnoth-manifest.json
     git config --global --add safe.directory "$PWD"
     branch=ci-$(git log -n 1 --format=%h)
     version=$(sed -n 's/#define VERSION "\(.*\)"/\1/p' src/wesconfig.h)
