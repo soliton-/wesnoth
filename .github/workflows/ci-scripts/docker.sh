@@ -84,14 +84,14 @@ elif [ "$IMAGE" == "flatpak" ]; then
 # therefore manually move stuff between where flatpak needs it and where CI caching can see it
     rm -R .flatpak-builder/*
     cp -R "$CACHE_DIR"/. .flatpak-builder/
-    jq '.modules[2].sources[0]={"type":"dir","path":"/home/wesnoth-CI"} | ."build-options".env.FLATPAK_BUILDER_N_JOBS="2"' packaging/flatpak/org.wesnoth.Wesnoth.json > utils/dockerbuilds/CI/org.wesnoth.Wesnoth.json
+    jq '.modules |= map(select(.name == "wesnoth") | ."build-commands"[0]+=" appdata_filepath=org.wesnoth.Wesnoth.appdata.xml" | .sources[0]={type:"dir",path:"."})' packaging/flatpak/org.wesnoth.Wesnoth.json > wesnoth-manifest.json
     git config --global --add safe.directory "$PWD"
     branch=ci-$(git log -n 1 --format=%h)
     version=$(sed -n 's/#define VERSION "\(.*\)"/\1/p' src/wesconfig.h)
     date=$(git log -1 --date=iso --format=%cd)
-    python3 -c 'import sys; from xml.dom import minidom; doc = minidom.parse(sys.argv[1]); releases = doc.getElementsByTagName("component")[-1].appendChild(doc.createElement("releases")); release = doc.createElement("release"); release.setAttribute("version", sys.argv[2]); release.setAttribute("date", sys.argv[3]); releases.insertBefore(release, releases.firstChild); doc.writexml(open(sys.argv[1], "w"))' packaging/org.wesnoth.Wesnoth.appdata.xml "$version" "$date"
-    echo Flatpak > data/dist
-    flatpak-builder --ccache --force-clean --disable-rofiles-fuse wesnoth-app utils/dockerbuilds/CI/org.wesnoth.Wesnoth.json
+    cp packaging/org.wesnoth.Wesnoth.appdata.xml .
+    python3 -c 'import sys; from xml.dom import minidom; doc = minidom.parse(sys.argv[1]); releases = doc.getElementsByTagName("component")[-1].appendChild(doc.createElement("releases")); release = doc.createElement("release"); release.setAttribute("version", sys.argv[2]); release.setAttribute("date", sys.argv[3]); releases.insertBefore(release, releases.firstChild); doc.writexml(open(sys.argv[1], "w"))' org.wesnoth.Wesnoth.appdata.xml "$version" "$date"
+    flatpak-builder --ccache --force-clean --disable-rofiles-fuse --jobs=2 wesnoth-app wesnoth-manifest.json
     EXIT_VAL=$?
     flatpak build-export export wesnoth-app "$branch"
     flatpak build-bundle export wesnoth.flatpak org.wesnoth.Wesnoth "$branch" --runtime-repo=https://flathub.org/repo/flathub.flatpakrepo
