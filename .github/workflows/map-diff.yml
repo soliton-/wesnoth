@@ -15,34 +15,41 @@ jobs:
       run:
         working-directory: utils/wesnoth-map-diff
     steps:
-    - uses: actions/checkout@v3
-    - uses: actions/setup-node@v3
-      with:
-        node-version: '16'
+    # pull_request_target: checks out only the target branch of the PR (for example master); no merge
+    - { uses: actions/checkout@v4, with: { fetch-depth: 50 } }
+
+    - { uses: actions/setup-node@v3, with: { node-version: '16' } }
     - name: Package install
       run: npm install
     - name: Package build
       run: npm run build:prod
+
     - name: Get maps diff
       id: get-maps-diff
       env:
-        SHA: ${{ github.event.pull_request.head.sha }}
+        BASE_SHA: ${{ github.event.pull_request.base.sha }} # latest commit on the target branch when PR was created
+        HEAD_SHA: ${{ github.event.pull_request.head.sha }} # latest commit on the PR branch
       run: |
         sudo apt-get -y -q install pngquant
         comment_body=""
         log() { printf '\e[1m%s\e[m\n' "$*"; } # write log message in bold
         err() { printf '\e[1;31m%s\e[m\n' "$*"; exit 1; } # write error message in bold red and exit
 
+        # base/target branch is checked out; now need to get the PR branch commits
+        git fetch origin "$HEAD_SHA"
+        log graph of "$BASE_SHA".."$HEAD_SHA"
+        git log --graph --pretty=format:'%h %G?%d %s (%cr) <%an> (%cn)' "$BASE_SHA".."$HEAD_SHA"
+        log graph of HEAD.."$HEAD_SHA"
+        git log --graph --pretty=format:'%h %G?%d %s (%cr) <%an> (%cn)' HEAD.."$HEAD_SHA"
         ## Get changed maps
-        git fetch --depth=1 origin "$SHA"
-        mapfile -t map_paths < <(git diff --name-only HEAD "$SHA" | grep '\.map$')
+        mapfile -t map_paths < <(git diff --name-only --diff-filter=M HEAD "$HEAD_SHA" -- '*.map')
 
         for map_path in "${map_paths[@]}"
         do
           ## Get new map version
-          log "Check out $map_path from $SHA..."
+          log "Check out $map_path from $HEAD_SHA..."
           new_map=${map_path##*/}
-          git show "$SHA":"$map_path" > "$new_map"
+          git show "$HEAD_SHA":"$map_path" > "$new_map"
 
           log "Generate map diff image for $map_path..."
           node build/index.js "../../$map_path" "$new_map" diff_image.png
