@@ -30,7 +30,7 @@ jobs:
       - name: check image EXIF metadata
         run: |
           git log --graph --pretty=format:'%h %G?%d %s (%cr) <%an> (%cn)' "$BASE_SHA^".."$HEAD_SHA"
-          mapfile -t image_files < <(git diff --name-only --diff-filter=d "$BASE_SHA" "$HEAD_SHA" | grep -E '\.(webp|je?pg)$')
+          mapfile -t image_files < <(git diff --name-only --diff-filter=d "$BASE_SHA" "$HEAD_SHA" -- '*.webp' '*.jpg' '*.jpeg')
           # cycle through the changed image files, make sure they have the right fields
           for file in "${image_files[@]}"; do
             # check Artist tag, fail if missing
@@ -60,7 +60,7 @@ jobs:
 
       - name: check png XMP metadata
         run: |
-          mapfile -t image_files < <(git diff --name-only --diff-filter=d "$BASE_SHA" "$HEAD_SHA" | grep -E '\.png$')
+          mapfile -t image_files < <(git diff --name-only --diff-filter=d "$BASE_SHA" "$HEAD_SHA" -- '*.png')
           # cycle through the changed image files, make sure they have the right fields
           for file in "${image_files[@]}"; do
             # check Creator tag, fail if missing
