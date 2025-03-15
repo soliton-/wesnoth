@@ -51,7 +51,7 @@ pango_text::pango_text()
 	, markedup_text_(false)
 	, link_aware_(false)
 	, link_color_()
-	, font_class_(font::FONT_SANS_SERIF)
+	, font_class_(font::family_class::sans_serif)
 	, font_size_(14)
 	, font_style_(STYLE_NORMAL)
 	, foreground_color_() // solid white
@@ -320,10 +320,6 @@ void pango_text::apply_attributes(const font::attribute_list& attrs)
 bool pango_text::set_text(const std::string& text, const bool markedup)
 {
 	if(markedup != markedup_text_ || text != text_) {
-		if(layout_ == nullptr) {
-			layout_.reset(pango_layout_new(context_.get()));
-		}
-
 		const std::u32string wide = unicode_cast<std::u32string>(text);
 		std::string narrow = unicode_cast<std::string>(wide);
 		if(text != narrow) {

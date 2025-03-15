@@ -273,13 +273,6 @@ public:
 	 */
 	std::size_t get_length() const { return length_; }
 
-	unsigned get_text_height() const {
-		// return pango_layout_get_baseline(layout_.get())/PANGO_SCALE;
-		int height;
-		pango_layout_get_pixel_size(layout_.get(), nullptr, &height);
-		return height;
-	}
-
 	/**
 	 * Sets the text to render.
 	 *
@@ -534,7 +527,7 @@ pango_text& get_text_renderer();
  *                                font. More specifically, the result is the sum of the maximum
  *                                ascent and descent lengths.
  */
-int get_max_height(unsigned size, font::family_class fclass = font::FONT_SANS_SERIF, pango_text::FONT_STYLE style = pango_text::STYLE_NORMAL);
+int get_max_height(unsigned size, font::family_class fclass = font::family_class::sans_serif, pango_text::FONT_STYLE style = pango_text::STYLE_NORMAL);
 
 /* Returns the default line spacing factor
  * For now hardcoded here */
