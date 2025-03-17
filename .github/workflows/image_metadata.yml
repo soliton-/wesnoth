@@ -26,6 +26,8 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+        env:
+          _debug: ${{ toJSON(github) }}
 
       - name: check image metadata
         run: |
@@ -35,32 +37,30 @@ jobs:
           mapfile -t jpg_files < <(git diff --name-only --diff-filter=d "$BASE_SHA" "$HEAD_SHA" -- '*.jpg' '*.jpeg')
           mapfile -t webp_files < <(git diff --name-only --diff-filter=d "$BASE_SHA" "$HEAD_SHA" -- '*.webp')
 
-          # print metadata of all involved files first
-          ((${#png_files[@]} > 0)) && exiftool -f \
+          printf '\n\nmetadata of all changed files:\n'
+          ((${#png_files[@]} > 0)) && exiftool -q -f \
             -p '$Directory/$FileName' \
             -p $'PNG:\tCreateDate=$PNG:CreateDate,ModifyDate=$PNG:ModifyDate,Copyright=$PNG:Copyright,Artist=$PNG:Artist' \
             -p $'EXIF:\tCreateDate=$EXIF:CreateDate,ModifyDate=$EXIF:ModifyDate,Copyright=$EXIF:Copyright,Artist=$EXIF:Artist' \
             -p $'XMP:\tCreateDate=$XMP:CreateDate,ModifyDate=$XMP:ModifyDate,Rights=$XMP:Rights,Creator=$XMP:Creator' \
             -p 'UserComment=$UserComment' \
             -p '' -- "${png_files[@]}"
-          ((${#jpg_files[@]} + ${#webp_files[@]} > 0)) && exiftool -f \
+          ((${#jpg_files[@]} + ${#webp_files[@]} > 0)) && exiftool -q -f \
             -p '$Directory/$FileName' \
-            -p $'PNG:\tCreateDate=$PNG:CreateDate,ModifyDate=$PNG:ModifyDate,Copyright=$PNG:Copyright,Artist=$PNG:Artist' \
             -p $'EXIF:\tCreateDate=$EXIF:CreateDate,ModifyDate=$EXIF:ModifyDate,Copyright=$EXIF:Copyright,Artist=$EXIF:Artist' \
             -p $'XMP:\tCreateDate=$XMP:CreateDate,ModifyDate=$XMP:ModifyDate,Rights=$XMP:Rights,Creator=$XMP:Creator' \
             -p 'UserComment=$UserComment' \
             -p '' -- "${jpg_files[@]}" "${webp_files[@]}"
 
           checktag() {
-            tag=$(exiftool -p "\$$1" "$2")
+            tag=$(exiftool -m -p "\$$1" "$2")
             [ "$tag" ] || { printf '%s: %s tag is missing or empty!\n' "$2" "$1"; return 1; }
           }
           checkrights() {
-            tag=$(exiftool -p "\$$1" "$2")
+            tag=$(exiftool -m -p "\$$1" "$2")
             case $tag in
-              'GNU GPL v2+'|'CC BY-SA 4.0'|CC0) ;;
-              '') printf '%s: %s tag is missing or empty!\n' "$2" "$1"; return 1;;
-              *)  printf '%s: %s tag (%s) must contain one of: "GNU GPL v2+", "CC BY-SA 4.0", "CC0"\n' "$2" "$1" "$tag"; return 1;;
+              'GNU GPL v2+'|'CC BY-SA 4.0'|CC0) return 0;;
+              *) printf '%s: %s tag (%s) must contain one of: "GNU GPL v2+", "CC BY-SA 4.0", "CC0"\n' "$2" "$1" "$tag"; return 1;;
             esac
           }
           return=0
