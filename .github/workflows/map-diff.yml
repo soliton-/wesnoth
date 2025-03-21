@@ -15,7 +15,10 @@ jobs:
       run:
         working-directory: utils/wesnoth-map-diff
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
+      env:
+        _debug: ${{ toJSON(github) }}
+
     - uses: actions/setup-node@v3
       with:
         node-version: '16'
