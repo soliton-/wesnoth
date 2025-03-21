@@ -28,7 +28,7 @@ jobs:
       env:
         SHA: ${{ github.event.pull_request.head.sha }}
       run: |
-        sudo apt-get -y -q install pngquant imagemagick
+        sudo apt-get -y -q install pngquant
         comment_body=""
         log() { printf '\e[1m%s\e[m\n' "$*"; } # write log message in bold
         err() { printf '\e[1;31m%s\e[m\n' "$*"; exit 1; } # write error message in bold red and exit
@@ -49,11 +49,9 @@ jobs:
 
           log "Generate map diff image for $map_path..."
           node build/index.js "../../$map_path" "$new_map" diff_image.png
-          identify diff_image.png
 
           log 'Compress image...'
-          pngquant --force --output diff_image.png diff_image.png
-          identify diff_image.png
+          pngquant --verbose --force --output diff_image.png diff_image.png
 
           log 'Uploading diff_image.png...'
           # https://api.imgur.com/endpoints/image/#image-upload https://apidocs.imgur.com/#c85c9dfc-7487-4de2-9ecd-66f727cf3139
