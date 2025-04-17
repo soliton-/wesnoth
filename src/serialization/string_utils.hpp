@@ -318,6 +318,22 @@ inline std::string print_modifier(const std::string &mod)
 	return mod[0] == '-' ? (font::unicode_minus + std::string(mod.begin() + 1, mod.end())) : ("+" + mod);
 }
 
+/** Format @a str as a WML value  */
+inline std::string wml_escape_string(std::string_view str)
+{
+	std::string res;
+	const char* iter = str.begin();
+	const char* end = str.end();
+
+	while(iter != end) {
+		const char c = *iter;
+		res.append(c == '"' ? 2 : 1, c);
+		++iter;
+	}
+
+	return res;
+}
+
 /** Prepends a configurable set of characters with a backslash */
 std::string escape(std::string_view str, const char *special_chars);
 
