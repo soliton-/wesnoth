@@ -142,7 +142,7 @@ jobs:
       - name: Run WML tests
         # only run on release builds (takes ~6 times as long on debug)
         if: matrix.cc == 'clang' && (success() || steps.build.outcome == 'success')
-        run: ./run_wml_tests -v -v -g -c -t 20 -bt 1000 -a=--userdata-dir=ud
+        run: ./run_wml_tests -g -c -t 20 -bt 1000 -a=--userdata-dir=ud
       - name: Upload userdata files from WML unit tests (logs, replays)
         if: matrix.cc == 'clang' && (success() || failure())
         uses: actions/upload-artifact@v4
