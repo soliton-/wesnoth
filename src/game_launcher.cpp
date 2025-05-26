@@ -557,7 +557,7 @@ game_launcher::unit_test_result game_launcher::single_unit_test()
 	}
 
 	savegame::replay_savegame save(state_, compression::format::none);
-	save.save_game_automatic(false, "unit_test_replay");
+	save.save_game_automatic();
 
 	load_data_ = savegame::load_game_metadata{
 		savegame::save_index_class::default_saves_dir(), save.filename(), "", true, true, false};
