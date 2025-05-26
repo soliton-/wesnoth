@@ -262,8 +262,8 @@ class WesnothRunner:
                 # here is likely to have many 'PASS TEST' lines with the failing test last.
                 # If support for batching other UnitTestResults is added then this needs to filter
                 # the output from the other tests.
-                print("STDOUT:\n", res.stdout.decode('utf-8')) # stderr is redirected to stdout
-            print("Failure, Wesnoth returned", returned_result, "but we expected", expected_result)
+                print("OUTPUT:\n", res.stdout.decode('utf-8')) # stderr is redirected to stdout
+            print("Failure, Wesnoth returned", returned_result, "but we expected", expected_result, res.args)
             test_summary.fail_test(test_list)
             raise UnexpectedTestStatusException()
 
