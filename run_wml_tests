@@ -37,12 +37,13 @@ class UnitTestResult(enum.Enum):
 
 class TestCase:
     """Represents a single line of the wml_test_schedule."""
-    def __init__(self, status, name):
+    def __init__(self, status, name, single):
         self.status = status
         self.name = name
+        self.single = single
 
     def __str__(self):
-        return "TestCase<{status}, {name}>".format(status=self.status, name=self.name)
+        return "TestCase<{status}, {name}, {single}>".format(status=self.status, name=self.name, single=self.single)
 
 class TestResultAccumulator:
     passed = []
@@ -90,7 +91,7 @@ class TestResultAccumulator:
 
 class TestListParser:
     """Each line in the list of tests should be formatted:
-        <expected return code><space><name of unit test scenario>
+        <expected return code><space><name of unit test scenario>[<space>single]
 
     For example:
         0 test_functionality
@@ -106,7 +107,7 @@ class TestListParser:
             self.filter = None
 
     def get(self, batcher):
-        status_name_re = re.compile(r"^(\d+) ([\w-]+)$")
+        status_name_re = re.compile(r"^(\d+) ([\w-]+) ?([\w-]+)?$")
         test_list = []
         for line in open(self.filename, mode="rt"):
             line = line.strip()
@@ -120,7 +121,7 @@ class TestListParser:
             if self.filter and not self.filter.search(line):
                 continue
 
-            t = TestCase(UnitTestResult(int(x.groups()[0])), x.groups()[1])
+            t = TestCase(UnitTestResult(int(x.groups()[0])), x.groups()[1], x.groups()[2] == "single")
             if self.verbose >= Verbosity.SCRIPT_DEBUGGING:
                 print(t)
             test_list.append(t)
@@ -274,7 +275,7 @@ def test_batcher(test_list):
     """
     expected_to_pass = []
     for test in test_list:
-        if test.status == UnitTestResult.PASS:
+        if test.status == UnitTestResult.PASS and not test.single:
             expected_to_pass.append(test)
         else:
             yield [test]
