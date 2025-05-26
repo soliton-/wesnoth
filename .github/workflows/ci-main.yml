@@ -142,7 +142,7 @@ jobs:
       - name: Run WML tests
         # only run on release builds (takes ~6 times as long on debug)
         if: matrix.cc == 'clang' && (success() || steps.build.outcome == 'success')
-        run: ./run_wml_tests -g -c -t 20 -bt 1000 -a=--userdata-dir=ud -a=--log-info=all
+        run: ./run_wml_tests -g -c -t 20 -bt 1000 -a=--userdata-dir=ud -a=--log-info=all -a=--log-to-file
       - name: Upload userdata files from WML unit tests (logs, replays)
         if: matrix.cc == 'clang' && (success() || failure())
         uses: actions/upload-artifact@v4
@@ -304,7 +304,7 @@ jobs:
           path: projectfiles/Xcode/Wesnoth_${{ matrix.cfg }}.dmg
       - name: Run WML tests
         if: matrix.cfg == 'Release'
-        run: ./run_wml_tests -g -c -t 30 -bt 350 -p "projectfiles/Xcode/build/$CFG/The Battle for Wesnoth.app/Contents/MacOS/The Battle for Wesnoth" -a=--userdata-dir="$PWD/ud"
+        run: ./run_wml_tests -g -c -t 30 -bt 350 -p "projectfiles/Xcode/build/$CFG/The Battle for Wesnoth.app/Contents/MacOS/The Battle for Wesnoth" -a=--userdata-dir="$PWD/ud" -a=--log-info=all -a=--log-to-file
       - name: Upload userdata files from WML unit tests (logs, replays)
         if: matrix.cfg == 'Release' && (success() || failure())
         uses: actions/upload-artifact@v4
@@ -357,7 +357,7 @@ jobs:
 
       - name: Run WML unit tests
         if: matrix.cfg == 'Release'
-        run: python run_wml_tests -v -g -c -t 20 -p %CFG%/wesnoth.exe -a=--userdata-dir=ud
+        run: python run_wml_tests -v -g -c -t 20 -p %CFG%/wesnoth.exe -a=--userdata-dir=ud -a=--log-info=all -a=--log-to-file
 
       - name: Upload userdata files from WML unit tests (logs, replays)
         if: matrix.cfg == 'Release' && (success() || failure())
