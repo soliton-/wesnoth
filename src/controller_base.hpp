@@ -170,8 +170,8 @@ protected:
 		// No action by default
 	}
 
-	virtual void show_menu(const std::vector<config>& items_arg, int xloc, int yloc, bool context_menu, display& disp);
-	virtual void execute_action(const std::vector<std::string>& items_arg, int xloc, int yloc, bool context_menu);
+	virtual void show_menu(const std::vector<config>& items_arg, int xloc, int yloc, bool context_menu);
+	virtual void execute_action(const std::vector<std::string>& items_arg);
 
 	virtual bool in_context_menu(const hotkey::ui_command& cmd) const;
 

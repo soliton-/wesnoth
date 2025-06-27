@@ -325,7 +325,10 @@ unit::unit(const unit& o)
 	, small_profile_(o.small_profile_)
 	, changed_attributes_(o.changed_attributes_)
 	, invisibility_cache_()
+	, has_ability_distant_(o.has_ability_distant_)
+	, has_ability_distant_image_(o.has_ability_distant_image_)
 {
+	affect_distant_ = o.affect_distant_;
 	// Copy the attacks rather than just copying references
 	for(auto& a : attacks_) {
 		a.reset(new attack_type(*a));
@@ -406,7 +409,34 @@ unit::unit(unit_ctor_t)
 	, upkeep_(upkeep_full{})
 	, changed_attributes_(0)
 	, invisibility_cache_()
+	, has_ability_distant_(utils::nullopt)
+	, has_ability_distant_image_(utils::nullopt)
 {
+	affect_distant_.clear();
+}
+
+void unit::set_has_ability_distant()
+{
+	// check if unit own abilities with [affect_adjacent/distant]
+	// else variables are false or erased.
+	affect_distant_.clear();
+	has_ability_distant_ = utils::nullopt;
+	has_ability_distant_image_ = utils::nullopt;
+	for(const auto [key, ability] : abilities_.all_children_view()) {
+		for (const config &i : ability.child_range("affect_adjacent")) {
+			// if 'radius' = "all_map" then radius is to maximum.
+			unsigned int radius = i["radius"] != "all_map" ? i["radius"].to_int(1) : INT_MAX;
+			if(!affect_distant_[key] || *affect_distant_[key] < radius) {
+				affect_distant_[key] = radius;
+			}
+			if(!has_ability_distant_ || *has_ability_distant_ < radius) {
+				has_ability_distant_ =  radius;
+			}
+			if((!has_ability_distant_image_ || *has_ability_distant_image_ < radius) && (ability.has_attribute("halo_image") || ability.has_attribute("overlay_image"))) {
+				has_ability_distant_image_ = radius;
+			}
+		}
+	}
 }
 
 void unit::init(const config& cfg, bool use_traits, const vconfig* vcfg)
@@ -442,26 +472,20 @@ void unit::init(const config& cfg, bool use_traits, const vconfig* vcfg)
 		if(!filter_recall.null())
 			filter_recall_ = filter_recall.get_config();
 
-		const vconfig::child_list& events = vcfg->get_children("event");
-		for(const vconfig& e : events) {
+		for(const vconfig& e : vcfg->get_children("event")) {
 			events_.add_child("event", e.get_config());
 		}
-		const vconfig::child_list& abilities_tags = vcfg->get_children("abilities");
-		for(const vconfig& abilities_tag : abilities_tags) {
+		for(const vconfig& abilities_tag : vcfg->get_children("abilities")) {
 			for(const auto& [key, child] : abilities_tag.all_ordered()) {
-				const vconfig::child_list& ability_events = child.get_children("event");
-				for(const vconfig& ability_event : ability_events) {
+				for(const vconfig& ability_event : child.get_children("event")) {
 					events_.add_child("event", ability_event.get_config());
 				}
 			}
 		}
-		const vconfig::child_list& attacks = vcfg->get_children("attack");
-		for(const vconfig& attack : attacks) {
-			const vconfig::child_list& specials_tags = attack.get_children("specials");
-			for(const vconfig& specials_tag : specials_tags) {
+		for(const vconfig& attack : vcfg->get_children("attack")) {
+			for(const vconfig& specials_tag : attack.get_children("specials")) {
 				for(const auto& [key, child] : specials_tag.all_ordered()) {
-					const vconfig::child_list& special_events = child.get_children("event");
-					for(const vconfig& special_event : special_events) {
+					for(const vconfig& special_event : child.get_children("event")) {
 						events_.add_child("event", special_event.get_config());
 					}
 				}
@@ -666,6 +690,8 @@ void unit::init(const config& cfg, bool use_traits, const vconfig* vcfg)
 			abilities_.append(abilities);
 		}
 	}
+
+	set_has_ability_distant();
 
 	if(const config::attribute_value* v = cfg.get("alignment")) {
 		set_attr_changed(UA_ALIGNMENT);
@@ -1126,6 +1152,7 @@ void unit::advance_to(const unit_type& u_type, bool use_traits)
 	if(bool_profile && profile_ != new_type.big_profile()) {
 		set_attr_changed(UA_PROFILE);
 	}
+	set_has_ability_distant();
 }
 
 std::string unit::big_profile() const
@@ -1796,7 +1823,7 @@ static bool resistance_filter_matches_base(const config& cfg, bool attacker)
 
 int unit::resistance_against(const std::string& damage_name, bool attacker, const map_location& loc, const_attack_ptr weapon, const const_attack_ptr& opp_weapon) const
 {
-	if(opp_weapon){
+	if(opp_weapon) {
 		return opp_weapon->effective_damage_type().second;
 	}
 	unit_ability_list resistance_list = get_abilities_weapons("resistance",loc, std::move(weapon), opp_weapon);
@@ -2438,6 +2465,12 @@ void unit::apply_builtin_effect(const std::string& apply_to, const config& effec
 	// In case the effect carries EventWML, apply it now
 	if(resources::game_events && resources::lua_kernel) {
 		resources::game_events->add_events(events.child_range("event"), *resources::lua_kernel);
+	}
+
+	// verify what unit own ability with [affect_adjacent] before edit has_ability_distant_ and has_ability_distant_image_.
+	// It is place here for what variables can't be true if unit don't own abilities with [affect_adjacent](after apply_to=remove_ability by example)
+	if(apply_to == "new_ability" || apply_to == "remove_ability") {
+		set_has_ability_distant();
 	}
 }
 

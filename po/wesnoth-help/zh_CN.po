@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth-1.16\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2025-05-20 17:31-0500\n"
+"POT-Creation-Date: 2025-06-15 22:18-0500\n"
 "PO-Revision-Date: 2024-05-22 18:11+0800\n"
 "Last-Translator: vimacs <vimacs.hacks@gmail.com>\n"
 "Language-Team: Wesnoth Simplified Chinese Team\n"
@@ -261,24 +261,24 @@ msgstr "坚定"
 #. [illuminates]: id=illumination
 #: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:346
 #: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:347
-#: data/core/macros/abilities.cfg:238
+#: data/core/macros/abilities.cfg:240
 msgid "female^illuminates"
 msgstr "照明"
 
 #. [heals]: id=healing
-#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:682
+#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:684
 #: data/core/macros/abilities.cfg:9
 msgid "heals +4"
 msgstr "疗伤+4"
 
 #. [heals]: id=healing
-#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:683
+#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:685
 #: data/core/macros/abilities.cfg:10
 msgid "female^heals +4"
 msgstr "疗伤+4"
 
 #. [heals]: id=healing
-#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:684
+#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:686
 msgid ""
 "Allows the unit to heal adjacent allied units at the beginning of our turn.\n"
 "\n"
@@ -294,26 +294,26 @@ msgstr ""
 
 #. [heals]: id=healing
 #. [heals]
-#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:688
-#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:727
-#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:757
+#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:690
+#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:729
+#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:759
 msgid "This unit is capable of basic healing and slowing dehydration."
 msgstr "此单位有基本的疗伤能力，并能减缓脱水。"
 
 #. [heals]: id=healing
-#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:706
+#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:708
 #: data/core/macros/abilities.cfg:35
 msgid "heals +8"
 msgstr "疗伤+8"
 
 #. [heals]: id=healing
-#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:707
+#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:709
 #: data/core/macros/abilities.cfg:36
 msgid "female^heals +8"
 msgstr "疗伤+8"
 
 #. [heals]: id=healing
-#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:708
+#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:710
 msgid ""
 "This unit combines herbal remedies with magic to heal units more quickly "
 "than is normally possible on the battlefield.\n"
@@ -330,17 +330,17 @@ msgstr ""
 "中毒的单位不能由疗伤者疗毒，只能进入村庄疗毒，或者由拥有疗毒能力的单位疗毒。"
 
 #. [heals]: id=healing
-#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:736
+#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:738
 msgid "heals +12"
 msgstr "疗伤+12"
 
 #. [heals]: id=healing
-#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:737
+#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:739
 msgid "female^heals +12"
 msgstr "疗伤+12"
 
 #. [heals]: id=healing
-#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:738
+#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:740
 msgid ""
 "This unit combines herbal remedies with magic to heal units more quickly "
 "than is normally possible on the battlefield.\n"
@@ -357,7 +357,7 @@ msgstr ""
 "中毒的单位不能由疗伤者疗毒，只能进入村庄疗毒，或者由拥有疗毒能力的单位疗毒。"
 
 #. [heals]
-#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:763
+#: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:765
 msgid ""
 "This unit is capable of healing those around it, slowing dehydration, and "
 "curing them of poison."
@@ -368,7 +368,7 @@ msgstr "此单位可以对周围的单位疗伤，减缓脱水，并疗毒。"
 #. [teleport]: id=teleport
 #: data/campaigns/World_Conquest/resources/data/artifacts.cfg:699
 #: data/campaigns/World_Conquest/resources/data/training.cfg:786
-#: data/core/macros/abilities.cfg:253
+#: data/core/macros/abilities.cfg:255
 msgid "teleport"
 msgstr "传送"
 
@@ -397,20 +397,20 @@ msgstr "背刺"
 #. [chance]
 #. [dummy]: id=feeding
 #: data/campaigns/World_Conquest/resources/data/training.cfg:501
-#: data/core/macros/abilities.cfg:408
+#: data/core/macros/abilities.cfg:410
 msgid "feeding"
 msgstr "食尸"
 
 #. [chance]
 #. [leadership]: id=leadership
 #: data/campaigns/World_Conquest/resources/data/training.cfg:528
-#: data/core/macros/abilities.cfg:199
+#: data/core/macros/abilities.cfg:201
 msgid "leadership"
 msgstr "领导"
 
 #. [hides]: id=ambush
 #: data/campaigns/World_Conquest/resources/strings/mainline.cfg:12
-#: data/core/macros/abilities.cfg:285
+#: data/core/macros/abilities.cfg:287
 msgid "ambush"
 msgstr "伏击"
 
@@ -424,7 +424,7 @@ msgstr "洞穴"
 
 #. [hides]: id=concealment
 #: data/campaigns/World_Conquest/resources/strings/mainline.cfg:21
-#: data/core/macros/abilities.cfg:348
+#: data/core/macros/abilities.cfg:350
 msgid "concealment"
 msgstr "隐蔽"
 
@@ -462,7 +462,7 @@ msgstr "蘑菇林"
 
 #. [hides]: id=nightstalk
 #: data/campaigns/World_Conquest/resources/strings/mainline.cfg:45
-#: data/core/macros/abilities.cfg:328 data/core/macros/abilities.cfg:329
+#: data/core/macros/abilities.cfg:330 data/core/macros/abilities.cfg:331
 msgid "nightstalk"
 msgstr "夜遁"
 
@@ -478,7 +478,7 @@ msgstr "沙地"
 
 #. [skirmisher]: id=skirmisher
 #: data/campaigns/World_Conquest/resources/strings/mainline.cfg:60
-#: data/core/macros/abilities.cfg:219
+#: data/core/macros/abilities.cfg:221
 msgid "skirmisher"
 msgstr "散兵"
 
@@ -773,12 +773,12 @@ msgstr "起始位置工具"
 #| "Defines the side leader starting position.\n"
 #| "\n"
 #| "This tool sets the side leaders’ default starting locations, and named "
-#| "special locations. Both types of location are enabled in both <ref>dst='.."
-#| "editor_mode_terrain' text='Terrain Editor'</ref> and <ref>dst='.."
-#| "editor_mode_scenario' text='Scenario Editor'</ref> modes. The location "
-#| "names are shown as a list in the editor palette, clicking on the map will "
-#| "place that name on a hex, each location can only be placed on a single "
-#| "hex, and the editor will only allow one location per hex.\n"
+#| "special locations. Both types of location are enabled in both "
+#| "<ref>dst='..editor_mode_terrain' text='Terrain Editor'</ref> and "
+#| "<ref>dst='..editor_mode_scenario' text='Scenario Editor'</ref> modes. The "
+#| "location names are shown as a list in the editor palette, clicking on the "
+#| "map will place that name on a hex, each location can only be placed on a "
+#| "single hex, and the editor will only allow one location per hex.\n"
 #| "\n"
 #| "To add named special locations, click “Add” at the bottom of the editor "
 #| "palette, and enter the name. These names must start with a letter and may "
@@ -802,12 +802,12 @@ msgstr "起始位置工具"
 msgid ""
 "Defines the side leader starting position.\n"
 "This tool sets the side leaders’ default starting locations, and named "
-"special locations. Both types of location are enabled in both <ref dst='.."
-"editor_mode_terrain'>Terrain Editor</ref> and <ref dst='.."
-"editor_mode_scenario'>Scenario Editor</ref> modes. The location names are "
-"shown as a list in the editor palette, clicking on the map will place that "
-"name on a hex, each location can only be placed on a single hex, and the "
-"editor will only allow one location per hex.\n"
+"special locations. Both types of location are enabled in both <ref "
+"dst='..editor_mode_terrain'>Terrain Editor</ref> and <ref "
+"dst='..editor_mode_scenario'>Scenario Editor</ref> modes. The location names "
+"are shown as a list in the editor palette, clicking on the map will place "
+"that name on a hex, each location can only be placed on a single hex, and "
+"the editor will only allow one location per hex.\n"
 "\n"
 "To add named special locations, click “Add” at the bottom of the editor "
 "palette, and enter the name. These names must start with a letter and may "
@@ -830,12 +830,12 @@ msgid ""
 msgstr ""
 "定义各阵营首领的的起始位置。\n"
 "\n"
-"此工具用于设置各阵营首领的默认起始位置，以及具名的特殊位置。在<ref>dst='..."
-"editor_mode_terrain' text='地形编辑器'</ref>和<ref>dst='..."
-"editor_mode_scenario' text='场景编辑器'</ref>模式下，这两种类型的位置都启用"
-"了。位置名称在编辑器调色板中显示为一个列表，点击地图将把该名称放置于六角格"
-"上。每个位置只能放在一个六角格上，而且编辑器只允许每个六角格上最多有一个位"
-"置。\n"
+"此工具用于设置各阵营首领的默认起始位置，以及具名的特殊位置。在"
+"<ref>dst='...editor_mode_terrain' text='地形编辑器'</ref>和"
+"<ref>dst='...editor_mode_scenario' text='场景编辑器'</ref>模式下，这两种类型"
+"的位置都启用了。位置名称在编辑器调色板中显示为一个列表，点击地图将把该名称放"
+"置于六角格上。每个位置只能放在一个六角格上，而且编辑器只允许每个六角格上最多"
+"有一个位置。\n"
 "\n"
 "要添加具名的特殊位置，请点击编辑器调色板底部的“添加”，并输入名称。这些名称必"
 "须以字母开头，可以包含数字和下划线。\n"
@@ -845,8 +845,8 @@ msgstr ""
 "\n"
 "具名位置可以在WML中使用标准位置过滤器的<italic>text='location_id='</italic>来"
 "访问。玩家起始位置也可以在WML中使用<italic>text='location_id=1'</italic>，"
-"<italic>text='location_id=2'</italic>等来访问——只使用数字，而不在数字前面添"
-"加“玩家”。\n"
+"<italic>text='location_id=2'</italic>等来访问——只使用数字，而不在数字前面添加"
+"“玩家”。\n"
 "\n"
 "<bold>text='键盘修饰符'</bold>\n"
 "\n"
@@ -878,10 +878,10 @@ msgstr ""
 #| msgid ""
 #| "editor^<bold>text='Movement Overlays'</bold>\n"
 #| "\n"
-#| "<img>src='terrain/grass/green.png~BLIT(terrain/impassable-editor."
-#| "png~O(0.5))' align=here box=yes</img> <img>src='terrain/grass/green."
-#| "png~BLIT(terrain/unwalkable-editor.png~O(0.5))' align=here box=yes</img> "
-#| "Impassable and Unwalkable\n"
+#| "<img>src='terrain/grass/green.png~BLIT(terrain/impassable-"
+#| "editor.png~O(0.5))' align=here box=yes</img> <img>src='terrain/grass/"
+#| "green.png~BLIT(terrain/unwalkable-editor.png~O(0.5))' align=here box=yes</"
+#| "img> Impassable and Unwalkable\n"
 #| "\n"
 #| "While easily noticeable in the editor, these are invisible in the game, "
 #| "so the mixed terrains created by them look like the base terrain. They "
@@ -889,9 +889,9 @@ msgstr ""
 #| "“unwalkable” respectively."
 msgid ""
 "editor^<header>Movement Overlays</header>\n"
-"<img src='terrain/grass/green.png~BLIT(terrain/impassable-editor."
-"png~O(0.5))'/><img src='terrain/grass/green.png~BLIT(terrain/unwalkable-"
-"editor.png~O(0.5))'/>\n"
+"<img src='terrain/grass/green.png~BLIT(terrain/impassable-"
+"editor.png~O(0.5))'/><img src='terrain/grass/green.png~BLIT(terrain/"
+"unwalkable-editor.png~O(0.5))'/>\n"
 "<b>Impassable and Unwalkable</b>\n"
 "\n"
 "While easily noticeable in the editor, these are invisible in the game, so "
@@ -901,10 +901,10 @@ msgid ""
 msgstr ""
 "<bold>text='移动遮罩'</bold>\n"
 "\n"
-"<img>src='terrain/grass/green.png~BLIT(terrain/impassable-editor."
-"png~O(0.5))' align=here box=yes</img> <img>src='terrain/grass/green."
-"png~BLIT(terrain/unwalkable-editor.png~O(0.5))' align=here box=yes</img> 不可"
-"通过地形和不可步行地形\n"
+"<img>src='terrain/grass/green.png~BLIT(terrain/impassable-"
+"editor.png~O(0.5))' align=here box=yes</img> <img>src='terrain/grass/"
+"green.png~BLIT(terrain/unwalkable-editor.png~O(0.5))' align=here box=yes</"
+"img> 不可通过地形和不可步行地形\n"
 "\n"
 "虽然在编辑器里很容易注意到，但在游戏中，这些地形是不可见的，所以，用它们创建"
 "出来的混合地形看起来和基础地形一样。它们所创建的混合地形，其上的移动消耗分别"
@@ -934,9 +934,9 @@ msgstr ""
 #| "units being recruited onto them."
 msgid ""
 "editor^<header>Castle Overlays</header>\n"
-"<img src='terrain/grass/green.png~BLIT(terrain/castle/castle-overlay-editor."
-"png~O(0.5))'/><img src='terrain/grass/green.png~BLIT(terrain/castle/keep-"
-"overlay-editor.png~O(0.5))'/>\n"
+"<img src='terrain/grass/green.png~BLIT(terrain/castle/castle-overlay-"
+"editor.png~O(0.5))'/><img src='terrain/grass/green.png~BLIT(terrain/castle/"
+"keep-overlay-editor.png~O(0.5))'/>\n"
 "Adding either of these overlays to a passable hex allows units to be "
 "recruited onto a hex. The keep also allows a leader to recruit from there.\n"
 "\n"
@@ -948,10 +948,10 @@ msgid ""
 msgstr ""
 "<bold>text='城堡遮罩'</bold>\n"
 "\n"
-"<img>src='terrain/grass/green.png~BLIT(terrain/castle/castle-overlay-editor."
-"png~O(0.5))' align=here box=yes</img> <img>src='terrain/grass/green."
-"png~BLIT(terrain/castle/keep-overlay-editor.png~O(0.5))' align=here box=yes</"
-"img>\n"
+"<img>src='terrain/grass/green.png~BLIT(terrain/castle/castle-overlay-"
+"editor.png~O(0.5))' align=here box=yes</img> <img>src='terrain/grass/"
+"green.png~BLIT(terrain/castle/keep-overlay-editor.png~O(0.5))' align=here "
+"box=yes</img>\n"
 "\n"
 "将这两种遮罩之一放置到可以通过的六角格上，就能允许在该格上征募单位。主楼也允"
 "许首领在该格上进行征募。\n"
@@ -1126,8 +1126,8 @@ msgstr "废弃地形"
 #: data/core/editor/help.cfg:210
 #, fuzzy
 #| msgid ""
-#| "editor^<img>src='terrain/grass/green.png~BLIT(terrain/deprecated-editor."
-#| "png)' align=left box=yes</img>The magenta ‘D’ (for “Deprecated”).\n"
+#| "editor^<img>src='terrain/grass/green.png~BLIT(terrain/deprecated-"
+#| "editor.png)' align=left box=yes</img>The magenta ‘D’ (for “Deprecated”).\n"
 #| "\n"
 #| "This is shown in the editor over deprecated terrain codes. Examples are:\n"
 #| "• the <ref>dst='terrain_fungus_grove_old' text='“^Uf” mushroom terrain'</"
@@ -1139,8 +1139,8 @@ msgstr "废弃地形"
 #| "shown in the editor, describing the deprecation and the recommended "
 #| "replacements."
 msgid ""
-"editor^<img src='terrain/grass/green.png~BLIT(terrain/deprecated-editor."
-"png)'/>\n"
+"editor^<img src='terrain/grass/green.png~BLIT(terrain/deprecated-"
+"editor.png)'/>\n"
 "The magenta ‘D’ (for “Deprecated”).\n"
 "\n"
 "This is shown in the editor over deprecated terrain codes. Examples are:\n"
@@ -1740,10 +1740,10 @@ msgid ""
 "The map editor saves one file when in terrain mode (a .map) or two files "
 "when in scenario mode (both a .map and a .cfg).\n"
 "\n"
-"Loading a .cfg file has different results depending on the contents of the ."
-"cfg file. For .cfg files that were created by the scenario editor, it will "
-"open the .cfg in the scenario editor. However, for .cfg files that cannot be "
-"opened by the scenario editor, the editor will attempt to find the "
+"Loading a .cfg file has different results depending on the contents of "
+"the .cfg file. For .cfg files that were created by the scenario editor, it "
+"will open the .cfg in the scenario editor. However, for .cfg files that "
+"cannot be opened by the scenario editor, the editor will attempt to find the "
 "scenario’s map data and open the corresponding .map file in terrain-only "
 "mode, as if the .map file was chosen in the file selector. It is recommended "
 "in those cases to simply load the .map file directly instead."
@@ -1970,8 +1970,8 @@ msgid ""
 "\n"
 "• <span face='monospace'>map_file=maps/01_First_Map.map</span> <i>— "
 "supported since Wesnoth 1.14</i>\n"
-"• <span face='monospace'>map_data=&quot;&#0x7B;maps/01_First_Map.map&#0x7D;"
-"&quot;</span> <i>— a WML preprocessor include</i>\n"
+"• <span face='monospace'>map_data=&quot;&#0x7B;maps/"
+"01_First_Map.map&#0x7D;&quot;</span> <i>— a WML preprocessor include</i>\n"
 "\n"
 "The <i>map_file</i> method is preferred over using a preprocessor include."
 msgstr ""
@@ -2033,8 +2033,8 @@ msgstr ""
 "<header>text='嵌入'</header>\n"
 "\n"
 "地图数据可以作为场景的.cfg文件的一部分，直接存储在<italic>text='map_data'</"
-"italic>属性中。换句话说，就是直接写在“预处理器包含”方法中"
-"\"{maps/01_First_Map.map}\"的位置。\n"
+"italic>属性中。换句话说，就是直接写在“预处理器包含”方法中\"{maps/"
+"01_First_Map.map}\"的位置。\n"
 "\n"
 "<header>text='在地形模式中使用嵌入格式'</header>\n"
 "\n"
@@ -2764,8 +2764,8 @@ msgstr ""
 #: data/core/encyclopedia/geography.cfg:194
 msgid ""
 "<header>Notable land features:</header>\n"
-"    • Aethenwood: The largest southern forest, home to reclusive <ref dst='.."
-"race_elf'>elves</ref>.\n"
+"    • Aethenwood: The largest southern forest, home to reclusive <ref "
+"dst='..race_elf'>elves</ref>.\n"
 "    • Vale of Blossoming Trees: An elvish vale at the southern edge of the "
 "Aethenwood. It contains the sacred Isle of Elrath.\n"
 "    • Lake Aelin: An elvish lake at the edge of their territory along the "
@@ -3302,8 +3302,8 @@ msgstr ""
 "希望从简单的开始，再过渡到更高的难度。\n"
 "\n"
 "战役按照 <bold>text='级别'</bold>和<bold>text='难度'</bold>来分组。例如，"
-"<bold>text='王座继承人'</bold>是“新手”级别，可以在三个难度之中择一进行游"
-"玩：“初心者”、“普通”和“挑战”。“级别”表明了该战役所假定的玩家对游戏机制（如"
+"<bold>text='王座继承人'</bold>是“新手”级别，可以在三个难度之中择一进行游玩："
+"“初心者”、“普通”和“挑战”。“级别”表明了该战役所假定的玩家对游戏机制（如"
 "<ref>dst='movement' text='控制区域'</ref>和<ref>dst='time_of_day' text='时"
 "段'</ref>）的熟习程度。而“难度”表明了战役中的场景对一位老手会有多大挑战：难度"
 "越高，胜利之前的阻碍会越多，而要克服阻碍则需要更高超的游玩技术。例如，在更高"
@@ -3428,16 +3428,16 @@ msgstr ""
 #, fuzzy
 #| msgid ""
 #| "Each side begins with one leader in their keep. At the start of any "
-#| "battle, and at times during it, you will need to recruit <ref>dst='.."
-#| "units' text='units'</ref> into your army. To recruit, you must have your "
-#| "leader (for instance, Konrad in the <italic>text='Heir to the Throne'</"
-#| "italic> campaign) on the keep hex of a <ref>dst='..terrain_castle' "
-#| "text='castle'</ref>. Then you may recruit by either choosing "
-#| "<bold>text='Recruit'</bold> from the menu or right-clicking on a hex and "
-#| "selecting <bold>text='Recruit'</bold>. This brings up the recruit menu, "
-#| "which lists units available for recruitment, along with their gold cost. "
-#| "Click on a unit to see its statistics, then press the "
-#| "<bold>text='Recruit'</bold> button to recruit it."
+#| "battle, and at times during it, you will need to recruit "
+#| "<ref>dst='..units' text='units'</ref> into your army. To recruit, you "
+#| "must have your leader (for instance, Konrad in the <italic>text='Heir to "
+#| "the Throne'</italic> campaign) on the keep hex of a "
+#| "<ref>dst='..terrain_castle' text='castle'</ref>. Then you may recruit by "
+#| "either choosing <bold>text='Recruit'</bold> from the menu or right-"
+#| "clicking on a hex and selecting <bold>text='Recruit'</bold>. This brings "
+#| "up the recruit menu, which lists units available for recruitment, along "
+#| "with their gold cost. Click on a unit to see its statistics, then press "
+#| "the <bold>text='Recruit'</bold> button to recruit it."
 msgid ""
 "Each side begins with one leader in their keep. At the start of any battle, "
 "and at times during it, you will need to recruit <ref dst='..units'>units</"
@@ -5011,10 +5011,6 @@ msgstr "后半夜"
 
 #. [topic]: id=time_of_day
 #: data/core/help.cfg:497
-#, fuzzy
-#| msgid ""
-#| "Keep in mind that some scenarios take place underground, where it is "
-#| "perpetually night!\n"
 msgid ""
 "Keep in mind that some scenarios take place underground, where it is "
 "perpetually night!\n"
@@ -5022,10 +5018,6 @@ msgstr "请记住，有些场景是发生在地下的，那里永远都是夜间
 
 #. [topic]: id=time_of_day
 #: data/core/help.cfg:499
-#, fuzzy
-#| msgid ""
-#| "Some underground locations are illuminated. They are perpetually "
-#| "intermediate between day and night.\n"
 msgid ""
 "Some underground locations are illuminated. They are perpetually "
 "intermediate between day and night.\n"
@@ -5033,10 +5025,6 @@ msgstr "有些地下的位置是被照亮的。那里永远都是介于昼夜之
 
 #. [topic]: id=time_of_day
 #: data/core/help.cfg:501
-#, fuzzy
-#| msgid ""
-#| "Some role-playing scenarios take place indoors — these regions are "
-#| "similarly intermediate.\n"
 msgid ""
 "Some role-playing scenarios take place indoors — these regions are similarly "
 "intermediate.\n"
@@ -5259,15 +5247,16 @@ msgstr "总结"
 #| "luck!"
 msgid ""
 "This concludes the fundamentals of Wesnoth. You might want to read up on "
-"basic strategy, or familiarize yourself with <ref dst='.."
-"traits_section'>traits</ref> and <ref dst='..abilities_section'>abilities</"
-"ref>, but you now know everything you need to know to play the <i>Heir to "
-"the Throne</i> campaign. Have fun, and good luck!"
+"basic strategy, or familiarize yourself with <ref "
+"dst='..traits_section'>traits</ref> and <ref "
+"dst='..abilities_section'>abilities</ref>, but you now know everything you "
+"need to know to play the <i>Heir to the Throne</i> campaign. Have fun, and "
+"good luck!"
 msgstr ""
 "韦诺的基础介绍到此结束。你或许想要继续阅读基本策略的相关内容，或熟悉一下"
-"<ref>dst='..traits_section' text='特质'</ref>和<ref>dst='.."
-"abilities_section' text='能力'</ref>，不过现在你已经准备万全，可以去玩"
-"<bold>text='王座继承人'</bold>战役了。祝你好运，玩得开心！"
+"<ref>dst='..traits_section' text='特质'</ref>和"
+"<ref>dst='..abilities_section' text='能力'</ref>，不过现在你已经准备万全，可"
+"以去玩<bold>text='王座继承人'</bold>战役了。祝你好运，玩得开心！"
 
 #. [topic]: id=license
 #: data/core/help.cfg:536
@@ -5861,8 +5850,8 @@ msgstr ""
 #| msgid ""
 #| "\n"
 #| "\n"
-#| "You can see what eras you have loaded in the <ref>text='eras' dst='.."
-#| "eras_section'</ref> of the help."
+#| "You can see what eras you have loaded in the <ref>text='eras' "
+#| "dst='..eras_section'</ref> of the help."
 msgid ""
 "\n"
 "\n"
@@ -6105,8 +6094,8 @@ msgstr "常规命令"
 #, fuzzy
 #| msgid ""
 #| "These commands can either be issued via the command line by prefixing "
-#| "them with ':' (as shown here) or via the chat by prefixing them with "
-#| "'/' (press 'm' first to open the chat line).\n"
+#| "them with ':' (as shown here) or via the chat by prefixing them with '/' "
+#| "(press 'm' first to open the chat line).\n"
 #| "\n"
 msgid ""
 "These commands can either be issued via the command line by prefixing them "
@@ -6658,13 +6647,23 @@ msgstr ""
 "如果目标被此单位和其他对其怀有敌意的单位前后包夹，此单位就可以让目标分神，让"
 "其命中率下降。"
 
+#. [chance_to_hit]: id=diversion
+#: data/core/macros/abilities.cfg:149
+msgid "<span color='#DD6F6F'>accuracy: -20%</span>"
+msgstr ""
+
+#. [chance_to_hit]: id=diversion
+#: data/core/macros/abilities.cfg:150
+msgid "Due to the diversion, the accuracy of this attack is reduced by 20%."
+msgstr ""
+
 #. [leadership]: id=leadership
-#: data/core/macros/abilities.cfg:200
+#: data/core/macros/abilities.cfg:202
 msgid "female^leadership"
 msgstr "领导"
 
 #. [leadership]: id=leadership
-#: data/core/macros/abilities.cfg:201
+#: data/core/macros/abilities.cfg:203
 msgid ""
 "This unit can lead other troops in battle.\n"
 "\n"
@@ -6676,24 +6675,24 @@ msgstr ""
 "同一阵营中所有相邻的比此单位低级的单位，每相差一个等级，就会多造成25%的伤害。"
 
 #. [skirmisher]: id=skirmisher
-#: data/core/macros/abilities.cfg:220
+#: data/core/macros/abilities.cfg:222
 msgid "female^skirmisher"
 msgstr "散兵"
 
 #. [skirmisher]: id=skirmisher
-#: data/core/macros/abilities.cfg:221
+#: data/core/macros/abilities.cfg:223
 msgid ""
 "This unit is skilled in moving past enemies quickly, and ignores all enemy "
 "Zones of Control."
 msgstr "此单位擅长于从敌人旁边迅速通过，且能忽略所有敌人单位的控制区域。"
 
 #. [illuminates]: id=illumination
-#: data/core/macros/abilities.cfg:237
+#: data/core/macros/abilities.cfg:239
 msgid "illuminates"
 msgstr "照明"
 
 #. [illuminates]: id=illumination
-#: data/core/macros/abilities.cfg:239
+#: data/core/macros/abilities.cfg:241
 msgid ""
 "This unit illuminates the surrounding area, making lawful units fight "
 "better, and chaotic units fight worse.\n"
@@ -6707,12 +6706,12 @@ msgstr ""
 "那么他们会像在白天时那样战斗。"
 
 #. [teleport]: id=teleport
-#: data/core/macros/abilities.cfg:254
+#: data/core/macros/abilities.cfg:256
 msgid "female^teleport"
 msgstr "传送"
 
 #. [teleport]: id=teleport
-#: data/core/macros/abilities.cfg:255
+#: data/core/macros/abilities.cfg:257
 msgid ""
 "This unit may teleport between any two empty villages owned by its side "
 "using one of its moves."
@@ -6721,12 +6720,12 @@ msgstr ""
 "传送。"
 
 #. [hides]: id=ambush
-#: data/core/macros/abilities.cfg:286
+#: data/core/macros/abilities.cfg:288
 msgid "female^ambush"
 msgstr "伏击"
 
 #. [hides]: id=ambush
-#: data/core/macros/abilities.cfg:287
+#: data/core/macros/abilities.cfg:289
 msgid ""
 "This unit can hide in forest, and remain undetected by its enemies.\n"
 "\n"
@@ -6740,17 +6739,17 @@ msgstr ""
 "敌方单位将立刻丧失其剩余的全部行动点数。"
 
 #. [hides]: id=burrow
-#: data/core/macros/abilities.cfg:306
+#: data/core/macros/abilities.cfg:308
 msgid "burrow"
 msgstr "潜地"
 
 #. [hides]: id=burrow
-#: data/core/macros/abilities.cfg:307
+#: data/core/macros/abilities.cfg:309
 msgid "female^burrow"
 msgstr "潜地"
 
 #. [hides]: id=burrow
-#: data/core/macros/abilities.cfg:308
+#: data/core/macros/abilities.cfg:310
 msgid ""
 "This unit can hide in forest or sand if it is resting (has not moved for a "
 "turn), and remain undetected by its enemies.\n"
@@ -6766,7 +6765,7 @@ msgstr ""
 "现此单位的敌方单位将立刻丧失其剩余的全部移动点数。"
 
 #. [hides]: id=nightstalk
-#: data/core/macros/abilities.cfg:330
+#: data/core/macros/abilities.cfg:332
 msgid ""
 "The unit becomes invisible during night.\n"
 "\n"
@@ -6780,12 +6779,12 @@ msgstr ""
 "位将立刻丧失其剩余的全部行动点数。"
 
 #. [hides]: id=concealment
-#: data/core/macros/abilities.cfg:349
+#: data/core/macros/abilities.cfg:351
 msgid "female^concealment"
 msgstr "隐蔽"
 
 #. [hides]: id=concealment
-#: data/core/macros/abilities.cfg:350
+#: data/core/macros/abilities.cfg:352
 #, fuzzy
 #| msgid ""
 #| "This unit can hide in villages (with the exception of water villages), "
@@ -6810,17 +6809,17 @@ msgstr ""
 "敌方单位将立刻丧失其剩余的全部行动点数。"
 
 #. [hides]: id=submerge
-#: data/core/macros/abilities.cfg:368
+#: data/core/macros/abilities.cfg:370
 msgid "submerge"
 msgstr "潜水"
 
 #. [hides]: id=submerge
-#: data/core/macros/abilities.cfg:369
+#: data/core/macros/abilities.cfg:371
 msgid "female^submerge"
 msgstr "潜水"
 
 #. [hides]: id=submerge
-#: data/core/macros/abilities.cfg:370
+#: data/core/macros/abilities.cfg:372
 msgid ""
 "This unit can hide in deep water, and remain undetected by its enemies.\n"
 "\n"
@@ -6834,19 +6833,19 @@ msgstr ""
 "敌方单位将立刻丧失其剩余的全部行动点数。"
 
 #. [hides]: id=swamp_lurk
-#: data/core/macros/abilities.cfg:388
+#: data/core/macros/abilities.cfg:390
 msgid "swamp lurk"
 msgstr ""
 
 #. [hides]: id=swamp_lurk
-#: data/core/macros/abilities.cfg:389
+#: data/core/macros/abilities.cfg:391
 #, fuzzy
 #| msgid "female^weak"
 msgid "female^swamp lurk"
 msgstr "虚弱"
 
 #. [hides]: id=swamp_lurk
-#: data/core/macros/abilities.cfg:390
+#: data/core/macros/abilities.cfg:392
 #, fuzzy
 #| msgid ""
 #| "This unit can hide in forest, and remain undetected by its enemies.\n"
@@ -6867,12 +6866,12 @@ msgstr ""
 "敌方单位将立刻丧失其剩余的全部行动点数。"
 
 #. [dummy]: id=feeding
-#: data/core/macros/abilities.cfg:409
+#: data/core/macros/abilities.cfg:411
 msgid "female^feeding"
 msgstr "食尸"
 
 #. [dummy]: id=feeding
-#: data/core/macros/abilities.cfg:410
+#: data/core/macros/abilities.cfg:412
 msgid ""
 "This unit gains 1 hitpoint added to its maximum whenever it kills a unit, "
 "except units that are immune to plague."
@@ -9944,31 +9943,31 @@ msgstr "攻击类型"
 msgid "Resistance"
 msgstr "抗性"
 
-#: src/help/help_topic_generators.cpp:833
+#: src/help/help_topic_generators.cpp:832
 msgid "Terrain Modifiers"
 msgstr "地形修正"
 
-#: src/help/help_topic_generators.cpp:837
+#: src/help/help_topic_generators.cpp:836
 msgid "Terrain"
 msgstr "地形"
 
-#: src/help/help_topic_generators.cpp:838
+#: src/help/help_topic_generators.cpp:837
 msgid "Defense"
 msgstr "防御"
 
-#: src/help/help_topic_generators.cpp:839
+#: src/help/help_topic_generators.cpp:838
 msgid "Movement Cost"
 msgstr "移动消耗"
 
-#: src/help/help_topic_generators.cpp:840
+#: src/help/help_topic_generators.cpp:839
 msgid "Defense Cap"
 msgstr "防御上限"
 
-#: src/help/help_topic_generators.cpp:841
+#: src/help/help_topic_generators.cpp:840
 msgid "Vision Cost"
 msgstr "视野消耗"
 
-#: src/help/help_topic_generators.cpp:842
+#: src/help/help_topic_generators.cpp:841
 msgid "Jamming Cost"
 msgstr "干扰消耗"
 
@@ -10217,10 +10216,10 @@ msgstr "干扰消耗"
 #~ "\n"
 #~ "由场景编辑器创建的文件中含有WML场景元素应该包含的内容，但不包括开头的"
 #~ "[scenario]和结尾的[/scenario]标签。对于用户数据文件夹的editor/scenarios子"
-#~ "文件夹中的每个.cfg文件，游戏会自动尝试从其中加载场景，以包括在“自定义场"
-#~ "景”列表中——加载失败的文件会被忽略。在此文件夹中，每个文件都是一个单独的项"
-#~ "目——未能被解析为场景的文件会被忽略，而且文件中不能包含[scenario][/"
-#~ "scenario]标签。\n"
+#~ "文件夹中的每个.cfg文件，游戏会自动尝试从其中加载场景，以包括在“自定义场景”"
+#~ "列表中——加载失败的文件会被忽略。在此文件夹中，每个文件都是一个单独的项目——"
+#~ "未能被解析为场景的文件会被忽略，而且文件中不能包含[scenario][/scenario]标"
+#~ "签。\n"
 #~ "\n"
 #~ "当场景是战役或其他附加组件的一部分时，情况则相反。通常情况下，每个场景都有"
 #~ "自己的.cfg文件，但这不必要——一个附加组件中的所有WML都会被预处理器合并，无"

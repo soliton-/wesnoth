@@ -409,12 +409,12 @@ void command_executor::surrender_game() {
 	}
 }
 
-void command_executor::show_menu(const std::vector<config>& items_arg, int xloc, int yloc, bool /*context_menu*/, display& gui)
+void command_executor::show_menu(const std::vector<config>& items_arg, int xloc, int yloc, bool /*context_menu*/)
 {
 	std::vector<config> items = items_arg;
 	if (items.empty()) return;
 
-	get_menu_images(gui, items);
+	get_menu_images(items);
 
 	int res = -1;
 	point selection_pos;
@@ -435,9 +435,9 @@ void command_executor::show_menu(const std::vector<config>& items_arg, int xloc,
 	if (res < 0 || std::size_t(res) >= items.size()) return;
 
 	std::string id = items[res]["id"];
-	const theme::menu* submenu = gui.get_theme().get_menu_item(id);
+	const theme::menu* submenu = display::get_singleton()->get_theme().get_menu_item(id);
 	if (submenu) {
-		this->show_menu(submenu->items(), selection_pos.x, selection_pos.y, submenu->is_context(), gui);
+		this->show_menu(submenu->items(), selection_pos.x, selection_pos.y, submenu->is_context());
 	} else {
 		hotkey::ui_command cmd = hotkey::ui_command(id, res);
 		do_execute_command(cmd);
@@ -445,41 +445,34 @@ void command_executor::show_menu(const std::vector<config>& items_arg, int xloc,
 	}
 }
 
-void command_executor::execute_action(const std::vector<std::string>& items_arg, int /*xloc*/, int /*yloc*/, bool /*context_menu*/, display&)
+void command_executor::execute_action(const std::vector<std::string>& items_arg)
 {
-	std::vector<std::string> items = items_arg;
-	if (items.empty()) {
-		return;
-	}
-
-	std::vector<std::string>::iterator i = items.begin();
-	while(i != items.end()) {
-		hotkey::ui_command cmd = hotkey::ui_command(*i);
-		if (can_execute_command(cmd)) {
+	for(const std::string& item : items_arg) {
+		auto cmd = hotkey::ui_command(item);
+		if(can_execute_command(cmd)) {
 			do_execute_command(cmd);
 			set_button_state();
 		}
-		++i;
 	}
 }
 
-std::string command_executor::get_menu_image(display& disp, const std::string& command, int index) const
+std::string command_executor::get_menu_image(const std::string& command, int index) const
 {
 	const std::string base_image_name = "icons/action/" + command + "_25.png";
 	const std::string pressed_image_name = "icons/action/" + command + "_25-pressed.png";
 
 	hotkey::ui_command cmd = hotkey::ui_command(command, index);
-	const hotkey::ACTION_STATE state = get_action_state(cmd);
+	const hotkey::action_state state = get_action_state(cmd);
 
-	const theme::menu* menu = disp.get_theme().get_menu_item(command);
+	const theme::menu* menu = display::get_singleton()->get_theme().get_menu_item(command);
 	if (menu) {
 		return "icons/arrows/short_arrow_right_25.png~CROP(3,3,18,18)"; // TODO should not be hardcoded
 	}
 
 	if (filesystem::file_exists(game_config::path + "/images/" + base_image_name)) {
 		switch (state) {
-			case ACTION_ON:
-			case ACTION_SELECTED:
+			case action_state::on:
+			case action_state::selected:
 				return pressed_image_name + "~CROP(3,3,18,18)";
 			default:
 				return base_image_name + "~CROP(3,3,18,18)";
@@ -487,19 +480,19 @@ std::string command_executor::get_menu_image(display& disp, const std::string& c
 	}
 
 	switch (get_action_state(cmd)) {
-		case ACTION_ON:
+		case action_state::on:
 			return game_config::images::checked_menu;
-		case ACTION_OFF:
+		case action_state::off:
 			return game_config::images::unchecked_menu;
-		case ACTION_SELECTED:
+		case action_state::selected:
 			return game_config::images::selected_menu;
-		case ACTION_DESELECTED:
+		case action_state::deselected:
 			return game_config::images::deselected_menu;
 		default: return get_action_image(cmd);
 	}
 }
 
-void command_executor::get_menu_images(display& disp, std::vector<config>& items)
+void command_executor::get_menu_images(std::vector<config>& items)
 {
 	for(std::size_t i = 0; i < items.size(); ++i) {
 		config& item = items[i];
@@ -508,18 +501,19 @@ void command_executor::get_menu_images(display& disp, std::vector<config>& items
 		const hotkey::HOTKEY_COMMAND hk = hotkey::get_hotkey_command(item_id).command;
 
 		//see if this menu item has an associated image
-		std::string img(get_menu_image(disp, item_id, i));
+		std::string img(get_menu_image(item_id, i));
 		if (img.empty() == false) {
 			item["icon"] = img;
 		}
 
-		const theme::menu* menu = disp.get_theme().get_menu_item(item_id);
+		const theme& theme = display::get_singleton()->get_theme();
+		const theme::menu* menu = theme.get_menu_item(item_id);
 		if(menu) {
 			item["label"] = menu->title();
 		} else if(hk != hotkey::HOTKEY_NULL) {
 			std::string desc = hotkey::get_hotkey_command(item_id).description;
 			if(hk == HOTKEY_ENDTURN) {
-				const theme::action *b = disp.get_theme().get_action_item("button-endturn");
+				const theme::action *b = theme.get_action_item("button-endturn");
 				if (b) {
 					desc = b->title();
 				}
@@ -711,17 +705,17 @@ void command_executor_default::set_button_state()
 			if (!can_execute) continue;
 			enabled = true;
 
-			ACTION_STATE state = get_action_state(command_obj);
+			action_state state = get_action_state(command_obj);
 			switch (state) {
-			case ACTION_SELECTED:
-			case ACTION_ON:
+			case action_state::selected:
+			case action_state::on:
 				button->set_check(true);
 				break;
-			case ACTION_OFF:
-			case ACTION_DESELECTED:
+			case action_state::off:
+			case action_state::deselected:
 				button->set_check(false);
 				break;
-			case ACTION_STATELESS:
+			case action_state::stateless:
 				break;
 			default:
 				break;

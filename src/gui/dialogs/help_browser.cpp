@@ -21,7 +21,6 @@
 #include "gui/widgets/label.hpp"
 #include "gui/widgets/rich_label.hpp"
 #include "gui/widgets/scroll_label.hpp"
-#include "gui/widgets/scrollbar_panel.hpp"
 #include "gui/widgets/text_box.hpp"
 #include "gui/widgets/toggle_button.hpp"
 #include "gui/widgets/tree_view.hpp"
@@ -76,6 +75,13 @@ void help_browser::pre_show()
 	back_button.set_active(false);
 	connect_signal_mouse_left_click(back_button, std::bind(&help_browser::on_history_navigate, this, true));
 	connect_signal_mouse_left_click(next_button, std::bind(&help_browser::on_history_navigate, this, false));
+
+	connect_signal<event::BACK_BUTTON_CLICK>([this](auto&&...) {
+		on_history_navigate(true);
+	}, event::dispatcher::front_pre_child);
+	connect_signal<event::FORWARD_BUTTON_CLICK>([this](auto&&...) {
+		on_history_navigate(false);
+	}, event::dispatcher::front_pre_child);
 
 	toggle_button& contents = find_widget<toggle_button>("contents");
 
@@ -207,7 +213,7 @@ void help_browser::show_topic(std::string topic_id, bool add_to_history)
 		}
 		tree_view& topic_tree = find_widget<tree_view>("topic_tree");
 		tree_view_node& selected_node = topic_tree.find_widget<tree_view_node>(topic_id_temp);
-		selected_node.select_node(true);
+		selected_node.select_node(true, false);
 
 		find_widget<label>("topic_title").set_label(topic->title);
 		find_widget<rich_label>("topic_text").set_dom(topic->text.parsed_text());
@@ -215,7 +221,7 @@ void help_browser::show_topic(std::string topic_id, bool add_to_history)
 		invalidate_layout();
 	}
 
-	if (add_to_history) {
+	if(add_to_history) {
 		// history pos is 0 initially, so it's already at first entry
 		// no need to increment first time
 		if (!history_.empty()) {
@@ -248,9 +254,17 @@ void help_browser::on_topic_select()
 void help_browser::on_history_navigate(bool backwards)
 {
 	if(backwards) {
-		history_pos_--;
+		if (history_pos_ > 0) {
+			history_pos_--;
+		} else {
+			return;
+		}
 	} else {
-		history_pos_++;
+		if (history_pos_ < history_.size() - 1) {
+			history_pos_++;
+		} else {
+			return;
+		}
 	}
 	find_widget<button>("back").set_active(!history_.empty() && history_pos_ != 0);
 	find_widget<button>("next").set_active(!history_.empty() && history_pos_ != (history_.size()-1));

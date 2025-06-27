@@ -540,7 +540,7 @@ bool editor_controller::can_execute_command(const hotkey::ui_command& cmd) const
 	}
 }
 
-hotkey::ACTION_STATE editor_controller::get_action_state(const hotkey::ui_command& cmd) const
+hotkey::action_state editor_controller::get_action_state(const hotkey::ui_command& cmd) const
 {
 	using namespace hotkey;
 	int index = cmd.index;
@@ -550,50 +550,45 @@ hotkey::ACTION_STATE editor_controller::get_action_state(const hotkey::ui_comman
 	{
 		unit_map::const_unit_iterator un =
 				get_current_map_context().units().find(gui_->mouseover_hex());
-		return un->loyal() ? ACTION_ON : ACTION_OFF;
+		return hotkey::on_if(un->loyal());
 
 	}
 	case HOTKEY_EDITOR_UNIT_TOGGLE_CANRECRUIT:
 	{
 		unit_map::const_unit_iterator un =
 				get_current_map_context().units().find(gui_->mouseover_hex());
-		return un->can_recruit() ? ACTION_ON : ACTION_OFF;
+		return hotkey::on_if(un->can_recruit());
 	}
 	case HOTKEY_EDITOR_UNIT_TOGGLE_RENAMEABLE:
 	{
 		unit_map::const_unit_iterator un =
 				get_current_map_context().units().find(gui_->mouseover_hex());
-		return (!un->unrenamable()) ? ACTION_ON : ACTION_OFF;
+		return hotkey::on_if(!un->unrenamable());
 	}
 	//TODO remove hardcoded hotkey names
 	case HOTKEY_EDITOR_AUTO_UPDATE_TRANSITIONS:
-		return context_manager_->is_active_transitions_hotkey("editor-auto-update-transitions")
-				? ACTION_SELECTED : ACTION_DESELECTED;
+		return hotkey::selected_if(context_manager_->is_active_transitions_hotkey("editor-auto-update-transitions"));
 	case HOTKEY_EDITOR_PARTIAL_UPDATE_TRANSITIONS:
-		return context_manager_->is_active_transitions_hotkey("editor-partial-update-transitions")
-				? ACTION_SELECTED : ACTION_DESELECTED;
+		return hotkey::selected_if(context_manager_->is_active_transitions_hotkey("editor-partial-update-transitions"));
 	case HOTKEY_EDITOR_NO_UPDATE_TRANSITIONS:
-		return context_manager_->is_active_transitions_hotkey("editor-no-update-transitions")
-				? ACTION_SELECTED : ACTION_DESELECTED;
+		return hotkey::selected_if(context_manager_->is_active_transitions_hotkey("editor-no-update-transitions"));
 	case HOTKEY_EDITOR_BRUSH_1:
-		return toolkit_->is_active_brush("brush-1") ? ACTION_ON : ACTION_OFF;
+		return hotkey::on_if(toolkit_->is_active_brush("brush-1"));
 	case HOTKEY_EDITOR_BRUSH_2:
-		return toolkit_->is_active_brush("brush-2") ? ACTION_ON : ACTION_OFF;
+		return hotkey::on_if(toolkit_->is_active_brush("brush-2"));
 	case HOTKEY_EDITOR_BRUSH_3:
-		return toolkit_->is_active_brush("brush-3") ? ACTION_ON : ACTION_OFF;
+		return hotkey::on_if(toolkit_->is_active_brush("brush-3"));
 	case HOTKEY_EDITOR_BRUSH_NW_SE:
-		return toolkit_->is_active_brush("brush-nw-se") ? ACTION_ON : ACTION_OFF;
+		return hotkey::on_if(toolkit_->is_active_brush("brush-nw-se"));
 	case HOTKEY_EDITOR_BRUSH_SW_NE:
-		return toolkit_->is_active_brush("brush-sw-ne") ? ACTION_ON : ACTION_OFF;
+		return hotkey::on_if(toolkit_->is_active_brush("brush-sw-ne"));
 
 	case HOTKEY_TOGGLE_GRID:
-		return prefs::get().grid() ? ACTION_ON : ACTION_OFF;
+		return hotkey::on_if(prefs::get().grid());
 	case HOTKEY_EDITOR_SELECT_ALL:
-		return get_current_map_context().map().everything_selected() ?
-				ACTION_SELECTED : ACTION_DESELECTED;
+		return hotkey::selected_if(get_current_map_context().map().everything_selected());
 	case HOTKEY_EDITOR_SELECT_NONE:
-		return get_current_map_context().map().selection().empty() ?
-				ACTION_SELECTED : ACTION_DESELECTED;
+		return hotkey::selected_if(get_current_map_context().map().selection().empty());
 	case HOTKEY_EDITOR_TOOL_FILL:
 	case HOTKEY_EDITOR_TOOL_LABEL:
 	case HOTKEY_EDITOR_TOOL_PAINT:
@@ -603,62 +598,56 @@ hotkey::ACTION_STATE editor_controller::get_action_state(const hotkey::ui_comman
 	case HOTKEY_EDITOR_TOOL_UNIT:
 	case HOTKEY_EDITOR_TOOL_VILLAGE:
 	case HOTKEY_EDITOR_TOOL_ITEM:
-		return toolkit_->is_mouse_action_set(cmd.hotkey_command) ? ACTION_ON : ACTION_OFF;
+		return hotkey::on_if(toolkit_->is_mouse_action_set(cmd.hotkey_command));
 	case HOTKEY_EDITOR_DRAW_COORDINATES:
-		return gui_->debug_flag_set(display::DEBUG_COORDINATES) ? ACTION_ON : ACTION_OFF;
+		return hotkey::on_if(gui_->debug_flag_set(display::DEBUG_COORDINATES));
 	case HOTKEY_EDITOR_DRAW_TERRAIN_CODES:
-		return gui_->debug_flag_set(display::DEBUG_TERRAIN_CODES) ? ACTION_ON : ACTION_OFF;
+		return hotkey::on_if(gui_->debug_flag_set(display::DEBUG_TERRAIN_CODES));
 	case HOTKEY_EDITOR_DRAW_NUM_OF_BITMAPS:
-		return gui_->debug_flag_set(display::DEBUG_NUM_BITMAPS) ? ACTION_ON : ACTION_OFF;
+		return hotkey::on_if(gui_->debug_flag_set(display::DEBUG_NUM_BITMAPS));
 	case HOTKEY_EDITOR_HELP_TEXT_SHOWN:
-		return gui_->help_string_enabled() ? ACTION_ON : ACTION_OFF;
+		return hotkey::on_if(gui_->help_string_enabled());
 	case HOTKEY_MINIMAP_DRAW_VILLAGES:
-		return (prefs::get().minimap_draw_villages()) ? ACTION_ON : ACTION_OFF;
+		return hotkey::on_if(prefs::get().minimap_draw_villages());
 	case HOTKEY_MINIMAP_CODING_UNIT:
-		return (prefs::get().minimap_movement_coding()) ? ACTION_ON : ACTION_OFF;
+		return hotkey::on_if(prefs::get().minimap_movement_coding());
 	case HOTKEY_MINIMAP_CODING_TERRAIN:
-		return (prefs::get().minimap_terrain_coding()) ? ACTION_ON : ACTION_OFF;
+		return hotkey::on_if(prefs::get().minimap_terrain_coding());
 	case HOTKEY_MINIMAP_DRAW_UNITS:
-		return (prefs::get().minimap_draw_units()) ? ACTION_ON : ACTION_OFF;
+		return hotkey::on_if(prefs::get().minimap_draw_units());
 	case HOTKEY_MINIMAP_DRAW_TERRAIN:
-		return (prefs::get().minimap_draw_terrain()) ? ACTION_ON : ACTION_OFF;
+		return hotkey::on_if(prefs::get().minimap_draw_terrain());
 	case HOTKEY_ZOOM_DEFAULT:
-		return (gui_->get_zoom_factor() == 1.0) ? ACTION_ON : ACTION_OFF;
+		return hotkey::on_if(gui_->get_zoom_factor() == 1.0);
 
 	case HOTKEY_NULL:
 		switch (active_menu_) {
 		case editor::MAP:
-			return index == context_manager_->current_context_index()
-					? ACTION_SELECTED : ACTION_DESELECTED;
+			return hotkey::selected_if(index == context_manager_->current_context_index());
 		case editor::LOAD_MRU:
-			return ACTION_STATELESS;
+			return hotkey::action_state::stateless;
 		case editor::PALETTE:
-			return ACTION_STATELESS;
+			return hotkey::action_state::stateless;
 		case editor::AREA:
-			return index == get_current_map_context().get_active_area()
-					? ACTION_SELECTED : ACTION_DESELECTED;
+			return hotkey::selected_if(index == get_current_map_context().get_active_area());
 		case editor::ADDON:
-			return ACTION_STATELESS;
+			return hotkey::action_state::stateless;
 		case editor::SIDE:
-			return static_cast<std::size_t>(index) == gui_->playing_team_index()
-					? ACTION_SELECTED : ACTION_DESELECTED;
+			return hotkey::selected_if(static_cast<std::size_t>(index) == gui_->playing_team_index());
 		case editor::TIME:
-			return index ==	get_current_map_context().get_time_manager()->get_current_time()
-					? ACTION_SELECTED : ACTION_DESELECTED;
+			return hotkey::selected_if(index ==	get_current_map_context().get_time_manager()->get_current_time());
 		case editor::LOCAL_TIME:
-			return index ==	get_current_map_context().get_time_manager()->get_current_area_time(
-					get_current_map_context().get_active_area())
-					? ACTION_SELECTED : ACTION_DESELECTED;
+			return hotkey::selected_if(index ==	get_current_map_context().get_time_manager()->get_current_area_time(
+				get_current_map_context().get_active_area()));
 		case editor::MUSIC:
-			return get_current_map_context().is_in_playlist(music_tracks_[index].id())
-					? ACTION_ON : ACTION_OFF;
+			return hotkey::on_if(get_current_map_context().is_in_playlist(music_tracks_[index].id()));
 		case editor::SCHEDULE:
 			{
 				tods_map::const_iterator it = tods_.begin();
 				std::advance(it, index);
 				const std::vector<time_of_day>& times1 = it->second.second;
 				const std::vector<time_of_day>& times2 = get_current_map_context().get_time_manager()->times();
-				return (times1 == times2) ? ACTION_SELECTED : ACTION_DESELECTED;
+				return hotkey::selected_if(times1 == times2);
 			}
 		case editor::LOCAL_SCHEDULE:
 			{
@@ -667,16 +656,16 @@ hotkey::ACTION_STATE editor_controller::get_action_state(const hotkey::ui_comman
 				const std::vector<time_of_day>& times1 = it->second.second;
 				int active_area = get_current_map_context().get_active_area();
 				const std::vector<time_of_day>& times2 = get_current_map_context().get_time_manager()->times(active_area);
-				return (times1 == times2) ? ACTION_SELECTED : ACTION_DESELECTED;
+				return hotkey::selected_if(times1 == times2);
 			}
 		case editor::UNIT_FACING:
 			{
 				unit_map::const_unit_iterator un = get_current_map_context().units().find(gui_->mouseover_hex());
 				assert(un != get_current_map_context().units().end());
-				return un->facing() == map_location::direction{index} ? ACTION_SELECTED : ACTION_DESELECTED;
+				return hotkey::selected_if(un->facing() == map_location::direction{index});
 			}
 		}
-		return ACTION_ON;
+		return hotkey::action_state::on;
 		default:
 			return command_executor::get_action_state(cmd);
 	}
@@ -750,7 +739,7 @@ bool editor_controller::do_execute_command(const hotkey::ui_command& cmd, bool p
 					std::vector<config> items;
 					items.emplace_back("id", "editor-playlist");
 					std::shared_ptr<gui::button> b = gui_->find_menu_button("menu-playlist");
-					show_menu(items, b->location().x +1, b->location().y + b->height() +1, false, *gui_);
+					show_menu(items, b->location().x +1, b->location().y + b->height() +1, false);
 					return true;
 				}
 			case SCHEDULE:
@@ -1175,7 +1164,7 @@ void editor_controller::show_help()
 	help::show_help("..editor");
 }
 
-void editor_controller::show_menu(const std::vector<config>& items_arg, int xloc, int yloc, bool context_menu, display& disp)
+void editor_controller::show_menu(const std::vector<config>& items_arg, int xloc, int yloc, bool context_menu)
 {
 	if(context_menu) {
 		if(!get_current_map_context().map().on_board_with_border(gui().hex_clicked_on(xloc, yloc))) {
@@ -1186,8 +1175,7 @@ void editor_controller::show_menu(const std::vector<config>& items_arg, int xloc
 	std::vector<config> items;
 	for(const auto& c : items_arg) {
 		const std::string& id = c["id"];
-
-		const hotkey::ui_command cmd = hotkey::ui_command(hotkey::get_hotkey_command(id));
+		const auto cmd = hotkey::ui_command(id);
 
 		if((can_execute_command(cmd) && (!context_menu || in_context_menu(cmd)))
 			|| cmd.hotkey_command == hotkey::HOTKEY_NULL)
@@ -1204,79 +1192,88 @@ void editor_controller::show_menu(const std::vector<config>& items_arg, int xloc
 	// Based on the ID of the first entry, we fill the menu contextually.
 	const std::string& first_id = items.front()["id"];
 
+	// All generated items (might be empty).
+	std::vector<config> generated;
+
 	if(first_id == "EDITOR-LOAD-MRU-PLACEHOLDER") {
 		active_menu_ = editor::LOAD_MRU;
-		context_manager_->expand_load_mru_menu(items, 0);
+		context_manager_->expand_load_mru_menu(generated);
 	}
 
-	if(first_id == "editor-switch-map") {
+	else if(first_id == "editor-switch-map") {
 		active_menu_ = editor::MAP;
-		context_manager_->expand_open_maps_menu(items, 0);
+		context_manager_->expand_open_maps_menu(generated);
 	}
 
-	if(first_id == "editor-palette-groups") {
+	else if(first_id == "editor-palette-groups") {
 		active_menu_ = editor::PALETTE;
-		toolkit_->get_palette_manager()->active_palette().expand_palette_groups_menu(items, 0);
+		toolkit_->get_palette_manager()->active_palette().expand_palette_groups_menu(generated);
 	}
 
-	if(first_id == "editor-switch-side") {
+	else if(first_id == "editor-switch-side") {
 		active_menu_ = editor::SIDE;
-		context_manager_->expand_sides_menu(items, 0);
+		context_manager_->expand_sides_menu(generated);
 	}
 
-	if(first_id == "editor-switch-area") {
+	else if(first_id == "editor-switch-area") {
 		active_menu_ = editor::AREA;
-		context_manager_->expand_areas_menu(items, 0);
+		context_manager_->expand_areas_menu(generated);
 	}
 
-	if(first_id == "editor-pbl") {
+	else if(first_id == "editor-pbl") {
 		active_menu_ = editor::ADDON;
 	}
 
-	if(!items.empty() && items.front()["id"] == "editor-switch-time") {
+	else if(first_id == "editor-switch-time") {
 		active_menu_ = editor::TIME;
-		context_manager_->expand_time_menu(items, 0);
+		context_manager_->expand_time_menu(generated);
 	}
 
-	if(first_id == "editor-assign-local-time") {
+	else if(first_id == "editor-assign-local-time") {
 		active_menu_ = editor::LOCAL_TIME;
-		context_manager_->expand_local_time_menu(items, 0);
+		context_manager_->expand_local_time_menu(generated);
 	}
 
-	if(first_id == "menu-unit-facings") {
+	else if(first_id == "menu-unit-facings") {
 		active_menu_ = editor::UNIT_FACING;
-		auto pos = items.erase(items.begin());
-		int dir = 0;
-		std::generate_n(std::inserter<std::vector<config>>(items, pos), static_cast<int>(map_location::direction::indeterminate), [&dir]() -> config {
-			return config {"label", map_location::write_translated_direction(map_location::direction(dir++))};
+		auto count = static_cast<int>(map_location::direction::indeterminate);
+		std::generate_n(std::back_inserter(generated), count, [dir = 0]() mutable {
+			return config{"label", map_location::write_translated_direction(map_location::direction(dir++))};
 		});
 	}
 
-	if(first_id == "editor-playlist") {
+	else if(first_id == "editor-playlist") {
 		active_menu_ = editor::MUSIC;
-		auto pos = items.erase(items.begin());
-		std::transform(music_tracks_.begin(), music_tracks_.end(), std::inserter<std::vector<config>>(items, pos), [](const sound::music_track& track) -> config {
-			return config {"label", track.title().empty() ? track.id() : track.title()};
-		});
+		std::transform(music_tracks_.begin(), music_tracks_.end(), std::back_inserter(generated),
+			[](const sound::music_track& track) {
+				return config{"label", track.title().empty() ? track.id() : track.title()};
+			});
 	}
 
-	if(first_id == "editor-assign-schedule") {
+	else if(first_id == "editor-assign-schedule") {
 		active_menu_ = editor::SCHEDULE;
-		auto pos = items.erase(items.begin());
-		std::transform(tods_.begin(), tods_.end(), std::inserter<std::vector<config>>(items, pos), [](const tods_map::value_type& tod) -> config {
-			return config {"label", tod.second.first};
-		});
+		std::transform(tods_.begin(), tods_.end(), std::back_inserter(generated),
+			[](const tods_map::value_type& tod) { return config{"label", tod.second.first}; });
 	}
 
-	if(first_id == "editor-assign-local-schedule") {
+	else if(first_id == "editor-assign-local-schedule") {
 		active_menu_ = editor::LOCAL_SCHEDULE;
-		auto pos = items.erase(items.begin());
-		std::transform(tods_.begin(), tods_.end(), std::inserter<std::vector<config>>(items, pos), [](const tods_map::value_type& tod) -> config {
-			return config {"label", tod.second.first};
-		});
+		std::transform(tods_.begin(), tods_.end(), std::back_inserter(generated),
+			[](const tods_map::value_type& tod) { return config{"label", tod.second.first}; });
 	}
 
-	command_executor::show_menu(items, xloc, yloc, context_menu, disp);
+	else {
+		// No placeholders, show everything
+		command_executor::show_menu(items, xloc, yloc, context_menu);
+		return;
+	}
+
+	// Splice the lists, excluding placeholder entry
+	if(items.size() > 1) {
+		std::move(items.begin() + 1, items.end(), std::back_inserter(generated));
+	}
+
+	command_executor::show_menu(generated, xloc, yloc, context_menu);
 }
 
 void editor_controller::preferences()

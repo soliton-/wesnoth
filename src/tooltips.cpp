@@ -69,6 +69,7 @@ void tooltip::init_label()
 	label.set_bg_color(bgcolor);
 	label.set_border_size(border);
 
+	label.clear_texture();
 	label.create_texture();
 
 	point lsize = label.get_draw_size();
@@ -157,8 +158,6 @@ std::map<int, tooltip> tips;
 int active_tooltip = 0;
 
 int tooltip_id = 1;
-
-surface current_background = nullptr;
 
 // Is this a freaking singleton or is it not?
 // This is horrible, but that's how the usage elsewhere is.
