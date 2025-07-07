@@ -108,18 +108,13 @@ public:
 	virtual void replay_skip_animation() override
 	{ return play_controller_.toggle_skipping_replay(); }
 
-	virtual std::string get_action_image(const hotkey::ui_command&) const override;
 	virtual void load_autosave(const std::string& filename, bool start_replay = false);
 	virtual hotkey::action_state get_action_state(const hotkey::ui_command&) const override;
 	/** Check if a command can be executed. */
 	virtual bool can_execute_command(const hotkey::ui_command& command) const override;
 	virtual bool do_execute_command(const hotkey::ui_command& command, bool press=true, bool release=false) override;
-	void show_menu(const std::vector<config>& items_arg, int xloc, int yloc, bool context_menu) override;
+	void show_menu(const std::vector<config>& items_arg, const point& menu_loc, bool context_menu) override;
 
-	/**
-	 *  Determines whether the command should be in the context menu or not.
-	 *  Independent of whether or not we can actually execute the command.
-	 */
-	bool in_context_menu(const hotkey::ui_command& cmd) const;
-
+	/** Inherited from command_executor. */
+	bool in_context_menu(const hotkey::ui_command& cmd) const override;
 };
