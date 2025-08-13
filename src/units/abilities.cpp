@@ -203,7 +203,6 @@ int find_direction(const map_location& loc, const map_location& from_loc, std::s
 bool unit::get_ability_bool(const std::string& tag_name, const map_location& loc) const
 {
 	// Check that the unit has an ability of tag_name type which meets the conditions to be active.
-	// If so, return true.
 	for (const config &i : this->abilities_.child_range(tag_name)) {
 		if (get_self_ability_bool(i, tag_name, loc))
 		{
@@ -211,16 +210,12 @@ bool unit::get_ability_bool(const std::string& tag_name, const map_location& loc
 		}
 	}
 
-	// If the unit does not have abilities that match the criteria, check if adjacent units or elsewhere on the map have active abilities
-	// with the [affect_adjacent] subtag that could affect the unit.
 	const unit_map& units = get_unit_map();
 
-	// Check for each unit present on the map that it corresponds to the criteria
-	// (possession of an ability with [affect_adjacent] via a boolean variable, not incapacitated,
-	// different from the central unit, that the ability is of the right type, detailed verification of each ability),
-	// if so return true.
+	// Check if units elsewhere on the map have active abilities with the [affect_adjacent] subtag that could affect the unit.
 	for(const unit& u : units) {
-		if(!u.max_ability_radius() || u.incapacitated() || u.underlying_id() == underlying_id() || !u.max_ability_radius_type(tag_name)) {
+		// underlying ID is checked since this is also called on fake units that have a clone in the unit map
+		if(u.max_ability_radius() == 0 || u.underlying_id() == underlying_id() || u.incapacitated()) {
 			continue;
 		}
 		const map_location& from_loc = u.get_location();
@@ -236,7 +231,6 @@ bool unit::get_ability_bool(const std::string& tag_name, const map_location& loc
 		}
 	}
 
-
 	return false;
 }
 
@@ -245,7 +239,6 @@ unit_ability_list unit::get_abilities(const std::string& tag_name, const map_loc
 	unit_ability_list res(loc_);
 
 	// Check that the unit has an ability of tag_name type which meets the conditions to be active.
-	// If so, add to unit_ability_list.
 	for(const config& i : this->abilities_.child_range(tag_name)) {
 		if (get_self_ability_bool(i, tag_name, loc))
 		{
@@ -253,16 +246,12 @@ unit_ability_list unit::get_abilities(const std::string& tag_name, const map_loc
 		}
 	}
 
-	// If the unit does not have abilities that match the criteria, check if adjacent units or elsewhere on the map have active abilities
-	// with the [affect_adjacent] subtag that could affect the unit.
 	const unit_map& units = get_unit_map();
 
-	// Check for each unit present on the map that it corresponds to the criteria
-	// (possession of an ability with [affect_adjacent] via a boolean variable, not incapacitated,
-	// different from the central unit, that the ability is of the right type, detailed verification of each ability),
-	// If so, add to unit_ability_list.
+	// Check if units elsewhere on the map have active abilities with the [affect_adjacent] subtag that could affect the unit.
 	for(const unit& u : units) {
-		if(!u.max_ability_radius() || u.incapacitated() || u.underlying_id() == underlying_id() || !u.max_ability_radius_type(tag_name)) {
+		// underlying ID is checked since this is also called on fake units that have a clone in the unit map
+		if(u.max_ability_radius() == 0 || u.underlying_id() == underlying_id() || u.incapacitated()) {
 			continue;
 		}
 		const map_location& from_loc = u.get_location();
@@ -277,7 +266,6 @@ unit_ability_list unit::get_abilities(const std::string& tag_name, const map_loc
 			}
 		}
 	}
-
 
 	return res;
 }
@@ -460,53 +448,55 @@ bool unit::ability_active(const std::string& ability,const config& cfg,const map
 
 static bool ability_active_adjacent_helper(const unit& self, bool illuminates, const config& cfg, const map_location& loc, bool in_abilities_tag)
 {
-	const auto adjacent = get_adjacent_tiles(loc);
+	const std::array<map_location, 6>& adjacent_locations = get_adjacent_tiles(loc);
 
 	const unit_map& units = get_unit_map();
-	// if in_abilities_tag then it's in [abilities] tags during special_active() checking and
-	// [filter_student_adjacent] and [filter_student_adjacent] then designate 'the student' (which may be different from the owner of the ability).
+	// if in_abilities_tag is true then it's in [abilities] tag during special_active() checking and
+	// [filter_student_adjacent] and [filter_student_adjacent_location] then designate the 'student'
+	// (which may be different from the owner of the ability).
 	const std::string& filter_adjacent = in_abilities_tag ? "filter_adjacent_student" : "filter_adjacent";
 	const std::string& filter_adjacent_location = in_abilities_tag ? "filter_adjacent_student_location" : "filter_adjacent_location";
 
-	for(const config &i : cfg.child_range(filter_adjacent)) {
-		std::size_t radius = i["radius"].to_int(1);
+	for(const config& filter_tag : cfg.child_range(filter_adjacent)) {
+		std::size_t radius = filter_tag["radius"].to_int(1);
 		std::size_t count = 0;
-		unit_filter ufilt{ vconfig(i) };
+		unit_filter ufilt{ vconfig(filter_tag) };
 		ufilt.set_use_flat_tod(illuminates);
 		for(const unit& u : units) {
+			// underlying ID is checked since this is also called on fake units that have a clone in the unit map
+			if(u.underlying_id() == self.underlying_id() || u.incapacitated()) {
+				continue;
+			}
 			const map_location& from_loc = u.get_location();
 			std::size_t distance = distance_between(from_loc, loc);
-			if(u.underlying_id() == self.underlying_id() || distance > radius || !ufilt(u, self)) {
+			if(distance > radius || !ufilt(u, self)) {
 				continue;
 			}
 			int dir = 0;
-			for(unsigned j = 0; j < adjacent.size(); ++j) {
-				bool adj_or_dist = distance != 1 ? distance_between(adjacent[j], from_loc) == (distance - 1) : adjacent[j] == from_loc;
+			for(unsigned i = 0; i < adjacent_locations.size(); ++i) {
+				bool adj_or_dist = distance != 1 ? distance_between(adjacent_locations[i], from_loc) == (distance - 1) : adjacent_locations[i] == from_loc;
 				if(adj_or_dist) {
-					dir = j;
+					dir = i;
 					break;
 				}
 			}
-			assert(dir >= 0 && dir <= 5);
 			map_location::direction direction{ dir };
-			if(i.has_attribute("adjacent")) { //key adjacent defined
-				if(!utils::contains(map_location::parse_directions(i["adjacent"]), direction)) {
-					continue;
-				}
+			if(filter_tag.has_attribute("adjacent") && !utils::contains(map_location::parse_directions(filter_tag["adjacent"]), direction)) {
+				continue;
 			}
-			if(i.has_attribute("is_enemy")) {
+			if(filter_tag.has_attribute("is_enemy")) {
 				const display_context& dc = resources::filter_con->get_disp_context();
-				if(i["is_enemy"].to_bool() != dc.get_team(u.side()).is_enemy(self.side())) {
+				if(filter_tag["is_enemy"].to_bool() != dc.get_team(u.side()).is_enemy(self.side())) {
 					continue;
 				}
 			}
 			++count;
 		}
 
-		if(i["count"].empty() && count == 0) {
+		if(filter_tag["count"].empty() && count == 0) {
 			return false;
 		}
-		if(!i["count"].empty() && !in_ranges<int>(count, utils::parse_ranges_unsigned(i["count"].str()))) {
+		if(!filter_tag["count"].empty() && !in_ranges<int>(count, utils::parse_ranges_unsigned(filter_tag["count"].str()))) {
 			return false;
 		}
 	}
@@ -518,7 +508,7 @@ static bool ability_active_adjacent_helper(const unit& self, bool illuminates, c
 
 		std::vector<map_location::direction> dirs = i["adjacent"].empty() ? map_location::all_directions() : map_location::parse_directions(i["adjacent"]);
 		for(const map_location::direction index : dirs) {
-			if(!adj_filter.match(adjacent[static_cast<int>(index)])) {
+			if(!adj_filter.match(adjacent_locations[static_cast<int>(index)])) {
 				continue;
 			}
 			count++;
@@ -643,7 +633,8 @@ std::vector<std::string> unit::halo_or_icon_abilities(const std::string& image_t
 	const unit_map& units = get_unit_map();
 
 	for(const unit& u : units) {
-		if(!u.max_ability_radius_image() || u.incapacitated() || u.underlying_id() == underlying_id()) {
+		// underlying ID is checked since this is also called on fake units that have a clone in the unit map
+		if(u.incapacitated() || u.underlying_id() == underlying_id()) {
 			continue;
 		}
 		const map_location& from_loc = u.get_location();
@@ -940,7 +931,8 @@ std::vector<std::pair<t_string, t_string>> attack_type::abilities_special_toolti
 		}
 	}
 	for(const unit& u : get_unit_map()) {
-		if(!u.max_ability_radius() || u.incapacitated() || u.underlying_id() == self_->underlying_id()) {
+		// underlying ID is checked since this is also called on fake units that have a clone in the unit map
+		if(u.max_ability_radius() == 0 || u.incapacitated() || u.underlying_id() == self_->underlying_id()) {
 			continue;
 		}
 		const map_location& from_loc = u.get_location();
@@ -1112,7 +1104,8 @@ void attack_type::weapon_specials_impl_adj(
 	const unit_map& units = get_unit_map();
 	if(self){
 		for(const unit& u : units) {
-			if(!u.max_ability_radius() || u.incapacitated() || u.underlying_id() == self->underlying_id()) {
+			// underlying ID is checked since this is also called on fake units that have a clone in the unit map
+			if(u.max_ability_radius() == 0 || u.incapacitated() || u.underlying_id() == self->underlying_id()) {
 				continue;
 			}
 			const map_location& from_loc = u.get_location();
@@ -1772,7 +1765,8 @@ bool attack_type::has_ability_impl(
 	}
 	const unit_map& units = get_unit_map();
 	for(const unit& u : units) {
-		if(!u.max_ability_radius() || u.incapacitated() || u.underlying_id() == self->underlying_id() || !u.max_ability_radius_type(special)) {
+		// underlying ID is checked since this is also called on fake units that have a clone in the unit map
+		if(u.max_ability_radius() == 0 || u.incapacitated() || u.underlying_id() == self->underlying_id()) {
 			continue;
 		}
 		const map_location& from_loc = u.get_location();
@@ -1859,7 +1853,8 @@ bool attack_type::special_distant_filtering_impl(
 	}
 	if(check_adjacent) {
 		for(const unit& u : units) {
-			if(!u.max_ability_radius() || u.incapacitated() || u.underlying_id() == self->underlying_id()) {
+			// underlying ID is checked since this is also called on fake units that have a clone in the unit map
+			if(u.max_ability_radius() == 0 || u.incapacitated() || u.underlying_id() == self->underlying_id()) {
 				continue;
 			}
 			const map_location& from_loc = u.get_location();

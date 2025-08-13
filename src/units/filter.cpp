@@ -128,21 +128,25 @@ struct unit_filter_adjacent : public unit_filter_base
 	virtual bool matches(const unit_filter_args& args) const override
 	{
 		const unit_map& units = args.context().get_disp_context().units();
-		const auto adjacent = get_adjacent_tiles(args.loc);
+		const std::array<map_location,6>& adjacent_locations = get_adjacent_tiles(args.loc);
 		int match_count = 0;
 		std::size_t radius = cfg_["radius"].to_int(1);
 
-		config::attribute_value i_adjacent = cfg_["adjacent"];
+		const config::attribute_value& adjacent = cfg_["adjacent"];
 		std::vector<map_location::direction> dirs;
 		for(const unit& u : units) {
+			// underlying ID is checked since this is also called on fake units that have a clone in the unit map
+			if(u.underlying_id() == args.u.underlying_id() || u.incapacitated()) {
+				continue;
+			}
 			const map_location& from_loc = u.get_location();
 			std::size_t distance = distance_between(from_loc, args.loc);
-			if(u.underlying_id() == args.u.underlying_id() || distance > radius || !child_.matches(unit_filter_args{u, from_loc, &args.u, args.fc, args.use_flat_tod} )) {
+			if(distance > radius || !child_.matches(unit_filter_args{u, from_loc, &args.u, args.fc, args.use_flat_tod} )) {
 				continue;
 			}
 			int dir = 0;
-			for(unsigned j = 0; j < adjacent.size(); ++j) {
-				bool adj_or_dist = distance != 1 ? distance_between(adjacent[j], from_loc) == (distance - 1) : adjacent[j] == from_loc;
+			for(unsigned j = 0; j < adjacent_locations.size(); ++j) {
+				bool adj_or_dist = distance != 1 ? distance_between(adjacent_locations[j], from_loc) == (distance - 1) : adjacent_locations[j] == from_loc;
 				if(adj_or_dist) {
 					dir = j;
 					break;
@@ -150,10 +154,8 @@ struct unit_filter_adjacent : public unit_filter_base
 			}
 			assert(dir >= 0 && dir <= 5);
 			map_location::direction direction{ dir };
-			if(!i_adjacent.empty()) { //key adjacent defined
-				if(!utils::contains(map_location::parse_directions(i_adjacent), direction)) {
-					continue;
-				}
+			if(!adjacent.empty() && !utils::contains(map_location::parse_directions(adjacent), direction)) {
+				continue;
 			}
 			auto is_enemy = cfg_["is_enemy"];
 			if (!is_enemy.empty() && is_enemy.to_bool() != args.context().get_disp_context().get_team(args.u.side()).is_enemy(u.side())) {
@@ -420,7 +422,8 @@ void unit_filter_compound::fill(const vconfig& cfg)
 				}
 
 				for(const unit& unit : units) {
-					if(!unit.max_ability_radius() || unit.incapacitated() || unit.underlying_id() == args.u.underlying_id()) {
+					// underlying ID is checked since this is also called on fake units that have a clone in the unit map
+					if(unit.max_ability_radius() == 0 || unit.incapacitated() || unit.underlying_id() == args.u.underlying_id()) {
 						continue;
 					}
 					const map_location& from_loc = unit.get_location();
@@ -805,7 +808,8 @@ void unit_filter_compound::fill(const vconfig& cfg)
 
 						if(c.get_parsed_config()["affect_adjacent"].to_bool(true)) {
 							for(const unit& unit : units) {
-								if(!unit.max_ability_radius() || unit.incapacitated() || unit.underlying_id() == args.u.underlying_id()) {
+								// underlying ID is checked since this is also called on fake units that have a clone in the unit map
+								if(unit.max_ability_radius() == 0 || unit.incapacitated() || unit.underlying_id() == args.u.underlying_id()) {
 									continue;
 								}
 								const map_location& from_loc = unit.get_location();
