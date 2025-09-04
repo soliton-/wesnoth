@@ -69,12 +69,11 @@ std::string lowercase(std::string_view s)
 
 std::size_t index(std::string_view str, const std::size_t index)
 {
-	// chr counts characters, i is the codepoint index
-	// remark: several functions rely on the fallback to str.length()
-	unsigned int i = 0, len = str.size();
+	// if the index is not found return the length of the string (assuming no invalid utf8)
+	std::size_t byte_index = 0, len = str.size();
 	try {
-		for (unsigned int chr=0; chr<index && i<len; ++chr) {
-			i += byte_size_from_utf8_first(str[i]);
+		for(std::size_t character_count = 0; character_count < index && byte_index < len; ++character_count) {
+			byte_index += byte_size_from_utf8_first(str[byte_index]);
 		}
 	} catch(const invalid_utf8_exception&) {
 		ERR_GENERAL << "Invalid UTF-8 string.";
