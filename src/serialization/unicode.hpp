@@ -44,9 +44,14 @@ namespace utf8 {
 	std::string lowercase(std::string_view s);
 
 	/**
-	 * Codepoint index corresponding to the nth character in a UTF-8 string.
+	 * Convert the given character index into the corresponding byte index.
+  	 *
+	 * @param str    UTF-8 encoded string.
+	 * @param index  Character/Codepoint index.
 	 *
-	 * @return str.length() if there are less than @p index characters.
+	 * @return The byte index of the given character index.
+  	 *
+	 * @note If the character index is too high the length of the string is returned.
 	 */
 	std::size_t index(std::string_view str, const std::size_t index);
 
