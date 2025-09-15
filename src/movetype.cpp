@@ -379,11 +379,11 @@ int movetype::terrain_info::data::value(
 	unsigned recurse_count) const
 {
 	// Check the cache.
-	std::pair<cache_t::iterator, bool> cache_it =
-		cache_.emplace(terrain, -127); // Bogus value that should never be seen.
-	if ( cache_it.second )
+	std::pair<cache_t::iterator, bool> cache_it = cache_.emplace(terrain);
+	if(cache_it.second) {
 		// The cache did not have an entry for this terrain, so calculate the value.
 		cache_it.first->second = calc_value(terrain, fallback, recurse_count);
+	}
 
 	return cache_it.first->second;
 }
