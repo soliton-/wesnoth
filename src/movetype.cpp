@@ -380,7 +380,7 @@ int movetype::terrain_info::data::value(
 {
 	// Check the cache.
 	cache_t::iterator cache_it = cache_.lower_bound(terrain);
-	if(cache_it == cache_.end() || cache_it != terrain) {
+	if(cache_it == cache_.end() || cache_it->first != terrain) {
 		// The cache did not have an entry for this terrain, so calculate the value.
 		cache_it = cache_.emplace_hint(cache_it, terrain, calc_value(terrain, fallback, recurse_count));
 	}
