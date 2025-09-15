@@ -139,7 +139,7 @@ private:
 	          const terrain_info * fallback, unsigned recurse_count) const;
 
 private:
-	typedef std::set<t_translation::terrain_code> cache_t;
+	typedef std::map<t_translation::terrain_code, int> cache_t;
 
 	/** Config describing the terrain values. */
 	config cfg_;
@@ -379,13 +379,13 @@ int movetype::terrain_info::data::value(
 	unsigned recurse_count) const
 {
 	// Check the cache.
-	std::pair<cache_t::iterator, bool> cache_it = cache_.emplace(terrain);
-	if(cache_it.second) {
+	cache_t::iterator cache_it = cache_.lower_bound(terrain);
+	if(cache_it == cache_.end() || cache_it != terrain) {
 		// The cache did not have an entry for this terrain, so calculate the value.
-		*cache_it.first = calc_value(terrain, fallback, recurse_count);
+		cache_it = cache_.emplace_hint(cache_it, terrain, calc_value(terrain, fallback, recurse_count));
 	}
 
-	return *cache_it.first;
+	return cache_it->second;
 }
 
 
