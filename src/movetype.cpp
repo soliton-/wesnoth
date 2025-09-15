@@ -382,10 +382,10 @@ int movetype::terrain_info::data::value(
 	std::pair<cache_t::iterator, bool> cache_it = cache_.emplace(terrain);
 	if(cache_it.second) {
 		// The cache did not have an entry for this terrain, so calculate the value.
-		cache_it.first->second = calc_value(terrain, fallback, recurse_count);
+		*cache_it.first = calc_value(terrain, fallback, recurse_count);
 	}
 
-	return cache_it.first->second;
+	return *cache_it.first;
 }
 
 
