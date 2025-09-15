@@ -139,7 +139,7 @@ private:
 	          const terrain_info * fallback, unsigned recurse_count) const;
 
 private:
-	typedef std::map<t_translation::terrain_code, int> cache_t;
+	typedef std::set<t_translation::terrain_code> cache_t;
 
 	/** Config describing the terrain values. */
 	config cfg_;
