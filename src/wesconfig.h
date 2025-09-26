@@ -17,6 +17,7 @@
 
 #ifndef LOCALEDIR
 #  define LOCALEDIR "translations"
+#  define HAS_RELATIVE_LOCALEDIR
 #endif
 
 #ifndef PACKAGE
