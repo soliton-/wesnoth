@@ -1449,6 +1449,7 @@ std::string normalize_path(const std::string& fpath, bool normalize_separators, 
 	bfs::path p = resolve_dot_entries ? bfs::canonical(fpath, ec) : bfs::absolute(fpath);
 
 	if(ec) {
+		LOG_FS << "Failed to normalize path " << fpath.string() << ": " << ec.message();
 		return "";
 	}
 
