@@ -389,6 +389,7 @@ static int process_command_args(commandline_options& cmdline_opts)
 			&& !cmdline_opts.do_diff
 			&& !cmdline_opts.do_patch
 			&& !cmdline_opts.preprocess
+			&& !cmdline_opts.preprocess_source_string.has_value()
 			&& !cmdline_opts.render_image
 			&& !cmdline_opts.screenshot
 			&& !cmdline_opts.nogui
