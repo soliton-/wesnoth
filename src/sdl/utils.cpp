@@ -1117,6 +1117,7 @@ surface cut_surface(const surface &surf, const rect& r)
 	// compute the areas to copy
 	rect src_rect = r;
 	rect dst_rect { 0, 0, r.w, r.h };
+	assert(rpitch >= src_rect.w * rbpp);
 
 	if (src_rect.x < 0) {
 		if (src_rect.x + src_rect.w <= 0)
@@ -1149,7 +1150,6 @@ surface cut_surface(const surface &surf, const rect& r)
 		uint8_t* line_dest = dest + (dst_rect.y + y) * rpitch + dst_rect.x * rbpp;
 		std::size_t size = src_rect.w + src_rect.x <= surf->w ? src_rect.w : surf->w - src_rect.x;
 
-		assert(rpitch >= src_rect.w * rbpp);
 		memcpy(line_dest, line_src, size * rbpp);
 	}
 
