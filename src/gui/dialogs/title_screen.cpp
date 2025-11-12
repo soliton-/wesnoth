@@ -316,6 +316,15 @@ void title_screen::init_callbacks()
 	register_button("editor", hotkey::TITLE_SCREEN__EDITOR, [this]() { set_retval(MAP_EDITOR); });
 
 	//
+	// Cores
+	//
+	register_hotkey(hotkey::TITLE_SCREEN__CORES, std::bind(&title_screen::button_callback_cores, this));
+
+	if(game_config_manager::get()->game_config().child_range("core").size() <= 1) {
+		find_widget<button>(&win, "cores", false).set_visible(widget::visibility::invisible);
+	}
+
+	//
 	// Language
 	//
 	register_button("language", hotkey::HOTKEY_LANGUAGE, [this]() {
