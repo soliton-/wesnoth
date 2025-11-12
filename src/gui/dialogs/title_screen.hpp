@@ -18,6 +18,7 @@
 #include "gui/dialogs/modal_dialog.hpp"
 
 class game_launcher;
+namespace gui2 { class button; }
 
 namespace gui2::dialogs
 {
@@ -75,12 +76,19 @@ private:
 
 	// Does different actions based on if it was called by clicking
 	// the button or by using the hotkey
-	void register_button(
+	void register_mandatory_button(
 		const std::string& id,
 		hotkey::HOTKEY_COMMAND hk,
 		const std::function<void()>& callback_btn,
 		const std::function<void()>& callback_hotkey);
-	void register_button(const std::string& id, hotkey::HOTKEY_COMMAND hk, const std::function<void()>& callback);
+	void register_mandatory_button(const std::string& id, hotkey::HOTKEY_COMMAND hk, const std::function<void()>& callback);
+
+	button* register_optional_button(
+		const std::string& id,
+		hotkey::HOTKEY_COMMAND hk,
+		const std::function<void()>& callback_btn,
+		const std::function<void()>& callback_hotkey);
+	button* register_optional_button(const std::string& id, hotkey::HOTKEY_COMMAND hk, const std::function<void()>& callback);
 
 	/***** ***** ***** ***** Callbacks ***** ***** ****** *****/
 
