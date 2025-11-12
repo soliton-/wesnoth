@@ -87,15 +87,15 @@ title_screen::~title_screen()
 {
 }
 
-void title_screen::register_button(
+void title_screen::register_mandatory_button(
 	const std::string& id,
 	hotkey::HOTKEY_COMMAND hk,
 	const std::function<void()>& callback)
 {
-	register_button(id, hk, callback, callback);
+	register_mandatory_button(id, hk, callback, callback);
 }
 
-void title_screen::register_button(
+void title_screen::register_mandatory_button(
 	const std::string& id,
 	hotkey::HOTKEY_COMMAND hk,
 	const std::function<void()>& callback_btn,
@@ -115,6 +115,34 @@ void title_screen::register_button(
 		prefs::get().set_gui2_theme("default");
 		set_retval(RELOAD_UI);
 	}
+}
+
+button* title_screen::register_optional_button(
+	const std::string& id,
+	hotkey::HOTKEY_COMMAND hk,
+	const std::function<void()>& callback)
+{
+	return register_optional_button(id, hk, callback, callback);
+}
+
+button* title_screen::register_optional_button(
+	const std::string& id,
+	hotkey::HOTKEY_COMMAND hk,
+	const std::function<void()>& callback_btn,
+	const std::function<void()>& callback_hotkey)
+{
+	if(hk != hotkey::HOTKEY_NULL) {
+		register_hotkey(hk, [callback_hotkey](auto&&...) { callback_hotkey(); return true; });
+	}
+
+	button* btn = find_widget<button>(id, false, false);
+	if(btn) {
+		connect_signal_mouse_left_click(btn, [callback_btn](auto&&...) {
+			std::invoke(callback_btn);
+		});
+	}
+
+	return btn;
 }
 
 namespace
@@ -231,10 +259,10 @@ void title_screen::init_callbacks()
 		update_tip(true);
 	}
 
-	register_button("next_tip", hotkey::TITLE_SCREEN__NEXT_TIP,
+	register_optional_button("next_tip", hotkey::TITLE_SCREEN__NEXT_TIP,
 		std::bind(&title_screen::update_tip, this, true));
 
-	register_button("previous_tip", hotkey::TITLE_SCREEN__PREVIOUS_TIP,
+	register_optional_button("previous_tip", hotkey::TITLE_SCREEN__PREVIOUS_TIP,
 		std::bind(&title_screen::update_tip, this, false));
 
 	// Tip panel visiblity and close button
@@ -260,7 +288,7 @@ void title_screen::init_callbacks()
 	//
 	// Help
 	//
-	register_button("help", hotkey::HOTKEY_HELP, []() {
+	register_optional_button("help", hotkey::HOTKEY_HELP, []() {
 		help::help_manager help_manager(&game_config_manager::get()->game_config());
 		help::show_help();
 	});
@@ -268,12 +296,12 @@ void title_screen::init_callbacks()
 	//
 	// About
 	//
-	register_button("about", hotkey::HOTKEY_NULL, [] { game_version::display(); });
+	register_mandatory_button("about", hotkey::HOTKEY_NULL, [] { game_version::display(); });
 
 	//
 	// Campaign
 	//
-	register_button("campaign", hotkey::TITLE_SCREEN__CAMPAIGN, [this]() {
+	register_mandatory_button("campaign", hotkey::TITLE_SCREEN__CAMPAIGN, [this]() {
 		try{
 			if(game_.new_campaign()) {
 				// Suspend drawing of the title screen,
@@ -289,13 +317,13 @@ void title_screen::init_callbacks()
 	//
 	// Multiplayer
 	//
-	register_button("multiplayer", hotkey::TITLE_SCREEN__MULTIPLAYER,
+	register_mandatory_button("multiplayer", hotkey::TITLE_SCREEN__MULTIPLAYER,
 		std::bind(&title_screen::button_callback_multiplayer, this));
 
 	//
 	// Load game
 	//
-	register_button("load", hotkey::HOTKEY_LOAD_GAME, [this]() {
+	register_mandatory_button("load", hotkey::HOTKEY_LOAD_GAME, [this]() {
 		if(game_.load_game_prompt()) {
 			// Suspend drawing of the title screen,
 			// so it doesn't flicker in between loading screens.
@@ -307,7 +335,7 @@ void title_screen::init_callbacks()
 	//
 	// Addons
 	//
-	register_button("addons", hotkey::TITLE_SCREEN__ADDONS, [this]() {
+	register_mandatory_button("addons", hotkey::TITLE_SCREEN__ADDONS, [this]() {
 		if(manage_addons()) {
 			set_retval(RELOAD_GAME_DATA);
 		}
@@ -316,21 +344,21 @@ void title_screen::init_callbacks()
 	//
 	// Editor
 	//
-	register_button("editor", hotkey::TITLE_SCREEN__EDITOR, [this]() { set_retval(MAP_EDITOR); });
+	register_mandatory_button("editor", hotkey::TITLE_SCREEN__EDITOR, [this]() { set_retval(MAP_EDITOR); });
 
 	//
 	// Cores
 	//
-	register_hotkey(hotkey::TITLE_SCREEN__CORES, std::bind(&title_screen::button_callback_cores, this));
+	button* cores_button = register_optional_button("cores", hotkey::TITLE_SCREEN__CORES, std::bind(&title_screen::button_callback_cores, this));
 
-	if(game_config_manager::get()->game_config().child_range("core").size() <= 1) {
-		find_widget<button>(&win, "cores", false).set_visible(widget::visibility::invisible);
+	if(cores_button && game_config_manager::get()->game_config().child_range("core").size() <= 1) {
+		cores_button->set_visible(widget::visibility::invisible);
 	}
 
 	//
 	// Language
 	//
-	register_button("language", hotkey::HOTKEY_LANGUAGE, [this]() {
+	register_mandatory_button("language", hotkey::HOTKEY_LANGUAGE, [this]() {
 		try {
 			if(game_.change_language()) {
 				on_resize();
@@ -344,30 +372,30 @@ void title_screen::init_callbacks()
 	//
 	// Preferences
 	//
-	register_button("preferences", hotkey::HOTKEY_PREFERENCES,
+	register_mandatory_button("preferences", hotkey::HOTKEY_PREFERENCES,
 		std::bind(&title_screen::show_preferences, this));
 
 	//
 	// Achievements
 	//
-	register_button("achievements", hotkey::HOTKEY_ACHIEVEMENTS,
+	register_mandatory_button("achievements", hotkey::HOTKEY_ACHIEVEMENTS,
 		[] { dialogs::achievements_dialog::display(); });
 
 	//
 	// Community
 	//
-	register_button("community", hotkey::HOTKEY_NULL,
+	register_mandatory_button("community", hotkey::HOTKEY_NULL,
 		[] { dialogs::game_version::display(4); }); // shows the 5th tab, community
 
 	//
 	// Quit
 	//
 #ifdef __ANDROID__
-	register_button("quit", hotkey::HOTKEY_QUIT_TO_DESKTOP,
+	register_optional_button("quit", hotkey::HOTKEY_QUIT_TO_DESKTOP,
 		[this]() { set_retval(QUIT_GAME); },
 		[this]() { quit_confirmation().quit_to_desktop(); });
 #else
-	register_button("quit", hotkey::HOTKEY_QUIT_TO_DESKTOP, [this]() { set_retval(QUIT_GAME); });
+	register_optional_button("quit", hotkey::HOTKEY_QUIT_TO_DESKTOP, [this]() { set_retval(QUIT_GAME); });
 #endif
 	// A sanity check, exit immediately if the .cfg file didn't have a "quit" button.
 	find_widget<button>("quit", false, true);
@@ -375,7 +403,7 @@ void title_screen::init_callbacks()
 	//
 	// Debug clock
 	//
-	register_button("clock", hotkey::HOTKEY_NULL,
+	register_optional_button("clock", hotkey::HOTKEY_NULL,
 		std::bind(&title_screen::show_debug_clock_window, this));
 
 	auto clock = find_widget<button>("clock", false, false);
@@ -386,7 +414,7 @@ void title_screen::init_callbacks()
 	//
 	// GUI Test and Debug Window
 	//
-	register_button("test_dialog", hotkey::HOTKEY_NULL,
+	register_optional_button("test_dialog", hotkey::HOTKEY_NULL,
 		[] { dialogs::gui_test_dialog::display(); });
 
 	auto test_dialog = find_widget<button>("test_dialog", false, false);
