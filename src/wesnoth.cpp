@@ -333,29 +333,6 @@ static int handle_validate_command(const std::string& file, abstract_validator& 
 /** Process commandline-arguments */
 static int process_command_args(commandline_options& cmdline_opts)
 {
-	// Options that output info unaffected by other options and return.
-	if(cmdline_opts.help) {
-		std::cout << cmdline_opts;
-		return 0;
-	}
-
-	if(cmdline_opts.logdomains) {
-		std::cout << lg::list_log_domains(*cmdline_opts.logdomains);
-		return 0;
-	}
-
-	if(cmdline_opts.version) {
-		std::cout << "Battle for Wesnoth" << " " << game_config::wesnoth_version.str() << "\n\n";
-		std::cout << "Library versions:\n" << game_config::library_versions_report() << '\n';
-		std::cout << "Optional features:\n" << game_config::optional_features_report();
-		return 0;
-	}
-
-	if(cmdline_opts.simple_version) {
-		std::cout << game_config::wesnoth_version.str() << "\n";
-		return 0;
-	}
-
 	// Options that don't change behavior based on any others should be checked alphabetically below.
 
 	if(cmdline_opts.no_log_sanitize) {
@@ -408,6 +385,29 @@ static int process_command_args(commandline_options& cmdline_opts)
 		lg::do_console_redirect();
 	}
 #endif
+
+	// Options that output info unaffected by other options and return.
+	if(cmdline_opts.help) {
+		std::cout << cmdline_opts;
+		return 0;
+	}
+
+	if(cmdline_opts.logdomains) {
+		std::cout << lg::list_log_domains(*cmdline_opts.logdomains);
+		return 0;
+	}
+
+	if(cmdline_opts.version) {
+		std::cout << "Battle for Wesnoth" << " " << game_config::wesnoth_version.str() << "\n\n";
+		std::cout << "Library versions:\n" << game_config::library_versions_report() << '\n';
+		std::cout << "Optional features:\n" << game_config::optional_features_report();
+		return 0;
+	}
+
+	if(cmdline_opts.simple_version) {
+		std::cout << game_config::wesnoth_version.str() << "\n";
+		return 0;
+	}
 
 	if(cmdline_opts.log) {
 		for(const auto& log_pair : *cmdline_opts.log) {
