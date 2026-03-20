@@ -109,22 +109,24 @@ language_def::language_def(const config& cfg)
 }
 
 bool load_language_list()
-try {
-	config cfg = io::read(*preprocess_file(filesystem::get_wml_location("hardwired/language.cfg").value()));
+{
+	try {
+		config cfg = io::read(*preprocess_file(filesystem::get_wml_location("hardwired/language.cfg").value()));
 
-	known_languages.clear();
-	known_languages.emplace_back(); // System default language
+		known_languages.clear();
+		known_languages.emplace_back(); // System default language
 
-	for(const config& lang : cfg.child_range("locale")) {
-		known_languages.emplace_back(lang);
+		for(const config& lang : cfg.child_range("locale")) {
+			known_languages.emplace_back(lang);
+		}
+
+		return true;
+
+	} catch(const utils::bad_optional_access&) {
+		return false;
+	} catch(const config::error&) {
+		return false;
 	}
-
-	return true;
-
-} catch(const utils::bad_optional_access&) {
-	return false;
-} catch(const config::error&) {
-	return false;
 }
 
 std::vector<language_def> get_languages(bool all)
