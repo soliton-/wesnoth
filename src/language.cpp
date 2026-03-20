@@ -134,6 +134,7 @@ std::vector<language_def> get_languages(bool all)
 	std::sort(known_languages.begin(), known_languages.end());
 
 	if(all || min_translation_percent == 0) {
+		LOG_G << "Found " << known_languages.size() << " known languages";
 		return known_languages;
 	}
 
@@ -141,6 +142,7 @@ std::vector<language_def> get_languages(bool all)
 	std::copy_if(known_languages.begin(), known_languages.end(), std::back_inserter(result),
 		[](const language_def& lang) { return lang.percent >= min_translation_percent; });
 
+	LOG_G << "Found " << result.size() << " sufficiently translated languages";
 	return result;
 }
 
