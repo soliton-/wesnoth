@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2026-02-26 01:04 UTC\n"
 "PO-Revision-Date: 2025-01-21 09:37 UTC\n"
@@ -11,6 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.9\n"
 
 #. [editor_group]: id=the_deceivers_gambit
 #. [campaign]: id=The Deceivers Gambit 1
@@ -79,6 +80,7 @@ msgstr ""
 
 #. [campaign]: id=The Deceivers Gambit 1
 #: data/campaigns/The_Deceivers_Gambit/_main.cfg:146
+#, fuzzy
 msgid ""
 "Yearning for adventure, a newly-trained apprentice from the magic academy at "
 "Alduin fights alongside Wesnoth’s king during a major war against the orcs "
@@ -88,6 +90,13 @@ msgid ""
 "battlefield victories Wesnoth seems to be slipping inexorably into chaos...\n"
 "\n"
 msgstr ""
+"En quête d’aventure, un jeune apprenti tout juste sorti de l’académie "
+"magique d’Alduin rejoint le roi de Wesnoth dans une grande guerre contre les "
+"orcs du Nord.\n"
+"\n"
+"Jouez un rôle décisif en ces temps troublés, car malgré une série de "
+"victoires militaires, Wesnoth semble inexorablement sombrer dans le chaos…\n"
+"\n"
 
 #. [campaign]: id=The Deceivers Gambit 1
 #: data/campaigns/The_Deceivers_Gambit/_main.cfg:150
@@ -676,27 +685,34 @@ msgstr ""
 #. [message]: speaker=Methor
 #. the fire wraiths are not visible yet. Delfador is about to appear on the left edge of the map
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:177
+#, fuzzy
 msgid "Faster, faster! The wraiths will soon be upon you!"
-msgstr ""
+msgstr "Hâtez-vous, vite ! Les apparitions vont bientôt fondre sur vous !"
 
 #. [message]: speaker=Delfador
 #. referencing events that happened minutes before the beginning of the campaign
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:192
+#, fuzzy
 msgid ""
 "Hey, how was I supposed to know the halfway cave was warded! All I did was "
 "throw a few celebratory firebolts! For the spectators, you know?"
 msgstr ""
+"Hé, comment étais-je censé savoir que la grotte à mi-parcours était protégée "
+"par des enchantements ? J’ai juste lancé quelques boules de feu pour fêter "
+"ça ! Pour le public, vous voyiez?"
 
 #. [message]: speaker=Methor
 #. there's a blue orb at the east edge of the map, which will dispel the fire guardians that will soon appear to chase Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:197
+#, fuzzy
 msgid "Just hurry and get to the dispel orb!"
-msgstr ""
+msgstr "Dépêche-toi d'atteindre l’orbe de dissipation !"
 
 #. [objective]: condition=win
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:205
+#, fuzzy
 msgid "Reach the blue orb at the east edge of the map"
-msgstr ""
+msgstr "Atteindre l’orbe bleue à l’extrémité est de la carte"
 
 #. [objective]: condition=lose
 #. Delfador is currently just named "apprentice". He doesn't get his name until scenario 2
@@ -707,53 +723,70 @@ msgstr ""
 #. [message]: speaker=Methor
 #. this tells the player that 1) Delfador is Methor's apprentice, and 2) Delfador is very reckless
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:228
+#, fuzzy
 msgid ""
 "Out of all the masters in Alduin, why did the sages curse me with the most "
 "reckless apprentice in all Wesnoth?"
 msgstr ""
+"Parmi tous les maîtres d’Alduin, pourquoi a t'il fallu que les sages me "
+"collent l’apprenti le plus téméraire de tout Wesnoth ?"
 
 #. [message]: speaker=Methor
 #. this line is spoken as soon as the fire guardians enter the map
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:245
+#, fuzzy
 msgid "The wraiths are catching up! Keep moving!"
-msgstr ""
+msgstr "Les apparitions te rattrapent ! Ne t'arrête pas !"
 
 #. [message]: speaker=Saegwylyn
 #. another of Delfador's instructors; implying Delfador has attempted to firebolt the fire guardians before, and it ended badly
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:250
+#, fuzzy
 msgid "10 copper says he tries to firebolt them again..."
 msgstr ""
+"Je parie 10 pièces de cuivre qu’il va encore leur lancer une boule de feu…"
 
 #. [message]: speaker=Methor
 #. Levitate is one of many spells that Delfador will have access to throughout this scenario. It grants him flight and skirmisher, which
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:255
+#, fuzzy
 msgid ""
 "Ignore her. You’re making good time so far — now cast Levitate and slip past "
 "the eyestalks! You may need to cast it several turns in a row to keep ahead "
 "of the wraiths."
 msgstr ""
+"Ne fais pas attention à elle. Tu avances bien pour l’instant — lance "
+"Lévitation et glisse-toi entre les tiges oculaires ! Il faudra sans doute "
+"enchaîner plusieurs invocations pour garder de l’avance sur les apparitions."
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:259
+#, fuzzy
 msgid "Levitate? Master, are you sure?"
-msgstr ""
+msgstr "Lévitation ? Maître, vous en êtes sûr ?"
 
 #. [message]: speaker=Methor
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:263
+#, fuzzy
 msgid ""
 "Oh for the love of— remember what happened last time you tried to fight? "
 "Just do it!"
 msgstr ""
+"Oh, pour l’amour du ciel… tu te souviens de ce qui s’est passé la dernière "
+"fois que tu as essayé de te battre ? Fais-le, point final !"
 
 #. [object]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:268
+#, fuzzy
 msgid "Casting Spells:"
-msgstr ""
+msgstr "Lancer des sorts :"
 
 #. [object]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:269
+#, fuzzy
 msgid "Double- or right-click on the apprentice to cast spells."
 msgstr ""
+"Double-cliquez ou faites un clic droit sur l’apprenti pour lancer des sorts."
 
 #. [message]: speaker=Methor
 #. spoken after Delfador attacks the fire guardians, referencing the "10 copper" bet from earlier. Since there are 3 guardians and they have 50% fire resistance, this is not a wise move by Delfador.
@@ -768,17 +801,23 @@ msgstr ""
 
 #. [message]: speaker=Saegwylyn
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:304
+#, fuzzy
 msgid ""
 "So he does know proper magic after all. It only took four failed exams..."
 msgstr ""
+"Ah, donc il sait faire un peu de magie finalement… … ça lui aura pris quand "
+"même quatre examens ratés…"
 
 #. [message]: speaker=Methor
 #. if the levitate spell ends over impassable terrain (like lava), Delfador dies
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:318
+#, fuzzy
 msgid ""
 "Almost there! Just fly across the chasm and touch the orb — and make sure "
 "your levitate spell doesn’t end over lava!"
 msgstr ""
+"On y est presque ! Survole le gouffre et touche l’orbe — et veille à ce que "
+"ton sort de Lévitation ne se termine pas au-dessus de la lave !"
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:332
@@ -798,80 +837,112 @@ msgstr ""
 #. [message]: speaker=Delfador
 #. Delfador has just reached the end of the obstacle course / final exam (and the end of the scenario0
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:459
+#, fuzzy
 msgid "Yes! I’ve made it! This time has to be good enough."
-msgstr ""
+msgstr "Oui ! J’y suis arrivé! Cette fois, ça devrait être suffisant."
 
 #. [message]: speaker=Leollyn
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:464
+#, fuzzy
 msgid "Well, what do you think?"
-msgstr ""
+msgstr "Alors, qu’est ce que vous en pensez ?"
 
 #. [message]: speaker=Saegwylyn
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:470
+#, fuzzy
 msgid ""
 "I say no. A mage needs wisdom; this apprentice cares only for his own "
 "amusement. This one is a petty magician, not a wise sage or advisor of kings."
 msgstr ""
+"Je dis non. Un mage a besoin de sagesse ; cet apprenti ne pense qu'à "
+"s’amuser. Ce n’est qu’un magicien insignifiant, pas un sage avisé capable de "
+"conseiller des rois."
 
 #. [message]: speaker=Methor
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:474
+#, fuzzy
 msgid ""
 "I say yes. I admit my apprentice enjoys the spotlight more than most, but "
 "with this much magical aptitude who wouldn’t want to show off?"
 msgstr ""
+"Je dis oui. Je reconnais que mon apprenti cherche davantage à briller que la "
+"moyenne, mais avec un tel don pour la magie, qui ne voudrait pas le montrer ?"
 
 #. [message]: speaker=Methor
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:478
+#, fuzzy
 msgid ""
 "I think it’s obvious this is one of the most gifted magi we’ve trained in "
 "years. The skill is innate; the wisdom will come with time."
 msgstr ""
+"Je pense qu’il est évident qu’il s’agit de l’un des magiciens les plus doués "
+"que nous ayons formés depuis des années. Le talent est inné ; la sagesse "
+"viendra avec le temps."
 
 #. [message]: speaker=Leollyn
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:483
+#, fuzzy
 msgid "So mine is the deciding vote. Very well, I’ve made up my mind."
 msgstr ""
+"Donc mon vote va permettre de trancher. Très bien, ma décision est prise."
 
 #. [message]: speaker=narrator
 #. non sequitur. The screen has faded to black, and Delfador is hearing a voice with no apparent origin. In scenario 4, this is later revealed to be the elvish seer Elende, prophesying about Delfador's future.
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:510
+#, fuzzy
 msgid ""
 "<i>The Deceiver weaves the twine encircling the puppets in the court of "
 "royals.</i>"
 msgstr ""
+"<i>Le Trompeur tisse les fils qui enserrent les marionnettes de la cour "
+"royale.</i>"
 
 #. [message]: speaker=narrator
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:514
+#, fuzzy
 msgid ""
 "<i>Fatherless prince and sovereignless king, the balance of man hangs upon "
 "this thread.</i>"
 msgstr ""
+"<i>Prince orphelin et roi sans trône, le destin de l’humanité repose sur ce "
+"fil.</i>"
 
 #. [message]: speaker=narrator
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:518
+#, fuzzy
 msgid ""
 "<i>Should force and fire brandish themselves where wisdom and pity are left "
 "wanting, this string of fate shall inexorably be sundered.</i>"
 msgstr ""
+"<i>Si la force et les flammes s’imposent là où la sagesse et la pitié font "
+"défau, ce fil du destin sera inexorablement brisé.</i>"
 
 #. [message]: speaker=Leollyn
 #. the screen has faded back to normal, and master Leollyn is annoyed that Delfador wasn't paying attention
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:531
+#, fuzzy
 msgid "Apprentice! Are you listening? I’m trying to congratulate you!"
 msgstr ""
+"Apprenti ! Tu m’écoutes au moins ? Je suis en train de te féliciter, bon "
+"sang !"
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:535
+#, fuzzy
 msgid "But who— what— um, yes, I must have drifted off."
-msgstr ""
+msgstr "Mais qui… quoi… euh… oui, j’ai dû perdre le fil un instant."
 
 #. [message]: speaker=Leollyn
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:539
+#, fuzzy
 msgid ""
 "...as I was saying... apprentice, congratulations on your successful "
 "completion of the practical portion of your graduation exam! Now we proceed "
 "to the written section; please conjure your quill and parchment..."
 msgstr ""
+"…pour en revenir à ce que je disais… apprenti, toutes mes félicitations pour "
+"avoir réussi la partie pratique de ton examen de fin d’études ! Passons "
+"maintenant à la partie écrite : invoque ta plume et ton parchemin…"
 
 #. [message]: speaker=Delfador
 #. Delfador has just taken lethal damage
@@ -882,15 +953,19 @@ msgstr ""
 #. [message]: speaker=Methor
 #. Methor casts a spell to save Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:563
+#, fuzzy
 msgid "I’ll save you!"
-msgstr ""
+msgstr "Je vais te sauver !"
 
 #. [message]: speaker=Methor
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:578
+#, fuzzy
 msgid ""
 "(sigh) Not again! I suppose you’ll have to retry the exam next year... for "
 "the sixth time."
 msgstr ""
+"(soupir) Pas encore ! Eh bien, il faudra que tu rapasses l’examen l’an "
+"prochain… pour la sixième fois."
 
 #. [scenario]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:8
@@ -899,44 +974,66 @@ msgstr ""
 
 #. [part]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:26
+#, fuzzy
 msgid ""
 "In the year 481 after the founding of Wesnoth, King Garard the Second grew "
 "discontent."
 msgstr ""
+"En l’an 481 après la fondation de Wesnoth, le roi Garard II commença à "
+"manifester son mécontentement."
 
 #. [part]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:29
+#, fuzzy
 msgid ""
 "With the Estmarks secured and the southern bandits pacified, his empire had "
 "grown large and powerful. Garard’s marriage to the young Asheviere had "
 "secured him a queen, as well as the promise of an heir. Yet despite these "
 "achievements, the restless king could find no peace."
 msgstr ""
+"Avec la Marche de l'Est sécurisée et les bandits du sud pacifiés, son empire "
+"était devenu vaste et puissant. Le mariage de Garard avec la jeune Asheviere "
+"lui avait apporté une reine, ainsi que la promesse d’un héritier. Pourtant, "
+"malgré ces accomplissements, le roi tourmenté ne trouvait aucune paix."
 
 #. [part]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:33
+#, fuzzy
 msgid ""
 "The king’s love lay in sword and shield, in battle and blood. Dissatisfied "
 "with a life of languor among the estates of Weldyn, Garard looked instead to "
 "the orcs of the Heart Mountains, whose raids had long been a nuisance across "
 "his northern border."
 msgstr ""
+"Le cœur du roi battait pour l’épée et le bouclier, pour la bataille et le "
+"sang. Mécontent de la vie monotone au sein des domaines de Weldyn, Garard se "
+"concentra sur les orcs du cœur des Montagnes dont les raids semaient depuis "
+"longtemps le désordre le long de sa frontière septentrionale."
 
 #. [part]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:37
+#, fuzzy
 msgid ""
 "Eager to retaliate, the king sent messengers far and wide. He called to arms "
 "an expeditionary force to cross the Great River and lay claim to orcish "
 "lands; a great show of power to secure Wesnoth’s might."
 msgstr ""
+"Poussé par le désir de représailles, le roi envoya des messagers partout. Il "
+"convoqua une force expéditionnaire pour franchir le Grand Fleuve et prendre "
+"possession des terres orques ; un grand étalage de force destiné à affirmer "
+"la puissance de Wesnoth."
 
 #. [part]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:41
+#, fuzzy
 msgid ""
 "One of these messengers rode to the venerable Academy of Magic on Alduin, "
 "summoning a contingent of magi to support Garard’s endeavor. A particular "
 "young apprentice was especially enthusiastic..."
 msgstr ""
+"L’un de ces messagers se rendit à la vénérable Académie de Magie d’Alduin, "
+"convoquant un contingent de mages pour soutenir l’entreprise de Garard. Un "
+"jeune apprenti en particulier se montra particulièrement enthousiaste…"
 
 #. [side]: type=Orcish Grunt
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:66
@@ -960,88 +1057,114 @@ msgstr ""
 
 #. [event]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:148
+#, fuzzy
 msgid "Treasure! Looks like a previous victim of the goblins."
-msgstr ""
+msgstr "Trésor ! Probablement celui d’une victime des gobelins."
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:185
+#, fuzzy
 msgid "Are we there yet?"
-msgstr ""
+msgstr "On y est bientôt ?"
 
 #. [message]: speaker=Methor
 #. a "seeker spell" is a made-up word to describe some kind of spell that helps you find your way to a destination
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:190
+#, fuzzy
 msgid ""
 "Nearer than the last time you asked, yet further than we will be the next. "
 "Really apprentice, would it kill you to learn a proper seeker spell?"
 msgstr ""
+"Un peu plus près que la dernière fois que tu as demandé, mais encore loin de "
+"là où nous serons la prochaine fois que tu demanderas. Franchement, "
+"apprenti, ça te coûterait tant que ça d’apprendre un vrai sort de recherche ?"
 
 #. [message]: speaker=Delfador
 #. Delfador has never met King Garard II, but rather idolizes him
 #. "no need to be so glum" is echoed by Methor in S13x
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:196
+#, fuzzy
 msgid ""
 "There’s no need to be so glum, master. As the head of our delegation, you’ll "
 "even get to counsel with the king himself! What I wouldn’t give for a chance "
 "to prove myself to him..."
 msgstr ""
+"Pas besoin d’être si morose, maître. À la tête de notre délégation, vous "
+"aurez même l’occasion de conseiller le roi en personne ! Que ne donnerais-je "
+"pas pour avoir la chance de faire mes preuves devant lui…"
 
 #. [message]: speaker=Methor
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:200
+#, fuzzy
 msgid "Do you hear that?"
-msgstr ""
+msgstr "Tu entends ça ?"
 
 #. [message]: speaker=Methor
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:200
+#, fuzzy
 msgid "Quiet!"
-msgstr ""
+msgstr "Silence !"
 
 #. [message]: speaker=Ozgob
 #. 'stragglers' refers to soldiers (like Delfador and Methor) who are joining Garard's war-camp, but are arriving late
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:210
+#, fuzzy
 msgid ""
 "“Kill the stragglers”, they says. “You’ll have our best warriors”, they "
 "says. N’ all I get are a bunch o’ lousy goblins? Lousy lazy lying—"
 msgstr ""
+"« Tuez les traînards », qu’ils disent. « On vous envoie nos meilleurs "
+"soldats », qu’ils disent. Et moi, tout ce que j’ai, c’est une bande de "
+"gobelins minables  ? Minables , paresseux, menteurs…"
 
 #. [message]: role=gobbo1
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:215
+#, fuzzy
 msgid "They’re here, they’re here! Humans on the clan road!"
-msgstr ""
+msgstr "Les voilà, les voilà ! Des humains sur la route du clan !"
 
 #. [message]: speaker=Ozgob
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:219
+#, fuzzy
 msgid ""
 "—then grab your spear, you loathsome lout! Don’t let them link up with the "
 "rest of their army!"
 msgstr ""
+"—Alors chope ta lance, crétin ! Ne les laisse pas rallier le reste de leur "
+"armée !"
 
 #. [message]: role=gobbo1
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:223
+#, fuzzy
 msgid "No, no, no! No fight! I run away!"
-msgstr ""
+msgstr "Non, non, non ! Pas de combat ! Moi, je me tire !"
 
 #. [message]: speaker=Ozgob
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:230
+#, fuzzy
 msgid "Why you runtish, yellow—"
-msgstr ""
+msgstr "Sale petit trouillard…"
 
 #. [message]
 #. multiple goblins are running away
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:237
+#, fuzzy
 msgid "Wait for me!"
-msgstr ""
+msgstr "Attendez-moi !"
 
 #. [message]: role=gobbo3
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:241
+#, fuzzy
 msgid "Run away! Back to the swamp!"
-msgstr ""
+msgstr "Fuyez ! Retournez vite dans le marais !"
 
 #. [message]: speaker=Ozgob
 #. Ozgob has just killed one of the fleeing goblins
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:249
+#, fuzzy
 msgid "I said FORM RANKS! Rousers, get these runts organized!"
 msgstr ""
+"J’ai dit : FORMEZ LES RANGS ! Meneurs, mettez ces avortons en formation !"
 
 #. [event]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:253
@@ -1055,8 +1178,9 @@ msgstr ""
 
 #. [event]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:284
+#, fuzzy
 msgid "Mirnik"
-msgstr ""
+msgstr "Mirnik"
 
 #. [event]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:300
@@ -1081,17 +1205,23 @@ msgstr ""
 
 #. [object]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:345
+#, fuzzy
 msgid "Choosing Spells:"
-msgstr ""
+msgstr "Choix des sorts :"
 
 #. [object]
 #. Delfador does not yet have a true name; he's only called "apprentice"
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:347
+#, fuzzy
 msgid ""
 "Before each scenario in this campaign, you will have the opportunity to "
 "select which spells to equip for the upcoming battle. Remember, double- or "
 "right-click on the apprentice to cast chosen spells!"
 msgstr ""
+"Avant chaque scénario de la campagne, vous aurez la possibilité de "
+"sélectionner les sorts à utiliser pour le combat à venir. Rappelez-vous : "
+"double-cliquez ou faites un clic droit sur l’apprenti pour lancer les sorts "
+"sélectionnés !"
 
 #. [message]: speaker=Methor
 #. Methor says this when Delfador stands on their keep. Delfador can only recruit mudcrawlers; Methor recruits mages
@@ -1117,42 +1247,58 @@ msgstr ""
 
 #. [object]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:390
+#, fuzzy
 msgid ""
 "The apprentice is the main character of this campaign, but right now he’s "
 "not your leader. Methor is your leader, and he can recruit Mages."
 msgstr ""
+"L’apprenti est le personnage principal de cette campagne, mais pour le "
+"moment ce n’est pas lui le commandant. C'est Methor qui peut recruter des "
+"mages."
 
 #. [object]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:392
+#, fuzzy
 msgid ""
 "Mages are deadly ranged attackers, with accurate <i>magical</i> attacks that "
 "are difficult to evade. They have few hitpoints and are highly vulnerable in "
 "melee combat, so take good care of them!"
 msgstr ""
+"Les mages sont de puissants combattants à distance, capables de lancer des "
+"attaques <i>magiques</i> précises et difficiles à éviter. Leur résistance "
+"est faible et ils sont très vulnérables en corps à corps, protégez-les bien !"
 
 #. [message]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:405
+#, fuzzy
 msgid ""
 "<i>Rain is purely visual, and has no impact on gameplay. If rain is "
 "distracting or reduces performance, you can disable it by opening the "
 "Preferences menu (Ctrl-P), selecting “Display”, and unchecking “Animate "
 "Map.”</i>"
 msgstr ""
+"<i>La pluie est purement visuelle et n’influence pas le jeu. Si elle vous "
+"distrait ou réduit les performances, vous pouvez la désactiver en ouvrant le "
+"menu Préférences (Ctrl-P), en sélectionnant « Affichage » et en décochant "
+"« Animer la carte ».</i>"
 
 #. [scenario]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:494
+#, fuzzy
 msgid "Run for your lives!"
-msgstr ""
+msgstr "Fuyez pour sauver votre peau !"
 
 #. [scenario]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:495
+#, fuzzy
 msgid "Run! Flee back to the swamp!"
-msgstr ""
+msgstr "Courez ! Fuyez vers le marais !"
 
 #. [scenario]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:496
+#, fuzzy
 msgid "Noooo, $unit.name!"
-msgstr ""
+msgstr "Naaaaan, $unit.name!"
 
 #. [scenario]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:497
@@ -1162,24 +1308,32 @@ msgstr ""
 #. [message]: speaker=Ozgob
 #. said in response to goblins running away from the fight
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:504
+#, fuzzy
 msgid "Cowards!! Fight and die like real orcish warriors!"
 msgstr ""
+"Bande de froussards !! Combattez et mourez comme de vrais guerriers orques !"
 
 #. [message]: speaker=Methor
 #. said after any living unit dies (both human and goblin)
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:530
+#, fuzzy
 msgid ""
 "(sigh) More casualties of pointless politics. I joined the order to do some "
 "<i><b>good</b></i> in the world..."
 msgstr ""
+"(soupir) Encore des victimes de politiques absurdes. J’avais rejoint l’ordre "
+"pour faire du <i><b>bien</b></i> dans le monde…"
 
 #. [message]: speaker=Ozgob
 #. Ozgob has lost most of his goblins ('runts'), and is about to charge at Delfador personally
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:543
+#, fuzzy
 msgid ""
 "I’ve had it with this! Never send a runt to do a warrior’s job. I’ll bring "
 "you down myself!"
 msgstr ""
+"J’en peux plus ! Faut jamais envoyer un bon à rien faire le travail d’un "
+"guerrier. Je vais vous régler votre compte moi-même !"
 
 #. [message]: speaker=Methor
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:580
@@ -1192,47 +1346,63 @@ msgstr ""
 #. [message]
 #. Ozgob has died, and any remaining goblins are deserting him
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:608
+#, fuzzy
 msgid "Run away!"
-msgstr ""
+msgstr "Courez !"
 
 #. [message]: speaker=Ozgob
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:613
+#, fuzzy
 msgid "Useless... goblins..."
-msgstr ""
+msgstr "Bons à rien de gobelins…"
 
 #. [message]: speaker=Garard
 #. King Garard has just appeared, along with a few knights
 #. King Garard has just appeared, along with a few knights
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:633
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:671
+#, fuzzy
 msgid ""
 "Ride forth, knights of Wesnoth! No orc who sets foot on our soil shall leave "
 "alive!"
 msgstr ""
+"En avant, chevaliers de Wesnoth ! Aucun orc qui foulera le pied notre sol ne "
+"repartira vivant !"
 
 #. [message]: speaker=Garard
 #. Garard came to kill the goblins, but Delfador has already done it.
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:641
+#, fuzzy
 msgid ""
 "But what’s this? It seems some magi have beaten us to battle and already "
 "slain our foe! I wasn’t making a mistake bringing Alduin into the fold after "
 "all. Who commands this detachment?"
 msgstr ""
+"Mais que vois-je ? Il semble que des mages nous aient devancés et ont déjà "
+"éliminé notre ennemi ! Je ne me suis donc pas trompé en faisant appel à "
+"Alduin. Qui commande ce détachement ?"
 
 #. [message]: speaker=Methor
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:645
+#, fuzzy
 msgid ""
 "(bowing) My Lord, Alduin dispatched these apprentices as response to your "
 "war-call. I volunteered to lead them, and I now place my medicinal arts at "
 "your service."
 msgstr ""
+"(s’inclinant) Mon seigneur, Alduin a dépêché ces apprentis en réponse à "
+"votre convocation à la guerre. Je me suis porté volontaire pour les mener, "
+"et je mets désormais mes arts médicaux à votre service."
 
 #. [message]: speaker=Garard
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:649
+#, fuzzy
 msgid ""
 "A healer? Well, we’ll have need of your services soon enough. Follow me back "
 "to camp. We attack on the morrow!"
 msgstr ""
+"Un guérisseur ? Eh bien, nous aurons bientôt besoin de vos services. Suivez-"
+"moi au camp. Nous attaquons demain !"
 
 #. [message]: speaker=Garard
 #. Delfador has failed to defeat the goblins. Garard does not respect him.
@@ -1279,8 +1449,9 @@ msgstr ""
 #. [message]: speaker=Khavur
 #. after Delfador kills several goblins, the goblin leader calls the retreat. Remaining goblins fall back to their keep
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:108
+#, fuzzy
 msgid "Too many humans!"
-msgstr ""
+msgstr "Il y a trop d’humains !"
 
 #. [side]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:165
@@ -1314,56 +1485,83 @@ msgstr ""
 
 #. [message]: speaker=Garard
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:341
+#, fuzzy
 msgid ""
 "At last, here we stand on the eve of battle! Remember the plan: General "
 "Lionel, soften up the orcish warriors while my knights look for an opening; "
 "Methor, command the camp in my absence — those goblin raiders are still "
 "being a nuisance."
 msgstr ""
+"Enfin, nous voilà à la veille de la bataille ! Souvenez-vous du plan : "
+"Général Lionel, affaiblissez les guerriers orques tandis que mes chevaliers "
+"cherchent une faille ; Methor, dirigez le camp en mon absence — ces pillards "
+"gobelins continuent de poser problème."
 
 #. [message]: speaker=Lionel
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:348
+#, fuzzy
 msgid ""
 "M’lord, weren’ we waiting for the queen? Your wife had expressed an interest "
 "in seeing an orc."
 msgstr ""
+"Mon seigneur, n’attendions‑nous pas la reine ? Votre épouse avait exprimé le "
+"souhait de voir un orc."
 
 #. [message]: speaker=Garard
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:352
+#, fuzzy
 msgid ""
 "We can brook no delay, Lionel. The opposing army is finally ready for "
 "pitched battle. Ere dusk, my lance will be stained with orcish blood!"
 msgstr ""
+"Nous ne pouvons tolérer aucun retard, Lionel. L’armée ennemie est enfin "
+"prête pour la bataille. Avant le crépuscule, ma lance sera teintée du sang "
+"des orques !"
 
 #. [message]: speaker=Methor
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:358
+#, fuzzy
 msgid ""
 "This may prove a learning experience for you, apprentice. Keep your eyes "
 "sharp as we guard the fort."
 msgstr ""
+"Cela pourrait être une expérience instructive pour toi, apprenti. Garde les "
+"yeux ouverts pendant que nous gardons le fort."
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:362
+#, fuzzy
 msgid ""
 "The king commanded us to handle the goblins, master. We could do that by "
 "guarding... or we could take a risk and assault the goblin camp."
 msgstr ""
+"Le roi nous a ordonné de nous occuper des gobelins, maître. Nous pourrions "
+"le faire en gardant… ou en prenant le risque d'assaillir le camp gobelin."
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:366
+#, fuzzy
 msgid ""
 "I know it’s not the caution you usually preach. But I want to be someone, "
 "master, not just another wandering healer or village mage. Proving ourselves "
 "to the king here could be the first step."
 msgstr ""
+"Je sais que ce n’est pas le genre de prudence que vous recommandez. Mais je "
+"veux devenir quelqu’un, maître, pas juste un simple guérisseur errant ou un "
+"mage de village. Faire ses preuves ici devant le roi pourrait être un "
+"premier pas."
 
 #. [message]: speaker=Methor
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:370
+#, fuzzy
 msgid ""
 "Oh, young one, whatever shall I do with you... If you want to lead the "
 "guards against the goblins I won’t stop you, but I’m afraid I can’t help you "
 "either. My place is here, tending to the sick and injured."
 msgstr ""
+"Oh, jeune imprudent, que vais‑je faire de toi… Si tu veux mener les gardes "
+"contre les gobelins, je ne te retiendrai pas, mais je ne pourrai pas "
+"t’aider. Ma place est ici, à soigner les malades et les blessés."
 
 #. [objective]: condition=win
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:387
@@ -1407,10 +1605,14 @@ msgstr ""
 
 #. [message]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:431
+#, fuzzy
 msgid ""
 "<i>If movement and combat are taking too long, you can enable “accelerated "
 "speed” and “skip AI moves” in the Preferences menu.</i>"
 msgstr ""
+"<i>Si les déplacements et les combats prennent trop de temps, vous pouvez "
+"activer « Turbo » et « Sauter les déplacements de l’IA » dans le menu "
+"Préférences.</i>"
 
 #. [message]: speaker=Methor
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:466
@@ -1483,85 +1685,116 @@ msgstr ""
 
 #. [message]: speaker=Khavur
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:598
+#, fuzzy
 msgid "Nooo! Help meeee..."
-msgstr ""
+msgstr "Naaan ! Sauvez-moaaa…"
 
 #. [message]: speaker=Vidrug
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:604
+#, fuzzy
 msgid "Bah, useless runts! This is hopeless. Whitefangs, retreat!"
 msgstr ""
+"Rien à faire avec ces bons à rien ! C’est foutu. Crocs-Blancs, retraite !"
 
 #. [message]: speaker=Garard
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:617
+#, fuzzy
 msgid ""
 "Oh, what’s this? Seems one of our young magi knows how to seize the "
 "initiative."
 msgstr ""
+"Ah, que vois-je ? Il semble qu’un de nos jeunes magiciens sache prendre des "
+"initiatives."
 
 #. [message]: speaker=Garard
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:621
+#, fuzzy
 msgid ""
 "A proper war-mage is far too valuable to waste on the front lines; I may "
 "have a special assignment for you. What’s your name, boy?"
 msgstr ""
+"Un mage de guerre digne de ce nom est trop précieux pour le front ; j’ai une "
+"mission spéciale en tête pour toi. Comment t’appelles-tu, mon garçon ?"
 
 #. [message]: speaker=Delfador
 #. said by Delfador to himself (or maybe just thought in his mind)
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:626
+#, fuzzy
 msgid "Commendation from the king himself! This is a dream come true."
-msgstr ""
+msgstr "Une distinction du roi en personne ! C’est un rêve devenu réalité."
 
 #. [message]: speaker=Delfador
 #. Delfador is realy excited to go with the king, but deeply respects Methor and doesn't want to dissapoint him
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:631
+#, fuzzy
 msgid ""
 "I’d be honored, my lord! But I can’t give you my name — I’m just an "
 "apprentice; Alduin has not yet assigned me one. And... I suppose I shouldn’t "
 "want to leave without my master’s blessing..."
 msgstr ""
+"Ce serait un honneur, mon seigneur ! Mais je ne peux pas vous dire mon nom — "
+"je ne suis qu’un apprenti, Alduin ne m’en a pas encore donné un. Et… je ne "
+"devrais sans doute pas partir sans l’accord de mon maître…"
 
 #. [message]: speaker=Methor
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:635
+#, fuzzy
 msgid ""
 "By the traditions of our order, no apprentice shall venture alone; that "
 "privilege is first awarded only to the journeymen!"
 msgstr ""
+"Selon les traditions de notre ordre, aucun apprenti ne doit aller à "
+"l’aventure seul ; ce privilège est réservé en premier lieu aux compagnons !"
 
 #. [message]: speaker=Methor
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:639
+#, fuzzy
 msgid ""
 "...but apprentice, truth be told, you’ve had a journeyman’s skill for quite "
 "some time now. I was hoping to impart a little more wisdom before advancing "
 "you, but now I understand that fate has other plans."
 msgstr ""
+"…mais apprenti, en vérité, tu as depuis longtemps le niveau d’un compagnon. "
+"J’espérais t’enseigner encore un peu de sagesse avant de te promouvoir, mais "
+"il semble maintenant que le destin en ait décidé autrement."
 
 #. [message]: speaker=Methor
 #. nonsense words, sounding magical, copied from the original DM
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:672
+#, fuzzy
 msgid "Thorum restro targa thorum..."
-msgstr ""
+msgstr "Thorum restro targa thorum..."
 
 #. [message]: speaker=Methor
 #. referencing the "Provost of the Council of Archmagi" mentioned by Delfador in HttT
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:692
+#, fuzzy
 msgid ""
 "The light waxes bright. By the power of the high provost and the blessing of "
 "the five sages, I declare you to be nameless NO LONGER!"
 msgstr ""
+"La lumière s’intensifie. Par le pouvoir du grand prévôt et la bénédiction "
+"des cinq sages, je déclare que tu n’es plus sans nom !"
 
 #. [message]: speaker=Methor
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:697
+#, fuzzy
 msgid "<i><b>DELFADOR</b></i> you shall be, and Delfador shall be YOU."
-msgstr ""
+msgstr "<i><b>DELFADOR</b></i> tu seras, et Delfador sera toi."
 
 #. [message]: speaker=Methor
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:705
+#, fuzzy
 msgid ""
 "Delfador, open your eyes. And OPEN THEM AGAIN!\n"
 "\n"
 "I grieve for the apprentice I have lost, but I celebrate the journeyman "
 "Wesnoth has gained. Your naming ceremony is complete."
 msgstr ""
+"Delfador, ouvre les yeux. Et OUVRE-LES À NOUVEAU !\n"
+"\n"
+"Je déplore l’apprenti que j’ai perdu, mais je me réjouisdu compagnon que "
+"Wesnoth a gagné. Ta cérémonie de nomination est terminée."
 
 #. [unit]
 #. [event]
@@ -1583,23 +1816,31 @@ msgstr ""
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:733
+#, fuzzy
 msgid "Del-fa-dor; Delfador! Thanks master, I like the sound of that."
-msgstr ""
+msgstr "Del‑fa‑dor… Delfador ! Merci, maître ! Ce nom a une belle résonance."
 
 #. [message]: speaker=Methor
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:737
+#, fuzzy
 msgid ""
 "Now farewell, Delfador, my ambitious young friend. If this is what you truly "
 "want, I would never stand in your way. May we meet again in more peaceful "
 "times."
 msgstr ""
+"Maintenant, adieu, Delfador, mon jeune ami plein d’ambition. Si c’est ce que "
+"tu veux vraiment, je ne t’empêcherai jamais d’avancer. Que nos chemins se "
+"croisent de nouveau en des jours plus paisibles."
 
 #. [message]: speaker=Garard
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:741
+#, fuzzy
 msgid ""
 "Yes, yes, well done to you both. Now that that’s settled, “Delfador”, it’s "
 "time to pack your bags. You have a long journey ahead of you!"
 msgstr ""
+"Oui, oui, félicitations à vous deux. Tout étant désormais réglé, "
+"« Delfador », il est temps de faire tes bagages. Un long périple t’attend !"
 
 #. [message]: speaker=Vidrug
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:766
@@ -1660,72 +1901,98 @@ msgstr ""
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:113
+#, fuzzy
 msgid ""
 "When King Garard spoke of a special mission for me, I hadn’t been expecting "
 "something as quiet as messenger duty."
 msgstr ""
+"Quand le roi Garard a parlé d’une mission spéciale pour moi, je ne "
+"m’attendais pas à quelque chose d’aussi tranquille que de servir de messager."
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:115
+#, fuzzy
 msgid ""
 "But I won’t disappoint him. I am to find Wesnoth’s ambassador to Lintanir "
 "Forest, and then deliver to the elves a notice."
 msgstr ""
+"Mais je ne le décevrai pas. Je dois retrouver l’ambassadeur de Wesnoth pour "
+"la Forêt de Lintanir, puis remettre aux elfes un message officiel."
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:124
+#, fuzzy
 msgid ""
 "The elvish border should be some distance northeast of here, through this "
 "cluster of trees. The undergrowth is so thick... Perhaps this is an "
 "opportunity to practice my new fire spell."
 msgstr ""
+"La frontière elfique devrait se trouver au nord-est d’ici, à travers ce "
+"bosquet. Le sous-bois est si dense… Cela pourrait être l’occasion de tester "
+"mon nouveau sort de feu."
 
 #. [event]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:157
+#, fuzzy
 msgid "Eldebetam"
-msgstr ""
+msgstr "Eldebetam"
 
 #. [message]: speaker=leader2
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:174
+#, fuzzy
 msgid "Boruroom! Burarum!"
-msgstr ""
+msgstr "Boruroom! Burarum!"
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:178
+#, fuzzy
 msgid "What?! The tree speaks!"
-msgstr ""
+msgstr "Qu’est ce que c'est ?! Un arbre qui parle !"
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:182
+#, fuzzy
 msgid ""
 "I’ve heard tell of tree-folk... you must be a wose! Err, I’m terribly sorry "
 "for the fireball. I couldn’t tell you apart from an ordinary oak."
 msgstr ""
+"J’ai entendu parler de ces êtres-arbres… vous devez être un wose ! Euh, je "
+"suis terriblement désolé pour la boule de feu. je ne vous avais pas reconnu, "
+"je vous avais pris pour un simple chêne."
 
 #. [message]: speaker=leader2
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:186
+#, fuzzy
 msgid "Burarum! Boom-toom-hun-rum-tum-ala-lola-ala?"
-msgstr ""
+msgstr "Burarum! Boom-toom-hun-rum-tum-ala-lola-ala?"
 
 #. [message]: speaker=leader2
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:190
+#, fuzzy
 msgid ""
 "A-rumgur-gurmum-un-rumba-ala-burarum! Burarum-ala-bortum-untum! A-rumgur-"
 "gurmum-un-rumba-ala-boruroom! BURARUM!!"
 msgstr ""
+"A-rumgur-gurmum-un-rumba-ala-burarum! Burarum-ala-bortum-untum! A-rumgur-"
+"gurmum-un-rumba-ala-boruroom! BURARUM!!"
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:194
+#, fuzzy
 msgid "It can’t understand me, and I can’t understand it... Oh no..."
-msgstr ""
+msgstr "Il ne peut pas me comprendre, et je ne peux pas le comprendre… Oh non…"
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:210
+#, fuzzy
 msgid ""
 "They’re preparing to attack! I’m not afraid of a few walking willows, but "
 "burning down half the forest would hardly be the good first impression King "
 "Garard tasked me with making."
 msgstr ""
+"Ils s’apprêtent à attaquer ! Quelques saules ambulants ne me font pas peur, "
+"mais mettre le feu à la moitié de la forêt ne serait pas la meilleure "
+"manière de faire bonne impression auprès du roi Garard."
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:212
@@ -1756,6 +2023,7 @@ msgstr ""
 
 #. [object]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:241
+#, fuzzy
 msgid ""
 "Woses have the <i>ambush</i> ability, making them invisible while in forest. "
 "Any unit can temporarily reveal a wose by moving adjacent to it, but the "
@@ -1768,13 +2036,28 @@ msgid ""
 "with effective damage types!</b></i> To see more details, right-click on a "
 "wose and select <i>“Unit Type Description”.</i>"
 msgstr ""
+"Les woses possèdent la capacité <i>embuscade</i>, ce qui les rend invisibles "
+"lorsqu’ils se trouvent en forêt. Toute unité peut temporairement révéler un "
+"wose en se déplaçant à côté de lui, mais l’unité révélatrice ne pourra plus "
+"se déplacer après — même si elle possède la capacité <i>tirailleur</i>. Les "
+"woses reprennent immédiatement leur camouflage dès que vous vous éloignez "
+"(même s’ils n’ont pas bougé).\n"
+"\n"
+"Les woses disposent également de la puissante capacité <i>régénération</i>, "
+"et sont très résistants à plusieurs types de dégâts. <i><b>Assurez-vous de "
+"recruter des unités infligeant des types de dégâts efficaces !</b></i> Pour "
+"plus de détails, faites un clic droit sur un wose et sélectionnez <i>« "
+"Description du type d’unité »</i>."
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:255
+#, fuzzy
 msgid ""
 "Where are those woses hiding? If I’m worried about my valuable veterans "
 "getting ambushed, I could use new recruits as expendable pickets."
 msgstr ""
+"Où se cachent ces woses ? Si je crains que mes précieux vétérans ne soient "
+"pris en embuscade, je pourrais recruter de la piétaille sacrifiable."
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:295
@@ -1788,40 +2071,58 @@ msgstr ""
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:348
+#, fuzzy
 msgid ""
 "Halt!! Who are you, and why do you trouble the trees of the Grey Grove? "
 "Speak, strangers, for the wrath of Wesnoth and the Lintanir elves is upon "
 "you!"
 msgstr ""
+"Halte !! Qui êtes-vous, et pourquoi troublez-vous les arbres du Bosquet "
+"Gris ? Parlez, étrangers, car la colère de Wesnoth et des elfes de Lintanir "
+"est sur vous !"
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:352
+#, fuzzy
 msgid ""
 "Peace! Peace! You must be the man King Garard sent me to meet: Ambassador "
 "Deoran."
 msgstr ""
+"Du calme ! Du calme ! Vous êtes sûrement l’homme que le roi Garard m’a "
+"chargé de rencontrer : l’ambassadeur Deoran."
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:360
+#, fuzzy
 msgid ""
 "Please, can you speak with these woses and tell them we’re not their "
 "enemies? This whole battle has been a terrible misunderstanding."
 msgstr ""
+"S’il vous plaît, pouvez-vous parler à ces woses et leur dire que nous ne "
+"sommes pas leurs ennemis ? Toute cette bataille n’est qu’un terrible "
+"malentendu."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:364
+#, fuzzy
 msgid ""
 "You’re a courier from Wesnoth? My apologies for the harsh words; long has it "
 "been since Weldyn sent to this lonely post."
 msgstr ""
+"Vous êtes un messager de Wesnoth ? Veuillez excuser ma rudesse ; cela fait "
+"longtemps que Weldyn n’a plus envoyé quelqu’un jusqu’à ce poste isolé."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:368
+#, fuzzy
 msgid ""
 "But apology alone will not make right your transgressions against this rare "
 "and precious wose-grove. If you really are who you claim to be, explain "
 "yourself to me at once."
 msgstr ""
+"Mais de simples excuses ne suffiront pas à réparer vos torts envers ce rare "
+"et précieux bosquet de woses. Si vous êtes bien celui que vous prétendez "
+"être, justifiez-vous sans tarder."
 
 #. [message]: speaker=leader2
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:386
@@ -1837,11 +2138,15 @@ msgstr ""
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:400
+#, fuzzy
 msgid ""
 "There’s more of them than I realized! And they’re really angry now! Even if "
 "I could fight my way through, the elves would never trust me after such a "
 "show of force..."
 msgstr ""
+"Il y en a bien plus que je n’avais imaginé ! Et ils sont vraiment furieux "
+"maintenant ! Même si je parvenais à me frayer un chemin, les elfes ne me "
+"feraient jamais plus confiance après une telle démonstration de force…"
 
 #. [scenario]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:9
@@ -1855,6 +2160,7 @@ msgstr ""
 
 #. [part]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:20
+#, fuzzy
 msgid ""
 "After a hasty explanation, and with Deoran’s aid, Delfador made many "
 "apologies to the woses and their leader. Most of the destroyed trees had "
@@ -1862,59 +2168,80 @@ msgid ""
 "aided greatly by the woses’s natural regenerative abilities, Deoran showed "
 "Delfador how to nurse the crippled tree-folk back to health."
 msgstr ""
+"Après une brève explication, et avec l’aide de Deoran, Delfador présenta de "
+"sincères excuses aux woses et à leur chef. Heureusement, la plupart des "
+"arbres touchés n’avaient pas été tués, seulement endommagés. Durant les "
+"jours qui suivirent, et aidé par l’impressionnante capacité de régénération "
+"des woses, Deoran enseigna à Delfador comment soigner ces êtres-arbres "
+"meurtris et les ramener à la santé."
 
 #. [part]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:22
+#, fuzzy
 msgid ""
 "At last, relations mended, the two of them set out to deliver King Garard’s "
 "message to the elves..."
 msgstr ""
+"Une fois les relations apaisées, tous deux partirent remettre le message du "
+"roi Garard aux elfes…"
 
 #. [side]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:48
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:53
+#, fuzzy
 msgid "Lintanir"
-msgstr ""
+msgstr "Lintanir"
 
 #. [unit]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:79
+#, fuzzy
 msgid "Eloreis"
-msgstr ""
+msgstr "Eloreis"
 
 #. [unit]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:91
+#, fuzzy
 msgid "Parandra"
-msgstr ""
+msgstr "Parandra"
 
 #. [unit]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:101
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1284
+#, fuzzy
 msgid "Kalenz"
-msgstr ""
+msgstr "Kalenz"
 
 #. [unit]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:111
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1300
+#, fuzzy
 msgid "Chantal"
-msgstr ""
+msgstr "Chantal"
 
 #. [message]: speaker=Delfador
 #. Delfador is trying to speak, but gets interrupted by an elvish marshal
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:176
+#, fuzzy
 msgid "Okay, yes, but—"
-msgstr ""
+msgstr "Oui, d’accord, mais—"
 
 #. [message]: speaker=Eloreis
 #. Delfador has brought a message from King Garard to the elves, asking them to attack the whitefang orcs
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:181
+#, fuzzy
 msgid ""
 "I understand Weldyn’s stance on orcs, but Garard cannot change the facts: "
 "our rangers have neither the training nor the elfpower to fight an offensive "
 "war on open ground! What your king asks of us is impossible."
 msgstr ""
+"Je comprends la position de Weldyn concernant les orques, mais Garard ne "
+"peut pas changer les faits : nos rôdeurs n’ont ni l’entraînement ni la "
+"puissance elfique nécessaires pour mener une guerre offensive en terrain "
+"découvert ! Ce que votre roi nous demande est impossible."
 
 #. [message]: speaker=Parandra
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:185
+#, fuzzy
 msgid ""
 "And why would we want to? The orcs stay out of our forests and we stay out "
 "of their hills; this is the way things have been for over a century. Your "
@@ -1922,18 +2249,30 @@ msgid ""
 "desire have we for more territory when Lintanir’s broad eaves could support "
 "ten times our numbers?"
 msgstr ""
+"Et pourquoi le voudrions-nous ? Les orques restent hors de nos forêts et "
+"nous restons hors de leurs collines ; les choses se passent ainsi depuis "
+"plus d’un siècle. Votre roi nous promet des montagnes enneigées et des "
+"déserts arides comme butin, mais quel désir aurions-nous de davantage de "
+"territoires alors que les vastes forêts de Lintanir pourraient nourrir dix "
+"fois notre population ?"
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:189
+#, fuzzy
 msgid ""
 "My honorable lords and ladies, I understand your duty to safeguard your "
 "lands and your people. And is that not what Weldyn does now? King Garard "
 "must know the orcs threaten all peoples of Wesnoth, or why else would he "
 "wage this war?"
 msgstr ""
+"Honorables seigneurs et dames, je comprends votre devoir de protéger vos "
+"terres et vos peuples. Et n’est-ce pas ce que fait déjà Weldyn ? Le roi "
+"Garard doit savoir que les orques menacent tous les peuples de Wesnoth, "
+"sinon pourquoi mènerait-il cette guerre ?"
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:194
+#, fuzzy
 msgid ""
 "You are, of course, welcome to scorn my King’s call; to loiter in Lintanir; "
 "to live and laugh and <i>linger</i>, until Wesnoth’s strength is spent "
@@ -1943,22 +2282,35 @@ msgid ""
 "honor of the friendship we have built over my many years here, I would hope "
 "Lintanir will as well."
 msgstr ""
+"Vous êtes bien sûr libre de mépriser l’appel de mon roi ; de flâner à "
+"Lintanir ; de vivre, rire et de <i>traîner</i>, jusqu’à ce que la force de "
+"Wesnoth s’épuise dans une victoire à la pyrrhus ou une défaite sanglante.\n"
+"\n"
+"Mais sachez que je répondrai à l’appel de mon roi ; je marcherai à la "
+"guerre. En l’honneur de l’amitié que nous avons bâtie au fil de mes "
+"nombreuses années ici, j’ose espérer que Lintanir en fera de même."
 
 #. [message]: speaker=Kalenz
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:209
+#, fuzzy
 msgid "Truly, a moving speech..."
-msgstr ""
+msgstr "Vraiment, un discours touchant..."
 
 #. [message]: speaker=Kalenz
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:213
+#, fuzzy
 msgid ""
 "Deoran, I am sorry, but Eloreis is right. This is not our fight. I have long-"
 "before seen the horrors of a war between elves and orcs, and have no desire "
 "to plunge my people back into such a nightmare."
 msgstr ""
+"Deoran, je suis désolé, mais Eloreis a raison. Ce n’est pas notre combat. "
+"J’ai depuis longtemps vu les horreurs d’une guerre entre elfes et orques, et "
+"je n’ai aucune envie de replonger mon peuple dans un pareil cauchemar."
 
 #. [message]: speaker=Kalenz
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:217
+#, fuzzy
 msgid ""
 "Should orcish hordes once again threaten the whole continent like they did "
 "in times past, I would be the first to step up and offer my sword in service "
@@ -1968,60 +2320,93 @@ msgid ""
 "you have spent here, but if Wesnoth goes to war we cannot march alongside "
 "you."
 msgstr ""
+"Si les hordes orques devaient de nouveau menacer tout le continent comme "
+"jadis, je serais le premier à brandir mon épée au service d’une alliance.\n"
+"\n"
+"Mais pour un gain territorial ? J’accorde de la valeur à votre amitié et "
+"honore le temps que vous avez passé ici, mais si Wesnoth entre en guerre, "
+"nous ne pourrons pas nous joindre à vous."
 
 #. [message]: speaker=Chantal
 #. 'Great-Grandfather' means Kalenz. Chantal is Kalenz's granddaughter
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:224
+#, fuzzy
 msgid ""
 "Great-Grandfather, do not say such things! Deoran and his allies are risking "
 "their lives in battle, and in all the vastness of Lintanir we can find "
 "naught to offer but kind words? Force-of-arms is not the only strength of "
 "the elves."
 msgstr ""
+"Arrière-grand-père, ne dites pas de telles choses ! Deoran et ses alliés "
+"mettent leur vie en danger au combat, et dans toute l’étendue de Lintanir, "
+"n’avons-nous rien d’autre à offrir que des paroles gentilles ? La force des "
+"elfes ne se limite pas aux armes."
 
 #. [message]: speaker=Kalenz
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:228
+#, fuzzy
 msgid ""
 "Chantal, sometimes you remind me so much of your grandmother... perhaps you "
 "are right. I have seen too many friends fall during my unnaturally long "
 "life; sometimes to battle, sometimes to age. I would postpone that fate for "
 "Deoran if I can, for both your sakes."
 msgstr ""
+"Chantal, parfois tu me rappelles tellement ta grand-mère… peut-être as‑tu "
+"raison. J’ai vu tomber trop d’amis au cours de ma vie anormalement longue ; "
+"parfois à la guerre, parfois sous le poids de l’âge. Je tenterais de "
+"retarder ce destin pour Deoran si je le peux, pour votre bien à tous les "
+"deux."
 
 #. [message]: speaker=Kalenz
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:232
+#, fuzzy
 msgid ""
 "Deoran, Delfador, what I now speak to you concerns one of our great secrets; "
 "you are not to speak of this to anyone, even to your king."
 msgstr ""
+"Deoran, Delfador, ce que je m’apprête à vous révéler concerne l’un de nos "
+"grands secrets ; vous ne devez le confier à personne, pas même à votre roi."
 
 #. [message]: speaker=Kalenz
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:237
+#, fuzzy
 msgid ""
 "Deep within Lintanir resides our sylph — an elven seer. We both favor and "
 "fear Elende’s fractured, arcane sight; her strands of reflected prophecy. "
 "Perhaps her visions may illuminate some measure of your futures, and in "
 "doing so help you blaze brighter ones."
 msgstr ""
+"Au plus profond de Lintanir réside notre sylphide — une voyante elfe. Nous "
+"craignons autant que nous admirons la vision fragmentée et magique d’Elende, "
+"ses fils de prophétie réfléchie. Peut-être ses visions révéleront-elles une "
+"part de votre avenir, vous aidant ainsi à en forger un plus radieux."
 
 #. [message]: speaker=Eloreis
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:241
+#, fuzzy
 msgid ""
 "Kalenz, are you sure this is wise? Seers are known to be... esoteric... and "
 "Elende has been particularly cloistered these last few decades."
 msgstr ""
+"Kalenz, es-tu sûr que ce soit bien sage ? Les voyantes sont réputées pour "
+"être… ésotériques… et Elende a été particulièrement recluse ces dernières "
+"décennies."
 
 #. [message]: speaker=Chantal
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:245
+#, fuzzy
 msgid ""
 "I shall accompany them. I wish to spend some time with with these humans "
 "before they depart."
 msgstr ""
+"Je vais les accompagner. J’aimerais passer un peu de temps avec ces humains "
+"avant leur départ."
 
 #. [message]: speaker=Kalenz
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:249
+#, fuzzy
 msgid "And so do and so shall I. Come, follow me."
-msgstr ""
+msgstr "Et moi aussi. Viens, suis-moi."
 
 #. [time]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:268
@@ -2037,19 +2422,24 @@ msgstr ""
 #. [message]: speaker=Delfador
 #. said after a Forest Lion, Horned Scarab, or Silverback (a gorilla) attacks one of the player's units
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:359
+#, fuzzy
 msgid "Look out! There’re beasts in the forest!"
-msgstr ""
+msgstr "Attention ! Il y a des bêtes dans la forêt !"
 
 #. [message]: speaker=Deoran
 #. said after the player double-clicks on Delfador to try and cast a spell
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:374
+#, fuzzy
 msgid ""
 "No magic more unusual than a fireball, Delfador. We don’t want to appear "
 "threatening."
 msgstr ""
+"Aucune magie plus inhabituelle qu'une boule de feu, Delfador. Nous ne "
+"voulons pas paraître menaçants."
 
 #. [message]: speaker=narrator
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:393
+#, fuzzy
 msgid ""
 "Kalenz leads Delfador, Deoran, and Chantal down a labyrinthine path through "
 "the deep wood, past twists and turns and over winding tracks.\n"
@@ -2057,40 +2447,58 @@ msgid ""
 "In many places there is no path at all, and Delfador senses they are guided "
 "more by the elves’ connection to the faerie than by conventional pathfinding."
 msgstr ""
+"Kalenz conduit Delfador, Deoran et Chantal à travers un sentier tortueux, "
+"traversant les recoins mystérieux de la forêt profonde, où les pistes se "
+"perdent dans les ombres des arbres.\n"
+"\n"
+"Par endroits, il n’y a même pas de vrai chemin, et Delfador ressent qu’ils "
+"sont plus guidés par la connexion mystique des elfes aux esprits féériques "
+"que par un simple sens de l’orientation."
 
 #. [message]: speaker=narrator
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:399
+#, fuzzy
 msgid ""
 "The sun sets like a dying ember quenched beneath the horizon, and the forest "
 "grows dim. Several times even Kalenz becomes lost, but each time manages to "
 "find the way again. At last, in the dead of night, a small structure looms "
 "out of the forest..."
 msgstr ""
+"Le soleil se couche comme une braise mourante éteinte sous l’horizon, et la "
+"forêt s’assombrit peu à peu. Plusieurs fois, même Kalenz se perd, mais à "
+"chaque fois il retrouve son chemin. Enfin, en pleine nuit, une petite "
+"structure émerge de l’obscurité de la forêt..."
 
 #. [message]: speaker=Kalenz
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:409
+#, fuzzy
 msgid ""
 "We have arrived. The seer’s mirror pool is just ahead; she herself should be "
 "close by."
 msgstr ""
+"Nous sommes arrivés. La bassin miroir de la voyante est juste devant ; elle-"
+"même devrait être tout près."
 
 #. [objective]: condition=win
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:417
+#, fuzzy
 msgid "Find the Sylph"
-msgstr ""
+msgstr "Trouver la Sylphide"
 
 #. [objective]: condition=lose
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:421
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:457
+#, fuzzy
 msgid "Death of Delfador, Deoran, Chantal, or Kalenz"
-msgstr ""
+msgstr "Mort de Delfador, Deoran, Chantal, ou Kalenz"
 
 #. [note]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:429
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:465
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1376
+#, fuzzy
 msgid "Kalenz and Chantal will not follow you to the next scenario."
-msgstr ""
+msgstr "Kalenz et Chantal ne vous suivront pas dans le prochain scénario."
 
 #. [note]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:432
@@ -2098,19 +2506,22 @@ msgstr ""
 #: data/campaigns/The_Deceivers_Gambit/scenarios/10_Houses_of_the_Dead.cfg:346
 #: data/campaigns/The_Deceivers_Gambit/scenarios/10_Houses_of_the_Dead.cfg:767
 #: data/campaigns/The_Deceivers_Gambit/scenarios/10_Houses_of_the_Dead.cfg:1070
+#, fuzzy
 msgid "In this scenario, you can neither gain nor spend gold."
-msgstr ""
+msgstr "Dans ce scénario, vous ne pouvez ni gagner ni dépenser d'or."
 
 #. [message]
 #. there is a pool of water in the middle of the map. Right now the pool is mostly dry - your objective is to solve a puzzle to fill the pool with water
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:448
+#, fuzzy
 msgid "There lies the mirror pool, but it is strangely dry..."
-msgstr ""
+msgstr "Là se trouve le bassin miroir, mais il est étrangement à sec..."
 
 #. [objective]: condition=win
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:453
+#, fuzzy
 msgid "Fill the central pool with water"
-msgstr ""
+msgstr "Remplissez le bassin central d'eau"
 
 #. [note]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:468
@@ -2121,10 +2532,13 @@ msgstr ""
 
 #. [message]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:494
+#, fuzzy
 msgid ""
 "This is a puzzle segment. If you don’t like puzzles or find it too "
 "challenging, you can choose to skip it."
 msgstr ""
+"C'est une section de casse-tête. Si vous n'aimez pas les casse-têtes ou si "
+"vous la trouvez trop difficile, vous pouvez choisir de la passer."
 
 #. [message]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:496
@@ -2135,92 +2549,132 @@ msgstr ""
 
 #. [option]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:498
+#, fuzzy
 msgid "Play the puzzle <i>(includes XP)</i>"
-msgstr ""
+msgstr "Résoudre le casse-tête <i>inclut de l'XP</i>"
 
 #. [option]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:501
+#, fuzzy
 msgid "Skip the puzzle"
-msgstr ""
+msgstr "Passer le casse-tête"
 
 #. [message]: speaker=Delfador
 #. referencing the events in The South Guard; exaggerated
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:534
+#, fuzzy
 msgid ""
 "Deoran, I took an exam on you during my second year at Alduin. Is it true "
 "you single-handedly beat down a horde of black-magic bandits and saved the "
 "south from destruction? You’re practically a folk hero!"
 msgstr ""
+"Deoran, j'ai passé un examen sur toi pendant ma deuxième année à Alduin. Est-"
+"il vrai que tu as, à toi seul, battu une horde de bandits adeptes de la "
+"magie noire et sauvé le sud de la destruction ? Tu es pratiquement un héros "
+"populaire !"
 
 #. [message]: speaker=Deoran
 #. this is what has happened to Deoran since ending The South Guard
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:539
+#, fuzzy
 msgid ""
 "To some, perhaps. The king was less pleased — Garard is magnanimous towards "
 "his favorites, but has little tolerance for failure. I found scant room for "
 "advancement within Wesnoth after so much blood spilled in Westin."
 msgstr ""
+"Auprès de certains, peut-être. Le roi, lui, était moins satisfait — Garard "
+"est magnanime envers ses favoris, mais il supporte mal l’échec. J’ai trouvé "
+"peu de perspectives d’avancement à Wesnoth après avoir versé autant de sang "
+"à Westin."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:543
+#, fuzzy
 msgid ""
 "But that all happened many years ago. Ambassador to Lintanir is a "
 "prestigious position, in name if nothing else, and an opportunity to "
 "exercise what I learned from my time amongst the Aethenwood elves. I have "
 "come to value my friends here."
 msgstr ""
+"Mais tout cela s’est passé il y a bien des années. Être ambassadeur à "
+"Lintanir est un poste prestigieux, même si c’est surtout une question de "
+"titre, et une occasion de mettre en pratique les leçons tirées de mon séjour "
+"parmi les elfes de la forêt de l’Aethen. J’ai appris à apprécier les amis "
+"que je me suis fait ici."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:547
+#, fuzzy
 msgid ""
 "I must confess I look forward to once-again marching in company with others "
 "of my own ilk, yet still I hope to return to Lintanir once my war-duty is "
 "done."
 msgstr ""
+"Je dois avouer que j’ai hâte de marcher à nouveau en compagnie d’autres "
+"personnes de ma propre espèce, mais j’espère néanmoins revenir à Lintanir "
+"une fois mes devoirs militaires accomplis."
 
 #. [message]: speaker=Kalenz
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:561
+#, fuzzy
 msgid ""
 "Chantal, we have much to speak about. It is clear you have feelings for the "
 "ambassador. Deoran is no fool; if he does not already know, he certainly "
 "suspects."
 msgstr ""
+"Chantal, nous avons bien des choses à aborder. Il est évident que tu as des "
+"sentiments pour l’ambassadeur. Deoran n’est pas dupe ; s’il ne le sait pas "
+"encore, il le pressent probablement."
 
 #. [message]: speaker=Chantal
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:565
+#, fuzzy
 msgid ""
 "—who? What? Great-Grandfather, I have no idea what you’re talking about."
 msgstr ""
+"—Qui ? Quoi ? Arrière-grand-père, je n'ai aucune idée de ce dont tu parles."
 
 #. [message]: speaker=Chantal
 #. continuing the "Chantal has feelings for Deoran" conversation, a moment after it ended
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:572
+#, fuzzy
 msgid ""
 "Okay— fine, yes, but Deoran is a good man! Wise and kind, and quietly "
 "bearing his burden of exile, so far away from his people? And he’s <i>human</"
 "i>! Even a crusty old elf like you has to admit that round ears and stubble "
 "are exotic."
 msgstr ""
+"Bon, d'accord— mais Deoran est un homme bien ! Sage et gentil, portant en "
+"silence son fardeau d’exilé, si loin de son peuple ? Et puis il est "
+"<i>humain</i> ! Même un vieux elfe râleur comme toi doit admettre que des "
+"oreilles rondes et une barbe de trois jours, c’est exotique."
 
 #. [message]: speaker=Kalenz
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:576
+#, fuzzy
 msgid ""
 "The lives of men burn brightly, but briefly. Even if he returns to Lintanir, "
 "what future could you build together? I will not stop you if you want to "
 "pursue this, but I know all-too-well the pain from outliving those you love. "
 "Cleodil was just as stubborn as you..."
 msgstr ""
+"Les vies des hommes brûlent intensément, mais brièvement. Même s’il retourne "
+"à Lintanir, quel avenir pourriez-vous bâtir ensemble ? Je ne t'arrêterai pas "
+"si tu veux poursuivre cela, mais je connais trop bien la douleur de survivre "
+"à ceux que l’on aime. Cleodil était aussi têtu que toi.…"
 
 #. [message]: speaker=Delfador
 #. the player has just moved a unit onto one of several blue orbs scattered around the map, which has caused a river to change direction. This is part of the puzzle
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:589
+#, fuzzy
 msgid "Look, the stream is changing direction!"
-msgstr ""
+msgstr "Regarde, le courant change de direction !"
 
 #. [message]: speaker=Chantal
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:593
+#, fuzzy
 msgid "Moonstones! Elende, what have you been up to..."
-msgstr ""
+msgstr "Pierres de lune ! Elende, qu'as-tu fait ces derniers temps..."
 
 #. [message]: speaker=Delfador
 #. a monster has just drowned in the river, as a result of the player redirecting the river into the beast's hex
@@ -2231,10 +2685,14 @@ msgstr ""
 #. [message]
 #. a player unit has just drowned in the river, as a result of the player redirecting the river into the beast's hex
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:634
+#, fuzzy
 msgid ""
 "This sandbed is shallow, but the water is suddenly deep and a strange magic "
 "tugs at my legs! I am drowning!"
 msgstr ""
+"Ce lit de sable est superficiel, mais l'eau devient soudainement très "
+"profonde et une magie étrange me tire sur les jambes ! Je suis en train de "
+"me noyer !"
 
 #. [message]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:635
@@ -2252,8 +2710,9 @@ msgstr ""
 #. [message]: speaker=Delfador
 #. the player has completed their puzzle, and filled the central "mirror pool" with water
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1064
+#, fuzzy
 msgid "There! The pool is full!"
-msgstr ""
+msgstr "Voilà ! Le bassin est plein !"
 
 #. [time]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1090
@@ -2275,20 +2734,26 @@ msgstr ""
 #. [message]
 #. the player's units have just been transported into a strange realm, and aren't sure what's going on. Kalenz probably knows more than anybody else, and is calling out to see where Elende is (and what exactly she's doing)
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1267
+#, fuzzy
 msgid "Elende!"
-msgstr ""
+msgstr "Elende!"
 
 #. [message]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1272
+#, fuzzy
 msgid "Elende, I come with friends, seeking foresight! Deoran and Del—"
 msgstr ""
+"Elende, je viens avec des amis, en quête de clairvoyance ! Deoran et Del—"
 
 #. [message]
 #. immediately after this, magically created "mirror image" units of younger/older versions of Kalenz, Chantal, and Deoran appear
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1278
+#, fuzzy
 msgid ""
 "I know who you are, Delfador of Alduin. But how well do you know yourselves?"
 msgstr ""
+"Je sais qui tu es, Delfador d'Alduin. Mais jusqu'à quel point vous "
+"connaissez-vous ?"
 
 #. [unit]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1316
@@ -2299,53 +2764,69 @@ msgstr ""
 #. [message]
 #. referencing the mirror image of Deoran
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1332
+#, fuzzy
 msgid "Deoran, is that... you? You look so much younger."
-msgstr ""
+msgstr "Deoran, c'est... toi ? Tu as l'air tellement plus jeune."
 
 #. [message]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1336
+#, fuzzy
 msgid "What’s going on?! Kalenz, is this normal?"
-msgstr ""
+msgstr "Que se passe-t-il ?! Kalenz, est-ce normal ?"
 
 #. [objective]: condition=win
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1362
+#, fuzzy
 msgid "Defeat all enemies"
-msgstr ""
+msgstr "Vaincre tous les ennemis"
 
 #. [objective]: condition=lose
 #. if reduced to 0 hp, Delfador doesn't die. Instead, he's kicked out of the mirror world, and fails the scenario
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1367
+#, fuzzy
 msgid "Loss of Delfador"
-msgstr ""
+msgstr "Perte de Delfador"
 
 #. [note]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1379
+#, fuzzy
 msgid ""
 "In this strange world, fate guides every strike. <i>(attacks never miss)</i>"
 msgstr ""
+"Dans ce monde étrange, le destin guide chaque coup. (Les attaques ne ratent "
+"jamais leur cible.)"
 
 #. [event]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1405
+#, fuzzy
 msgid ""
 "The mortal world beckons; tell me the rest of the prophecy when next we meet!"
 msgstr ""
+"Le monde des mortels m'appelle ; dis-moi la suite de la prophétie lors de "
+"notre prochaine rencontre !"
 
 #. [event]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1406
+#, fuzzy
 msgid "Elende, I hope you know what you’re doing. Good luck, the rest of you!"
 msgstr ""
+"Elende, j'espère que tu sais ce que tu fais. Bonne chance à vous tous !"
 
 #. [event]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1407
+#, fuzzy
 msgid ""
 "Owww! Elende, it’s very rude to banish someone without their permission!"
 msgstr ""
+"Aïe ! Elende, c'est franchement malpoli de bannir quelqu'un sans sa "
+"permission !"
 
 #. [message]: speaker=Delfador
 #. Delfador has just been reduced to 0hp, and been "kicked out" of Elenede's "mirror realm" or wherever she was giving the prophecy
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1415
+#, fuzzy
 msgid "Hey, stop—"
-msgstr ""
+msgstr "Hé, arrêtez—"
 
 #. [time]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1432
@@ -2356,57 +2837,78 @@ msgstr ""
 #. [message]: speaker=Delfador
 #. Delfador has missed the ending of the prophecy, and the player loses the scenario
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1456
+#, fuzzy
 msgid "I didn’t get to finish hearing everything..."
-msgstr ""
+msgstr "Je n'ai pas pu tout entendre..."
 
 #. [message]
 #. spoken by Elende (through Kalenz's mirror image), referencing Legend of Wesmere's invisibility potion and Landar
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1486
+#, fuzzy
 msgid ""
 "Lich’s eye and brother’s bone; what have you sacrificed to save your people, "
 "Kalenz? Your greatest fear stands before you... ahead of you?"
 msgstr ""
+"Œil du Liche et os du frère ; qu'as-tu sacrifié pour sauver ton peuple, "
+"Kalenz ? Ta plus grande peur se dresse face à toi... ou plutôt, devant toi ?"
 
 #. [message]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1490
+#, fuzzy
 msgid "That was long ago, Elende! This is about the humans’ story, not mine."
 msgstr ""
+"C'était il y a bien longtemps, Elende ! Il s'agit de l'histoire des humains, "
+"pas de la mienne."
 
 #. [message]
 #. spoken by Elende (through Deoran's mirror image), referencing his exile. I intend "nation" more in the "people" sense than the "country" sense.
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1521
+#, fuzzy
 msgid ""
 "Deoran the exile returns home; returns to a nation that scorned him, ignored "
 "his counsel and cast him away. What will become of the life he has built "
 "amongst Lintanir’s twilight eaves?"
 msgstr ""
+"Deoran, l'exilé, revient chez lui ; il retourne dans une nation qui l'a "
+"méprisé, ignoré ses conseils et rejeté. Que deviendra la vie qu'il a "
+"construite parmi les franges crépusculaires de Lintanir ?"
 
 #. [message]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1525
+#, fuzzy
 msgid ""
 "I know my duty! A captain of Wesnoth will never entertain doubts of loyalty, "
 "whether to his country or his King."
 msgstr ""
+"Je sais quel est mon devoir ! Un capitaine de Wesnoth ne se permettra jamais "
+"de douter de sa loyauté, que ce soit envers son royaume ou son roi."
 
 #. [message]
 #. spoken by Elende (through Chantal's mirror image), referencing Cleodil's historic death and foreshadowing Deoran's upcoming death
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1538
+#, fuzzy
 msgid "Chantal—"
-msgstr ""
+msgstr "Chantal—"
 
 #. [message]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1542
+#, fuzzy
 msgid ""
 "I already know what you’re going to say Elende! Don’t you dare; I will when "
 "I’m ready."
 msgstr ""
+"Je sais déjà ce que tu t'apprêtes à dire, Elende ! Ne le tente pas ; je le "
+"ferai quand le moment sera venu."
 
 #. [message]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1548
+#, fuzzy
 msgid ""
 "Then you may soon understand some measure of your great-grandfather’s bygone "
 "sorrows..."
 msgstr ""
+"Alors tu comprendras peut-être bientôt dans une certaine mesure les chagrins "
+"passés de ton arrière-grand-père..."
 
 #. [message]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1627
@@ -2418,17 +2920,23 @@ msgstr ""
 #. [message]
 #. Elende reaveals that she's the one who gave the weird prophecy thing to Delfador at Alduin, even though she wasn't physically there
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1630
+#, fuzzy
 msgid ""
 "And what of the fire mage? Young but ambitious, brilliant yet foolish. It "
 "has been many moons since I spoke to you at Alduin."
 msgstr ""
+"Et le mage de feu, alors ? Jeune mais ambitieux, brillant mais imprudent. "
+"Cela fait de nombreuses lunes que je ne t'ai pas parlé à Alduin."
 
 #. [message]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1634
+#, fuzzy
 msgid ""
 "That was you, back at graduation? I knew I heard a voice! Master Leollyn "
 "thought I was going crazy..."
 msgstr ""
+"C'était toi, lors de la remise des diplômes ? Je savais que j'avais entendu "
+"une voix ! Le maître Leollyn pensait que je perdais la tête..."
 
 #. [event]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1637
@@ -2441,18 +2949,25 @@ msgstr ""
 #. [message]
 #. pale spy meaning Asheviere. Referencing Asheviere resolving to kill Garard, and working with orcs to arrange the events of the next two scenarios
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1667
+#, fuzzy
 msgid ""
 "I see secrets in the dark; a pale spy slips their bonds. A death, a "
 "deceiver. Ringed swords, cold blood, false friends."
 msgstr ""
+"Je perçois des secrets dans l’obscurité ; un espion pâle se libérant de ses "
+"entraves. Une mort, un trompeur. Épées encerclées, sang froid, faux amis."
 
 #. [message]
 #. referencing Delfador's adventures in scenarios 8-10, where he works with (or kills) poachers to fight saurians, then fights undead and a ghost given the appearance of a living drake.
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1728
+#, fuzzy
 msgid ""
 "The dark swamp looms. Purses and poachers, mirror and smoke. A figure of "
 "shadow cloaked in the spirits of the dead. Battles won while wars are lost."
 msgstr ""
+"Le marais sombre se profile. Bourses et braconniers, miroir et fumée. Une "
+"silhouette d’ombre enveloppée des esprits des morts. Des batailles gagnées "
+"tandis que des guerres sont perdues"
 
 #. [event]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1733
@@ -2463,12 +2978,17 @@ msgstr ""
 #. [message]
 #. referencing the civil war when Asheviere takes power
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1758
+#, fuzzy
 msgid ""
 "Brother against brother, father against child. From the barren throne will "
 "rise an angel of ashes; both great and terrible alike. The delicate balance "
 "of mankind will be broken, and flames shall blaze anew across the embers of "
 "Haldric’s people."
 msgstr ""
+"Frère contre frère, père contre enfant. Du trône stérile s’élèvera un ange "
+"de cendres ; grand et terrible à la fois. L'équilibre fragile de l’humanité "
+"sera brisé, et des flammes s’enflammeront à nouveau sur les braises du "
+"peuple de Haldric."
 
 #. [event]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1763
@@ -2480,40 +3000,55 @@ msgstr ""
 #. [message]
 #. referncing the future events of HttT; Konrad and Li'Sar retriving the sceptre of fire
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1854
+#, fuzzy
 msgid ""
 "Black soot rains over Weldyn. The line of kings sundered; the ruby of the "
 "wesfolk restored. The nameless son and the ashen daughter."
 msgstr ""
+"De la suie noire tombe sur Weldyn. La lignée des rois brisée ; le rubis des "
+"wesfolk restauré. Le fils sans nom et la fille cendrée."
 
 #. [message]
 #. referencing Delfador's choice in S10x
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1864
+#, fuzzy
 msgid ""
 "But this fate is not the only path. Mage of Alduin, you stand at a knot in "
 "the strands, a nexus of the shards. For one brief moment, you will possess "
 "the power to alter the currents of time; to rewrite the future that is "
 "written."
 msgstr ""
+"Mais ce destin n'est pas le seul chemin. Mage d'Alduin, tu te trouves à "
+"l’intersection des fils, un carrefour des éclats. Pendant un instant fugace, "
+"tu détiendras le pouvoir d’altérer le cours du temps ; de réécrire l'avenir "
+"qui est déjà tracé."
 
 #. [message]
 #. referencing Delfador's choice in S10x. He can either listen to a drunk Garard and kill Garard's brother Arand based on false reports of a betrayal, or refuse, stay with Garard, and find out more about Arand before attacking
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1871
+#, fuzzy
 msgid ""
 "When that moment comes, remember... endeavor to bestow not destruction with "
 "that fire that you possess, but the gleaming light of truth instead. Quench "
 "the flames of fear before all your world is consumed."
 msgstr ""
+"Quand ce moment viendra, souviens-toi... tente de ne pas répandre la "
+"destruction avec ce feu que tu détiens, mais plutôt la lueur éclatante de la "
+"vérité. Éteins les flammes de la peur avant que tout ton monde ne soit "
+"consumé."
 
 #. [message]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1875
+#, fuzzy
 msgid "But, what? I don’t understa—"
-msgstr ""
+msgstr "Mais, quoi ? Je ne com—"
 
 #. [message]: speaker=Delfador
 #. Delfador previously said "But, what? I don’t understa—", but has now been kicked out of Elende's 'mirror world' and is back in the normal world. The scenario is over.
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1931
+#, fuzzy
 msgid "—nd what you’re saying..."
-msgstr ""
+msgstr "—prends pas ce que tu dis..."
 
 #. [scenario]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:10
@@ -2522,19 +3057,28 @@ msgstr ""
 
 #. [part]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:21
+#, fuzzy
 msgid ""
 "Delfador and his companions departed the mirror grove in hushed silence. The "
 "Sylph’s words weighed heavily on each of their minds."
 msgstr ""
+"Delfador et ses compagnons quittèrent le bosquet des miroirs dans un silence "
+"lourd. Les paroles de la Sylphide résonnaient dans leurs esprits, lourds de "
+"sens."
 
 #. [part]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:24
+#, fuzzy
 msgid ""
 "After lengthy deliberation, and much to Chantal’s displeasure, Delfador and "
 "Deoran resolved to continue on with their mission. Exiting the forest after "
 "several days’ westward travel, they soon sighted the banners of the king’s "
 "army."
 msgstr ""
+"Après de longues délibérations, et bien à contre cœur de Chantal, Delfador "
+"et Deoran décidèrent de poursuivre leur mission. Après plusieurs jours de "
+"voyage vers l'ouest, ils sortirent enfin de la forêt et aperçurent bientôt "
+"les bannières de l'armée du roi."
 
 #. [side]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:47
@@ -2553,8 +3097,11 @@ msgstr ""
 
 #. [event]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:240
+#, fuzzy
 msgid "These orcs were sitting on some gold! We can put it to better use."
 msgstr ""
+"Ces orcs étaient assis sur un véritable trésor ! Nous pouvons en faire un "
+"meilleur usage."
 
 #. [event]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:254
@@ -2563,20 +3110,27 @@ msgstr ""
 
 #. [message]: speaker=Chantal
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:302
+#, fuzzy
 msgid ""
 "Deoran, are you sure you won’t reconsider staying in the Lintanir? What "
 "Elende said..."
 msgstr ""
+"Deoran, tu es certain de ne pas vouloir rester à Lintanir ? Ce qu'Elende a "
+"dit…"
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:306
+#, fuzzy
 msgid ""
 "My duty comes first, always. Would you truly want me any other way, Chantal?"
 msgstr ""
+"Mon devoir passe avant tout, toujours. Voudrais-tu vraiment qu’il en soit "
+"autrement, Chantal ?"
 
 #. [message]: speaker=Kalenz
 #. referencing the beginning of HttT, where Delfador and Konrad are staying with the elves
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:312
+#, fuzzy
 msgid ""
 "Deoran, it has been a pleasure to have you with us these years. And "
 "Delfador, I hope to someday say the same of you as well. Elende seems to "
@@ -2585,47 +3139,73 @@ msgid ""
 "Should either of you ever find yourselves searching for a home away from "
 "Wesnoth, you will always be welcome with us."
 msgstr ""
+"Deoran, cela a été un plaisir de t’avoir parmi nous pendant toutes ces "
+"années. Et Delfador, j’espère qu’un jour je pourrai dire la même chose de "
+"toi. Elende semble avoir une haute opinion de toi, et cela compte beaucoup "
+"pour moi et mon peuple.\n"
+"\n"
+"Si l’un de vous deux venait un jour à chercher un refuge loin de Wesnoth, "
+"vous serez toujours les bienvenus chez nous."
 
 #. [message]: speaker=Garard
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:328
+#, fuzzy
 msgid ""
 "Hail! The fledgling war-mage returns. Welcome, Delfador... and Deoran. Tell "
 "me, are the north-elves with us?"
 msgstr ""
+"Salut ! Le jeune mage de guerre revient. Bienvenue, Delfador... et Deoran. "
+"Dites-moi, les elfes du nord sont-ils avec nous ?"
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:332
+#, fuzzy
 msgid "Deepest apologies my Lord, but they are not. Lintanir—"
 msgstr ""
+"Mes plus sincères excuses, mon Seigneur, mais ils ne sont pas avec nous. "
+"Lintanir—"
 
 #. [message]: speaker=Garard
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:336
+#, fuzzy
 msgid ""
 "I see. Unfortunate, but ultimately of no consequence. Victory is nearly won "
 "even without their aid."
 msgstr ""
+"Je vois. C'est regrettable, mais finalement cela n’a aucune conséquence. La "
+"victoire est presque acquise, même sans leur aide"
 
 #. [message]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:341
+#, fuzzy
 msgid ""
 "See there: we’ve driven the Whitefang chieftain and the last of his guards "
 "into this old hill fort."
 msgstr ""
+"Regardez là-bas : nous avons repoussé le chef des Crocs--blancs et les "
+"derniers de ses gardes dans cet ancien fort sur la colline."
 
 #. [message]: speaker=Garard
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:345
+#, fuzzy
 msgid ""
 "The timing of your return couldn’t have been better, Delfador. General "
 "Lionel and my brother Arand will press them from the front, while you sneak "
 "in the back and roast their chief like a pig on a spit."
 msgstr ""
+"Ton retour ne pouvait pas tomber à un meilleur moment, Delfador. Le général "
+"Lionel et mon frère Arand les attaqueront de front, pendant que toi, tu "
+"passeras par l’arrière et rôtiras leur chef comme un cochon sur la broche."
 
 #. [message]: speaker=Garard
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:349
+#, fuzzy
 msgid ""
 "Without their chief the Whitefangs will dissolve into an infighting mass of "
 "petty squabbles, and our— Wesnoth’s victory will be complete!"
 msgstr ""
+"Sans leur chef, les Crocs--blancs se disloqueront dans des querelles "
+"mesquines, et notre— la victoire de Wesnoth sera totale !"
 
 #. [objective]: condition=win
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:357
@@ -2646,100 +3226,140 @@ msgstr ""
 
 #. [message]: speaker=Garard
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:386
+#, fuzzy
 msgid ""
 "Don’t rush the assault, Lionel — no need to waste good men. Take some time "
 "to stage our forces outside their walls, then attack just before the second "
 "dawn."
 msgstr ""
+"Ne précipite pas l’attaque, Lionel — inutile de sacrifier de bons soldats. "
+"Prends ton temps pour positionner nos forces à l'extérieur de leurs murs, "
+"puis lance l’assaut juste avant la deuxième lueur de l’aube."
 
 #. [message]: speaker=Garard
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:390
+#, fuzzy
 msgid ""
 "We have them right where we want them. Once our forces are assembled, I "
 "shall join the battle personally and savor this victory up close."
 msgstr ""
+"Nous les avons coincés là où nous le souhaitions. Une fois nos forces "
+"rassemblées, je prendrai part à la bataille personnellement et savourerai "
+"cette victoire de près."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:394
+#, fuzzy
 msgid ""
 "I’m surprised the Whitefangs have been driven to the brink of defeat so "
 "quickly. Chantal speaks of them as numerous and cunning... I wonder if "
 "something is amiss."
 msgstr ""
+"Je suis surpris que les Crocs-blancs aient été poussés si rapidement au bord "
+"de la défaite. Chantal parle d’eux comme étant nombreux et rusés... Je me "
+"demande si quelque chose ne clocherait pas."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:406
+#, fuzzy
 msgid ""
 "An orcish shaman! On occasion I’ve known some of the other clans to use "
 "their apprentices as warriors, but Clan Whitefang usually keeps theirs far "
 "from the frontline."
 msgstr ""
+"Une chamane orc ! Il m’est arrivé de savoir que certains autres clans "
+"utilisent leurs apprentis comme guerriers, mais le Clan Crocs-blancs garde "
+"généralement les siens loin de la ligne de front."
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:410
+#, fuzzy
 msgid ""
 "What unusual magic! I don’t think I can tap into whatever fundamental forces "
 "she was using, but now that I have her equipment I’ll bet I could figure out "
 "how to imitate that draining attack... for our next battle, at least."
 msgstr ""
+"Quelle magie surprenante ! Je ne crois pas pouvoir accéder aux forces "
+"fondamentales qu’elle utilisait, mais maintenant que j’ai son équipement, je "
+"parie que je pourrais trouver comment imiter cette attaque drainante... pour "
+"notre prochaine bataille, en tout cas."
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:434
+#, fuzzy
 msgid ""
 "I have still not recruited or recalled any soldiers! That orcish shaman we "
 "defeated was standing on a keep. We should seize it and recruit our army "
 "before we attack the orcs’ main camp."
 msgstr ""
+"Je n'ai toujours pas recruté ni rappelé de soldats ! La chamane orc que nous "
+"avons défait se tenait sur un donjon. Nous devrions l'occuper et recruter "
+"notre armée avant d'attaquer le camp principal des orcs."
 
 #. [message]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:457
+#, fuzzy
 msgid "There’s more of them coming from the north! Should we go attack?"
-msgstr ""
+msgstr "Il y en a d'autres qui viennent du nord ! Devons-nous attaquer ?"
 
 #. [message]: speaker=Khovak
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:461
+#, fuzzy
 msgid "Stay in our fort, worm! Stick to the plan."
-msgstr ""
+msgstr "Reste dans notre fort, vermine ! Tiens-t’en au plan."
 
 #. [message]: speaker=Garard
 #. "trog" is a made-up slur referring to an orc
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:474
+#, fuzzy
 msgid ""
 "You’re squatting in my summer home, trogs! No more raids for you; no more "
 "pillage and plunder. Last chance to surrender!"
 msgstr ""
+"Vous occupez ma résidence d'été, bande de voyous ! Plus de raids, plus de "
+"pillages ! C'est la dernière chance de se rendre !"
 
 #. [message]: speaker=second_unit
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:478
+#, fuzzy
 msgid "Up yours, pink-skin!"
-msgstr ""
+msgstr "Va te faire voir, blanc-bec!"
 
 #. [message]: speaker=Delfador
 #. Delfador is telling his master Methor about the adventures he had in the last 2 scenarios
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:503
+#, fuzzy
 msgid ""
 "Hello there, master, it’s nice to see you again! You’ll never believe the "
 "adventures I’ve had. Did you know there’s an elvish prophecy about me?!"
 msgstr ""
+"Bonjour maître, ça fait plaisir de vous revoir ! Vous ne devinerez jamais "
+"les aventures que j'ai vécues. Saviez-vous qu'il existe une prophétie "
+"elfique à mon sujet ?!"
 
 #. [message]: speaker=Methor
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:507
+#, fuzzy
 msgid ""
 "(smiling) Delfador, don’t make me regret teaching you that psychedelic "
 "spell! I’m just glad you’ve made it back safe and sound."
 msgstr ""
+"(souriant) Delfador, ne me fais pas regretter de t’avoir appris ce sort "
+"psychédélique ! Je suis juste content que tu sois revenu sain et sauf."
 
 #. [message]: speaker=Shogro
 #. the whitefangs orcs are luring Garard into overextending. Shogro is bait, and has just died
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:521
+#, fuzzy
 msgid "Stinking Ushka’e! This was a terrible plan..."
-msgstr ""
+msgstr "Sale Ushka’e ! C'était un plan désastreux…"
 
 #. [message]: speaker=Khovak
 #. the whitefangs orcs are luring Garard into overextending. Khovak is bait, and has just died
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:546
+#, fuzzy
 msgid "Human dogs! You’ve just sealed your deaths..."
-msgstr ""
+msgstr "Chiens d’humain ! Vous avez scellé votre destin…"
 
 #. [message]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:563
@@ -2748,49 +3368,69 @@ msgstr ""
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:578
+#, fuzzy
 msgid "Yes! Did I do well, Your Majesty?"
-msgstr ""
+msgstr "Oui ! Ai-je bien agi, Sire ?"
 
 #. [message]: speaker=Garard
 #. Garard thinks he's won, even though he hasn't
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:583
+#, fuzzy
 msgid "Indeed you did. Fantastic battle, everyone, the orcs are broken!"
 msgstr ""
+"En effet, vous avez bien fait. Excellente bataille, tout le monde, les orcs "
+"sont écrasés !"
 
 #. [message]: speaker=Garard
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:591
+#, fuzzy
 msgid ""
 "Footmen — down into the fort’s dungeons! Flush out any stragglers and "
 "complete our victory."
 msgstr ""
+"Fantassins — descendez dans les donjons du fort ! Éliminez les retardataires "
+"et parachevez notre victoire."
 
 #. [message]: speaker=Garard
 #. Garard thinks he's won, even though he hasn't. "Wold" means "a piece of high, open, uncultivated land or moor."
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:635
+#, fuzzy
 msgid ""
 "Hah! I think “Garard’s Wold” will make a good name for the new province... "
 "or perhaps “Garard’s Triumph”? What do you think, Lionel?"
 msgstr ""
+"Hah ! Je pense que « Les collines de Garard » sera un bon nom pour la "
+"nouvelle province... ou peut-être « Le Triomphe de Garard » ? Qu'en penses-"
+"tu, Lionel ?"
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:640
+#, fuzzy
 msgid ""
 "Delfador, something’s wrong. The orc leader we killed... isn’t the Whitefang "
 "chief."
 msgstr ""
+"Delfador, il y a quelque chose qui cloche. Le chef orc que nous avons tué... "
+"ce n'est pas le chef des Crocs-blancs."
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:644
+#, fuzzy
 msgid "What? How can you tell?"
-msgstr ""
+msgstr "Quoi ? Comment peux-tu en être sûr ?"
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:648
+#, fuzzy
 msgid ""
 "I met Clan Whitefang’s leaders around a year ago, when Lintanir negotiated a "
 "treaty. This orc’s face is narrower than I remember, and his helmet doesn’t "
 "have the right war-paint. Delfador, I think we’ve been tricked!"
 msgstr ""
+"J'ai rencontré les chefs du Clan Crocs-blancs il y a environ un an, quand "
+"Lintanir a négocié un traité. Le visage de cet orc est plus étroit que celui "
+"dont je me souviens, et son casque n'a pas les peintures de guerre "
+"appropriées. Delfador, je pense qu'on nous a trompés !"
 
 #. [message]: speaker=Garard
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:691
@@ -2817,7 +3457,7 @@ msgstr ""
 #. [side]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:76
 msgid "Irbirch"
-msgstr ""
+msgstr "Irbirch"
 
 #. [side]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:80
@@ -2849,44 +3489,64 @@ msgstr ""
 #. [message]: speaker=Ushka'e
 #. this is the whitefang chief. He's happy that Garard has walked into his trap
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:355
+#, fuzzy
 msgid ""
 "You see? What did I tell you! Their king is nothing but a feeble-minded "
 "goblin runt, who does exactly what I want. The trap is sprung! Now we crush "
 "them."
 msgstr ""
+"Vous voyez ? Qu'est-ce que je vous avais dit ! Leur roi ne vaut pas mieux "
+"qu'un gobelin faible d'esprit, il fait exactement ce que je veux. Le piège "
+"est tendu ! Maintenant, on les écrase."
 
 #. [message]: speaker=Irbirch
 #. Irbirch is a representative of clan blackcrest, now (tenuously) allied with whitefang. The "spy" references Asheviere (probably; might be an agent of Iliah-Malal instead), who came up with the plan and told it to the orcs
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:377
+#, fuzzy
 msgid ""
 "Bwahaha, when did you Whitefangs become so weak as to follow the ploy of a "
 "spy? Blackcrest warriors would never have let humans advance so far into our "
 "lands!"
 msgstr ""
+"Bwahaha, depuis quand les Crocs-blancs sont-ils devenus si faibles qu’ils "
+"suivent les manigances d’un espion ? Les guerriers Crêtes-Noires n’auraient "
+"jamais permis aux humains d’avancer aussi loin dans nos terres !"
 
 #. [message]: speaker=Ushka'e
 #. referencing clan blackcrest's saurian allies.
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:382
+#, fuzzy
 msgid ""
 "Your “warriors” only survive by cowering behind your slimy lizard allies! "
 "But since Clan Blackcrest has begged so-like trembling goblins, Clan "
 "Whitefang will agree to work together."
 msgstr ""
+"Vos « guerriers » ne survivent qu'en se barricadant derrière vos visqueux "
+"alliés lézards ! Mais puisque le Clan Crêtes-Noires a supplié comme de "
+"simples gobelins tremblants, le Clan Crocs-Blancs acceptera de collaborer "
+"avec vous."
 
 #. [message]: speaker=Irbirch
 #. neither side has actually offered to work together. Subversive messengers poised as members of each clan and manipulated them into working together against Garard
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:387
+#, fuzzy
 msgid ""
 "Since WE begged!? YOU invited US here; your messenger was quaking in his "
 "boots when he groveled before Chief Ghuvog asking for help!"
 msgstr ""
+"Parce que ce serait NOUS qui aurions supplié !? VOUS NOUS avez invités ici ; "
+"votre messager tremblait de tous ses membres lorsqu'il s'est prosterné "
+"devant le chef Ghuvog pour lui demander de l'aide !"
 
 #. [message]: speaker=Ushka'e
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:391
+#, fuzzy
 msgid ""
 "What are you talking abo— Oh forget it, just make sure your clan does its "
 "job! No human leaves this valley alive!"
 msgstr ""
+"De quoi parlez-vous ? Oh, laissez tomber, assurez-vous simplement que votre "
+"clan fasse son travail ! Aucun humain ne sortira vivant de cette vallée !"
 
 #. [event]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:411
@@ -2901,46 +3561,66 @@ msgstr ""
 #. [message]: speaker=Garard
 #. Garard has just realized he's surrounded
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:437
+#, fuzzy
 msgid ""
 "What devilry is this? How did they sneak in behind us. I’m separated from my "
 "generals and most of my soldiers..."
 msgstr ""
+"Quelle infamie est-ce ? Comment ont-ils pu s'infiltrer derrière nos lignes ? "
+"Je suis coupé de mes généraux et de la plupart de mes soldats…"
 
 #. [message]: speaker=Garard
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:441
+#, fuzzy
 msgid ""
 "Foul orcs, come at me then! If this is where I am to fall, I shall make such "
 "a stand as to stir the gods themselves to tears!"
 msgstr ""
+"Infâmes orques, venez donc à moi ! Si c'est là que je dois tomber, je me "
+"battrai avec une telle force que les dieux eux-mêmes en auront les larmes "
+"aux yeux !"
 
 #. [message]: speaker=Irbirch
 #. Asheviere is next to Irbirch. The player is led to think she's been captured, but it's possible she actually went of her own free will to escape Garard
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:451
+#, fuzzy
 msgid ""
 "Nice speech! I wonder what your wife thinks of it? Don’t worry, we’ll have "
 "plenty of fun with her, <b><i>and</i></b> your unborn heir. Haw, haw, haw!"
 msgstr ""
+"Jolie tirade ! Je me demande ce que ta femme en pense ? Ne t'inquiète pas, "
+"on va bien s'amuser avec elle, <b><i>et</i></b> ton futur héritier. Ha ha "
+"ha !"
 
 #. [message]: speaker=Methor
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:475
+#, fuzzy
 msgid ""
 "(aghast) That’s— They’ve captured the queen! Asheviere’s no warrior, and "
 "fragile with pregnancy. We have to rescue her!"
 msgstr ""
+"(Affolé) C’est… Ils ont capturé la reine ! Asheviere n’est pas une "
+"guerrière, et sa grossesse la rend fragile. Il faut la secourir !"
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:479
+#, fuzzy
 msgid ""
 "Surrounded and absent the queen; this is a disaster! Quick, we must rally "
 "what’s left of the crown’s infantry. Send a detachment to rescue Queen "
 "Asheviere, and have the rest protect King Garard until Lionel and Arand can "
 "break through to us!"
 msgstr ""
+"Encerclés et sans la reine ; c'est un désastre ! Vite, il faut rassembler ce "
+"qu'il reste de l'infanterie du royale. Envoyez un détachement pour secourir "
+"la Reine Asheviere, et le reste devra protéger le Roi Garard jusqu'à ce que "
+"Lionel et Arand réussissent à percer jusqu'à nous !"
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:483
+#, fuzzy
 msgid "I won’t let you down! For Wesnoth!"
-msgstr ""
+msgstr "Je ne vous laisserai pas tomber ! Pour Wesnoth !"
 
 #. [event]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:490
@@ -2949,8 +3629,11 @@ msgstr ""
 
 #. [objective]: condition=win
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:493
+#, fuzzy
 msgid "Defeat Irbirch to recapture Asheviere, then survive until turns run out"
 msgstr ""
+"Vaincre Irbirch pour libérer Asheviere, puis survivre jusqu'à la fin des "
+"tours."
 
 #. [objective]: condition=win
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:500
@@ -2965,16 +3648,21 @@ msgstr ""
 #. [message]: speaker=Ssisaix
 #. the player (and Garard) is still alive. The orcs and saurians expected them to die by now
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:588
+#, fuzzy
 msgid "They ssstill sssurvive! Thisss was not the plan!"
-msgstr ""
+msgstr "Ils ont ssssurvécu ! Ce n'était pas prévu !"
 
 #. [message]: speaker=Ushka'e
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:592
+#, fuzzy
 msgid ""
 "Then send in more warriors and finish them off, you worthless Blackcrest "
 "lizards! This is <b>our</b> homeland; our ranks swell by the hour, while "
 "these humans dwindle every moment."
 msgstr ""
+"Alors envoyez plus de guerriers et finissez-en, misérables lézards des "
+"Crêtes-noires ! C'est <b>notre</b> terre ; nos rangs grossissent d'heure en "
+"heure, tandis que les rangs des humains se font de plus en plus clairsemés."
 
 #. [message]: speaker=Ushka'e
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:597
@@ -2986,37 +3674,55 @@ msgstr ""
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:610
+#, fuzzy
 msgid "They’re being reinforced!"
-msgstr ""
+msgstr "Ils reçoivent des renforts !"
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:649
+#, fuzzy
 msgid ""
 "This alliance between races is a great ill fortune! I’ve oft known orcs to "
 "recruit trolls, but seldom saurians. And with these three factions fighting "
 "together, soon all the warlords will hear of their prowess."
 msgstr ""
+"Cette alliance entre races est une bien mauvaise nouvelle ! J'ai souvent vu "
+"des orcs recruter des trolls, mais rarement des sauriens. Et avec ces trois "
+"factions qui luttent ensemble, bientôt tous les seigneurs de guerre "
+"entendront parler de leur bravoure."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:653
+#, fuzzy
 msgid ""
 "It takes a great show of strength to unite the fractious orcs, but after "
 "this disaster countless more will surely flock to the Blackcrest and "
 "Whitefang banners. Orcs follow might above all else, even clan blood."
 msgstr ""
+"Il faut une grande démonstration de force pour unifier les factions orcs, "
+"mais après ce désastre, des hordes viendront sans doute se rallier aux les "
+"bannières des Crêtes-Noires et des Crocs-blancs. Les orcs suivent avant tout "
+"la force, même avant les liens de sang de leur clan."
 
 #. [message]: speaker=Methor
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:657
+#, fuzzy
 msgid ""
 "Utter madness, all of this! The orcish clans are a hornet’s nest that should "
 "never have been kicked. Pillagers and raids we can deal with, but total war "
 "is something else entirely."
 msgstr ""
+"Pure folie aue tout ça ! Les clans orcs sont un nid de frelons qu'on "
+"n'aurait jamais dû déranger. Les pillards et les excursions, ça se gère, "
+"mais la guerre totale, c’est une toute autre affaire."
 
 #. [message]: speaker=Garard
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:661
+#, fuzzy
 msgid "Quiet, both of you! If I wanted your advice I would have asked for it!"
 msgstr ""
+"Silence, tous les deux ! Si j'avais besoin de vos conseils, je vous les "
+"aurais demandés !"
 
 #. [message]: speaker=Ushka'e
 #. the player has just attacked the whitefang chief. He then flees
@@ -3031,59 +3737,72 @@ msgstr ""
 
 #. [message]: speaker=Ssisaix
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:694
+#, fuzzy
 msgid ""
 "They sssneak off to the northeassst, towardsss their queen! Ssshould I "
 "pursssue?"
 msgstr ""
+"Ils ssse faufilent vers le nord-essst, en direction de leur reine ! Dois-je "
+"lesss poursuivre ?"
 
 #. [message]: speaker=Irbirch
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:698
+#, fuzzy
 msgid "Finish off their king, lizard! I’ll handle things here."
-msgstr ""
+msgstr "Achève leur roi, lézard ! Je m'occupe du reste."
 
 #. [message]: speaker=Irbirch
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:710
+#, fuzzy
 msgid "Come to ransom back your queen? Too bad, she’s mine!"
-msgstr ""
+msgstr "Tu viens payer la rançon de ta reine ? Dommage, elle est à moi !"
 
 #. [message]: speaker=Irbirch
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:714
+#, fuzzy
 msgid ""
 "Maybe once she pops out her kid you can pay me double for both! Haw, haw, "
 "haw."
 msgstr ""
+"Peut-être qu’une fois qu'elle aura pondu son gosse, tu pourras me payer le "
+"double pour les deux ! Ha, ha, ha."
 
 #. [message]: speaker=Irbirch
 #. a representative of clan blackcrest has died
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:726
+#, fuzzy
 msgid ""
 "Great Chief Ghuvog will avenge me! Clan Blackcrest will never rest.. until "
 "Wesnoth is... razed to... ash..."
 msgstr ""
+"Le Grand Chef Ghuvog me vengera ! Le Clan Crêtes-noires ne connaîtra jamais "
+"le repos… jusqu’à ce que Wesnoth soit… réduite en cendres…"
 
 #. [message]: speaker=Asheviere
 #. Asheviere tries to say something, but gets interrupted
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:739
 msgid "Thank yo—"
-msgstr ""
+msgstr "Merci à-"
 
 #. [message]: speaker=Deoran
 #. both Deoran and Garard talk over Asheviere. She doesn't get any agency of her own, even from Deoran (who generally stands up for her)
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:744
+#, fuzzy
 msgid "Not now, milady! We have to get you out of here!"
-msgstr ""
+msgstr "Pas maintenant, madame ! Il faut vous faire sortir d'ici d’abord!"
 
 #. [message]: speaker=Asheviere
 #. asheviere tries to say something, but gets interrupted
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:754
+#, fuzzy
 msgid "Garard, I—"
-msgstr ""
+msgstr "Garard, je—"
 
 #. [message]: speaker=Garard
 #. both Deoran and Garard talk over Asheviere. She doesn't get any agency of her own, even from Deoran (who generally stands up for her)
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:759
 msgid "Not now, woman! I have a battle to fight!"
-msgstr ""
+msgstr "Pas maintenant, femme ! J'ai un combat à mener !"
 
 #. [message]: speaker=Ghazgir
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:772
@@ -3108,10 +3827,13 @@ msgstr ""
 #. [message]: speaker=Lionel
 #. Lionel appears with reinforcments to help Garard
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:841
+#, fuzzy
 msgid ""
 "Rally behind me, men! We swore our oaths, now we do our duty. Fight, fight "
 "through to the king!"
 msgstr ""
+"Rassemblez-vous derrière moi, mes braves ! Nous avons prêté serment, "
+"maintenant accomplissons notre devoir. Combattez, combattez jusqu’au roi !"
 
 #. [message]: speaker=Deoran
 #. the player has survived, but failed ot rescue the queen
@@ -3128,43 +3850,57 @@ msgstr ""
 
 #. [message]: speaker=Lionel
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:885
+#, fuzzy
 msgid "Sir, look out!"
-msgstr ""
+msgstr "Sire, Gare à vous!"
 
 #. [message]: speaker=Lionel
 #. [message]: speaker=Deoran
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:900
 #: data/campaigns/The_Deceivers_Gambit/scenarios/13_Revelry_Revisited.cfg:1384
 msgid "<b><i>NNnrgh!</i></b>"
-msgstr ""
+msgstr "<b><i>NNnrgh!</i></b>"
 
 #. [message]: speaker=Lionel
 #. Lionel has appeared with reinforcments to help Garard
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:919
+#, fuzzy
 msgid ""
 "By the Sceptre, I got here just in time! They caught us completely by "
 "surprise. We’re holding a corridor but I don’t know for how long — we’ve got "
 "to get you back to Fort Garard, sir."
 msgstr ""
+"Par le Sceptre, je suis arrivé juste à temps ! Ils nous ont complètement "
+"surpris. On tient un passage, mais je ne sais pas combien de temps ça va "
+"durer — il faut absolument vous ramener au Fort Garard, sire."
 
 #. [message]: speaker=Garard
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:923
+#, fuzzy
 msgid "Lionel! I’d almost feared this was the end."
-msgstr ""
+msgstr "Lionel ! J'avais presque craint que ce ne soit la fin."
 
 #. [message]: speaker=Garard
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:936
+#, fuzzy
 msgid ""
 "But how did this disaster happen? We were on the eve of victory! Did someone "
 "betray our plans to the enemy? Or am I really just that predictable!?"
 msgstr ""
+"Mais comment ce désastre a-t-il pu se produire ? Nous étions si proches de "
+"la victoire ! Est-ce que quelqu’un a trahi nos plans à l’ennemi ? Ou suis-je "
+"vraiment aussi prévisible ?!"
 
 #. [message]: speaker=Lionel
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:940
+#, fuzzy
 msgid ""
 "Couldn’t tell you, m’lord. But there’ll be time to talk later. It looks like "
 "this war is going to last a lot longer than we’d planned..."
 msgstr ""
+"Je ne pourrais pas vous dire, sire. Mais on aura du temps pour en parler "
+"plus tard. On dirait que cette guerre va durer bien plus longtemps que "
+"prévu..."
 
 #. [scenario]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/07_The_Great_River.cfg:16
@@ -8167,10 +8903,13 @@ msgstr ""
 
 #. [message]: speaker=Methor
 #: data/campaigns/The_Deceivers_Gambit/utils/spellcasting.cfg:633
+#, fuzzy
 msgid ""
 "A familiar already, apprentice? Well done — that’s an impressive piece of "
 "magic even for experienced wizards."
 msgstr ""
+"Déjà un familier, apprenti ? Bravo — c’est une prouesse magique remarquable, "
+"même pour les mages chevronnés."
 
 #. [dummy]
 #: data/campaigns/The_Deceivers_Gambit/utils/spellcasting.cfg:651
@@ -8269,12 +9008,18 @@ msgstr ""
 
 #. [message]
 #: data/campaigns/The_Deceivers_Gambit/utils/spellcasting.cfg:2431
+#, fuzzy
 msgid ""
 "Unlike regular units, the apprentice does not use XP to advance, and will "
 "instead advance automatically over time as he progresses through the story. "
 "The apprentice’s XP is useful for casting spells, but raising him to maximum "
 "XP has no special effect."
 msgstr ""
+"Contrairement aux unités normales, l’apprenti n’utilise pas de points "
+"d’expérience pour progresser. Il évolue automatiquement au fil du temps à "
+"mesure qu’il avance dans l’histoire. Les points d’expérience de l’apprenti "
+"servent uniquement à lancer des sorts ; les amener au maximum n’a aucun "
+"effet particulier."
 
 #. [message]
 #: data/campaigns/The_Deceivers_Gambit/utils/spellcasting.cfg:2441
@@ -8338,8 +9083,11 @@ msgstr ""
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/utils/unified_characters.cfg:514
+#, fuzzy
 msgid "No, it can’t end yet! I have so much left to do..."
 msgstr ""
+"Non, ça ne peut pas finir maintenant ! J’ai encore tant de choses à "
+"accomplir…"
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/utils/unified_characters.cfg:525
@@ -8358,19 +9106,22 @@ msgstr ""
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_Deceivers_Gambit/utils/unified_characters.cfg:560
+#, fuzzy
 msgid "I have failed my kingdom and my duty..."
-msgstr ""
+msgstr "J'ai manqué à mon royaume et à mon devoir…"
 
 #. [message]: speaker=Garard
 #. reference to Shakespeare's Richard III
 #: data/campaigns/The_Deceivers_Gambit/utils/unified_characters.cfg:572
+#, fuzzy
 msgid "A horse! A horse! My kingdom for a horse..."
-msgstr ""
+msgstr "Un cheval ! Un cheval ! Mon royaume pour un cheval…"
 
 #. [message]: speaker=Asheviere
 #: data/campaigns/The_Deceivers_Gambit/utils/unified_characters.cfg:582
+#, fuzzy
 msgid "It’s finally over..."
-msgstr ""
+msgstr "C'est enfin terminé..."
 
 #. [message]: speaker=Lionel
 #: data/campaigns/The_Deceivers_Gambit/utils/unified_characters.cfg:592

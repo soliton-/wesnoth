@@ -67,7 +67,6 @@ msgstr "Gros fichiers de texte brut"
 
 #. [advanced_preference]: type=boolean
 #: data/advanced_preferences.cfg:26
-#, fuzzy
 msgid "Show icons in the Add-ons manager"
 msgstr "Afficher les icônes dans le gestionnaire d’extensions"
 
@@ -1780,11 +1779,6 @@ msgstr ""
 
 #. [chance_to_hit]: id=deflect
 #: data/core/macros/deprecated-utils.cfg:401
-#, fuzzy
-#| msgid ""
-#| "Marksman:\n"
-#| "When used offensively, this attack always has at least a 60% chance to "
-#| "hit."
 msgid ""
 "When used defensively, this attack reduces the opponent’s chance to hit by "
 "10%."
@@ -1795,7 +1789,6 @@ msgstr ""
 
 #. [chance_to_hit]: id=deflect
 #: data/core/macros/deprecated-utils.cfg:402
-#, fuzzy
 msgid ""
 "This unit’s defensive techniques reduce the chance of a successful enemy "
 "attack."
@@ -1810,7 +1803,6 @@ msgstr ""
 
 #. [damage]: id=absorb
 #: data/core/macros/deprecated-utils.cfg:416
-#, fuzzy
 msgid ""
 "This attack puts the unit in good defensive position, and it absorbs some of "
 "the damage dealt by an enemy strike."
@@ -1820,7 +1812,6 @@ msgstr ""
 
 #. [damage]: id=absorb
 #: data/core/macros/deprecated-utils.cfg:417
-#, fuzzy
 msgid ""
 "This unit can block enemy strikes, so that it takes reduced damage when hit."
 msgstr ""
@@ -3880,7 +3871,6 @@ msgstr "Ajoute +1 aux dégâts à distance."
 #. [message]: speaker=narrator
 #. newlines at the end are deliberate, and function as spacers before the [option]s
 #: data/internal/resources/AMLAs/_main.cfg:357
-#, fuzzy
 msgid ""
 "Congratulations, your $unit.language_name has leveled up... but they’re "
 "already at their max level!\n"
@@ -5474,7 +5464,6 @@ msgid "The server responded with an error:"
 msgstr "Le serveur a renvoyé une erreur :"
 
 #: src/addon/client.cpp:146
-#, fuzzy
 msgid "Requesting add-on downloads by version..."
 msgstr "Récupération des téléchargements de l’extension par version…"
 
@@ -5970,7 +5959,6 @@ msgstr ""
 "précédemment."
 
 #: src/addon/validation.cpp:510
-#, fuzzy
 msgid "The add-on’s icon’s file size is too large."
 msgstr "La taille du fichier de l’icône de l’extension est trop grande."
 
@@ -6101,7 +6089,6 @@ msgstr ""
 "Retirer/rendre la parole à tous les observateurs (alterne entre les deux)."
 
 #: src/chat_command_handler.hpp:92
-#, fuzzy
 msgid "Measure roundtrip packet time between client and server."
 msgstr "Mesurer le temps de transit des paquets entre le client et le serveur."
 
@@ -6362,8 +6349,6 @@ msgid "Falling back to the default core."
 msgstr "Les données du noyau par défaut seront utilisées."
 
 #: src/game_config_manager.cpp:302
-#, fuzzy
-#| msgid "Can't locate the default core."
 msgid "Can’t locate the default core."
 msgstr "Impossible de trouver le noyau par défaut."
 
@@ -6642,8 +6627,6 @@ msgid "Defeat enemy leader(s)"
 msgstr "Tuez tous les chefs ennemis"
 
 #: src/game_initialization/mp_game_utils.cpp:102
-#, fuzzy
-#| msgid "Cannot find era '$era'"
 msgid "Cannot find era ‘$era’"
 msgstr "Ère « $era » introuvable"
 
@@ -6828,8 +6811,6 @@ msgid "This scenario has ended. Do you want to continue the campaign?"
 msgstr "Ce scénario est terminé. Voulez-vous continuer la campagne ?"
 
 #: src/game_initialization/playcampaign.cpp:279
-#, fuzzy
-#| msgid "Unknown scenario: '$scenario|'"
 msgid "Unknown scenario: ‘$scenario|’"
 msgstr "Scénario inconnu : « $scenario| »"
 
@@ -7077,7 +7058,6 @@ msgid "Recruits"
 msgstr "Recrues"
 
 #: src/help/help_impl.cpp:652
-#, fuzzy
 msgid "Previous"
 msgstr "Précédent"
 
@@ -7177,7 +7157,6 @@ msgid "Accelerated speed disabled!"
 msgstr "Jeu à grande vitesse désactivé !"
 
 #: src/hotkey/hotkey_handler.cpp:404
-#, fuzzy
 msgid "Back to Turn $number"
 msgstr "Retour au tour $number"
 
@@ -7186,7 +7165,6 @@ msgid "Back to Start"
 msgstr "Retour au début"
 
 #: src/hotkey/hotkey_handler.cpp:419
-#, fuzzy
 msgid "Replay from Turn $number"
 msgstr "Rejouer depuis le tour $number"
 
@@ -7392,8 +7370,6 @@ msgstr ""
 "(Vous devez avoir des survivants d'un précédent scénario.)"
 
 #: src/menu_events.cpp:416
-#, fuzzy
-#| msgid "You currently can't recall at the highlighted location."
 msgid "You currently can’t recall at the highlighted location."
 msgstr ""
 "Vous ne pouvez pas rappeler d'unités à la position actuellement en "
@@ -7769,26 +7745,18 @@ msgstr ""
 "lorsque ce n'est pas votre tour."
 
 #: src/menu_events.cpp:1520 src/menu_events.cpp:1576
-#, fuzzy
-#| msgid "Side '$side' controller is now controlled by: AI."
 msgid "Side ‘$side’ controller is now controlled by: AI."
 msgstr "Le camp '$side' est dorénavant contrôlé par l'IA."
 
 #: src/menu_events.cpp:1522
-#, fuzzy
-#| msgid "Side '$side' is already droided."
 msgid "Side ‘$side’ is already droided."
 msgstr "Le camp '$side' est déjà contrôlé par l'IA."
 
 #: src/menu_events.cpp:1536 src/menu_events.cpp:1568
-#, fuzzy
-#| msgid "Side '$side' controller is now controlled by: human."
 msgid "Side ‘$side’ controller is now controlled by: human."
 msgstr "Le camp '$side' est dorénavant contrôlé par un humain."
 
 #: src/menu_events.cpp:1538
-#, fuzzy
-#| msgid "Side '$side' is already not droided."
 msgid "Side ‘$side’ is already not droided."
 msgstr "Le camp '$side' est déjà contrôlé par un humain."
 
@@ -7805,14 +7773,10 @@ msgstr ""
 "lorsque ce n'est pas votre tour."
 
 #: src/menu_events.cpp:1552
-#, fuzzy
-#| msgid "Side '$side' controller is now fully controlled by: AI."
 msgid "Side ‘$side’ controller is now fully controlled by: AI."
 msgstr "Le camp '$side' est dorénavant entièrement contrôlé par l'IA."
 
 #: src/menu_events.cpp:1554
-#, fuzzy
-#| msgid "Side '$side' is already fully AI controlled."
 msgid "Side ‘$side’ is already fully AI controlled."
 msgstr "Le camp '$side' est déjà entièrement contrôlé par l'IA."
 
@@ -9038,7 +9002,6 @@ msgstr "Parade :"
 
 #. TRANSLATORS: Current value for WML code set_min_range, documented in https://wiki.wesnoth.org/EffectWML
 #: src/units/attack_type.cpp:542
-#, fuzzy
 msgid "$number min range"
 msgstr "$number portée min"
 
@@ -9050,7 +9013,6 @@ msgstr "<span color=\"$color\">$number_or_percent</span> portée min"
 
 #. TRANSLATORS: Current value for WML code set_max_range, documented in https://wiki.wesnoth.org/EffectWML
 #: src/units/attack_type.cpp:556
-#, fuzzy
 msgid "$number max range"
 msgstr "$number portée max"
 
@@ -9198,12 +9160,10 @@ msgid "liminal"
 msgstr "liminal"
 
 #: src/units/unit.cpp:364
-#, fuzzy
 msgid "This unit cannot be dismissed."
 msgstr "Cette unité ne peut pas être renvoyée."
 
 #: src/units/unit.cpp:752
-#, fuzzy
 msgid "This unit is a leader and cannot be dismissed."
 msgstr "Cette unité est un commandant et ne peut être démis."
 

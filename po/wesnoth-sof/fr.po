@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 3.8\n"
+"X-Generator: Poedit 3.9\n"
 
 #. [campaign]: id=Sceptre_of_Fire
 #: data/campaigns/Sceptre_of_Fire/_main.cfg:11
@@ -1878,9 +1878,12 @@ msgstr ""
 
 #. [message]: speaker=$unit.id
 #: data/campaigns/Sceptre_of_Fire/scenarios/3_Searching_for_the_Runecrafter.cfg:404
+#, fuzzy
 msgid ""
 "It’s no good, he’s not hiding under it, there’s just this collapsed tunnel."
 msgstr ""
+"Ça ne sert à rien, il ne se cache pas là dessous, il n’y a qu’un tunnel "
+"effondré."
 
 #. [message]: speaker=Rugnur
 #: data/campaigns/Sceptre_of_Fire/scenarios/3_Searching_for_the_Runecrafter.cfg:408
@@ -1890,8 +1893,9 @@ msgstr "Il faut qu’on le retrouve ! Dispersez-vous !"
 
 #. [message]: speaker=Alanin
 #: data/campaigns/Sceptre_of_Fire/scenarios/3_Searching_for_the_Runecrafter.cfg:412
+#, fuzzy
 msgid "I don’t like this, we should stick together."
-msgstr ""
+msgstr "Je n’aime pas ça, on devrait rester ensemble."
 
 #. [message]: speaker=$unit.id
 #: data/campaigns/Sceptre_of_Fire/scenarios/3_Searching_for_the_Runecrafter.cfg:445
@@ -5182,6 +5186,7 @@ msgstr "Golem de neige"
 
 #. [unit_type]: id=Snow Golem, race=monster
 #: data/campaigns/Sceptre_of_Fire/units/Snow_Golem.cfg:38
+#, fuzzy
 msgid ""
 "Snow Golems are loosely humanoid forms that wander the frozen north, without "
 "any apparent role in nature, being neither predator nor prey. Many say they "
@@ -5189,6 +5194,12 @@ msgid ""
 "weaker Snow Imps. Others say the far north is a hostile land, and these "
 "monsters are simply a manifestation of that danger."
 msgstr ""
+"Les golems de neige sont des formes vaguement humanoïdes qui errent dans les "
+"terres gelées du nord, sans aucun rôle apparent dans la nature, n’étant ni "
+"prédateurs ni proies. Beaucoup disent qu’ils sont des constructions oubliées "
+"issues de batailles oubliées, en raison de leur lien avec les lutins de "
+"neige, plus faibles. D’autres affirment que l’extrême nord est une terre "
+"hostile, et que ces monstres sont simplement une manifestation de ce danger."
 
 #. [unit_type]: id=Snow Golem, race=monster
 #: data/campaigns/Sceptre_of_Fire/units/Snow_Golem.cfg:40

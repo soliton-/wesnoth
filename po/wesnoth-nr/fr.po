@@ -408,7 +408,6 @@ msgstr ""
 
 #. [message]: speaker=Zlex
 #: data/campaigns/Northern_Rebirth/scenarios/01_Breaking_the_Chains.cfg:242
-#, fuzzy
 msgid ""
 "Brave words, Tallin, but if I didn’t know you better I’d say you were moon-"
 "touched. These are not weapons, just pitchforks and hunting bows. We have no "
@@ -889,10 +888,6 @@ msgstr "(<i>trébuche</i>) <i>AÏE !</i>"
 #. [message]: role=Supporter
 #. sarcasm about the idea of entering the mines where this scenario takes place
 #: data/campaigns/Northern_Rebirth/scenarios/02_01_Infested_Caves.cfg:304
-#, fuzzy
-#| msgid ""
-#| "Great idea, Tallin. It's so dark I probably couldn’t even fight a bat "
-#| "down here."
 msgid ""
 "Great idea, Tallin. It’s so dark I probably couldn’t even fight a bat down "
 "here."
@@ -1075,10 +1070,6 @@ msgstr ""
 
 #. [message]: speaker=unit
 #: data/campaigns/Northern_Rebirth/scenarios/02_01_Infested_Caves.cfg:560
-#, fuzzy
-#| msgid ""
-#| "Hey look, it’s an ancient door. It seems the trolls were too stupid to "
-#| "figure out how to open it."
 msgid ""
 "Hey look, it’s an ancient gate. It seems the trolls were too stupid to "
 "figure out how to open it."
@@ -1099,10 +1090,6 @@ msgstr ""
 
 #. [message]: speaker=unit
 #: data/campaigns/Northern_Rebirth/scenarios/02_01_Infested_Caves.cfg:583
-#, fuzzy
-#| msgid ""
-#| "Hey look, it’s an ancient door. It seems the skeletons were too stupid to "
-#| "find out how to open it."
 msgid ""
 "Hey look, it’s an ancient gate. It seems the skeletons were too stupid to "
 "find out how to open it."
@@ -1112,14 +1099,11 @@ msgstr ""
 
 #. [message]: speaker=Tallin
 #: data/campaigns/Northern_Rebirth/scenarios/02_01_Infested_Caves.cfg:600
-#, fuzzy
-#| msgid "Well, let’s see what’s behind it."
 msgid "Let’s see what lies behind it..."
-msgstr "Bien, voyons voir ce qui se cache derrière."
+msgstr "Voyons voir ce qui se cache derrière..."
 
 #. [message]: speaker=Tallin
 #: data/campaigns/Northern_Rebirth/scenarios/02_01_Infested_Caves.cfg:605
-#, fuzzy
 msgid "Ugh... It’s stuck. I’ll have to kick it down then."
 msgstr "Argh… C’est coincé. Il va falloir que je la défonce alors."
 
@@ -1138,8 +1122,6 @@ msgstr ""
 
 #. [message]: speaker=Tallin
 #: data/campaigns/Northern_Rebirth/scenarios/02_01_Infested_Caves.cfg:621
-#, fuzzy
-#| msgid "Well, just kick it down then."
 msgid "Just kick it down then."
 msgstr "Alors défonce-la !"
 
@@ -1150,46 +1132,38 @@ msgstr "... Parfait."
 
 #. [message]: speaker=narrator
 #: data/campaigns/Northern_Rebirth/scenarios/02_01_Infested_Caves.cfg:663
-#, fuzzy
 msgid "The old gate opens, revealing a narrow tunnel."
 msgstr "La vieille porte s’ouvre, révélant un tunnel étroit."
 
 #. [message]: speaker=Tallin
 #: data/campaigns/Northern_Rebirth/scenarios/02_01_Infested_Caves.cfg:689
-#, fuzzy
 msgid "Another gate... I guess I’ll kick it down like the other one."
 msgstr "Encore une porte… Je suppose que je vais la défoncer comme l’autre."
 
 #. [message]: speaker=unit
 #: data/campaigns/Northern_Rebirth/scenarios/02_01_Infested_Caves.cfg:695
-#, fuzzy
-#| msgid "On the end of the passage is another door. I try to open it."
 msgid "On the end of the passage is another gate. I will try to open it."
 msgstr ""
 "À la fin du passage se trouve une autre porte. Je vais essayer de l'ouvrir."
 
 #. [message]: speaker=Tallin
 #: data/campaigns/Northern_Rebirth/scenarios/02_01_Infested_Caves.cfg:709
-#, fuzzy
 msgid "Another one. I’ll kick this one down too."
 msgstr "Encore une… Je vais défoncer celle-ci aussi."
 
 #. [message]: speaker=unit
 #: data/campaigns/Northern_Rebirth/scenarios/02_01_Infested_Caves.cfg:715
-#, fuzzy
-#| msgid "Here is a similar door as the one before. I try to open it."
 msgid "Here is a similar gate to the one before. I will try to open it."
 msgstr ""
 "Il y a une porte identique à la précédente. Je vais essayer de l'ouvrir."
 
 #. [message]: speaker=Tallin
 #: data/campaigns/Northern_Rebirth/scenarios/02_01_Infested_Caves.cfg:756
-#, fuzzy
 msgid ""
 "Hmm... the wall here looks very thin and damaged. Let’s bring it down, it "
 "could offer us a faster way to navigate these caves."
 msgstr ""
-"Hum… le mur ici semble très fin et endommagé. Abattons-le, il pourrait nous "
+"Hum… le mur ici semble très fin et endommagé. Abattons-le, ça pourrait nous "
 "offrir un moyen plus rapide de traverser ces cavernes."
 
 #. [message]: speaker=unit
@@ -1203,7 +1177,6 @@ msgstr ""
 
 #. [message]: speaker=Tallin
 #: data/campaigns/Northern_Rebirth/scenarios/02_01_Infested_Caves.cfg:766
-#, fuzzy
 msgid "Do it. It can give us a faster way to traverse through these caves."
 msgstr ""
 "Fais-le. Cela pourrait nous permettre de traverser ces cavernes plus "
@@ -1211,8 +1184,6 @@ msgstr ""
 
 #. [message]: speaker=narrator
 #: data/campaigns/Northern_Rebirth/scenarios/02_01_Infested_Caves.cfg:786
-#, fuzzy
-#| msgid "A large section of wall crumbles away."
 msgid "A large section of the wall collapses."
 msgstr "Une grande partie du mur s'écroule."
 
@@ -1534,18 +1505,12 @@ msgstr ""
 
 #. [message]: speaker=Hamel
 #: data/campaigns/Northern_Rebirth/scenarios/02_02_Meeting_With_Dwarves.cfg:119
-#, fuzzy
-#| msgid ""
-#| "Thank you, human. And you, Camerin. It is likewise a great relief to see "
-#| "that our allies of old have managed to break their bonds, and live as "
-#| "free men once again."
 msgid ""
 "Thank you, human. It is likewise a great relief to see that our allies of "
 "old have managed to break their bonds, and live as free men once again."
 msgstr ""
-"Merci humain. Et toi Camerin, C'est également agréable d'voir que nos alliés "
-"d'autrefois ont réussi à briser leurs fers et vivent à nouveau en hommes "
-"libres."
+"Merci humain. C'est également agréable d'voir que nos alliés d'autrefois ont "
+"réussi à briser leurs fers et vivent à nouveau en hommes libres."
 
 #. [message]: speaker=Tallin
 #: data/campaigns/Northern_Rebirth/scenarios/02_02_Meeting_With_Dwarves.cfg:126
@@ -2753,7 +2718,6 @@ msgstr "Tu m'étonnes."
 
 #. [message]: speaker=Abhai
 #: data/campaigns/Northern_Rebirth/scenarios/05a_01_The_Pursuit.cfg:1038
-#, fuzzy
 msgid "Be careful companions! There was a drake in this cage!"
 msgstr "Soyez prudents, les amis ! Il y avait un dracan dans cette cage !"
 
@@ -2775,10 +2739,6 @@ msgstr "(<i>Murmure</i>)"
 
 #. [message]: speaker=unit
 #: data/campaigns/Northern_Rebirth/scenarios/05a_01_The_Pursuit.cfg:1061
-#, fuzzy
-#| msgid ""
-#| "Bright Gods, such a fierce creature whimpering! What the heck have they "
-#| "done to it?"
 msgid ""
 "Bright Gods, such a fierce creature whimpering! What in the world have they "
 "done to it?"
@@ -2803,7 +2763,6 @@ msgstr "Je ne sais pas, regarde si ça peut parler."
 
 #. [message]: speaker=Abhai
 #: data/campaigns/Northern_Rebirth/scenarios/05a_01_The_Pursuit.cfg:1095
-#, fuzzy
 msgid "Have no fear, drake. We have no intentions to hurt you."
 msgstr "N’aie pas peur, dracan. Nous ne voulons pas te faire de mal."
 
@@ -2829,10 +2788,6 @@ msgstr "C'est un mâle et oui, ces créatures sont vraiment très intelligentes.
 
 #. [message]: speaker=unit
 #: data/campaigns/Northern_Rebirth/scenarios/05a_01_The_Pursuit.cfg:1123
-#, fuzzy
-#| msgid ""
-#| "Hush, I am trying to talk to him. Nope, we’ll never hurt you. But if you "
-#| "want to you can hurt some skeletons."
 msgid ""
 "Hush, I am trying to talk to him. Nope, we’ll never hurt you. But if you "
 "want to, you can hurt some skeletons."
@@ -3324,16 +3279,13 @@ msgstr "(<i>roule les yeux</i>) Ah, la dangereuse vie du squelette !"
 #. [message]: speaker=Krash
 #. Krash has landed in one of the hexes of a small underground lake
 #: data/campaigns/Northern_Rebirth/scenarios/05a_01_The_Pursuit.cfg:2053
-#, fuzzy
 msgid "Wet."
 msgstr "Humide."
 
 #. [message]: speaker=unit
 #: data/campaigns/Northern_Rebirth/scenarios/05a_01_The_Pursuit.cfg:2059
-#, fuzzy
-#| msgid "Hey, an underground lake."
 msgid "An underground lake."
-msgstr "Hé, un lac souterrain."
+msgstr "Un lac souterrain."
 
 #. [message]: speaker=Krash
 #: data/campaigns/Northern_Rebirth/scenarios/05a_01_The_Pursuit.cfg:2084
@@ -3544,7 +3496,6 @@ msgstr "Parfait. En avant, soldats !"
 
 #. [message]: speaker=Krash
 #: data/campaigns/Northern_Rebirth/scenarios/05a_01_The_Pursuit.cfg:2280
-#, fuzzy
 msgid "Corpse here... It stinks."
 msgstr "Un cadavre ici… Ça pue."
 
@@ -3555,7 +3506,6 @@ msgstr "Argh, un corps. Et il— (<i>eurk</i>) — pue !"
 
 #. [message]: speaker=Abhai
 #: data/campaigns/Northern_Rebirth/scenarios/05a_01_The_Pursuit.cfg:2307
-#, fuzzy
 msgid ""
 "Yet more bodies... I’ve noticed them drifting down the river as of late."
 msgstr ""
@@ -3563,9 +3513,8 @@ msgstr ""
 
 #. [message]: speaker=Krash
 #: data/campaigns/Northern_Rebirth/scenarios/05a_01_The_Pursuit.cfg:2319
-#, fuzzy
 msgid "More bodies. Float down river?"
-msgstr "ncore des corps. Ils descendent sur la rivière ?"
+msgstr "Encore des corps. Ils descendent sur la rivière ?"
 
 #. [message]: speaker=unit
 #: data/campaigns/Northern_Rebirth/scenarios/05a_01_The_Pursuit.cfg:2325
@@ -3585,7 +3534,6 @@ msgstr "(<i>Pfffff</i>) Il a l'air de n'avoir rien dans ce tunnel."
 
 #. [message]: speaker=Krash
 #: data/campaigns/Northern_Rebirth/scenarios/05a_01_The_Pursuit.cfg:2361
-#, fuzzy
 msgid "Grrr... Cold. Wet. Mad."
 msgstr "Grrr… Froid. Mouillé. Furieux."
 
@@ -3741,7 +3689,6 @@ msgstr ""
 
 #. [message]: speaker=Malifor
 #: data/campaigns/Northern_Rebirth/scenarios/05a_01_The_Pursuit.cfg:2861
-#, fuzzy
 msgid "HAHAHAHA, THAT WEAPON CANNOT HARM ME!"
 msgstr "HAHAHAHA ! CETTE ARME NE PEUT RIEN CONTRE MOI !"
 
@@ -3762,13 +3709,11 @@ msgstr "Mince, comment allons-nous le tuer ? Cette arme ne sert à rien !"
 
 #. [message]: speaker=Malifor
 #: data/campaigns/Northern_Rebirth/scenarios/05a_01_The_Pursuit.cfg:2891
-#, fuzzy
 msgid "YOUR WEAPONS CANNOT HARM ME, FOOLS!"
 msgstr "VOS ARMES NE PEUVENT RIEN CONTRE MOI, IMBÉCILES !"
 
 #. [message]: speaker=Tallin
 #: data/campaigns/Northern_Rebirth/scenarios/05a_01_The_Pursuit.cfg:2896
-#, fuzzy
 msgid "We’ll have to try something else. Perhaps magic will help."
 msgstr "Il va falloir essayer autre chose. Peut-être la magie."
 
@@ -3789,21 +3734,18 @@ msgstr "Essayons quelque chose de différent sur lui."
 
 #. [message]: speaker=Malifor
 #: data/campaigns/Northern_Rebirth/scenarios/05a_01_The_Pursuit.cfg:2926
-#, fuzzy
 msgid "HAHAHAHA, FOOL! THE COLD IS MY DOMAIN!"
 msgstr "HAHAHAHA, IMBÉCILE ! LE FROID EST MON DOMAINE !"
 
 #. [message]: speaker=Tallin
 #: data/campaigns/Northern_Rebirth/scenarios/05a_01_The_Pursuit.cfg:2931
-#, fuzzy
 msgid "I suppose we should’ve known better than to try freezing a Lich."
 msgstr ""
-"J’imagine qu’on aurait dû se douter qu’essayer de congeler une liche était "
-"une mauvaise idée."
+"On aurait dû se douter qu’essayer de congeler une liche était une mauvaise "
+"idée."
 
 #. [message]: speaker=Malifor
 #: data/campaigns/Northern_Rebirth/scenarios/05a_01_The_Pursuit.cfg:2941
-#, fuzzy
 msgid "FOOLS! I FREED MYSELF OF WEAKNESS LONG AGO!"
 msgstr ""
 "PAUVRES FOUS ! JE ME SUIS AFFRANCHI DE TOUTE FAIBLESSE IL Y A LONGTEMPS !"
@@ -4026,11 +3968,6 @@ msgstr "Super ! Qu'en est-il des armes et des armures ?"
 #. [message]: speaker=Hamel
 #. As you can see, Tallin there are a lot of them ready to be born into battle. Some of us dwarves are experts in the sword, mace, and bow and can aid your veterans in teaching others.
 #: data/campaigns/Northern_Rebirth/scenarios/05a_02_Dealings.cfg:164
-#, fuzzy
-#| msgid ""
-#| "As ye ken see, Tallin, there be muckle heaps o’ them, all ready to be "
-#| "borne inta battle. And, some o’ us dwarves be experts in the sword, mace, "
-#| "and bow and ken aid yer veterans in teaching others."
 msgid ""
 "As ye can see, Tallin, there be muckle heaps o’ them, all ready to be borne "
 "inta battle. And, some o’ us dwarves be experts in the sword, mace, and bow "
@@ -5775,11 +5712,6 @@ msgstr ""
 #. [story]
 #. My shinsplitters are invaluable for this kind of job. They are brave warriors and don't stop fighting until either they or their opponent lies dead. No fortress can stand against them.
 #: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:74
-#, fuzzy
-#| msgid ""
-#| "My Shinsplitters be invaluable for this kind o’ job. They be braw "
-#| "warriors and dinna stop their assault till either they or their opponent "
-#| "lie dae. Nae a fortress ken stand against them."
 msgid ""
 "My Shinsplitters be invaluable for this kind o’ job. They be braw warriors "
 "and dinna stop their assault till either they or their opponent lie dae. Nae "
@@ -6126,11 +6058,6 @@ msgstr ""
 
 #. [message]: speaker=Elenia
 #: data/campaigns/Northern_Rebirth/scenarios/09a_Introductions.cfg:255
-#, fuzzy
-#| msgid ""
-#| "Then Tallin and his band hunted down Malifor and destroyed him. Now Lord "
-#| "Tallin is building an alliance of humans, dwarves, dead mages and "
-#| "whatever critters he can find to crush the orcs."
 msgid ""
 "Then Lord Tallin and his band hunted down Malifor and destroyed him. He is "
 "now building an alliance of humans, dwarves, dead mages and whatever "
