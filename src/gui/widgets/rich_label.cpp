@@ -495,8 +495,10 @@ std::pair<std::vector<rich_label::shape_ptr>, point> rich_label::get_parsed_text
 					pos.x += col_widths[col_idx];
 					pos.x += col_paddings[1];
 
-					if(auto* tshape = dynamic_cast<text_shape*>(shapes.back().get())) {
-						tshape->set_wrap_width(col_widths[col_idx]);
+					if(!shapes.empty()) {
+						if(auto* tshape = dynamic_cast<text_shape*>(shapes.back().get())) {
+							tshape->set_wrap_width(col_widths[col_idx]);
+						}
 					}
 
 					DBG_GUI_RL << "jump to next column";
