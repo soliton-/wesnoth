@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Wesnoth 1.1.1\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2026-02-25 19:03-0600\n"
+"POT-Creation-Date: 2026-03-23 18:10-0500\n"
 "PO-Revision-Date: 2024-11-03 12:49+0100\n"
 "Last-Translator: Gaute Storli Nielsen <gauteamus(at)gmail(dot)com>\n"
 "Language-Team: None\n"
@@ -66,7 +66,7 @@ msgstr ""
 
 #. [trait]: id=loyal_dummy
 #. [trait]: id=loyal
-#: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:112
+#: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:113
 #: data/campaigns/The_Deceivers_Gambit/scenarios/11_Clan_Blackcrest.cfg:748
 #: data/campaigns/The_Deceivers_Gambit/utils/unified_characters.cfg:20
 #: data/core/macros/traits.cfg:12
@@ -74,31 +74,13 @@ msgid "loyal"
 msgstr "lojal"
 
 #. [trait]: id=loyal_dummy
-#: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:113
+#: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:114
 #: data/campaigns/The_Deceivers_Gambit/scenarios/11_Clan_Blackcrest.cfg:749
 #: data/campaigns/The_Deceivers_Gambit/utils/unified_characters.cfg:21
 #, fuzzy
 #| msgid "Zero upkeep"
 msgid "Zero upkeep."
 msgstr "Krever ingen lønn"
-
-#. [chance_to_hit]
-#. [chance_to_hit]: id=magical
-#: data/campaigns/The_Deceivers_Gambit/scenarios/14_Long_Live_the_Queen.cfg:1299
-#: data/core/macros/weapon_specials.cfg:120
-msgid ""
-"This attack always has a 70% chance to hit regardless of the defensive "
-"ability of the unit being attacked."
-msgstr ""
-"Dette angrepet har alltid 70 % sjanse for å treffe, uavhengig av "
-"forsvarsevnen til enheten som blir angrepet."
-
-#. [chance_to_hit]
-#. [chance_to_hit]: id=magical
-#: data/campaigns/The_Deceivers_Gambit/scenarios/14_Long_Live_the_Queen.cfg:1299
-#: data/core/macros/weapon_specials.cfg:119
-msgid "magical"
-msgstr "magisk"
 
 #. [trait]: id=intelligent_dummy
 #. [trait]: id=intelligent
@@ -6941,6 +6923,20 @@ msgstr ""
 msgid ""
 "When used offensively, this attack always has at least a 60% chance to hit."
 msgstr "Dette angrepet har alltid minst 60% sjanse for å treffe i offensiv."
+
+#. [chance_to_hit]: id=magical
+#: data/core/macros/weapon_specials.cfg:119
+msgid "magical"
+msgstr "magisk"
+
+#. [chance_to_hit]: id=magical
+#: data/core/macros/weapon_specials.cfg:120
+msgid ""
+"This attack always has a 70% chance to hit regardless of the defensive "
+"ability of the unit being attacked."
+msgstr ""
+"Dette angrepet har alltid 70 % sjanse for å treffe, uavhengig av "
+"forsvarsevnen til enheten som blir angrepet."
 
 #. [chance_to_hit]: id=honed
 #: data/core/macros/weapon_specials.cfg:132

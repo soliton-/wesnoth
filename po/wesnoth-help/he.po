@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: he\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2026-02-25 19:03-0600\n"
+"POT-Creation-Date: 2026-03-23 18:10-0500\n"
 "PO-Revision-Date: 2009-07-13 00:55+0300\n"
 "Last-Translator: Oron Peled <oron@actcom.co.il>\n"
 "Language-Team: Hebrew\n"
@@ -77,7 +77,7 @@ msgstr ""
 
 #. [trait]: id=loyal_dummy
 #. [trait]: id=loyal
-#: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:112
+#: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:113
 #: data/campaigns/The_Deceivers_Gambit/scenarios/11_Clan_Blackcrest.cfg:748
 #: data/campaigns/The_Deceivers_Gambit/utils/unified_characters.cfg:20
 #: data/core/macros/traits.cfg:12
@@ -85,36 +85,13 @@ msgid "loyal"
 msgstr "נאמן"
 
 #. [trait]: id=loyal_dummy
-#: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:113
+#: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:114
 #: data/campaigns/The_Deceivers_Gambit/scenarios/11_Clan_Blackcrest.cfg:749
 #: data/campaigns/The_Deceivers_Gambit/utils/unified_characters.cfg:21
 #, fuzzy
 #| msgid "Zero upkeep"
 msgid "Zero upkeep."
 msgstr "אפס אחזקה"
-
-#. [chance_to_hit]
-#. [chance_to_hit]: id=magical
-#: data/campaigns/The_Deceivers_Gambit/scenarios/14_Long_Live_the_Queen.cfg:1299
-#: data/core/macros/weapon_specials.cfg:120
-#, fuzzy
-#| msgid ""
-#| "Magical:\n"
-#| "This attack always has a 70% chance to hit regardless of the defensive "
-#| "ability of the unit being attacked."
-msgid ""
-"This attack always has a 70% chance to hit regardless of the defensive "
-"ability of the unit being attacked."
-msgstr ""
-"קסם:\n"
-"התקפות קסומות מתעלמות משטח ומקבלות סיכוי פגיעה של 70%."
-
-#. [chance_to_hit]
-#. [chance_to_hit]: id=magical
-#: data/campaigns/The_Deceivers_Gambit/scenarios/14_Long_Live_the_Queen.cfg:1299
-#: data/core/macros/weapon_specials.cfg:119
-msgid "magical"
-msgstr "קסום"
 
 #. [trait]: id=intelligent_dummy
 #. [trait]: id=intelligent
@@ -5867,6 +5844,25 @@ msgid ""
 msgstr ""
 "צלף:\n"
 "כאשר משומשת לתקיפה, להתקפה זו יש תמיד לפחות 60% לפגוע."
+
+#. [chance_to_hit]: id=magical
+#: data/core/macros/weapon_specials.cfg:119
+msgid "magical"
+msgstr "קסום"
+
+#. [chance_to_hit]: id=magical
+#: data/core/macros/weapon_specials.cfg:120
+#, fuzzy
+#| msgid ""
+#| "Magical:\n"
+#| "This attack always has a 70% chance to hit regardless of the defensive "
+#| "ability of the unit being attacked."
+msgid ""
+"This attack always has a 70% chance to hit regardless of the defensive "
+"ability of the unit being attacked."
+msgstr ""
+"קסם:\n"
+"התקפות קסומות מתעלמות משטח ומקבלות סיכוי פגיעה של 70%."
 
 #. [chance_to_hit]: id=honed
 #: data/core/macros/weapon_specials.cfg:132

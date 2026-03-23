@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.11\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2026-02-25 19:03-0600\n"
+"POT-Creation-Date: 2026-03-23 18:10-0500\n"
 "PO-Revision-Date: 2024-09-11 15:05+0300\n"
 "Last-Translator: Oleksii Okhrimenko(lexa04) <e-mail: ohrimale@gmail.com "
 "discord: amakri>\n"
@@ -279,7 +279,7 @@ msgstr ""
 #. [unstore_unit]
 #. [lua]: set_status
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/07_The_Desert_of_Death.cfg:369
-#: data/lua/wml/harm_unit.lua:124 src/actions/attack.cpp:948
+#: data/lua/wml/harm_unit.lua:124 src/actions/attack.cpp:949
 msgid "poisoned"
 msgstr "отруєний"
 
@@ -407,7 +407,7 @@ msgid "Miscellaneous Contributors"
 msgstr "Решта помічників"
 
 #. [about]
-#: data/core/about.cfg:1890
+#: data/core/about.cfg:1894
 msgid "Bots"
 msgstr "Боти"
 
@@ -517,183 +517,183 @@ msgid "French Translation"
 msgstr "Французький переклад"
 
 #. [about]
-#: data/core/about_i18n.cfg:787
+#: data/core/about_i18n.cfg:790
 msgid "Friulian Translation"
 msgstr "Фріульський переклад"
 
 #. [about]
-#: data/core/about_i18n.cfg:791
+#: data/core/about_i18n.cfg:794
 msgid "Galician Translation"
 msgstr "Галісійський переклад"
 
 #. [about]
-#: data/core/about_i18n.cfg:827
+#: data/core/about_i18n.cfg:830
 msgid "German Translation"
 msgstr "Німецький переклад"
 
 #. [about]
-#: data/core/about_i18n.cfg:956
+#: data/core/about_i18n.cfg:959
 msgid "Greek Translation"
 msgstr "Грецький переклад"
 
 #. [about]
-#: data/core/about_i18n.cfg:999
+#: data/core/about_i18n.cfg:1002
 msgid "Hebrew Translation"
 msgstr "Переклад на іврит"
 
 #. [about]
-#: data/core/about_i18n.cfg:1012
+#: data/core/about_i18n.cfg:1015
 msgid "Hungarian Translation"
 msgstr "Угорський переклад"
 
 #. [about]
-#: data/core/about_i18n.cfg:1073
+#: data/core/about_i18n.cfg:1076
 msgid "Icelandic Translation"
 msgstr "Ісландський переклад"
 
 #. [about]
-#: data/core/about_i18n.cfg:1083
+#: data/core/about_i18n.cfg:1086
 msgid "Indonesian Translation"
 msgstr "Індонезійський переклад"
 
 #. [about]
-#: data/core/about_i18n.cfg:1111
+#: data/core/about_i18n.cfg:1114
 msgid "Irish Translation"
 msgstr "Ірландський переклад"
 
 #. [about]
-#: data/core/about_i18n.cfg:1118
+#: data/core/about_i18n.cfg:1121
 msgid "Italian Translation"
 msgstr "Італійський переклад"
 
 #. [about]
-#: data/core/about_i18n.cfg:1165
+#: data/core/about_i18n.cfg:1168
 msgid "Japanese Translation"
 msgstr "Японський переклад"
 
 #. [about]
-#: data/core/about_i18n.cfg:1258
+#: data/core/about_i18n.cfg:1261
 msgid "Korean Translation"
 msgstr "Корейський переклад"
 
 #. [about]
-#: data/core/about_i18n.cfg:1266
+#: data/core/about_i18n.cfg:1269
 msgid "Latin Translation"
 msgstr "Латинський переклад"
 
 #. [about]
-#: data/core/about_i18n.cfg:1292
+#: data/core/about_i18n.cfg:1295
 msgid "Latvian Translation"
 msgstr "Латвійський переклад"
 
 #. [about]
-#: data/core/about_i18n.cfg:1307
+#: data/core/about_i18n.cfg:1310
 msgid "Lithuanian Translation"
 msgstr "Литовський переклад"
 
 #. [about]
-#: data/core/about_i18n.cfg:1332
+#: data/core/about_i18n.cfg:1335
 msgid "Macedonian Translation"
 msgstr "Македонський переклад"
 
 #. [about]
-#: data/core/about_i18n.cfg:1339
+#: data/core/about_i18n.cfg:1342
 msgid "Marathi Translation"
 msgstr "Переклад на маратхі"
 
 #. [about]
-#: data/core/about_i18n.cfg:1348
+#: data/core/about_i18n.cfg:1351
 msgid "Norwegian Translation"
 msgstr "Норвезький переклад"
 
 #. [about]
-#: data/core/about_i18n.cfg:1377
+#: data/core/about_i18n.cfg:1380
 msgid "Old English Translation"
 msgstr "Староанглійський переклад"
 
 #. [about]
-#: data/core/about_i18n.cfg:1395
+#: data/core/about_i18n.cfg:1398
 msgid "Polish Translation"
 msgstr "Польський переклад"
 
 #. [about]
-#: data/core/about_i18n.cfg:1470
+#: data/core/about_i18n.cfg:1473
 msgid "Portuguese Translation"
 msgstr "Португальський переклад"
 
 #. [about]
-#: data/core/about_i18n.cfg:1484
+#: data/core/about_i18n.cfg:1487
 msgid "Portuguese (Brazil) Translation"
 msgstr "Португальський переклад (Бразилія)"
 
 #. [about]
-#: data/core/about_i18n.cfg:1542
+#: data/core/about_i18n.cfg:1545
 msgid "Romanian Translation"
 msgstr "Румунський переклад"
 
 #. [about]
-#: data/core/about_i18n.cfg:1550
+#: data/core/about_i18n.cfg:1553
 msgid "Russian Translation"
 msgstr "Російський переклад"
 
 #. [about]
-#: data/core/about_i18n.cfg:1657
+#: data/core/about_i18n.cfg:1660
 msgid "Scottish Gaelic Translation"
 msgstr "Шотландський гельський переклад"
 
 #. [about]
-#: data/core/about_i18n.cfg:1666
+#: data/core/about_i18n.cfg:1669
 msgid "Serbian Translation"
 msgstr "Сербський переклад"
 
 #. [about]
-#: data/core/about_i18n.cfg:1685
+#: data/core/about_i18n.cfg:1688
 msgid "Slovak Translation"
 msgstr "Словацький переклад"
 
 #. [about]
-#: data/core/about_i18n.cfg:1720
+#: data/core/about_i18n.cfg:1723
 msgid "Slovenian Translation"
 msgstr "Словенський переклад"
 
 #. [about]
-#: data/core/about_i18n.cfg:1736
+#: data/core/about_i18n.cfg:1739
 msgid "Spanish Translation"
 msgstr "Іспанський переклад"
 
 #. [about]
-#: data/core/about_i18n.cfg:1830
+#: data/core/about_i18n.cfg:1833
 msgid "Swedish Translation"
 msgstr "Швецький переклад"
 
 #. [about]
-#: data/core/about_i18n.cfg:1875
+#: data/core/about_i18n.cfg:1878
 msgid "Turkish Translation"
 msgstr "Турецький переклад"
 
 #. [about]
-#: data/core/about_i18n.cfg:1900
+#: data/core/about_i18n.cfg:1903
 msgid "Ukrainian Translation"
 msgstr "Український переклад"
 
 #. [about]
-#: data/core/about_i18n.cfg:1934
+#: data/core/about_i18n.cfg:1937
 msgid "Valencian (southern Catalan) Translation"
 msgstr "Валенсійська (Південно-Каталонский діалект)"
 
 #. [about]
-#: data/core/about_i18n.cfg:1947
+#: data/core/about_i18n.cfg:1950
 msgid "Vietnamese Translation"
 msgstr "В'єтнамський переклад"
 
 #. [about]
-#: data/core/about_i18n.cfg:1966
+#: data/core/about_i18n.cfg:1969
 msgid "Welsh Translation"
 msgstr "Валлійський переклад"
 
 #. [about]
 #. Real Acadèmia de Cultura Valenciana
-#: data/core/about_i18n.cfg:1975
+#: data/core/about_i18n.cfg:1978
 msgid "RACV’s Translation"
 msgstr "Переклад RACV"
 
@@ -4704,31 +4704,31 @@ msgstr "Невірний рівень відхилення (має бути 1-4)
 
 #. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: set_status
-#: data/lua/wml/harm_unit.lua:124 src/actions/attack.cpp:948
+#: data/lua/wml/harm_unit.lua:124 src/actions/attack.cpp:949
 msgid "female^poisoned"
 msgstr "отруєна"
 
 #. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: set_status
-#: data/lua/wml/harm_unit.lua:126 src/actions/attack.cpp:955
+#: data/lua/wml/harm_unit.lua:126 src/actions/attack.cpp:956
 msgid "female^slowed"
 msgstr "уповільнена"
 
 #. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: set_status
-#: data/lua/wml/harm_unit.lua:126 src/actions/attack.cpp:955
+#: data/lua/wml/harm_unit.lua:126 src/actions/attack.cpp:956
 msgid "slowed"
 msgstr "уповільнений"
 
 #. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: set_status
-#: data/lua/wml/harm_unit.lua:127 src/actions/attack.cpp:961
+#: data/lua/wml/harm_unit.lua:127 src/actions/attack.cpp:962
 msgid "female^petrified"
 msgstr "паралізована"
 
 #. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: set_status
-#: data/lua/wml/harm_unit.lua:127 src/actions/attack.cpp:961
+#: data/lua/wml/harm_unit.lua:127 src/actions/attack.cpp:962
 msgid "petrified"
 msgstr "паралізований"
 
@@ -5930,11 +5930,11 @@ msgstr ""
 msgid "waiting for^an advancement choice"
 msgstr "вибір підвищення"
 
-#: src/actions/attack.cpp:477 src/actions/attack.cpp:1273
+#: src/actions/attack.cpp:478 src/actions/attack.cpp:1274
 msgid "An invalid attacker weapon got selected."
 msgstr "Вибрана неправильна зброя того, що атакує."
 
-#: src/actions/attack.cpp:968
+#: src/actions/attack.cpp:969
 #, fuzzy
 #| msgid "Attacks: "
 msgid "attack^miss"
@@ -6632,7 +6632,7 @@ msgstr "запрошую інформацію про користувача $nic
 msgid "(A) — admin command"
 msgstr "(A) — адмінська команда"
 
-#: src/chat_command_handler.hpp:58 src/menu_events.cpp:1213
+#: src/chat_command_handler.hpp:58 src/menu_events.cpp:1216
 msgid "(admin only)"
 msgstr "(лише для адмінів)"
 
@@ -6750,7 +6750,7 @@ msgstr "Показати версію."
 msgid "Request information about a nickname."
 msgstr "Запитати дані про прізвисько."
 
-#: src/chat_command_handler.hpp:121 src/menu_events.cpp:1263
+#: src/chat_command_handler.hpp:121 src/menu_events.cpp:1266
 msgid "Clear chat history."
 msgstr "Очистити історію чату."
 
@@ -7012,7 +7012,7 @@ msgstr[1] ""
 msgstr[2] ""
 "Будь ласка, повідомте про це відповідним авторам або наглядачам цього аддону."
 
-#: src/game_events/pump.cpp:389 src/game_launcher.cpp:950
+#: src/game_events/pump.cpp:389 src/game_launcher.cpp:957
 msgid "Error: "
 msgstr "Помилка: "
 
@@ -7370,20 +7370,20 @@ msgstr "Ви намагалися увійти надто багато разі�
 msgid "Password hashing failed."
 msgstr "Хешування паролю не вдалося."
 
-#: src/game_initialization/playcampaign.cpp:150 src/game_launcher.cpp:903
+#: src/game_initialization/playcampaign.cpp:150 src/game_launcher.cpp:910
 msgid "The game could not be loaded: "
 msgstr "Не вдалось завантажити гру: "
 
-#: src/game_initialization/playcampaign.cpp:156 src/game_launcher.cpp:905
+#: src/game_initialization/playcampaign.cpp:156 src/game_launcher.cpp:912
 msgid "Error while playing the game: "
 msgstr "Виникла помилка під час гри: "
 
-#: src/game_initialization/playcampaign.cpp:159 src/game_launcher.cpp:942
+#: src/game_initialization/playcampaign.cpp:159 src/game_launcher.cpp:949
 msgid "The game map could not be loaded: "
 msgstr "Не вдалось завантажити ігрову карту: "
 
-#: src/game_initialization/playcampaign.cpp:162 src/game_launcher.cpp:907
-#: src/game_launcher.cpp:1028
+#: src/game_initialization/playcampaign.cpp:162 src/game_launcher.cpp:914
+#: src/game_launcher.cpp:1035
 msgid "Map generator error: "
 msgstr "Помилка генератора карт: "
 
@@ -7410,28 +7410,28 @@ msgstr "Невідомий сценарій: '$scenario|'"
 msgid "No campaigns are available."
 msgstr "Немає доступних кампаній."
 
-#: src/game_launcher.cpp:689 src/game_launcher.cpp:708
+#: src/game_launcher.cpp:692 src/game_launcher.cpp:711
 #: src/hotkey/hotkey_handler_sp.cpp:324 src/replay.cpp:662 src/savegame.cpp:167
 msgid "The file you have tried to load is corrupt"
 msgstr "Файл, який Ви намагалися завантажити, пошкоджений"
 
-#: src/game_launcher.cpp:691 src/game_launcher.cpp:710
+#: src/game_launcher.cpp:694 src/game_launcher.cpp:713
 msgid "The file you have tried to load is corrupt: '"
 msgstr "Файл, який Ви намагалися завантажити, пошкоджений: '"
 
-#: src/game_launcher.cpp:700
+#: src/game_launcher.cpp:703
 msgid "File I/O Error while reading the game"
 msgstr "Помилка вводу/виводу при читанні файлу з грою"
 
-#: src/game_launcher.cpp:702
+#: src/game_launcher.cpp:705
 msgid "File I/O Error while reading the game: '"
 msgstr "Помилка вводу/виводу при читанні файлу з грою: '"
 
-#: src/game_launcher.cpp:901
+#: src/game_launcher.cpp:908
 msgid "Error while starting server: "
 msgstr "Помилка запуску сервера: "
 
-#: src/game_launcher.cpp:923
+#: src/game_launcher.cpp:930
 msgid "Connection failed: "
 msgstr "Не вдалося встановити з'єднання: "
 
@@ -7587,110 +7587,110 @@ msgstr "ні"
 msgid "yes"
 msgstr "так"
 
-#: src/help/help_impl.cpp:319
+#: src/help/help_impl.cpp:297
 msgid "Only available during a scenario."
 msgstr "Доступно тільки під час сценарію."
 
-#: src/help/help_impl.cpp:320 src/help/help_impl.cpp:359
+#: src/help/help_impl.cpp:298 src/help/help_impl.cpp:337
 msgid "Time of Day Schedule"
 msgstr "Розклад часу доби"
 
-#: src/help/help_impl.cpp:350
+#: src/help/help_impl.cpp:328
 msgid "Lawful Bonus:"
 msgstr "Бонус порядним:"
 
-#: src/help/help_impl.cpp:351
+#: src/help/help_impl.cpp:329
 msgid "Neutral Bonus:"
 msgstr "Бонус нейтральним:"
 
-#: src/help/help_impl.cpp:352
+#: src/help/help_impl.cpp:330
 msgid "Chaotic Bonus:"
 msgstr "Бонус хаотичним:"
 
-#: src/help/help_impl.cpp:353
+#: src/help/help_impl.cpp:331
 msgid "Liminal Bonus:"
 msgstr "Бонус тіньовим:"
 
-#: src/help/help_impl.cpp:354
+#: src/help/help_impl.cpp:332
 msgid "Schedule"
 msgstr "Розклад"
 
-#: src/help/help_impl.cpp:448
+#: src/help/help_impl.cpp:427
 #, fuzzy
 #| msgid "<header>text='Units with this special attack'</header>"
 msgid "Units with this special attack"
 msgstr "<header>text='Бійці з цією особливістю зброї'</header>"
 
-#: src/help/help_impl.cpp:504
+#: src/help/help_impl.cpp:482
 #, fuzzy
 #| msgid "<header>text='Units with this ability'</header>"
 msgid "Units with this ability"
 msgstr "<header>text='Бійці з цією здібністю'</header>"
 
-#: src/help/help_impl.cpp:540
+#: src/help/help_impl.cpp:518
 msgid "Factions"
 msgstr "Фракції"
 
-#: src/help/help_impl.cpp:586
+#: src/help/help_impl.cpp:566
 msgid "Races: "
 msgstr "Раси: "
 
-#: src/help/help_impl.cpp:595 src/help/help_impl.cpp:1155
+#: src/help/help_impl.cpp:575 src/help/help_impl.cpp:1148
 msgid "Alignments: "
 msgstr "Типи: "
 
-#: src/help/help_impl.cpp:602
+#: src/help/help_impl.cpp:582
 msgid "Leaders"
 msgstr "Лідери"
 
-#: src/help/help_impl.cpp:611
+#: src/help/help_impl.cpp:591
 msgid "Recruits"
 msgstr "Найманців"
 
-#: src/help/help_impl.cpp:652
+#: src/help/help_impl.cpp:636
 msgid "Previous"
 msgstr ""
 
-#: src/help/help_impl.cpp:665 src/help/help_impl.cpp:787
-#: src/help/help_impl.cpp:805
+#: src/help/help_impl.cpp:649 src/help/help_impl.cpp:776
+#: src/help/help_impl.cpp:794
 #, fuzzy
 #| msgid "Next Turn"
 msgid "Next"
 msgstr "Наступний хід"
 
-#: src/help/help_impl.cpp:762 src/units/types.cpp:450
+#: src/help/help_impl.cpp:751 src/units/types.cpp:450
 msgid "No description available."
 msgstr "Опису немає."
 
-#: src/help/help_impl.cpp:766
+#: src/help/help_impl.cpp:755
 #, fuzzy
 #| msgid "This is the last scenario."
 msgid "This is a global trait."
 msgstr "Це останній сценарій."
 
-#: src/help/help_impl.cpp:774
+#: src/help/help_impl.cpp:763
 #, fuzzy
 #| msgid "<header>text='Units with this ability'</header>"
 msgid "Races with this trait"
 msgstr "<header>text='Бійці з цією здібністю'</header>"
 
-#: src/help/help_impl.cpp:794
+#: src/help/help_impl.cpp:783
 #, fuzzy
 #| msgid "<header>text='Units with this ability'</header>"
 msgid "Units with this trait"
 msgstr "<header>text='Бійці з цією здібністю'</header>"
 
-#: src/help/help_impl.cpp:917 src/help/help_impl.cpp:1132
+#: src/help/help_impl.cpp:907 src/help/help_impl.cpp:1125
 msgid "race^Miscellaneous"
 msgstr "Змішані"
 
-#: src/help/help_impl.cpp:1155
+#: src/help/help_impl.cpp:1148
 msgid "Alignment: "
 msgstr "Тип: "
 
 #. TRANSLATORS: this is expected to say "[Dunefolk are] a group of units, all of whom are Humans",
 #. or "[Quenoth Elves are] a group of units, all of whom are Elves".
-#: src/help/help_impl.cpp:1174
+#: src/help/help_impl.cpp:1167
 #, fuzzy
 #| msgid ""
 #| "This is a group of units, all of whom are <ref>dst='$topic_id' "
@@ -7702,25 +7702,25 @@ msgstr ""
 "Це група бійців, кожен з яких <ref>dst='$topic_id' text='$help_taxonomy'</"
 "ref>."
 
-#: src/help/help_impl.cpp:1179
+#: src/help/help_impl.cpp:1172
 #, fuzzy
 #| msgid "<header>text='Subgroups of units within this group'</header>"
 msgid "Subgroups of units within this group"
 msgstr "<header>text='Підгрупи цих бійці всередині цього загону'</header>"
 
-#: src/help/help_impl.cpp:1181
+#: src/help/help_impl.cpp:1174
 #, fuzzy
 #| msgid "<header>text='Groups of units within this race'</header>"
 msgid "Groups of units within this race"
 msgstr "<header>text='Група бійців цієї раси'</header>"
 
-#: src/help/help_impl.cpp:1190
+#: src/help/help_impl.cpp:1183
 #, fuzzy
 #| msgid "<header>text='Units of this group'</header>"
 msgid "Units of this group"
 msgstr "<header>text='Бійці цієї групи'</header>"
 
-#: src/help/help_impl.cpp:1192
+#: src/help/help_impl.cpp:1185
 #, fuzzy
 #| msgid "<header>text='Units of this race'</header>"
 msgid "Units of this race"
@@ -7774,11 +7774,11 @@ msgstr "Продивитись з Початку"
 msgid "(press $hotkey to deactivate)"
 msgstr "(натисніть $hotkey, щоб дезактивувати)"
 
-#: src/hotkey/hotkey_handler_sp.cpp:156 src/menu_events.cpp:2102
+#: src/hotkey/hotkey_handler_sp.cpp:156 src/menu_events.cpp:2105
 msgid "Planning mode activated!"
 msgstr "Режим планування ввімкнений!"
 
-#: src/hotkey/hotkey_handler_sp.cpp:158 src/menu_events.cpp:2105
+#: src/hotkey/hotkey_handler_sp.cpp:158 src/menu_events.cpp:2108
 msgid "Planning mode deactivated!"
 msgstr "Режим планування вимкнений!"
 
@@ -7972,79 +7972,79 @@ msgstr ""
 msgid "You currently can’t recall at the highlighted location."
 msgstr "Зараз Ви не можете закликати на цій клітинці."
 
-#: src/menu_events.cpp:444
+#: src/menu_events.cpp:447
 msgid "You must have at least 1 gold piece to recall a unit."
 msgid_plural "You must have at least $cost gold pieces to recall this unit."
 msgstr[0] "У Вас має бути хоча би 1 золотий для заклику бійця."
 msgstr[1] "У Вас має бути хоча би $cost золотих для заклику бійця."
 msgstr[2] "У Вас має бути хоча би $cost золотих для заклику бійця."
 
-#: src/menu_events.cpp:589
+#: src/menu_events.cpp:592
 msgid "You cannot end your turn yet!"
 msgstr "Ви поки що не можете закінчити хід!"
 
-#: src/menu_events.cpp:604
+#: src/menu_events.cpp:607
 msgid ""
 "You have not started your turn yet. Do you really want to end your turn?"
 msgstr "Ви ще не починали свій хід. Ви дійсно хочете завершити свій хід?"
 
-#: src/menu_events.cpp:613
+#: src/menu_events.cpp:616
 msgid "Some units have movement left. Do you really want to end your turn?"
 msgstr "Деякі бійці ще можуть ходити. Ви дійсно хочете завершити свій хід?"
 
-#: src/menu_events.cpp:622
+#: src/menu_events.cpp:625
 msgid "Some units have not moved. Do you really want to end your turn?"
 msgstr "Деякі бійці ще не походили. Ви дійсно хочете завершити хід?"
 
-#: src/menu_events.cpp:678
+#: src/menu_events.cpp:681
 msgid "Rename Unit"
 msgstr "Перейменувати бійця"
 
-#: src/menu_events.cpp:679 src/reports.cpp:176
+#: src/menu_events.cpp:682 src/reports.cpp:176
 msgid "Name:"
 msgstr "Ім'я:"
 
-#: src/menu_events.cpp:859
+#: src/menu_events.cpp:862
 msgid "Clear Labels"
 msgstr "Очистити мітки"
 
-#: src/menu_events.cpp:860
+#: src/menu_events.cpp:863
 msgid "Are you sure you want to clear map labels?"
 msgstr "Ви упевнені, що хочете всі мітки на карті?"
 
-#: src/menu_events.cpp:1064
+#: src/menu_events.cpp:1067
 msgid "Search"
 msgstr "Пошук"
 
-#: src/menu_events.cpp:1204
+#: src/menu_events.cpp:1207
 msgid "(D) — debug only, (N) — network only, (A) — admin only"
 msgstr ""
 "(D) - налагоджувальна команда, (N) - мережна команда, (A) - адмін команда"
 
-#: src/menu_events.cpp:1211
+#: src/menu_events.cpp:1214
 msgid "(debug command)"
 msgstr "(налагоджувальна команда)"
 
-#: src/menu_events.cpp:1212
+#: src/menu_events.cpp:1215
 msgid "(network only)"
 msgstr "(мережна команда)"
 
-#: src/menu_events.cpp:1214
+#: src/menu_events.cpp:1217
 msgid "(not during other events)"
 msgstr "(не впродовж інших подій)"
 
-#: src/menu_events.cpp:1244
+#: src/menu_events.cpp:1247
 msgid "Refresh gui."
 msgstr "Оновити GUI."
 
-#: src/menu_events.cpp:1245
+#: src/menu_events.cpp:1248
 msgid "Switch a side to/from AI control."
 msgstr "Віддати контроль над стороною ПК або людині."
 
 #. TRANSLATORS: These are the arguments accepted by the "droid" command,
 #. which must be a side-number and then optionally one of "on", "off" or "full".
 #. As with the command's name, "on", "off" and "full" are hardcoded, and shouldn't change in the translation.
-#: src/menu_events.cpp:1249
+#: src/menu_events.cpp:1252
 msgid ""
 "[<side> [on/off/full]]\n"
 "“on” = enable but retain vision, “full” = as if it’s controlled by another "
@@ -8054,59 +8054,59 @@ msgstr ""
 "“on” = включити, але зберегти видимість, “full” = якби воно повністю "
 "контролювалося іншим гравцем"
 
-#: src/menu_events.cpp:1250
+#: src/menu_events.cpp:1253
 msgid "Change terrain type of current hex"
 msgstr "Змінити тип місцевості на цій клітинці"
 
 #. TRANSLATORS: [both|base|overlay] are hardcoded literal arguments and shouldn't be translated.
-#: src/menu_events.cpp:1252
+#: src/menu_events.cpp:1255
 msgid "<terrain type> [both|base|overlay]"
 msgstr "<terrain type> [both|base|overlay]"
 
-#: src/menu_events.cpp:1253
+#: src/menu_events.cpp:1256
 msgid "Switch a side to/from idle state."
 msgstr "Перемкнути сторону у/зі сплячого стану."
 
 #. TRANSLATORS: These are the arguments accepted by the "idle" command,
 #. which must be a side-number and then optionally "on" or "off".
 #. As with the command's name, "on" and "off" are hardcoded, and shouldn't change in the translation.
-#: src/menu_events.cpp:1257
+#: src/menu_events.cpp:1260
 msgid "command_idle^[<side> [on/off]]"
 msgstr "[<side> [on/off]]"
 
-#: src/menu_events.cpp:1258
+#: src/menu_events.cpp:1261
 msgid "Change the in-game theme."
 msgstr "Змінити музичну тему."
 
-#: src/menu_events.cpp:1260
+#: src/menu_events.cpp:1263
 msgid "<side> <nickname>"
 msgstr "<side> <нік>"
 
-#: src/menu_events.cpp:1260
+#: src/menu_events.cpp:1263
 msgid "Assign control of a side to a different player or observer."
 msgstr "Віддати контроль над стороною іншому гравцеві або глядачеві."
 
-#: src/menu_events.cpp:1261
+#: src/menu_events.cpp:1264
 msgid "Query the controller status of a side."
 msgstr "Запитати статус оператора сторони."
 
-#: src/menu_events.cpp:1262
+#: src/menu_events.cpp:1265
 msgid "<side>"
 msgstr "<side>"
 
-#: src/menu_events.cpp:1264
+#: src/menu_events.cpp:1267
 msgid "Debug foreground terrain."
 msgstr "Відладка верхнього шару місцевості."
 
-#: src/menu_events.cpp:1266
+#: src/menu_events.cpp:1269
 msgid "Debug layers from terrain under the mouse."
 msgstr "Відладка шарів місцевості під курсором."
 
-#: src/menu_events.cpp:1267
+#: src/menu_events.cpp:1270
 msgid "Display and log fps (Frames Per Second)."
 msgstr "Показувати та зберігати fsp(Кадри на секунду)"
 
-#: src/menu_events.cpp:1268
+#: src/menu_events.cpp:1271
 #, fuzzy
 #| msgid ""
 #| "Similar to the 'fps' command, but also forces everything to redraw "
@@ -8118,41 +8118,41 @@ msgstr ""
 "Схоже на команду 'fps', але також змушує перемалювати все на екрані, а не "
 "лише те, що змінилося."
 
-#: src/menu_events.cpp:1269
+#: src/menu_events.cpp:1272
 msgid "Save game."
 msgstr "Зберегти гру."
 
-#: src/menu_events.cpp:1271
+#: src/menu_events.cpp:1274
 msgid "Quit game."
 msgstr "Вийти з гри."
 
-#: src/menu_events.cpp:1274
+#: src/menu_events.cpp:1277
 msgid "Save and quit."
 msgstr "Зберегти та вийти."
 
-#: src/menu_events.cpp:1276
+#: src/menu_events.cpp:1279
 msgid "Ignore replay errors."
 msgstr "Ігнорувати помилки в повторі."
 
-#: src/menu_events.cpp:1277
+#: src/menu_events.cpp:1280
 msgid "Disable autosaves."
 msgstr "Вимкнути автозбереження."
 
-#: src/menu_events.cpp:1279
+#: src/menu_events.cpp:1282
 msgid "<id>"
 msgstr "<id>"
 
-#: src/menu_events.cpp:1279
+#: src/menu_events.cpp:1282
 #, fuzzy
 #| msgid "Advance to the next scenario, or scenario identified by 'id'"
 msgid "Advance to the next scenario, or scenario identified by ‘id’"
 msgstr "Перейти до наступного сценарію, або сценарію за 'id'"
 
-#: src/menu_events.cpp:1281
+#: src/menu_events.cpp:1284
 msgid "Choose next scenario"
 msgstr "Вибрати наступний сценарій"
 
-#: src/menu_events.cpp:1284
+#: src/menu_events.cpp:1287
 msgid ""
 "Change turn number (and time of day), or increase by one if no number is "
 "specified."
@@ -8160,11 +8160,11 @@ msgstr ""
 "Змінити номер ходу (і час дня), або збільшити його на один, якщо значення не "
 "вказане."
 
-#: src/menu_events.cpp:1284
+#: src/menu_events.cpp:1287
 msgid "[turn]"
 msgstr "[хід]"
 
-#: src/menu_events.cpp:1287
+#: src/menu_events.cpp:1290
 msgid ""
 "Change turn limit, or turn the turn limit off if no number is specified or "
 "it’s −1."
@@ -8172,68 +8172,68 @@ msgstr ""
 "Змінити ліміт ходів, або вимкнути його зовсім, якщо значення не вказане або "
 "це −1."
 
-#: src/menu_events.cpp:1287
+#: src/menu_events.cpp:1290
 msgid "[limit]"
 msgstr "[ліміт]"
 
-#: src/menu_events.cpp:1289
+#: src/menu_events.cpp:1292
 msgid "Turn debug mode on."
 msgstr "Ввімкнути налагодження."
 
-#: src/menu_events.cpp:1290
+#: src/menu_events.cpp:1293
 msgid "Turn debug mode off."
 msgstr "Вимкнути налагодження."
 
-#: src/menu_events.cpp:1292 src/menu_events.cpp:1296
+#: src/menu_events.cpp:1295 src/menu_events.cpp:1299
 msgid "<command>[;<command>...]"
 msgstr "<command>[;<команда>...]"
 
-#: src/menu_events.cpp:1292
+#: src/menu_events.cpp:1295
 msgid "Execute a Lua statement."
 msgstr "Виконати інструкцію Lua."
 
-#: src/menu_events.cpp:1294
+#: src/menu_events.cpp:1297
 msgid "Grant higher privileges to Lua scripts."
 msgstr "Дати скриптам на Lua високий пріоритет."
 
-#: src/menu_events.cpp:1295
+#: src/menu_events.cpp:1298
 msgid "Set the command used by the custom command hotkey"
 msgstr "Змінити команду на гарячій клавіші"
 
-#: src/menu_events.cpp:1298
+#: src/menu_events.cpp:1301
 msgid "Invoke a dialog allowing changing control of MP sides."
 msgstr "Викликати діалог зміни сторін в мультиплеєрі."
 
-#: src/menu_events.cpp:1299
+#: src/menu_events.cpp:1302
 msgid "Launch the gamestate inspector"
 msgstr "Запустити Інспектор стану гри"
 
-#: src/menu_events.cpp:1301
+#: src/menu_events.cpp:1304
 msgid "<name>[=<command>]"
 msgstr "<name>[=<команда>]"
 
-#: src/menu_events.cpp:1301
+#: src/menu_events.cpp:1304
 msgid "Set or show alias to a command"
 msgstr "Встановити/показати псевдонім команди"
 
-#: src/menu_events.cpp:1303 src/menu_events.cpp:1308
+#: src/menu_events.cpp:1306 src/menu_events.cpp:1311
 msgid "<var>=<value>"
 msgstr "<змінна>=<значення>"
 
-#: src/menu_events.cpp:1303
+#: src/menu_events.cpp:1306
 msgid "Set a scenario variable."
 msgstr "Задати змінну в сценарії."
 
-#: src/menu_events.cpp:1304
+#: src/menu_events.cpp:1307
 msgid "<var>"
 msgstr "<змінна>"
 
-#: src/menu_events.cpp:1304
+#: src/menu_events.cpp:1307
 msgid "Show a scenario variable."
 msgstr "Показати змінну сценарію."
 
 #. TRANSLATORS: Do not translate the word "advances"; it is a hardcoded literal argument.
-#: src/menu_events.cpp:1307
+#: src/menu_events.cpp:1310
 msgid ""
 "Modify a unit variable. (Only top level keys are supported, and "
 "advances=<number>.)"
@@ -8241,85 +8241,85 @@ msgstr ""
 "Модифікувати змінну бійця. (Підтримуються лише ключі верхнього рівня та "
 "advances=<число>.)"
 
-#: src/menu_events.cpp:1314
+#: src/menu_events.cpp:1317
 msgid "Discover all units in help."
 msgstr "Розкрити всіх бійців в довідці."
 
-#: src/menu_events.cpp:1315
+#: src/menu_events.cpp:1318
 #, fuzzy
 #| msgid "'Undiscover' all units in help."
 msgid "‘Undiscover’ all units in help."
 msgstr "Згорнути всіх бійців в довідці."
 
-#: src/menu_events.cpp:1316
+#: src/menu_events.cpp:1319
 msgid "<unit type id>"
 msgstr "<id типу бійця>"
 
-#: src/menu_events.cpp:1316
+#: src/menu_events.cpp:1319
 msgid "Create a unit."
 msgstr "Створити бійця."
 
-#: src/menu_events.cpp:1317
+#: src/menu_events.cpp:1320
 msgid "Toggle fog for the current player."
 msgstr "Перемкнути туман для поточного гравця."
 
-#: src/menu_events.cpp:1318
+#: src/menu_events.cpp:1321
 msgid "Toggle shroud for the current player."
 msgstr "Перемкнути пелену для поточного гравця."
 
-#: src/menu_events.cpp:1319
+#: src/menu_events.cpp:1322
 msgid "<amount>"
 msgstr "<кількість>"
 
-#: src/menu_events.cpp:1319
+#: src/menu_events.cpp:1322
 msgid "Give gold to the current player."
 msgstr "Дати золота поточному гравцеві."
 
-#: src/menu_events.cpp:1320
+#: src/menu_events.cpp:1323
 msgid "<event name>"
 msgstr "<ім'я події>"
 
-#: src/menu_events.cpp:1320
+#: src/menu_events.cpp:1323
 msgid "Fire a game event."
 msgstr "Запустити ігрову подію."
 
-#: src/menu_events.cpp:1323
+#: src/menu_events.cpp:1326
 msgid "Toggle overlaying of x,y coordinates on hexes."
 msgstr "Перемкнути покриття координат x, y на сітці."
 
-#: src/menu_events.cpp:1326
+#: src/menu_events.cpp:1329
 msgid "Toggle overlaying of terrain codes on hexes."
 msgstr "Перемкнути покриття кодів місцевості на сітці."
 
-#: src/menu_events.cpp:1329
+#: src/menu_events.cpp:1332
 msgid "Toggle overlaying of number of bitmaps on hexes."
 msgstr "Перемкнути покриття кількості бітів на сітці."
 
-#: src/menu_events.cpp:1331
+#: src/menu_events.cpp:1334
 msgid "Toggle planning mode."
 msgstr "Перемкнути режим планування."
 
-#: src/menu_events.cpp:1334
+#: src/menu_events.cpp:1337
 msgid "Access whiteboard options dialog."
 msgstr "Відкрити налаштування планувальника."
 
-#: src/menu_events.cpp:1447
+#: src/menu_events.cpp:1450
 msgid "Could not find label or unit containing the string ‘$search’."
 msgstr "Не можу знайти мітку або бійця з текстом ‘$search’."
 
-#: src/menu_events.cpp:1495
+#: src/menu_events.cpp:1498
 #, fuzzy
 #| msgid "Can't droid invalid side: '$side'."
 msgid "Can’t droid invalid side: ‘$side’."
 msgstr "Не можу перемкнути на ПК недійсну сторону: '$side'."
 
-#: src/menu_events.cpp:1498
+#: src/menu_events.cpp:1501
 #, fuzzy
 #| msgid "Can't droid networked side: '$side'."
 msgid "Can’t droid networked side: ‘$side’."
 msgstr "Не можу перемкнути на ПК мережну сторону: '$side'."
 
-#: src/menu_events.cpp:1510 src/menu_events.cpp:1526 src/menu_events.cpp:1558
+#: src/menu_events.cpp:1513 src/menu_events.cpp:1529 src/menu_events.cpp:1561
 #, fuzzy
 #| msgid ""
 #| "It is not allowed to change a side from AI to human control when it's not "
@@ -8331,31 +8331,31 @@ msgstr ""
 "Не дозволено змінювати сторону з комп'ютерного противника на людину, якщо це "
 "не ваш хід."
 
-#: src/menu_events.cpp:1520 src/menu_events.cpp:1576
+#: src/menu_events.cpp:1523 src/menu_events.cpp:1579
 #, fuzzy
 #| msgid "Side '$side' controller is now controlled by: AI."
 msgid "Side ‘$side’ controller is now controlled by: AI."
 msgstr "Сторона '$side' тепер контролюється: ПК."
 
-#: src/menu_events.cpp:1522
+#: src/menu_events.cpp:1525
 #, fuzzy
 #| msgid "Side '$side' is already droided."
 msgid "Side ‘$side’ is already droided."
 msgstr "Сторону '$side' вже перемкнуто на ПК."
 
-#: src/menu_events.cpp:1536 src/menu_events.cpp:1568
+#: src/menu_events.cpp:1539 src/menu_events.cpp:1571
 #, fuzzy
 #| msgid "Side '$side' controller is now controlled by: human."
 msgid "Side ‘$side’ controller is now controlled by: human."
 msgstr "Сторона '$side' тепер контролюється: людиною."
 
-#: src/menu_events.cpp:1538
+#: src/menu_events.cpp:1541
 #, fuzzy
 #| msgid "Side '$side' is already not droided."
 msgid "Side ‘$side’ is already not droided."
 msgstr "Сторону '$side' вже не перемкнуто на ПК."
 
-#: src/menu_events.cpp:1542
+#: src/menu_events.cpp:1545
 #, fuzzy
 #| msgid ""
 #| "It is not allowed to change a side from human to AI control when it's not "
@@ -8367,19 +8367,19 @@ msgstr ""
 "Не дозволено змінювати сторону з людини на комп'ютерного противника, якщо це "
 "не ваш хід."
 
-#: src/menu_events.cpp:1552
+#: src/menu_events.cpp:1555
 #, fuzzy
 #| msgid "Side '$side' controller is now fully controlled by: AI."
 msgid "Side ‘$side’ controller is now fully controlled by: AI."
 msgstr "Сторона '$side' тепер контролюється: ПК."
 
-#: src/menu_events.cpp:1554
+#: src/menu_events.cpp:1557
 #, fuzzy
 #| msgid "Side '$side' is already fully AI controlled."
 msgid "Side ‘$side’ is already fully AI controlled."
 msgstr "Сторону '$side' вже перемкнуто на ПК."
 
-#: src/menu_events.cpp:1579
+#: src/menu_events.cpp:1582
 #, fuzzy
 #| msgid ""
 #| "Invalid action provided for side '$side'. Valid actions are: on, off, "
@@ -8389,75 +8389,75 @@ msgid ""
 msgstr ""
 "Недопустима дія відносно сторони '$side'. Доступні варіанти: on, off, full."
 
-#: src/menu_events.cpp:1588
+#: src/menu_events.cpp:1591
 #, fuzzy
 #| msgid "Side '$side' is already fully AI controlled."
 msgid "Side ‘$side’ is not a human or AI player."
 msgstr "Сторону '$side' вже перемкнуто на ПК."
 
-#: src/menu_events.cpp:1625
+#: src/menu_events.cpp:1628
 #, fuzzy
 #| msgid "Can't idle invalid side: '$side'."
 msgid "Can’t idle invalid side: ‘$side’."
 msgstr "Не можу зробити вільною недійсну сторону: '$side'."
 
-#: src/menu_events.cpp:1630
+#: src/menu_events.cpp:1633
 #, fuzzy
 #| msgid "Can't idle networked side: '$side'."
 msgid "Can’t idle networked side: ‘$side’."
 msgstr "Не можу зробити вільною мережну сторону: '$side'."
 
-#: src/menu_events.cpp:1635
+#: src/menu_events.cpp:1638
 #, fuzzy
 #| msgid "Can't idle local ai side: '$side'."
 msgid "Can’t idle local ai side: ‘$side’."
 msgstr "Не можу зробити вільною сторону: '$side'."
 
-#: src/menu_events.cpp:1681
+#: src/menu_events.cpp:1684
 #, fuzzy
 #| msgid "Can't change control of invalid side: '$side'."
 msgid "Can’t change control of invalid side: ‘$side’."
 msgstr "Не можу змінити управління: недійсна сторона '$side'."
 
-#: src/menu_events.cpp:1691
+#: src/menu_events.cpp:1694
 #, fuzzy
 #| msgid "Can't change control of out-of-bounds side: '$side'."
 msgid "Can’t change control of out-of-bounds side: ‘$side’."
 msgstr "Не можу змінити управління: сторона '$side' поза межами."
 
-#: src/menu_events.cpp:1708
+#: src/menu_events.cpp:1711
 #, fuzzy
 #| msgid "Can't query control of invalid side: '$side'."
 msgid "Can’t query control of invalid side: ‘$side’."
 msgstr "Не можу зробити запит оператора сторони: '$side'."
 
-#: src/menu_events.cpp:1715
+#: src/menu_events.cpp:1718
 #, fuzzy
 #| msgid "Can't query control of out-of-bounds side: '$side'."
 msgid "Can’t query control of out-of-bounds side: ‘$side’."
 msgstr "Не можу зробити запит оператора: сторона '$side' поза межами."
 
-#: src/menu_events.cpp:1837
+#: src/menu_events.cpp:1840
 msgid "Choose Scenario (Debug!)"
 msgstr "Виберіть сценарій (Відладка!)"
 
-#: src/menu_events.cpp:1873
+#: src/menu_events.cpp:1876
 msgid "Debug mode activated!"
 msgstr "Налагодження ввімкнено!"
 
-#: src/menu_events.cpp:1876
+#: src/menu_events.cpp:1879
 msgid "Debug mode not available in network games"
 msgstr "У мережевій грі налагоджувальний режим недоступний"
 
-#: src/menu_events.cpp:1883
+#: src/menu_events.cpp:1886
 msgid "Debug mode deactivated!"
 msgstr "Налагодження вимкнено!"
 
-#: src/menu_events.cpp:1903
+#: src/menu_events.cpp:1906
 msgid "WARNING! Unsafe Lua Mode"
 msgstr "УВАГА! Небезпечний режим Lua"
 
-#: src/menu_events.cpp:1904
+#: src/menu_events.cpp:1907
 msgid ""
 "Executing Lua code in in this manner opens your computer to potential "
 "security breaches from any malicious add-ons or other programs you may have "
@@ -8470,15 +8470,15 @@ msgstr ""
 "\n"
 "Продовжуйте лише за умови, що ви дійсно знаєте що робите."
 
-#: src/menu_events.cpp:1909
+#: src/menu_events.cpp:1912
 msgid "Unsafe mode enabled!"
 msgstr "Ввімкнений небезпечний режим!"
 
-#: src/menu_events.cpp:1958
+#: src/menu_events.cpp:1961
 msgid "Variable not found"
 msgstr "Змінна не знайдена"
 
-#: src/menu_events.cpp:1991
+#: src/menu_events.cpp:1994
 #, fuzzy
 #| msgid ""
 #| "Debug command 'unit: $unit' failed: no unit selected or hovered over."
@@ -8486,7 +8486,7 @@ msgid "Debug command ‘unit: $unit’ failed: no unit selected or hovered over.
 msgstr ""
 "Команда налагодження 'unit: $unit' провалилася: не вибрано жодного бійця."
 
-#: src/menu_events.cpp:2009
+#: src/menu_events.cpp:2012
 #, fuzzy
 #| msgid ""
 #| "Invalid alignment: '$alignment', needs to be one of lawful, neutral, "
@@ -8498,24 +8498,24 @@ msgstr ""
 "Невідомий характер: '$alignment' має бути одним з: порядний, нейтральний, "
 "хаотичний або тіньовий."
 
-#: src/menu_events.cpp:2035
+#: src/menu_events.cpp:2038
 msgid "Do you wish to clear all of your discovered units from help?"
 msgstr ""
 "Ви точно хочете прибрати всю інформацію про відкритих бійців з довідки?"
 
-#: src/menu_events.cpp:2049
+#: src/menu_events.cpp:2052
 msgid "Invalid unit type"
 msgstr "Недійсний тип бійця"
 
-#: src/menu_events.cpp:2056
+#: src/menu_events.cpp:2059
 msgid "Invalid location"
 msgstr "Невірне місце"
 
-#: src/menu_events.cpp:2131
+#: src/menu_events.cpp:2134
 msgid "prompt^Command:"
 msgstr "Команда:"
 
-#: src/menu_events.cpp:2157
+#: src/menu_events.cpp:2160
 #, fuzzy
 #| msgid "prompt^Command:"
 msgid "prompt^Formula:"
@@ -8594,23 +8594,33 @@ msgstr "$name прийняв управління"
 msgid "Turn changed"
 msgstr "Хід змінився"
 
-#: src/network_download_file.cpp:44
+#: src/network_download_file.cpp:50
+#, fuzzy
+#| msgid "not available."
+msgid "Download unavailable"
+msgstr "не доступно."
+
+#: src/network_download_file.cpp:50
+msgid "Standalone file downloads are not currently supported on iOS."
+msgstr ""
+
+#: src/network_download_file.cpp:55
 msgid "Confirm overwrite"
 msgstr "Підтвердити перезапис"
 
-#: src/network_download_file.cpp:44
+#: src/network_download_file.cpp:55
 msgid "Overwrite existing file?"
 msgstr "Перезаписати існуючий файл?"
 
-#: src/network_download_file.cpp:50
+#: src/network_download_file.cpp:61
 msgid "Download complete"
 msgstr "Завантаження завершено"
 
-#: src/network_download_file.cpp:50
+#: src/network_download_file.cpp:61
 msgid "The file has been downloaded."
 msgstr "Файл було завантажено."
 
-#: src/network_download_file.cpp:52
+#: src/network_download_file.cpp:63
 msgid ""
 "An error occurred when downloading the file. Check the game logs for more "
 "information."
@@ -8618,7 +8628,7 @@ msgstr ""
 "Сталася помилка при завантаженні файлу. Перевірте логи гри, щоб отримати "
 "додаткову інформацію."
 
-#: src/network_download_file.cpp:52
+#: src/network_download_file.cpp:63
 msgid "Download error"
 msgstr "Помилка завантаження"
 
@@ -8641,28 +8651,28 @@ msgstr "залишилося часу на цей хід"
 msgid "current local time"
 msgstr "поточний місцевий час"
 
-#: src/play_controller.cpp:603
+#: src/play_controller.cpp:604
 msgid "Trying to create a corrupt file, please report this bug"
 msgstr "Спроба створити зламаний файл, будь ласка, повідомте про помилку"
 
-#: src/play_controller.cpp:1061
+#: src/play_controller.cpp:1062
 msgid ""
 "The game is out of sync. It might not make much sense to continue. Do you "
 "want to save your game?"
 msgstr ""
 "Помилка синхронізації, немає сенсу продовжувати. Ви хочете зберегти гру?"
 
-#: src/play_controller.cpp:1062
+#: src/play_controller.cpp:1063
 msgid "Error details:"
 msgstr "Деталі помилки:"
 
-#: src/play_controller.cpp:1242
+#: src/play_controller.cpp:1243
 msgid "Warning: broken campaign branches"
 msgstr "Попередження: є зламані гілки кампаній"
 
 #. TRANSLATORS: This is an error that will hopefully only be seen by UMC authors and by players who have already
 #. said "okay" to a "loading saves from an old version might not work" dialog.
-#: src/play_controller.cpp:1248
+#: src/play_controller.cpp:1249
 msgid ""
 "The next scenario is missing, you will not be able to finish this campaign."
 msgid_plural ""
@@ -8674,7 +8684,7 @@ msgstr[1] ""
 msgstr[2] ""
 "Декілька наступних сценаріїв відсутні, ви не зможете пройти цю кампанію."
 
-#: src/play_controller.cpp:1255
+#: src/play_controller.cpp:1256
 msgid ""
 "Please report the following missing scenario to the campaign’s author:\n"
 "$unknown_list|"
@@ -8691,11 +8701,11 @@ msgstr[2] ""
 "Будь ласка, повідомте автору кампанії про відсутні сценарії:\n"
 "$unknown_list|"
 
-#: src/play_controller.cpp:1259
+#: src/play_controller.cpp:1260
 msgid "Once this is fixed, you will need to restart this scenario."
 msgstr "Коли це починять, вам необхідно буде перезапустити цей сценарій."
 
-#: src/play_controller.cpp:1338
+#: src/play_controller.cpp:1339
 msgid "No objectives available"
 msgstr "Немає цілей"
 

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sl\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2026-02-25 19:03-0600\n"
+"POT-Creation-Date: 2026-03-23 18:10-0500\n"
 "PO-Revision-Date: 2010-10-04 14:32+0100\n"
 "Last-Translator: Klemen Košir <klemen913@gmail.com>\n"
 "Language-Team: Slovenian\n"
@@ -73,7 +73,7 @@ msgstr ""
 
 #. [trait]: id=loyal_dummy
 #. [trait]: id=loyal
-#: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:112
+#: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:113
 #: data/campaigns/The_Deceivers_Gambit/scenarios/11_Clan_Blackcrest.cfg:748
 #: data/campaigns/The_Deceivers_Gambit/utils/unified_characters.cfg:20
 #: data/core/macros/traits.cfg:12
@@ -81,32 +81,12 @@ msgid "loyal"
 msgstr "zvest"
 
 #. [trait]: id=loyal_dummy
-#: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:113
+#: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:114
 #: data/campaigns/The_Deceivers_Gambit/scenarios/11_Clan_Blackcrest.cfg:749
 #: data/campaigns/The_Deceivers_Gambit/utils/unified_characters.cfg:21
 #, fuzzy
 msgid "Zero upkeep."
 msgstr "Brez plače"
-
-#. [chance_to_hit]
-#. [chance_to_hit]: id=magical
-#: data/campaigns/The_Deceivers_Gambit/scenarios/14_Long_Live_the_Queen.cfg:1299
-#: data/core/macros/weapon_specials.cfg:120
-#, fuzzy
-msgid ""
-"This attack always has a 70% chance to hit regardless of the defensive "
-"ability of the unit being attacked."
-msgstr ""
-"Čaroben:\n"
-"Ta napad ima vedno 70% možnosti da zadane."
-
-#. [chance_to_hit]
-#. [chance_to_hit]: id=magical
-#: data/campaigns/The_Deceivers_Gambit/scenarios/14_Long_Live_the_Queen.cfg:1299
-#: data/core/macros/weapon_specials.cfg:119
-#, fuzzy
-msgid "magical"
-msgstr "čaroben"
 
 #. [trait]: id=intelligent_dummy
 #. [trait]: id=intelligent
@@ -5481,6 +5461,22 @@ msgid ""
 msgstr ""
 "Marksman:\n"
 "V napadu (ne v obrambi) ima enota vedno vsaj 60% možnosti da zadane."
+
+#. [chance_to_hit]: id=magical
+#: data/core/macros/weapon_specials.cfg:119
+#, fuzzy
+msgid "magical"
+msgstr "čaroben"
+
+#. [chance_to_hit]: id=magical
+#: data/core/macros/weapon_specials.cfg:120
+#, fuzzy
+msgid ""
+"This attack always has a 70% chance to hit regardless of the defensive "
+"ability of the unit being attacked."
+msgstr ""
+"Čaroben:\n"
+"Ta napad ima vedno 70% možnosti da zadane."
 
 #. [chance_to_hit]: id=honed
 #: data/core/macros/weapon_specials.cfg:132

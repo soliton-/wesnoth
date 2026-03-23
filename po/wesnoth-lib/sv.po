@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2026-02-25 19:03-0600\n"
+"POT-Creation-Date: 2026-03-23 18:10-0500\n"
 "PO-Revision-Date: 2020-03-10 12:52+0100\n"
 "Last-Translator: Alex Alowersson <alexalowersson@gmail.com>\n"
 "Language-Team: Swedish\n"
@@ -2548,7 +2548,7 @@ msgstr ""
 #. [button]: id=load_movetype
 #. [button]: id=ok
 #: data/gui/themes/celes/dialogs/title_screen.cfg:288
-#: data/gui/themes/default/dialogs/editor_edit_unit.cfg:892
+#: data/gui/themes/default/dialogs/editor_edit_unit.cfg:894
 #: data/gui/themes/default/dialogs/game_load.cfg:638
 #: data/gui/themes/default/dialogs/title_screen.cfg:258
 msgid "Load"
@@ -2761,7 +2761,7 @@ msgstr "Spara lösenord lokalt (krypterat)"
 #: data/gui/themes/default/dialogs/editor_edit_pbl_translation.cfg:125
 #: data/gui/themes/default/dialogs/editor_edit_scenario.cfg:287
 #: data/gui/themes/default/dialogs/editor_edit_side.cfg:469
-#: data/gui/themes/default/dialogs/editor_edit_unit.cfg:1243
+#: data/gui/themes/default/dialogs/editor_edit_unit.cfg:1245
 #: data/gui/themes/default/dialogs/file_dialog.cfg:504
 #: data/gui/themes/default/dialogs/folder_create.cfg:119
 #: data/gui/themes/default/dialogs/label_settings.cfg:137
@@ -2796,7 +2796,7 @@ msgstr "OK"
 #: data/gui/themes/default/dialogs/addon_connect.cfg:206
 #: data/gui/themes/default/dialogs/addon_license_prompt.cfg:113
 #: data/gui/themes/default/dialogs/addon_uninstall_list.cfg:170
-#: data/gui/themes/default/dialogs/campaign_dialog.cfg:623
+#: data/gui/themes/default/dialogs/campaign_dialog.cfg:624
 #: data/gui/themes/default/dialogs/campaign_difficulty.cfg:234
 #: data/gui/themes/default/dialogs/core_dialog.cfg:241
 #: data/gui/themes/default/dialogs/custom_tod.cfg:524
@@ -2809,7 +2809,7 @@ msgstr "OK"
 #: data/gui/themes/default/dialogs/editor_edit_pbl_translation.cfg:137
 #: data/gui/themes/default/dialogs/editor_edit_scenario.cfg:301
 #: data/gui/themes/default/dialogs/editor_edit_side.cfg:481
-#: data/gui/themes/default/dialogs/editor_edit_unit.cfg:1256
+#: data/gui/themes/default/dialogs/editor_edit_unit.cfg:1258
 #: data/gui/themes/default/dialogs/editor_generate_map.cfg:214
 #: data/gui/themes/default/dialogs/editor_new_map.cfg:126
 #: data/gui/themes/default/dialogs/editor_resize_map.cfg:282
@@ -2908,7 +2908,7 @@ msgstr ""
 #: data/gui/themes/default/dialogs/addon_manager.cfg:162
 #: data/gui/themes/default/dialogs/addon_manager.cfg:817
 #: data/gui/themes/default/dialogs/editor_edit_pbl.cfg:210
-#: data/gui/themes/default/dialogs/editor_edit_unit.cfg:706
+#: data/gui/themes/default/dialogs/editor_edit_unit.cfg:708
 msgid "Type:"
 msgstr "Typ:"
 
@@ -2991,7 +2991,7 @@ msgstr "Uppdatera extramaterial"
 #. [button]: id=single_uninstall
 #: data/gui/themes/default/dialogs/addon_manager.cfg:622
 #: data/gui/themes/default/widgets/addon_list.cfg:435
-#: src/gui/dialogs/addon/manager.cpp:1056
+#: src/gui/dialogs/addon/manager.cpp:1060
 msgid "Uninstall add-on"
 msgstr "Avinstallera extramaterial"
 
@@ -3019,7 +3019,7 @@ msgstr "Beroenden:"
 #. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=dependencies
 #: data/gui/themes/default/dialogs/addon_manager.cfg:713
-#: src/gui/dialogs/addon/manager.cpp:1131
+#: src/gui/dialogs/addon/manager.cpp:1135
 msgid "addon_dependencies^None"
 msgstr "Inga"
 
@@ -3033,7 +3033,7 @@ msgstr "Översättningar:"
 #. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=translations
 #: data/gui/themes/default/dialogs/addon_manager.cfg:748
-#: src/gui/dialogs/addon/manager.cpp:1145
+#: src/gui/dialogs/addon/manager.cpp:1149
 msgid "translations^None"
 msgstr "Inga"
 
@@ -3072,7 +3072,7 @@ msgstr "Extramaterialshanterare"
 #. [button]: id=details_toggle
 #: data/gui/themes/default/dialogs/addon_manager.cfg:1099
 #: src/gui/dialogs/addon/manager.cpp:569 src/gui/dialogs/addon/manager.cpp:836
-#: src/gui/dialogs/addon/manager.cpp:937
+#: src/gui/dialogs/addon/manager.cpp:941
 #, fuzzy
 #| msgid "Addon Details"
 msgid "Add-on Details"
@@ -3299,7 +3299,7 @@ msgid ""
 msgstr ""
 
 #. [label]
-#: data/gui/themes/default/dialogs/campaign_dialog.cfg:245
+#: data/gui/themes/default/dialogs/campaign_dialog.cfg:246
 msgid ""
 "In addition to the mainline campaigns, Wesnoth also has an ever-growing list "
 "of add-on content created by other players available via the Add-ons server, "
@@ -3311,7 +3311,7 @@ msgstr ""
 #. [label]
 #. "more than 15" gives a little leeway to add or remove one without changing the translatable text.
 #. It's already ambiguous, 1.18 has 19 campaigns, if you include the tutorial and multiplayer-only World Conquest.
-#: data/gui/themes/default/dialogs/campaign_dialog.cfg:262
+#: data/gui/themes/default/dialogs/campaign_dialog.cfg:263
 msgid ""
 "Wesnoth normally includes more than 15 mainline campaigns, even before "
 "installing any from the add-ons server. If you’ve installed the game via a "
@@ -3324,7 +3324,7 @@ msgstr ""
 #. [label]: id=name
 #. [label]
 #. [toggle_button]: id=unit_name
-#: data/gui/themes/default/dialogs/campaign_dialog.cfg:302
+#: data/gui/themes/default/dialogs/campaign_dialog.cfg:303
 #: data/gui/themes/default/dialogs/game_load.cfg:170
 #: data/gui/themes/default/dialogs/mp_connect.cfg:159
 #: data/gui/themes/default/dialogs/mp_faction_select.cfg:33
@@ -3335,102 +3335,102 @@ msgid "Name"
 msgstr "Namn"
 
 #. [toggle_button]: id=sort_name
-#: data/gui/themes/default/dialogs/campaign_dialog.cfg:303
+#: data/gui/themes/default/dialogs/campaign_dialog.cfg:304
 msgid "Sort by full campaign name in alphabetical order"
 msgstr "Sortera efter fullständigt kampanjnamn i alfabetisk ordning"
 
 #. [toggle_button]: id=sort_time
-#: data/gui/themes/default/dialogs/campaign_dialog.cfg:314
+#: data/gui/themes/default/dialogs/campaign_dialog.cfg:315
 #, fuzzy
 #| msgid "Time limit:"
 msgid "Timeline"
 msgstr "Tidsgräns:"
 
 #. [toggle_button]: id=sort_time
-#: data/gui/themes/default/dialogs/campaign_dialog.cfg:315
+#: data/gui/themes/default/dialogs/campaign_dialog.cfg:316
 msgid "Sort in approximate chronological order of story events"
 msgstr ""
 "Sortera efter ungefärlig kronologisk ordning av händelser i berättelsen"
 
 #. [multimenu_button]: id=filter_completion
-#: data/gui/themes/default/dialogs/campaign_dialog.cfg:325
+#: data/gui/themes/default/dialogs/campaign_dialog.cfg:326
 msgid "Filter by campaign completion status"
 msgstr ""
 
 #. [option]
-#: data/gui/themes/default/dialogs/campaign_dialog.cfg:328
+#: data/gui/themes/default/dialogs/campaign_dialog.cfg:329
 msgid "Not Completed"
 msgstr ""
 
 #. [option]
 #. campaigns which the player hasn't beaten, rather than campaigns which the author hasn't finished writing
-#: data/gui/themes/default/dialogs/campaign_dialog.cfg:330
+#: data/gui/themes/default/dialogs/campaign_dialog.cfg:331
 msgid "Show campaigns not completed by player"
 msgstr ""
 
 #. [option]
-#: data/gui/themes/default/dialogs/campaign_dialog.cfg:334
+#: data/gui/themes/default/dialogs/campaign_dialog.cfg:335
 msgid "Completed: Bronze"
 msgstr ""
 
 #. [option]
-#: data/gui/themes/default/dialogs/campaign_dialog.cfg:335
+#: data/gui/themes/default/dialogs/campaign_dialog.cfg:336
 msgid "Show campaigns completed at easiest difficulty"
 msgstr ""
 
 #. [option]
-#: data/gui/themes/default/dialogs/campaign_dialog.cfg:339
+#: data/gui/themes/default/dialogs/campaign_dialog.cfg:340
 #, fuzzy
 #| msgid "Computer Player"
 msgid "Completed: Silver"
 msgstr "Datorspelare"
 
 #. [option]
-#: data/gui/themes/default/dialogs/campaign_dialog.cfg:340
+#: data/gui/themes/default/dialogs/campaign_dialog.cfg:341
 msgid "Show campaigns completed at intermediate difficulties"
 msgstr ""
 
 #. [option]
-#: data/gui/themes/default/dialogs/campaign_dialog.cfg:344
+#: data/gui/themes/default/dialogs/campaign_dialog.cfg:345
 msgid "Completed: Gold"
 msgstr ""
 
 #. [option]
-#: data/gui/themes/default/dialogs/campaign_dialog.cfg:345
+#: data/gui/themes/default/dialogs/campaign_dialog.cfg:346
 msgid "Show campaigns completed at hardest difficulty"
 msgstr ""
 
 #. [option]
-#: data/gui/themes/default/dialogs/campaign_dialog.cfg:349
+#: data/gui/themes/default/dialogs/campaign_dialog.cfg:350
 msgid "Completed: All"
 msgstr ""
 
 #. [option]
-#: data/gui/themes/default/dialogs/campaign_dialog.cfg:350
+#: data/gui/themes/default/dialogs/campaign_dialog.cfg:351
 msgid "Show completed campaigns"
 msgstr ""
 
 #. [label]
 #. [label]: id=mods_header
-#: data/gui/themes/default/dialogs/campaign_dialog.cfg:401
+#: data/gui/themes/default/dialogs/campaign_dialog.cfg:402
 #: data/gui/themes/default/dialogs/mp_create_game.cfg:209
 msgid "Modifications:"
 msgstr "Varianter:"
 
 #. [label]
-#: data/gui/themes/default/dialogs/campaign_dialog.cfg:426
+#: data/gui/themes/default/dialogs/campaign_dialog.cfg:427
 msgid "Combat:"
 msgstr ""
 
 #. [option]
-#: data/gui/themes/default/dialogs/campaign_dialog.cfg:441
+#: data/gui/themes/default/dialogs/campaign_dialog.cfg:442
 #, fuzzy
 #| msgid "Default"
 msgid "Default RNG"
 msgstr "Standard"
 
 #. [option]
-#: data/gui/themes/default/dialogs/campaign_dialog.cfg:442
+#: data/gui/themes/default/dialogs/campaign_dialog.cfg:443
 msgid ""
 "Pure, unbiased randomness; the way Wesnoth is intended to be played.\n"
 "\n"
@@ -3439,12 +3439,12 @@ msgid ""
 msgstr ""
 
 #. [option]
-#: data/gui/themes/default/dialogs/campaign_dialog.cfg:447
+#: data/gui/themes/default/dialogs/campaign_dialog.cfg:448
 msgid "Predictable RNG"
 msgstr ""
 
 #. [option]
-#: data/gui/themes/default/dialogs/campaign_dialog.cfg:448
+#: data/gui/themes/default/dialogs/campaign_dialog.cfg:449
 msgid ""
 "Identical to Default RNG, except loading a saved game will not change the "
 "outcome of an attack.\n"
@@ -3454,12 +3454,12 @@ msgid ""
 msgstr ""
 
 #. [option]
-#: data/gui/themes/default/dialogs/campaign_dialog.cfg:453
+#: data/gui/themes/default/dialogs/campaign_dialog.cfg:454
 msgid "Reduced RNG"
 msgstr ""
 
 #. [option]
-#: data/gui/themes/default/dialogs/campaign_dialog.cfg:454
+#: data/gui/themes/default/dialogs/campaign_dialog.cfg:455
 msgid ""
 "Hits and misses are much more consistent. This tends to make small-scale "
 "engagements easier to plan.\n"
@@ -3469,38 +3469,38 @@ msgid ""
 msgstr ""
 
 #. [label]
-#: data/gui/themes/default/dialogs/campaign_dialog.cfg:471
+#: data/gui/themes/default/dialogs/campaign_dialog.cfg:472
 #, fuzzy
 #| msgid "Difficulty: "
 msgid "Difficulty:"
 msgstr "Svårighetsgrad"
 
 #. [option]
-#: data/gui/themes/default/dialogs/campaign_dialog.cfg:485
+#: data/gui/themes/default/dialogs/campaign_dialog.cfg:486
 msgid "Easy"
 msgstr ""
 
 #. [option]
-#: data/gui/themes/default/dialogs/campaign_dialog.cfg:488
+#: data/gui/themes/default/dialogs/campaign_dialog.cfg:489
 #, fuzzy
 #| msgid "Normal Rug"
 msgid "Normal"
 msgstr "Vanlig matta"
 
 #. [option]
-#: data/gui/themes/default/dialogs/campaign_dialog.cfg:491
+#: data/gui/themes/default/dialogs/campaign_dialog.cfg:492
 msgid "Hard"
 msgstr ""
 
 #. [label]
-#: data/gui/themes/default/dialogs/campaign_dialog.cfg:548
+#: data/gui/themes/default/dialogs/campaign_dialog.cfg:549
 msgid "Play a Campaign"
 msgstr "Starta en kampanj"
 
 #. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=proceed
 #. [button]: id=ok
-#: data/gui/themes/default/dialogs/campaign_dialog.cfg:612
+#: data/gui/themes/default/dialogs/campaign_dialog.cfg:613
 #: data/gui/themes/default/dialogs/campaign_difficulty.cfg:221
 #: src/gui/dialogs/campaign_selection.cpp:82
 #, fuzzy
@@ -3575,7 +3575,7 @@ msgstr "Öppna spel"
 #: data/gui/themes/default/dialogs/core_dialog.cfg:228
 #: data/gui/themes/default/dialogs/language_selection.cfg:293
 #: src/gui/dialogs/editor/custom_tod.cpp:172
-#: src/gui/dialogs/editor/edit_unit.cpp:297
+#: src/gui/dialogs/editor/edit_unit.cpp:296
 #: src/preferences/preferences.cpp:1342
 msgid "Select"
 msgstr "Välj"
@@ -3726,10 +3726,10 @@ msgstr ""
 #. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #: data/gui/themes/default/dialogs/depcheck_confirm_change.cfg:40
-#: src/gui/dialogs/addon/manager.cpp:1029
+#: src/gui/dialogs/addon/manager.cpp:1033
 #: src/gui/dialogs/editor/custom_tod.cpp:187
-#: src/gui/dialogs/editor/edit_unit.cpp:312
-#: src/gui/dialogs/editor/edit_unit.cpp:929 src/gui/dialogs/file_dialog.cpp:371
+#: src/gui/dialogs/editor/edit_unit.cpp:311
+#: src/gui/dialogs/editor/edit_unit.cpp:928 src/gui/dialogs/file_dialog.cpp:371
 #: src/gui/dialogs/file_dialog.cpp:799
 msgid "Confirm"
 msgstr "Bekräfta"
@@ -4315,7 +4315,7 @@ msgstr "Rörelsekostnader:"
 #. [label]: id=title
 #. [tab]
 #: data/gui/themes/default/dialogs/editor_edit_unit.cfg:524
-#: data/gui/themes/default/dialogs/editor_edit_unit.cfg:1206
+#: data/gui/themes/default/dialogs/editor_edit_unit.cfg:1208
 #: src/gui/widgets/unit_preview_pane.cpp:216
 msgid "Attacks"
 msgstr "Anfall"
@@ -4340,48 +4340,48 @@ msgid "Range:"
 msgstr ""
 
 #. [option]
-#: data/gui/themes/default/dialogs/editor_edit_unit.cfg:686
+#: data/gui/themes/default/dialogs/editor_edit_unit.cfg:687
 msgid "range^Melee"
 msgstr ""
 
 #. [option]
-#: data/gui/themes/default/dialogs/editor_edit_unit.cfg:690
+#: data/gui/themes/default/dialogs/editor_edit_unit.cfg:692
 msgid "range^Ranged"
 msgstr ""
 
 #. [label]
-#: data/gui/themes/default/dialogs/editor_edit_unit.cfg:731
+#: data/gui/themes/default/dialogs/editor_edit_unit.cfg:733
 #, fuzzy
 #| msgid "Damage"
 msgid "Damage:"
 msgstr "Skada"
 
 #. [label]
-#: data/gui/themes/default/dialogs/editor_edit_unit.cfg:758
+#: data/gui/themes/default/dialogs/editor_edit_unit.cfg:760
 msgid "Hits:"
 msgstr ""
 
 #. [label]
-#: data/gui/themes/default/dialogs/editor_edit_unit.cfg:786
+#: data/gui/themes/default/dialogs/editor_edit_unit.cfg:788
 msgid "Specials:"
 msgstr ""
 
 #. [grid]: id=grid_adv
-#: data/gui/themes/default/dialogs/editor_edit_unit.cfg:828
+#: data/gui/themes/default/dialogs/editor_edit_unit.cfg:830
 #, fuzzy
 #| msgid "Profile"
 msgid "Small Profile"
 msgstr "Profil"
 
 #. [label]
-#: data/gui/themes/default/dialogs/editor_edit_unit.cfg:839
+#: data/gui/themes/default/dialogs/editor_edit_unit.cfg:841
 #, fuzzy
 #| msgid "Abilities"
 msgid "Abilities:"
 msgstr "Förmågor"
 
 #. [label]: id=movetype_label
-#: data/gui/themes/default/dialogs/editor_edit_unit.cfg:865
+#: data/gui/themes/default/dialogs/editor_edit_unit.cfg:867
 #, fuzzy
 #| msgid "Contents"
 msgid "Movetype:"
@@ -4389,41 +4389,41 @@ msgstr "Innehåll"
 
 #. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=movement_costs_label
-#: data/gui/themes/default/dialogs/editor_edit_unit.cfg:908
+#: data/gui/themes/default/dialogs/editor_edit_unit.cfg:910
 #: src/gui/widgets/unit_preview_pane.cpp:150
 msgid "Movement Costs:"
 msgstr "Rörelsekostnader:"
 
 #. [label]: id=defense_label
-#: data/gui/themes/default/dialogs/editor_edit_unit.cfg:961
+#: data/gui/themes/default/dialogs/editor_edit_unit.cfg:963
 #, fuzzy
 #| msgid "Defender"
 msgid "Defense:"
 msgstr "Försvarare"
 
 #. [label]: id=resistance_label
-#: data/gui/themes/default/dialogs/editor_edit_unit.cfg:1014
+#: data/gui/themes/default/dialogs/editor_edit_unit.cfg:1016
 #, fuzzy
 #| msgid "Resistances: "
 msgid "Resistances:"
 msgstr "Motståndskrafter: "
 
 #. [label]: id=usage_label
-#: data/gui/themes/default/dialogs/editor_edit_unit.cfg:1067
+#: data/gui/themes/default/dialogs/editor_edit_unit.cfg:1069
 #, fuzzy
 #| msgid "Image:"
 msgid "AI Usage:"
 msgstr "Bild:"
 
 #. [label]
-#: data/gui/themes/default/dialogs/editor_edit_unit.cfg:1170
+#: data/gui/themes/default/dialogs/editor_edit_unit.cfg:1172
 #, fuzzy
 #| msgid "Start the editor"
 msgid "Unit Type Editor"
 msgstr "Öppna karteditorn"
 
 #. [tab]
-#: data/gui/themes/default/dialogs/editor_edit_unit.cfg:1192
+#: data/gui/themes/default/dialogs/editor_edit_unit.cfg:1194
 #: data/gui/themes/default/dialogs/preferences/01_general.cfg:226
 #, fuzzy
 #| msgid "Game Stats"
@@ -4431,13 +4431,13 @@ msgid "Main Stats"
 msgstr "Spelstatistik"
 
 #. [tab]
-#: data/gui/themes/default/dialogs/editor_edit_unit.cfg:1199
+#: data/gui/themes/default/dialogs/editor_edit_unit.cfg:1201
 #: data/gui/themes/default/dialogs/preferences/06_advanced.cfg:148
 msgid "Advanced"
 msgstr "Avancerat"
 
 #. [tab]
-#: data/gui/themes/default/dialogs/editor_edit_unit.cfg:1213
+#: data/gui/themes/default/dialogs/editor_edit_unit.cfg:1215
 msgid "WML View"
 msgstr ""
 
@@ -7350,23 +7350,23 @@ msgstr ""
 msgid "Urban Jungle"
 msgstr ""
 
-#: src/build_info.cpp:285
+#: src/build_info.cpp:297
 msgid "feature^Lua console completion"
 msgstr "Komplettering i Lua-konsol"
 
-#: src/build_info.cpp:292
+#: src/build_info.cpp:304
 msgid "feature^D-Bus notifications back end"
 msgstr "D-Bus-aviseringar backend"
 
-#: src/build_info.cpp:301
+#: src/build_info.cpp:313
 msgid "feature^Win32 notifications back end"
 msgstr "Win32-aviseringar backend"
 
-#: src/build_info.cpp:307
+#: src/build_info.cpp:319
 msgid "feature^Cocoa notifications back end"
 msgstr "Cocoa-aviseringar backend"
 
-#: src/build_info.cpp:346 src/desktop/version.cpp:129
+#: src/build_info.cpp:358 src/desktop/version.cpp:129
 msgid "cpu_architecture^<unknown>"
 msgstr ""
 
@@ -7458,7 +7458,7 @@ msgstr "$prefix, $next"
 msgid "disjunct end^$prefix, or $last"
 msgstr "$prefix eller $last"
 
-#: src/gui/core/canvas.cpp:259
+#: src/gui/core/canvas.cpp:288
 #, fuzzy
 #| msgid "Image doesn't fit on canvas."
 msgid "Image doesn’t fit on canvas."
@@ -7506,13 +7506,13 @@ msgstr ""
 #: src/gui/dialogs/addon/addon_server_info.cpp:95
 #: src/gui/dialogs/addon/addon_server_info.cpp:120
 #: src/gui/dialogs/addon/addon_server_info.cpp:148
-#: src/gui/dialogs/addon/manager.cpp:995 src/gui/dialogs/addon/manager.cpp:1037
+#: src/gui/dialogs/addon/manager.cpp:999 src/gui/dialogs/addon/manager.cpp:1041
 msgid "The server responded with an error:"
 msgstr "Servern svarade med en felkod:"
 
 #: src/gui/dialogs/addon/addon_server_info.cpp:97
-#: src/gui/dialogs/addon/manager.cpp:1013
-#: src/gui/dialogs/addon/manager.cpp:1040
+#: src/gui/dialogs/addon/manager.cpp:1017
+#: src/gui/dialogs/addon/manager.cpp:1044
 #: src/gui/dialogs/multiplayer/mp_join_game.cpp:514
 msgid "Response"
 msgstr "Svar"
@@ -7784,7 +7784,7 @@ msgstr "Inget extramaterial tillgängligt"
 msgid "There are no add-ons available for download from this server."
 msgstr "Det finns inte något extramaterial tillgängligt på denna server"
 
-#: src/gui/dialogs/addon/manager.cpp:880
+#: src/gui/dialogs/addon/manager.cpp:884
 msgid ""
 "The following add-on appears to have publishing or version control "
 "information stored locally, and will not be removed:"
@@ -7792,15 +7792,15 @@ msgstr ""
 "Det följande extramaterialet verkar ha information om publicering och "
 "versionskontroll lagrat lokalt, och kommer inte att tas bort:"
 
-#: src/gui/dialogs/addon/manager.cpp:888
+#: src/gui/dialogs/addon/manager.cpp:892
 msgid "The following add-on could not be deleted properly:"
 msgstr "Följande extramaterial kunde inte tas bort på rätt sätt:"
 
-#: src/gui/dialogs/addon/manager.cpp:968
+#: src/gui/dialogs/addon/manager.cpp:972
 msgid "Warning"
 msgstr "Varning"
 
-#: src/gui/dialogs/addon/manager.cpp:969
+#: src/gui/dialogs/addon/manager.cpp:973
 msgid ""
 "The remote version of this add-on is greater or equal to the version being "
 "uploaded. Do you really wish to continue?"
@@ -7808,20 +7808,20 @@ msgstr ""
 "Versionsnumret för detta extramaterial är högre eller lika högt på servern "
 "som den version du vill skicka in. Vill du verkligen fortsätta?"
 
-#: src/gui/dialogs/addon/manager.cpp:987
+#: src/gui/dialogs/addon/manager.cpp:991
 msgid "The passphrase attribute cannot be present when forum_auth is used."
 msgstr ""
 
-#: src/gui/dialogs/addon/manager.cpp:992
+#: src/gui/dialogs/addon/manager.cpp:996
 msgid "Invalid icon path. Make sure the path points to a valid image."
 msgstr ""
 "Ogiltig sökväg för ikon. Kontrollera att sökvägen pekar på en giltig bildfil."
 
-#: src/gui/dialogs/addon/manager.cpp:998
+#: src/gui/dialogs/addon/manager.cpp:1002
 msgid "The add-on was rejected by the server:"
 msgstr ""
 
-#: src/gui/dialogs/addon/manager.cpp:1025
+#: src/gui/dialogs/addon/manager.cpp:1029
 msgid ""
 "Deleting '$addon|' will permanently erase its download and upload counts on "
 "the add-ons server. Do you really wish to continue?"
@@ -7830,23 +7830,23 @@ msgstr ""
 "uppladdningsstatistik på extramaterialsservern permanent försvinner. Vill du "
 "verkligen fortsätta?"
 
-#: src/gui/dialogs/addon/manager.cpp:1057
+#: src/gui/dialogs/addon/manager.cpp:1061
 msgid "Do you want to uninstall '$addon|'?"
 msgstr "Vill du avinstallera '$addon|'?"
 
 #. TRANSLATORS: Month + day of month + year + 12-hour time, eg 'November 02 2021, 1:59 PM'. Format for your locale.
 #. Format reference: https://www.boost.org/doc/libs/1_85_0/doc/html/date_time/date_time_io.html#date_time.format_flags
-#: src/gui/dialogs/addon/manager.cpp:1090
+#: src/gui/dialogs/addon/manager.cpp:1094
 msgid "%B %d %Y, %I:%M %p"
 msgstr ""
 
 #. TRANSLATORS: Month + day of month + year + 24-hour time, eg 'November 02 2021, 13:59'. Format for your locale.
 #. Format reference: https://www.boost.org/doc/libs/1_85_0/doc/html/date_time/date_time_io.html#date_time.format_flags
-#: src/gui/dialogs/addon/manager.cpp:1093
+#: src/gui/dialogs/addon/manager.cpp:1097
 msgid "%B %d %Y, %H:%M"
 msgstr ""
 
-#: src/gui/dialogs/addon/manager.cpp:1148
+#: src/gui/dialogs/addon/manager.cpp:1152
 msgid "url^None"
 msgstr "Ingen"
 
@@ -7926,14 +7926,14 @@ msgstr ""
 "Välj en kompatibel variant."
 
 #: src/gui/dialogs/editor/custom_tod.cpp:171
-#: src/gui/dialogs/editor/edit_unit.cpp:296
+#: src/gui/dialogs/editor/edit_unit.cpp:295
 #, fuzzy
 #| msgid "Choose Player"
 msgid "Choose File"
 msgstr "Välj spelare"
 
 #: src/gui/dialogs/editor/custom_tod.cpp:182
-#: src/gui/dialogs/editor/edit_unit.cpp:307
+#: src/gui/dialogs/editor/edit_unit.cpp:306
 msgid ""
 "This file is outside Wesnoth’s data dirs. Do you wish to copy it into your "
 "add-on?"
@@ -8052,37 +8052,37 @@ msgstr ""
 msgid "Choose an icon"
 msgstr "Välj upplösning"
 
-#: src/gui/dialogs/editor/edit_unit.cpp:181
+#: src/gui/dialogs/editor/edit_unit.cpp:180
 msgid "scout"
 msgstr ""
 
-#: src/gui/dialogs/editor/edit_unit.cpp:182
+#: src/gui/dialogs/editor/edit_unit.cpp:181
 #, fuzzy
 #| msgid "Right"
 msgid "fighter"
 msgstr "Höger"
 
-#: src/gui/dialogs/editor/edit_unit.cpp:183
+#: src/gui/dialogs/editor/edit_unit.cpp:182
 #, fuzzy
 #| msgid "Search"
 msgid "archer"
 msgstr "Sök"
 
-#: src/gui/dialogs/editor/edit_unit.cpp:184
+#: src/gui/dialogs/editor/edit_unit.cpp:183
 msgid "mixed fighter"
 msgstr ""
 
-#: src/gui/dialogs/editor/edit_unit.cpp:185
+#: src/gui/dialogs/editor/edit_unit.cpp:184
 msgid "healer"
 msgstr ""
 
-#: src/gui/dialogs/editor/edit_unit.cpp:928
+#: src/gui/dialogs/editor/edit_unit.cpp:927
 #, fuzzy
 #| msgid "Save already exists. Do you want to overwrite it?"
 msgid "Unsaved changes will be lost. Do you want to leave?"
 msgstr "Den sparfilen finns redan. Vill du skriva över den?"
 
-#: src/gui/dialogs/editor/edit_unit.cpp:947
+#: src/gui/dialogs/editor/edit_unit.cpp:946
 msgid "Unit type saved."
 msgstr ""
 
