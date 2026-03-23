@@ -1,6 +1,4 @@
-## Version 1.19.21+dev
-### Add-ons client
-### Add-ons server
+## Version 1.19.22
 ### Campaigns
    * Heir to the Throne
      * S22 "Glamdrol": fixed a lua error that would occur if Konrad completed the scenario without pledging any gold to the Stoneskins.
@@ -23,16 +21,8 @@
      * S14 "Long Live the Queen": fix Delfador's magical attacks sometimes being usable with 0% accuracy even when counterspelled.
      * Spells: fix Blizzard freezing chasm hexes.
      * Spells: fix Time Dilation affecting units on your recall list.
-### Editor
-### Multiplayer
-### Lua API
-### Packaging
-### Terrain
 ### Translations
    * Updated translations: Bengali, British English, Czech, French, Hungarian, Italian, Portuguese (Brazil), Spanish
-### Units
-### User interface
-### WML Engine
 ### Miscellaneous and Bug Fixes
    * Fixed the minimap not displaying on absurdly large maps.
    * Fixed AI behavior when fighting a unit with 0 max XP.
