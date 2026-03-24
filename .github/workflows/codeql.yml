@@ -33,7 +33,7 @@ jobs:
         # Learn more about CodeQL language support at https://aka.ms/codeql-docs/language-support
 
     steps:
-    - { name: Checkout repository, uses: actions/checkout@v4, with: { submodules: "recursive" } }
+    - { name: Checkout repository, uses: actions/checkout@v6, with: { submodules: "recursive" } }
 
     # Initializes the CodeQL tools for scanning.
     - name: Initialize CodeQL

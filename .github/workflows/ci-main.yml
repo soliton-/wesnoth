@@ -17,7 +17,7 @@ jobs:
         CLICOLOR_FORCE: 1
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - name: Set git safe directory
         if: success() || failure()
@@ -44,7 +44,7 @@ jobs:
   copyright: # check takes a bit longer and does not need to run in docker (sound/music only)
     runs-on: ubuntu-slim
     steps:
-      - { uses: actions/checkout@v4, with: { fetch-depth: 50 } }
+      - { uses: actions/checkout@v6, with: { fetch-depth: 50 } }
 
       - name: Sound/Music copyright check
         run: ./update_copyrights
@@ -74,7 +74,7 @@ jobs:
         SDL_VIDEODRIVER: dummy
 
     steps:
-      - { uses: actions/checkout@v4, with: { submodules: "recursive" } }
+      - { uses: actions/checkout@v6, with: { submodules: "recursive" } }
 
 # 1) wesnothd and campaignd should be buildable without SDL2 being present
 # 2) boost is installed via apt as well as built and installed into /usr/local (for _GLIBCXX_DEBUG support in boost program options)
@@ -143,7 +143,7 @@ jobs:
         run: ./run_wml_tests -v -v -g -c -t 20 -bt 1000 -a=--userdata-dir=ud
       - name: Upload userdata files from WML unit tests (logs, replays)
         if: matrix.cc == 'clang' && (success() || failure())
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: WMLTest-userdata-Linux
           path: ud
@@ -161,7 +161,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - { uses: actions/checkout@v4, with: { submodules: "recursive" } }
+      - { uses: actions/checkout@v6, with: { submodules: "recursive" } }
 
       - name: Steam Runtime
         run: |
@@ -170,7 +170,7 @@ jobs:
           tar -cf "steambuild-$version.tar" steambuild
 
       - name: Upload
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: Steam-Linux
           path: utils/dockerbuilds/steambuild-*.tar
@@ -179,7 +179,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - { uses: actions/checkout@v4, with: { submodules: "recursive" } }
+      - { uses: actions/checkout@v6, with: { submodules: "recursive" } }
 
       - name: MinGW Crosscompile
         run: |
@@ -192,13 +192,13 @@ jobs:
           mv mingwbuild/wesnoth*-win64.exe "wesnoth-$version-win64.exe"
 
       - name: Upload Source
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: Source
           path: wesnoth-*.tar.bz2
 
       - name: Upload Windows-Installer
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: Windows-Installer
           path: utils/dockerbuilds/wesnoth-*-win64.exe
@@ -210,7 +210,7 @@ jobs:
       options: --tty --cap-add=ALL --privileged # docker create options
 
     steps:
-      - { uses: actions/checkout@v4, with: { submodules: "recursive" } }
+      - { uses: actions/checkout@v6, with: { submodules: "recursive" } }
 
       - name: Flatpak
         run: |
@@ -228,7 +228,7 @@ jobs:
           flatpak build-bundle --runtime-repo=https://flathub.org/repo/flathub.flatpakrepo export-repo wesnoth.flatpak org.wesnoth.Wesnoth "$branch"
 
       - name: Upload flatpak bundle
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: Flatpak-Bundle
           path: wesnoth.flatpak
@@ -244,7 +244,7 @@ jobs:
        CLICOLOR_FORCE: 1
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           submodules: "recursive"
 
@@ -272,7 +272,7 @@ jobs:
       CFG: ${{ matrix.cfg }}
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           submodules: "recursive"
 
@@ -296,7 +296,7 @@ jobs:
         continue-on-error: true  # allow failures since this is not essential and it does fail spuriously (hdiutil: create failed - Resource busy)
         run: hdiutil create -volname "Wesnoth_$CFG" -fs 'HFS+' -srcfolder "build/$CFG" -ov -format UDBZ "Wesnoth_${CFG}.dmg"
       - name: Upload disk image
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: MacOS ${{ matrix.cfg }} disk image
           path: projectfiles/Xcode/Wesnoth_${{ matrix.cfg }}.dmg
@@ -307,7 +307,7 @@ jobs:
           ./run_wml_tests -g -c -t 30 -bt 350 -p "projectfiles/Xcode/build/$CFG/The Battle for Wesnoth.app/Contents/MacOS/The Battle for Wesnoth" -a=--userdata-dir="$PWD/ud"
       - name: Upload userdata files from WML unit tests (logs, replays)
         if: matrix.cfg == 'Release' && (success() || failure())
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: WMLTest-userdata-MacOS
           path: ud
@@ -330,7 +330,7 @@ jobs:
     runs-on: windows-latest
 
     steps:
-      - { uses: actions/checkout@v4, with: { submodules: "recursive" } }
+      - { uses: actions/checkout@v6, with: { submodules: "recursive" } }
 
       - name: Make version of the runner image (https://github.com/actions/runner-images/releases) accessible to expression
         run: echo IMAGE_VERSION=%ImageVersion%>> %GITHUB_ENV%
@@ -361,7 +361,7 @@ jobs:
 
       - name: Upload userdata files from WML unit tests (logs, replays)
         if: matrix.cfg == 'Release' && (success() || failure())
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: WMLTest-userdata-Windows
           path: ud
