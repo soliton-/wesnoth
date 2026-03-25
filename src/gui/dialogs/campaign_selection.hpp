@@ -49,11 +49,6 @@ public:
 
 	/***** ***** ***** setters / getters for members ***** ****** *****/
 
-	int get_choice() const
-	{
-		return choice_;
-	}
-
 	RNG_MODE get_rng_mode() const
 	{
 		return rng_mode_;
