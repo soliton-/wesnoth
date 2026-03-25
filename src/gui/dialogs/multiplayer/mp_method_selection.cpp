@@ -59,9 +59,4 @@ void mp_method_selection::post_show()
 	}
 }
 
-mp_method_selection::choice mp_method_selection::get_choice() const
-{
-	return static_cast<choice>(prefs::get().mp_connect_type());
-}
-
 } // namespace dialogs
