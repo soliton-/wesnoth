@@ -31,8 +31,6 @@ public:
 	{
 	}
 
-	choice get_choice() const;
-
 private:
 	virtual const std::string& window_id() const override;
 
