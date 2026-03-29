@@ -368,7 +368,7 @@ std::vector<topic> generate_weapon_special_topics(const bool sort_generated)
 				}
 
 				if(!type.hide_help()) {
-					special_units[tt_info.help_topic_id].insert(make_unit_link(&type));
+					special_units[tt_info.help_topic_id].insert(make_unit_link(type));
 				}
 			}
 		}
@@ -391,7 +391,7 @@ std::vector<topic> generate_weapon_special_topics(const bool sort_generated)
 							}
 
 							if(!type.hide_help()) {
-								special_units[topic_id].insert(make_unit_link(&type));
+								special_units[topic_id].insert(make_unit_link(type));
 							}
 						}
 					}
@@ -411,7 +411,7 @@ std::vector<topic> generate_weapon_special_topics(const bool sort_generated)
 							}
 
 							if(!type.hide_help()) {
-								special_units[topic_id].insert(make_unit_link(&type));
+								special_units[topic_id].insert(make_unit_link(type));
 							}
 						}
 					}
@@ -452,7 +452,7 @@ std::vector<topic> generate_ability_topics(const bool sort_generated)
 		}
 
 		if(!type.hide_help()) {
-			ability_units[ability.help_topic_id].insert(make_unit_link(&type));
+			ability_units[ability.help_topic_id].insert(make_unit_link(type));
 		}
 	};
 
@@ -810,22 +810,23 @@ std::vector<topic> generate_trait_topics(const bool sort_generated)
 std::string make_unit_link(const std::string& type_id)
 {
 	const unit_type* type = unit_types.find(type_id, unit_type::HELP_INDEXED);
-	return make_unit_link(type);
-}
-
-std::string make_unit_link(const unit_type* type)
-{
 	if(!type) {
-		PLAIN_LOG << "Unknown unit type: " << type->id();
+		PLAIN_LOG << "Unknown unit type: " << type_id;
 		// don't return an hyperlink (no page)
 		// instead show the id (as hint)
-		return type->id();
-	} else if(!type->hide_help()) {
-		std::string name = type->type_name();
+		return type_id;
+	}
+	return make_unit_link(*type);
+}
+
+std::string make_unit_link(const unit_type& type)
+{
+	if(!type.hide_help()) {
+		std::string name = type.type_name();
 		std::string ref_id;
-		if(description_type(*type) == FULL_DESCRIPTION) {
-			const std::string section_prefix = type->show_variations_in_help() ? ".." : "";
-			ref_id = section_prefix + unit_prefix + type->id();
+		if(description_type(type) == FULL_DESCRIPTION) {
+			const std::string section_prefix = type.show_variations_in_help() ? ".." : "";
+			ref_id = section_prefix + unit_prefix + type.id();
 		} else {
 			ref_id = unknown_unit_topic;
 			name += " (?)";
