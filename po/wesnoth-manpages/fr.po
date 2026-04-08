@@ -478,7 +478,7 @@ msgid ""
 "this I<level> or more severe will cause the unit test to fail regardless of "
 "the victory result. Only relevant when used with B<-u>."
 msgstr ""
-"Positionne le l<niveau> strict pour ce journal. Tout message journalisé avec "
+"Positionne le I<niveau> strict pour ce journal. Tout message journalisé avec "
 "ce niveau ou plus sévère causera l'échec du test unitaire, quelque soit le "
 "résultat du jeu. Uniquement utile avec l'option B<-u>."
 
@@ -1173,7 +1173,7 @@ msgstr "Valide le code WML d'un noyau durant le jeu."
 #: doc/man/wesnoth.6:380
 #, no-wrap
 msgid "B<--validate-schema>I<\\ path>"
-msgstr "B<--validate-schema>l<\\ chemin>"
+msgstr "B<--validate-schema>I<\\ chemin>"
 
 #. type: Plain text
 #: doc/man/wesnoth.6:383
