@@ -26,7 +26,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 20.12.0\n"
+"X-Generator: Poedit 3.9\n"
 
 #. [time]: id=underground
 #. [editor_times]: id=underground
@@ -893,11 +893,16 @@ msgstr ""
 
 #. [topic]: id=editor_terrain_elevation
 #: data/core/editor/help.cfg:182
+#, fuzzy
 msgid ""
 "There are two high markers and two low markers, so it is possible to make "
 "terraces of up to five levels (lowest, lower, normal, higher, highest). "
 "Placing a high region next to a low region does not result in larger cliffs."
 msgstr ""
+"Il existe deux marqueurs élevés et deux marqueurs bas, ce qui permet de "
+"créer des terrasses allant jusqu’à cinq niveaux (le plus bas, bas, normal, "
+"élevé, le plus élevé). Placer une zone élevée à côté d’une zone basse ne "
+"produit pas de falaises plus hautes."
 
 #. [topic]: id=editor_terrain_elevation
 #: data/core/editor/help.cfg:184
@@ -1872,10 +1877,14 @@ msgstr ""
 
 #. [topic]: id=great_river
 #: data/core/encyclopedia/geography.cfg:35
+#, fuzzy
 msgid ""
 "The Ford of Abez is a crossing between Wesnoth and the Northlands, and is "
 "the westernmost point where the Great River can be crossed without ships."
 msgstr ""
+"Le gué d’Abez relie Wesnoth aux Terres du Nord, c’est l'endroit le plus à "
+"l’ouest où le Grand Fleuve peut être franchi, sans avoir recours à des "
+"bateaux."
 
 #. [topic]: id=great_ocean
 #: data/core/encyclopedia/geography.cfg:40
@@ -1896,11 +1905,16 @@ msgstr ""
 #. [topic]: id=great_ocean
 #. Great Ocean
 #: data/core/encyclopedia/geography.cfg:45
+#, fuzzy
 msgid ""
 "The Drakes once called this ocean the World Ocean. They believe it to extend "
 "in every direction from Morogor until eventually flowing into the abyss as "
 "an immense waterfall at the edge of the world."
 msgstr ""
+"Les Dracans appelaient autrefois cet océan l’Océan du Monde. Ils  croyaient "
+"qu’il s’étendait dans toutes les directions depuis Morogor pour finir par se "
+"précipiter dans l’abîme sous la forme d’une gigantesque chute d’eau au bord "
+"du monde."
 
 #. [topic]: id=morogor
 #: data/core/encyclopedia/geography.cfg:50
@@ -2535,7 +2549,7 @@ msgid ""
 "    "
 msgstr ""
 
-# Desert of Death: Le Désert de la Mort (sotbe) 
+# Desert of Death: Le Désert de la Mort (sotbe)
 # Mountains of Haag: Montagnes de Haag (sotbe)
 # Mourned Hills: Collines Mornes (sotbe)
 # Silent Forest: Forêt silencieuse (sotbe)
@@ -2698,12 +2712,12 @@ msgid ""
 "simple rules arises a wealth of strategy, making the game easy to learn but "
 "a challenge to master."
 msgstr ""
-"<i>« Bataille pour Wesnoth »</i> est un jeu de stratégie d'<i>heroic fantas</"
-"i> quelque peu inhabituel parmi les jeux récents du même type. Alors que les "
-"autres s'avèrent toujours plus complexes, <i>Bataille pour Wesnoth</i> vise "
-"la simplicité et la jouabilité sans être simpliste pour autant : ses règles "
-"simples révèlent une vraie richesse stratégique, ce qui en fait un jeu "
-"facile à apprendre mais difficile à maîtriser."
+"<i>« La Bataille pour Wesnoth »</i> est un jeu de stratégie fantastique au "
+"tour par tour, quelque peu atypique parmi les jeux de stratégie récents. "
+"Alors que les autres s'avèrent toujours plus complexes, <i>La Bataille pour "
+"Wesnoth</i> vise la simplicité et la jouabilité sans être simpliste pour "
+"autant : ses règles simples révèlent une vraie richesse stratégique, ce qui "
+"en fait un jeu facile à apprendre mais difficile à maîtriser."
 
 #. [topic]: id=..introduction
 #: data/core/help.cfg:99
@@ -2720,11 +2734,11 @@ msgid ""
 "new aspects of the game. For more detailed information on special situations "
 "and exceptions, follow the included links."
 msgstr ""
-"Les pages suivantes résument tout ce dont vous aurez besoin pour jouer à "
-"« Bataille pour Wesnoth ». Elles s'enrichiront au fur et à mesure de vos "
-"parties, quand vous serez confrontés à de nouveaux aspects du jeu. Pour les "
-"cas particuliers et les exceptions, veuillez vous reporter aux liens "
-"indiqués."
+"Les pages suivantes présentent tout ce que vous devez savoir pour jouer à "
+"« La Bataille pour Wesnoth ». Elles s'enrichiront au fur et à mesure de vos "
+"parties, quand vous serez confrontés à de nouveaux aspects du jeu. Pour des "
+"informations plus détaillées sur les situations particulières et les "
+"exceptions, suivez les liens fournis."
 
 #. [topic]: id=about_game
 #: data/core/help.cfg:105
@@ -3456,12 +3470,18 @@ msgstr "Vision"
 
 #. [topic]: id=vision
 #: data/core/help.cfg:274
+#, fuzzy
 msgid ""
 "Vision determines how far a unit can see on the map. Normally, a unit’s "
 "vision range is calculated as its movement range plus one hex. Certain units "
 "with unique vision capabilities deviate from this rule and have vision cost "
 "independent of movement range."
 msgstr ""
+"La vision détermine jusqu’où une unité peut voir sur la carte. Normalement, "
+"la portée de vision d’une unité est calculée comme sa portée de déplacement "
+"plus un hexagone. Certaines unités disposant de capacités de vision "
+"particulières dérogent à cette règle et ont un coût de vision indépendant de "
+"leur portée de déplacement."
 
 #. [topic]: id=shroud_and_fog
 #: data/core/help.cfg:281
@@ -3618,8 +3638,9 @@ msgstr "Apprendre de ses échecs"
 
 #. [topic]: id=whylost
 #: data/core/help.cfg:313
+#, fuzzy
 msgid "<i>Why did I lose that scenario?</i>"
-msgstr ""
+msgstr "<i>Comment ai-je pu perdre ce scénario ?</i>"
 
 #. [topic]: id=whylost
 #: data/core/help.cfg:315
@@ -3725,8 +3746,9 @@ msgstr ""
 
 #. [topic]: id=whylost
 #: data/core/help.cfg:331
+#, fuzzy
 msgid "Unlikely reasons"
-msgstr ""
+msgstr "Raisons peu probables"
 
 #. [topic]: id=whylost
 #: data/core/help.cfg:333
@@ -3920,7 +3942,7 @@ msgstr ""
 #. [topic]: id=combat
 #: data/core/help.cfg:363
 msgid "Damage"
-msgstr ""
+msgstr "Dégâts"
 
 #. [topic]: id=combat
 #: data/core/help.cfg:365
@@ -4182,36 +4204,51 @@ msgstr "Moment de la journée"
 
 #. [topic]: id=time_of_day
 #: data/core/help.cfg:467
+#, fuzzy
 msgid "The time of day affects the damage of certain units as follows:"
 msgstr ""
+"Le moment de la journée influence les dégâts infligés par certaines unités "
+"comme suit :"
 
 #. [topic]: id=time_of_day
 #: data/core/help.cfg:469
+#, fuzzy
 msgid ""
 "• <span weight='heavy' size='15'>LAWFUL</span> units get +25% damage in "
 "daytime, and −25% damage at night."
 msgstr ""
+"• Les unités <span weight='heavy' size='15'>LOYALES</span> infligent +25 % "
+"de dégâts le jour, et −25 % la nuit."
 
 #. [topic]: id=time_of_day
 #: data/core/help.cfg:470
+#, fuzzy
 msgid ""
 "• <span weight='heavy' size='15'>CHAOTIC</span> units get +25% damage at "
 "night, and −25% in daytime."
 msgstr ""
+"• Les unités <span weight='heavy' size='15'>CHAOTIQUES</span> infligent "
+"+25 % de dégâts la nuit, et −25 % le jour."
 
 #. [topic]: id=time_of_day
 #: data/core/help.cfg:471
+#, fuzzy
 msgid ""
 "• <span weight='heavy' size='15'>NEUTRAL</span> units are unaffected by the "
 "time of day."
 msgstr ""
+"• Les unités <span weight='heavy' size='15'>NEUTRES</span> ne sont pas "
+"affectées par le moment de la journée."
 
 #. [topic]: id=time_of_day
 #: data/core/help.cfg:472
+#, fuzzy
 msgid ""
 "• <span weight='heavy' size='15'>LIMINAL</span> units get +25% damage during "
 "twilight."
 msgstr ""
+"• Les unités <span weight='heavy' size='15'>LIMINALES</span> infligent +25 % "
+"de dégâts pendant le crépuscule."
 
 #. [topic]: id=time_of_day
 #: data/core/help.cfg:474
@@ -4654,7 +4691,7 @@ msgid ""
 "forested hills, he has a defense rating of 30% rather than 40%, because the "
 "mixed rating cannot exceed the cap."
 msgstr ""
-"Par exemple les <ref dst='unit_Cavalryman>cavaliers</ref> ont une défense de "
+"Par exemple les <ref dst='unit_Cavalryman'>hussards</ref> ont une défense de "
 "30% dans les forêts et une limite défensive pour les forêts. Ainsi, sur une "
 "colline boisée, ils ont une défense de 30% au lieu de 40% (celle de la "
 "colline) à cause de la limite provoquée par le type de terrain forêt."
@@ -4755,11 +4792,16 @@ msgstr ""
 
 #. [topic]: id=using_addons
 #: data/core/help.cfg:632
+#, fuzzy
 msgid ""
 "In <i>Multiplayer</i> mode, you can choose an era when creating a new game, "
 "and players can pick from the available factions for that era when setting "
 "up their sides and teams."
 msgstr ""
+"En mode <i>Multijoueur</i>, vous pouvez choisir une époque lors de la "
+"création d’une nouvelle partie, et les joueurs peuvent sélectionner parmi "
+"les factions disponibles pour cette époque lorsqu’ils configurent leurs "
+"camps et équipes."
 
 #. [topic]: id=using_addons
 #: data/core/help.cfg:634
@@ -4768,12 +4810,13 @@ msgid ""
 "ref> of the help."
 msgstr ""
 "Vous pouvez vérifier l'ère que vous avez chargée dans la <ref "
-"dst='..eras_section>section ère</ref> de l'aide."
+"dst='..eras_section'>section ère</ref> de l'aide."
 
 #. [topic]: id=using_addons
 #: data/core/help.cfg:636
+#, fuzzy
 msgid "Modifications"
-msgstr ""
+msgstr "Modifications"
 
 #. [topic]: id=using_addons
 #: data/core/help.cfg:638
@@ -4817,8 +4860,9 @@ msgstr ""
 
 #. [topic]: id=using_addons
 #: data/core/help.cfg:646
+#, fuzzy
 msgid "Creator Resources"
-msgstr ""
+msgstr "Ressources du créateur"
 
 #. [topic]: id=using_addons
 #: data/core/help.cfg:648
@@ -5299,15 +5343,19 @@ msgstr ""
 
 #. [chance_to_hit]: id=diversion
 #: data/core/macros/abilities.cfg:158
+#, fuzzy
 msgid "accuracy:"
-msgstr ""
+msgstr "précision"
 
 #. [chance_to_hit]: id=diversion
 #: data/core/macros/abilities.cfg:159
+#, fuzzy
 msgid ""
 "A nearby enemy’s <i>diversion</i> ability is reducing this attack’s accuracy "
 "by 20%."
 msgstr ""
+"La capacité de <i>diversion</i> d’un ennemi à proximité réduit la précision "
+"de cette attaque de 20 %."
 
 #. [leadership]: id=leadership
 #: data/core/macros/abilities.cfg:210
@@ -5424,10 +5472,13 @@ msgstr ""
 
 #. [hides]: id=burrow
 #: data/core/macros/abilities.cfg:322
+#, fuzzy
 msgid ""
 "This unit can burrow under loose dirt, sand, or leaves, concealing itself if "
 "it does not change location."
 msgstr ""
+"Cette unité peut s’enfouir dans la terre meuble, le sable ou les feuilles, "
+"et reste dissimulée tant qu’elle ne se déplace pas."
 
 #. [hides]: id=nightstalk
 #: data/core/macros/abilities.cfg:339
@@ -5498,15 +5549,15 @@ msgstr ""
 
 #. [hides]: id=swamp_lurk
 #: data/core/macros/abilities.cfg:398
+#, fuzzy
 msgid "swamp lurk"
-msgstr ""
+msgstr "Rôdeur des marais"
 
 #. [hides]: id=swamp_lurk
 #: data/core/macros/abilities.cfg:399
 #, fuzzy
-#| msgid "female^weak"
 msgid "female^swamp lurk"
-msgstr "faible"
+msgstr "Rôdeuse des marais"
 
 #. [hides]: id=swamp_lurk
 #: data/core/macros/abilities.cfg:400
@@ -6429,44 +6480,55 @@ msgstr ""
 
 #. [trait]: id=oceangoing
 #: data/core/macros/traits.cfg:386
+#, fuzzy
 msgid "oceangoing"
-msgstr ""
+msgstr " hauturier "
 
 #. [trait]: id=oceangoing
 #. this is a defense reduction - without this ability most oceangoing ships would have 30% defense on these terrains
 #: data/core/macros/traits.cfg:388
+#, fuzzy
 msgid ""
 "This unit is limited to 20% defense while in ford, bridge, oasis, or water-"
 "based village/castle terrain."
 msgstr ""
+"Cette unité est limitée à 20 % de défense lorsqu’elle se trouve sur un gué, "
+"un pont, une oasis ou un terrain de village/château aquatique."
 
 #. [trait]: id=push_poles
 #. https://en.wikipedia.org/wiki/Setting_pole
 #: data/core/macros/traits.cfg:416
+#, fuzzy
 msgid "push-poles"
-msgstr ""
+msgstr " perches de navigation"
 
 #. [trait]: id=push_poles
 #: data/core/macros/traits.cfg:417
+#, fuzzy
 msgid ""
 "This unit has 30% defense while in ford, bridge, oasis, or water-based "
 "village/castle terrain."
 msgstr ""
+"Cette unité bénéficie de 30 % de défense lorsqu’elle se trouve sur un gué, "
+"un pont, une oasis ou un terrain de village/château aquatique."
 
 #. [disable]: id=unwieldy
 #: data/core/macros/weapon_specials.cfg:10
+#, fuzzy
 msgid "unwieldy"
-msgstr ""
+msgstr "peu maniable"
 
 #. [disable]: id=unwieldy
 #: data/core/macros/weapon_specials.cfg:11
+#, fuzzy
 msgid "This attack can only be used offensively."
-msgstr ""
+msgstr "Cette attaque est uniquement utilisable à des fins offensives."
 
 #. [disable]: id=unwieldy
 #: data/core/macros/weapon_specials.cfg:13
+#, fuzzy
 msgid "This unit has an unwieldy weapon, which cannot be used defensively."
-msgstr ""
+msgstr "Cette unité a une arme peu maniable, inutilisable en défense."
 
 #. [berserk]: id=berserk
 #: data/core/macros/weapon_specials.cfg:22
@@ -6560,19 +6622,24 @@ msgstr ""
 
 #. [chance_to_hit]: id=honed
 #: data/core/macros/weapon_specials.cfg:132
+#, fuzzy
 msgid "honed"
-msgstr ""
+msgstr "affûté"
 
 #. [chance_to_hit]: id=honed
 #: data/core/macros/weapon_specials.cfg:133
+#, fuzzy
 msgid "This attack is 10% more accurate than other attacks."
-msgstr ""
+msgstr "Cette attaque est 10 % plus précise que les autres attaques."
 
 #. [chance_to_hit]: id=honed
 #: data/core/macros/weapon_specials.cfg:134
+#, fuzzy
 msgid ""
 "This unit’s “honed” attack is slightly more accurate than other attacks."
 msgstr ""
+"L’attaque « affûtée » de cette unité est un peu plus précise que ses autres "
+"attaques."
 
 #. [swarm]: id=swarm
 #: data/core/macros/weapon_specials.cfg:145
@@ -6608,20 +6675,25 @@ msgstr ""
 
 #. [damage]: id=guard
 #: data/core/macros/weapon_specials.cfg:170
+#, fuzzy
 msgid "guard"
-msgstr ""
+msgstr "blocage"
 
 #. [damage]: id=guard
 #: data/core/macros/weapon_specials.cfg:171
+#, fuzzy
 msgid "This attack blocks half of the damage from its target’s strikes."
-msgstr ""
+msgstr "Cette attaque absorbe la moitié des dégâts provenant de la cible."
 
 #. [damage]: id=guard
 #: data/core/macros/weapon_specials.cfg:172
+#, fuzzy
 msgid ""
 "This unit’s guarding attack can halve incoming damage, but only when used in "
 "combat."
 msgstr ""
+"L’attaque blocante de cette unité bloque 50 % des dégâts, mais uniquement "
+"pendant un combat."
 
 #. [drains]: id=drains
 #: data/core/macros/weapon_specials.cfg:184
@@ -6764,13 +6836,11 @@ msgstr ""
 
 #. [race]: id=cats
 #: data/core/units.cfg:49
-#, fuzzy
 msgid "race^Cat"
 msgstr "Félin"
 
 #. [race]: id=cats
 #: data/core/units.cfg:50
-#, fuzzy
 msgid "race+female^Cat"
 msgstr "Féline"
 
@@ -6782,12 +6852,18 @@ msgstr "Félins"
 
 #. [race]: id=cats
 #: data/core/units.cfg:52
+#, fuzzy
 msgid ""
 "Big cats are nimble, solitary predators that can cause trouble for any "
 "farmer or hunter that encounter them. The cats that hunt rodents and drive "
 "away lone wolves are tolerated by civilized folk, but some big cats are "
 "considered terrifying monsters."
 msgstr ""
+"Les grands félins sont des prédateurs agiles et solitaires capables de "
+"causer bien des ennuis à tout fermier ou chasseur qui les rencontre. Ceux "
+"qui chassent les rongeurs et tiennent les loups isolés à distance sont "
+"tolérés par les gens civilisés, tandis que d'autres sont tenus pour des "
+"créatures monstrueuses et effrayantes."
 
 #. [race]: id=drake
 #: data/core/units.cfg:61
@@ -7245,10 +7321,13 @@ msgstr "Gobelins"
 
 #. [race]: id=goblin
 #: data/core/units.cfg:163
+#, fuzzy
 msgid ""
 "Goblins are puny and quite frail, rarely growing past the size and stature "
 "of a human child."
 msgstr ""
+"Les gobelins sont des créatures chétives et fragiles, dépassant rarement la "
+"taille ou la stature d’un enfant humain."
 
 #. [race]: id=goblin
 #: data/core/units.cfg:165
@@ -7764,28 +7843,21 @@ msgstr "Saurien"
 
 #. [race]: id=ship
 #: data/core/units.cfg:295
-#, fuzzy
-#| msgid "race+plural^Khalifate"
 msgid "race+plural^Ships"
-msgstr "Khâlifas"
+msgstr "Navires"
 
 #. [race]: id=ship
 #: data/core/units.cfg:296
 #, fuzzy
-#| msgid ""
-#| "Animated neither by natural life nor by necromancy, the term "
-#| "<italic>text='mechanical'</italic> describes a created artifact of an "
-#| "intelligent being. Most mechanical things neither move nor think on their "
-#| "own, but some do so as a result of magical enchantment."
 msgid ""
 "Ships are not living beings, but they are crafted and (usually) controlled "
 "by living beings. Most ships neither move nor think on their own, but some "
 "do so as a result of magical enchantment."
 msgstr ""
-"Animée ni de vie naturelle ni par la nécromancie, une entité <i>mécanique</"
-"i> est l'œuvre d'une créature intelligente. La plupart des choses mécaniques "
-"n'ont pas de conscience et ne se déplacent pas par elles-mêmes, mais "
-"quelques-unes le font grâce à un enchantement."
+"Les navires ne sont pas des êtres vivants, mais ils sont fabriqués et "
+"(généralement) contrôlés par des êtres vivants. La plupart des navires ne se "
+"déplacent pas et ne pensent pas par eux-mêmes, mais certains en sont "
+"capables grâce à des enchantements magiques."
 
 #. [race]: id=merman
 #: data/core/units.cfg:307
@@ -7965,6 +8037,7 @@ msgstr "Orcs"
 
 #. [race]: id=orc
 #: data/core/units.cfg:354
+#, fuzzy
 msgid ""
 "In appearance, orcs resemble humans but with some bestial features. They are "
 "taller, sturdier and stronger than humans. They are warlike, savage, and "
@@ -7973,14 +8046,22 @@ msgid ""
 "Although Orcs are violent even among themselves, they are pack-oriented; an "
 "orc never travels alone or lives in groups smaller than half a dozen."
 msgstr ""
+"D’apparence, les orcs ressemblent aux humains, mais présentent certains "
+"traits bestiaux. Ils sont plus grands, plus robustes et plus forts que les "
+"humains. Ils sont belliqueux, sauvages et cruels par nature. Leur sang est "
+"plus sombre et plus épais que celui des humains, et ils se soucient peu de "
+"leur hygiène ou de leur apparence. Bien que les orcs soient violents même "
+"entre eux, ils demeurent des êtres grégaires ; un orc ne voyage jamais seul "
+"et ne vit pas en bandes de moins d’une demi-douzaine d’individus."
 
 #. [race]: id=orc
 #: data/core/units.cfg:356
 msgid "Society"
-msgstr ""
+msgstr "Société"
 
 #. [race]: id=orc
 #: data/core/units.cfg:357
+#, fuzzy
 msgid ""
 "Almost every orc is a member of a tribe or a clan. Relations between "
 "neighboring tribes are usually violent, except in cases of a mutual enemy "
@@ -7992,9 +8073,20 @@ msgid ""
 "known to possess a crude system of writing — usually in blood — although "
 "it’s most commonly used to trade insults or threats among tribal leaders."
 msgstr ""
+"Presque tous les orcs appartiennent à une tribu ou à un clan. Les relations "
+"entre tribus voisines sont généralement violentes, sauf lorsqu’un ennemi "
+"commun menace leur existence ou que la perspective d’un grand pillage "
+"l’emporte sur leur animosité mutuelle. Il arrive parfois qu’un chef "
+"particulièrement puissant s’impose et prenne la tête de plusieurs tribus, "
+"généralement par intimidation. En temps de paix, une tribu orc se consacre "
+"presque exclusivement à se renforcer en vue du prochain conflit armé. Les "
+"orcs possèdent un système d’écriture rudimentaire — souvent tracé avec du "
+"sang — mais celui-ci est surtout utilisé pour échanger insultes et menaces "
+"entre chefs tribaux."
 
 #. [race]: id=orc
 #: data/core/units.cfg:359
+#, fuzzy
 msgid ""
 "Orc societies are based on little else but strength; might makes right, and "
 "a leader leads and survives only as long as no one manages to wrest the "
@@ -8006,9 +8098,19 @@ msgid ""
 "displaying power, assassination, poisoning and backstabbing are completely "
 "viable means to further one’s own goals."
 msgstr ""
+"Les sociétés orques ne reposent que sur la force : la loi du plus fort "
+"prime, et un chef ne conserve son titre que tant que personne ne parvient à "
+"le lui arracher. Une lutte incessante pour le pouvoir couve parmi les "
+"prétendants au commandement tribal. Un chef orque vit rarement plus de "
+"quelques années pour jouir de son autorité absolue avant d’être tué par un "
+"rival — bien que l’histoire connaisse quelques exceptions notables. Les orcs "
+"ne respectent aucun code d’honneur et, si la force brute est généralement la "
+"manière privilégiée de montrer son pouvoir, l’assassinat, le poison et la "
+"trahison sont des méthodes couramment utilisées pour atteindre ses objectifs."
 
 #. [race]: id=orc
 #: data/core/units.cfg:361
+#, fuzzy
 msgid ""
 "Orcs mostly live in rural areas, often in foothills or mountainous regions, "
 "sometimes in caves. They grow no crops nor keep livestock, but are competent "
@@ -8021,9 +8123,22 @@ msgid ""
 "large encampments almost resembling cities, but even these are easily "
 "dismantled and abandoned if there is a need to relocate the horde."
 msgstr ""
+"Les orcs vivent principalement en milieu rural, souvent dans les contreforts "
+"ou les régions montagneuses, parfois dans des cavernes. Ils ne cultivent ni "
+"ne possèdent de bétail, mais sont d’excellents chasseurs grâce à leur "
+"constitution physique et à leur brutalité. En raison de leur grand nombre, "
+"ils peuvent chasser dans une zone jusqu’à en épuiser quasiment tout le "
+"gibier plus gros que des rongeurs en un laps de temps relativement court. À "
+"cause de cette pression sur la faune et de leurs dirigeants instables, les "
+"tribus orques adoptent un mode de vie semi-nomade, ne s’installant jamais "
+"trop longtemps dans une région. Les tribus les plus importantes peuvent "
+"s’établir durablement dans une zone pendant des années, voire des décennies, "
+"et bâtir de grands campements presque comparables à des villes, mais ces "
+"derniers peuvent être rapidement abandonnés si la horde doit se déplacer."
 
 #. [race]: id=orc
 #: data/core/units.cfg:363
+#, fuzzy
 msgid ""
 "The oldest known orcs have been around 50 to 60 years of age, but very few "
 "individuals ever live to see over two or three decades before meeting their "
@@ -8035,6 +8150,16 @@ msgid ""
 "many ways the opposite of most other orcs: they are often physically "
 "withered and frail in comparison and lack skill in battle."
 msgstr ""
+"Les orcs les plus âgés connus atteignent entre 50 et 60 ans, mais la "
+"majorité ne vit guère plus de vingt ou trente ans avant de mourir à la "
+"guerre ou de la main d’un membre de leur propre tribu. Les chamanes figurent "
+"souvent parmi les plus âgées et sont peut-être les seules à être perçues "
+"comme dignes de confiance et neutres par leurs semblables. L’origine de "
+"cette coutume demeure inconnue, puisque les chamanes ne participent guère "
+"aux activités de la société orque, se contentant de jouer le rôle de "
+"conseillères — ce que les orcs tolèrent rarement autrement. À bien des "
+"égards, les chamanes sont l’opposé des autres orcs : souvent chétives et "
+"fragiles, et peu habiles au combat."
 
 #. [race]: id=orc
 #: data/core/units.cfg:367
@@ -8508,8 +8633,9 @@ msgstr[1] "Terrains de base : $types"
 
 #. TRANSLATORS: In the help for a terrain type, for example Dwarven Village is often placed on Cave Floor
 #: src/help/help_topic_generators.cpp:275
+#, fuzzy
 msgid "Typical base terrain: $type"
-msgstr ""
+msgstr "Terrain de base typique : $type"
 
 #: src/help/help_topic_generators.cpp:281
 msgid "Movement properties: "
@@ -8553,10 +8679,11 @@ msgstr "Race :"
 
 #: src/help/help_topic_generators.cpp:536
 #: src/help/help_topic_generators.cpp:546
+#, fuzzy
 msgid "(1 of):"
 msgid_plural "(random $number of):"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "(1 de):"
+msgstr[1] "(nombre aléatoire de $number) : "
 
 #: src/help/help_topic_generators.cpp:559
 msgid "Abilities:"
@@ -8617,19 +8744,17 @@ msgstr "Expérience requise : "
 
 #: src/help/help_topic_generators.cpp:664
 #, fuzzy
-#| msgid "Attack Type"
 msgid "Attacks"
-msgstr "Type d'attaque"
+msgstr "Attaques"
 
 #: src/help/help_topic_generators.cpp:667
-#, fuzzy
-#| msgid "Attack Type"
 msgid "Attacks per turn: "
-msgstr "Type d'attaque"
+msgstr "Attaques par tour : "
 
 #: src/help/help_topic_generators.cpp:686
+#, fuzzy
 msgid "Name"
-msgstr ""
+msgstr "Nom"
 
 #: src/help/help_topic_generators.cpp:687
 msgid "Strikes"
@@ -8648,10 +8773,11 @@ msgid "Special"
 msgstr "Spécial"
 
 #: src/help/help_topic_generators.cpp:712
+#, fuzzy
 msgid "uses $num attack"
 msgid_plural "uses $num attacks"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "utilise $num attaque"
+msgstr[1] "utilise $num attaques"
 
 #: src/help/help_topic_generators.cpp:791
 msgid "Resistances"

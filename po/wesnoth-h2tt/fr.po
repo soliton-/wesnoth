@@ -378,7 +378,7 @@ msgstr ""
 #: data/campaigns/Heir_To_The_Throne/achievements.cfg:52
 #, fuzzy
 msgid "Bring the proper equipment to <i>Digging for Dwarves</i>."
-msgstr "Apporter l’équipement approprié pour <i>Fouille pour nains</i>."
+msgstr "Apporter l’équipement approprié pour <i>Creuser pour des nains</i>."
 
 #. [achievement_group]
 #: data/campaigns/Heir_To_The_Throne/achievements.cfg:52
@@ -1155,14 +1155,11 @@ msgstr ""
 #. [message]: role=alduin_justcompleted_mage
 #: data/campaigns/Heir_To_The_Throne/overworld/00a_western_wesnoth.cfg:715
 #, fuzzy
-#| msgid ""
-#| "Thank you, Konrad! Asheveire won’t forget what happened here today, and "
-#| "neither will we."
 msgid ""
 "Thank you, Konrad! Asheviere won’t forget what happened here today, and "
 "neither will we."
 msgstr ""
-"Merci, Konrad ! Asheveire n’oubliera pas ce qui s’est passé ici aujourd’hui, "
+"Merci, Konrad ! Asheviere n’oubliera pas ce qui s’est passé ici aujourd’hui, "
 "et nous non plus."
 
 #. [message]: speaker=Elrian
@@ -1203,15 +1200,12 @@ msgstr "Renvoyer Elrian de votre armée"
 #. [message]: speaker=Elrian
 #: data/campaigns/Heir_To_The_Throne/overworld/00a_western_wesnoth.cfg:749
 #, fuzzy
-#| msgid ""
-#| "I knew you’d understand. My friends will glady stay and fight knowing "
-#| "that I’ve left to warn their families. Thank you, and good luck."
 msgid ""
 "I knew you’d understand. My friends will gladly stay and fight knowing that "
 "I’ve left to warn their families. Thank you, and good luck."
 msgstr ""
 "Je savais que vous comprendriez. Mes amis resteront volontiers combattre en "
-"sachant que je suis parti prévenir leurs familles. Merci, et bonne chance."
+"sachant que je suis parti prévenir leurs familles. Merci et bonne chance."
 
 #. [option]
 #: data/campaigns/Heir_To_The_Throne/overworld/00a_western_wesnoth.cfg:759
@@ -1282,16 +1276,13 @@ msgstr ""
 #. Elrian was another student Mage, who died in the previous scenario.
 #: data/campaigns/Heir_To_The_Throne/overworld/00a_western_wesnoth.cfg:853
 #, fuzzy
-#| msgid ""
-#| "But after what Asheveire’s soldiers did to Elrian? We’d be cowards if we "
-#| "asked you to let us leave now. Let us take revenge against the dark queen."
 msgid ""
 "But after what Asheviere’s soldiers did to Elrian? We’d be cowards if we "
 "asked you to let us leave now. Let us take revenge against the dark queen."
 msgstr ""
-"Mais après ce que les soldats d’Asheveire ont fait à Elrian ? Nous serions "
-"des lâches si nous vous demandions de nous laisser partir maintenant. "
-"Laissez-nous prendre notre revanche contre la reine des ténèbres."
+"Mais après ce que les soldats d’Asheviere ont fait à Elrian ? Nous serions "
+"des lâches si nous vous demandions pour partir maintenant. Laissez-nous "
+"prendre notre revanche contre la reine des ténèbres."
 
 #. [message]: role=alduin_mage_leader
 #: data/campaigns/Heir_To_The_Throne/overworld/00a_western_wesnoth.cfg:869
@@ -1764,7 +1755,7 @@ msgstr ""
 msgid ""
 "Look at all this gold! Tear up the floorboards; don’t let ’em hide a thing."
 msgstr ""
-"Regarde tout cet or ! Arrache le plancher ; il ne faut pas laisser la "
+"Regardez tout cet or ! Arrachez le plancher ; il ne faut pas laisser la "
 "moindre cachette."
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION mad}
@@ -3707,7 +3698,7 @@ msgid ""
 msgstr ""
 "Nous avons forcé notre passage à travers les portes ! Les orcs savent qu’il "
 "vaut mieux ne pas nous affronter à nouveau, mais nous ne pourrons pas non "
-"plus sauver d’autres esclaves tant qu’ils restent en alerte. Au moins, "
+"plus sauver d’autres prisonniers tant qu’ils restent en alerte. Au moins, "
 "dorénavant, nous pourrons passer sans être inquiétés."
 
 #. [message]: role=doors_orc
@@ -3823,11 +3814,13 @@ msgstr "Geldar"
 msgid "Relgorn"
 msgstr "Relgorn"
 
+# Je crois qu'il y a un double sens "Creuser pour retrouver des nains" et "extraire des nains d'une mine".
 #. [scenario]: id=29_Digging_for_Dwarves
 #: data/campaigns/Heir_To_The_Throne/overworld/00c_northlands.cfg:1181
 #: data/campaigns/Heir_To_The_Throne/scenarios/29_Digging_for_Dwarves.cfg:9
+#, fuzzy
 msgid "Digging for Dwarves"
-msgstr "Fouilles pour nains"
+msgstr "Creuser pour des nains"
 
 #: data/campaigns/Heir_To_The_Throne/overworld/00c_northlands.cfg:1185
 msgid ""
@@ -5987,9 +5980,9 @@ msgid ""
 "surely pose a frighteningly difficult challenge if we do not..."
 msgstr ""
 "Une idée franchement déplaisante. Raser les fermes de la région pourrait "
-"s'avérer une stratégie militaire judicieuse, mais je ne l'envisagerais que "
-"si nous ne parvenons pas à vaincre Asheviere autrement. Weldyn représentera "
-"sans aucun doute un adversaire redoutable, quoi qu'il arrive…"
+"s'avérer une stratégie militaire judicieuse, mais je ne l'envisagerais pas "
+"de gaieté de coeur. Weldyn restera certainement un adversaire redoutable, "
+"quoi qu'on décide…"
 
 #. [option]
 #: data/campaigns/Heir_To_The_Throne/overworld/00e_eastern_wesnoth.cfg:1406
@@ -6235,18 +6228,14 @@ msgstr "Craa !  Craa !  Craa !"
 #. [message]: speaker=Delfador
 #: data/campaigns/Heir_To_The_Throne/scenarios/00_The_Great_Continent.cfg:738
 #, fuzzy
-#| msgid ""
-#| "I’m afraid so, young prince. Blackwing brings ill tidings, for my "
-#| "suspicions have been confirmed — Asheviere lays siege to Elensefar, "
-#| "breaking the century-old treaty between Wesnoth and the Elense city-state."
 msgid ""
 "What’s this? Blackwing brings ill tidings — men of the Crown lay siege to "
 "Elensefar! Asheviere has broken the century-old treaty between Wesnoth and "
 "the Elense city-state."
 msgstr ""
-"Je le crains, jeune prince. Aile-de-Jais apporte de mauvaises nouvelles, car "
-"mes soupçons se sont confirmés : Asheviere assiège Elensefar, rompant le "
-"traité centenaire entre Wesnoth et la cité-état."
+"Qu'en est-il ? Aile-de-Jais apporte de mauvaises nouvelles : les hommes de "
+"la Couronne assiègent Elensefar ! Asheviere a donc rompu le traité "
+"centenaire entre Wesnoth et la cité-état d'Elense."
 
 #. [message]: speaker=Delfador
 #: data/campaigns/Heir_To_The_Throne/scenarios/00_The_Great_Continent.cfg:742
@@ -6307,17 +6296,13 @@ msgstr ""
 #. [message]: speaker=Delfador
 #: data/campaigns/Heir_To_The_Throne/scenarios/00_The_Great_Continent.cfg:791
 #, fuzzy
-#| msgid ""
-#| "Not alone, Konrad. Though I am loathe to see us part ways so soon, I can "
-#| "at least leave with you my familiar — the venerable Blackwing. Care for "
-#| "him well."
 msgid ""
 "Very well. You will have to do without my elementals, but I can at least "
 "leave with you my familiar — the venerable Blackwing. Care for him well."
 msgstr ""
-"Vous n'êtes pas seul, Konrad. Bien que je sois navré de nous voir nous "
-"séparer si tôt, je peux au moins vous confier mon familier, le vénérable "
-"Aile-de-jais. Prends-en bien soin."
+"Qu'il en soit ainsi. Tu devras te passer de mes élémentaux, mais je peux au "
+"moins le laisser mon familier, le vénérable Aile-de-jais. Prends-en bien "
+"soin."
 
 #. [message]: speaker=familiar
 #: data/campaigns/Heir_To_The_Throne/scenarios/00_The_Great_Continent.cfg:803
@@ -6442,30 +6427,22 @@ msgstr ""
 #. [message]: speaker=Delfador
 #: data/campaigns/Heir_To_The_Throne/scenarios/00_The_Great_Continent.cfg:915
 #, fuzzy
-#| msgid ""
-#| "Not alone, Konrad. Though I am loathe to see us part ways so soon, I can "
-#| "at least leave with you my familiar — the venerable Blackwing. Care for "
-#| "him well."
 msgid ""
 "You will have to do without my elementals, but I can at least leave with you "
 "my familiar — the venerable Blackwing. Care for him well."
 msgstr ""
-"Vous n'êtes pas seul, Konrad. Bien que je sois navré de nous voir nous "
-"séparer si tôt, je peux au moins vous confier mon familier, le vénérable "
-"Aile-de-jais. Prends-en bien soin."
+"Tu devras te passer de mes élémentaux, mais je peux au moins vous confier "
+"mon familier, le vénérable Aile-de-jais. Prends-en bien soin."
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION glad}
 #: data/campaigns/Heir_To_The_Throne/scenarios/00_The_Great_Continent.cfg:936
 #, fuzzy
-#| msgid ""
-#| "I had a good teacher! And now that we’ve helped the people here, all "
-#| "kinds of new places are suddenly open to us. Where shall we go to next?"
 msgid ""
 "I had a good teacher! And now that I’ve gained new allies, you are free to "
 "travel to Elensefar and aid in its defense."
 msgstr ""
-"J'ai eu un excellent professeur ! Et maintenant que nous avons aidé les gens "
-"d'ici, de nouveaux horizons s'offrent à nous. Où irons-nous ensuite ?"
+"J'ai eu un excellent professeur ! Et maintenant que j'ai gagné de nouveaux "
+"alliés, tu peux retourner à Elensefar et participer à sa défense."
 
 #. [message]: speaker=Delfador
 #: data/campaigns/Heir_To_The_Throne/scenarios/00_The_Great_Continent.cfg:940
@@ -8366,7 +8343,8 @@ msgstr "Survivre jusqu'à la fin des tours"
 #: data/campaigns/Heir_To_The_Throne/scenarios/03_Blackwater_Port.cfg:310
 #, fuzzy
 msgid "Protect Sir Kaylan: recruit Cavalrymen and Horsemen"
-msgstr "Protéger Sir Kaylan (apprenez à recruter des cavaliers)"
+msgstr ""
+"Protéger Sir Kaylan pour pouvoir recruter des hussards et des cavaliers"
 
 #. [objective]: condition=win
 #: data/campaigns/Heir_To_The_Throne/scenarios/03_Blackwater_Port.cfg:323
@@ -8571,6 +8549,7 @@ msgstr ""
 "pouvons nous permettre de détacher les cavaliers et hommes d’armes qu’il "
 "espérait envoyer."
 
+# Accomplir: faire (qqch.) jusqu'au bout
 #. [message]: speaker=Haldiel
 #: data/campaigns/Heir_To_The_Throne/scenarios/03_Blackwater_Port.cfg:563
 #, fuzzy
@@ -8580,11 +8559,10 @@ msgid ""
 "behind to guard the port, we can still partially fufill Sir Kaylan’s last "
 "wish, Sir Simyr."
 msgstr ""
-"Pourtant, avec les armées d’Asheviere qui ont été vaincues aujourd’hui, nous "
-"pouvons sûrement détacher au moins quelques-uns des nôtres ? Bien qu’il soit "
-"vrai que l’essentiel de nos forces doive rester pour garder le port, nous "
-"pouvons tout de même accomplir en partie le dernier souhait du sieur Kaylan, "
-"sieur Simyr."
+"Pourtant, avec la défaite des armées d’Asheviere aujourd’hui, on devrait "
+"pouvoir se passer de quelques-uns des nôtres ? Bien que l’essentiel de nos "
+"forces doit rester pour garder le port, nous pouvons encore exaucer en "
+"partie le dernier vœu de Sir Kaylan, monsieur Simyr."
 
 #. [message]: speaker=Simyr
 #: data/campaigns/Heir_To_The_Throne/scenarios/03_Blackwater_Port.cfg:567
@@ -8864,30 +8842,25 @@ msgstr ""
 #. [floating_text]
 #: data/campaigns/Heir_To_The_Throne/scenarios/04_The_Bay_of_Pearls.cfg:511
 #, fuzzy
-#| msgid "10 gold"
 msgid "+120 gold"
-msgstr "10 pièces d'or"
+msgstr "+120 pièces d'or"
 
 #. [floating_text]
 #: data/campaigns/Heir_To_The_Throne/scenarios/04_The_Bay_of_Pearls.cfg:511
 #, fuzzy
-#| msgid "60 gold"
 msgid "+160 gold"
-msgstr "60 pièces d’or"
+msgstr "+160 pièces d’or"
 
 #. [floating_text]
 #: data/campaigns/Heir_To_The_Throne/scenarios/04_The_Bay_of_Pearls.cfg:511
 #, fuzzy
-#| msgid "10 gold"
 msgid "+40 gold"
-msgstr "10 pièces d'or"
+msgstr "+40 pièces d'or"
 
 #. [floating_text]
 #: data/campaigns/Heir_To_The_Throne/scenarios/04_The_Bay_of_Pearls.cfg:511
-#, fuzzy
-#| msgid "10 gold"
 msgid "+80 gold"
-msgstr "10 pièces d'or"
+msgstr "+80 pièces d'or"
 
 #. [message]: speaker=Gwaba
 #: data/campaigns/Heir_To_The_Throne/scenarios/04_The_Bay_of_Pearls.cfg:528
@@ -9907,10 +9880,6 @@ msgstr ""
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/07_Muff_Malals_Peninsula.cfg:311
 #, fuzzy
-#| msgid ""
-#| "Hmmph. At Alduin we’ve expelled students just for speaking the word "
-#| "“necromancy”. And here Ashevire won’t even act when an entire town is "
-#| "destroyed. She’ll work with anyone she finds useful."
 msgid ""
 "Hmmph. At Alduin we’ve expelled students just for speaking the word "
 "“necromancy”. And here Asheviere won’t even act when an entire town is "
@@ -9918,7 +9887,7 @@ msgid ""
 msgstr ""
 "Hmpfff. À Alduin, nous avons expulsé des étudiants rien que pour avoir "
 "prononcé le mot « nécromancie ». Et ici, Asheviere n’agit même pas quand une "
-"ville entière est détruite. Elle travaillera avec quiconque lui est utile."
+"ville entière est détruite. Elle collaborera avec quiconque lui est utile."
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/07_Muff_Malals_Peninsula.cfg:312
@@ -11388,15 +11357,12 @@ msgstr ""
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/11_Elensefar_After.cfg:381
 #, fuzzy
-#| msgid ""
-#| "I know the sort of aid offered by a thief, Reglok. We do not trust you "
-#| "and we do not need you."
 msgid ""
 "Is that so? What honor is there among thieves? We do not trust you and we do "
 "not need you."
 msgstr ""
-"Je connais le genre d'aide qu'offre un voleur, Reglok. Nous ne vous faisons "
-"pas confiance et nous n'avons pas besoin de vous."
+"Vraiment ? De quel honneur peut se créditer un voleur, Reglok ? Nous ne vous "
+"faisons pas confiance et nous n'avons pas besoin de vous."
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/11_Elensefar_After.cfg:382
@@ -11487,8 +11453,7 @@ msgstr ""
 #: data/campaigns/Heir_To_The_Throne/scenarios/11_Elensefar_After.cfg:401
 #, fuzzy
 msgid "Yes, but where is your fighting force? How can you help us?"
-msgstr ""
-"Oui, mais où est votre force de frappe ? Comment pouvez-vous nous aider ?"
+msgstr "Oui, mais où sont vos forces armées ? Comment pouvez-vous nous aider ?"
 
 #. [event]
 #: data/campaigns/Heir_To_The_Throne/scenarios/11_Elensefar_After.cfg:407
@@ -11899,15 +11864,13 @@ msgstr ""
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/13_Fort_Tahn.cfg:333
 #, fuzzy
-#| msgid ""
-#| "And that goes for the rest of you too! Return to your homes in Westin, "
-#| "and trouble the Aethenwood no more."
 msgid ""
 "Your master has fled — now begone, servants of the false queen! Return to "
 "your homes in Westin, and trouble the true heir no more."
 msgstr ""
-"Et cela vaut pour vous tous aussi ! Retournez chez vous à Westin et ne "
-"troublez plus jamais la forêt d'Aethen."
+"Votre maître s'est enfui, alors disparaissez, serviteurs d'une reine de "
+"pacotille ! Retournez chez vous à Westin et ne troublez plus jamais le "
+"véritable héritier."
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/13_Fort_Tahn.cfg:334
@@ -12547,9 +12510,8 @@ msgstr ""
 #: data/campaigns/Heir_To_The_Throne/scenarios/15a_Valley_of_Death_part1.cfg:309
 #: data/campaigns/Heir_To_The_Throne/scenarios/15a_Valley_of_Death_part1.cfg:317
 #, fuzzy
-#| msgid "Konrad can now recruit Heavy Infantrymen!"
 msgid "Protect Kaelor: recruit Heavy Infantrymen"
-msgstr "Konrad peut désormais recruter des fantassins lourds !"
+msgstr "Protéger Kaelor pour pouvoir recruter des fantassins lourds"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/15a_Valley_of_Death_part1.cfg:345
@@ -12953,8 +12915,8 @@ msgid ""
 "The seal shattered, my home imperiled, my friends slain. This is the work of "
 "a dozen lifetimes undone."
 msgstr ""
-"Le verrou est brisé, mon foyer en péril, mes amis tombés. C’est l’œuvre de "
-"dizaines de vies anéanties."
+"Le verrou est brisé, mon foyer en péril, mes amis tombés. C’est l’œuvre "
+"d'une dizaine de générations qui est anéantie."
 
 #. [message]: speaker=Moremirmu
 #: data/campaigns/Heir_To_The_Throne/scenarios/15b_Valley_of_Death_part2.cfg:387
@@ -14646,17 +14608,14 @@ msgstr ""
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:608
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:609
 #, fuzzy
-#| msgid ""
-#| "A foul odor. A blight upon the wind. Konrad, this is a gateway created by "
-#| "the lich-lords of ages past, during their genocidal hunt for the Ruby."
 msgid ""
 "A great orc-gate! To see one in person is... chilling. Konrad, this is a "
 "gateway created by the lich-lords of ages past, during their genocidal hunt "
 "for the Ruby."
 msgstr ""
-"Une odeur immonde. Une souillure portée par le vent. Konrad, ceci est un "
-"portail créé par les seigneurs-liches d’autrefois, lors de leur chasse "
-"génocidaire pour le Rubis."
+"Une grande porte orque ! En voir une de ses propres yeux... effrayant. "
+"Konrad, ceci est un portail créé par les seigneurs-liches d’autrefois, lors "
+"de leur chasse génocidaire pour le rubis."
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/22_Glamdrol.cfg:610
@@ -14977,8 +14936,8 @@ msgid ""
 "Hello! Are you all right? What’re you doing out here in the cold? ...she’s "
 "still not paying attention."
 msgstr ""
-"Bonjour ! vous allez bien ? Que faites-vous dehors par un froid "
-"pareil ? ...elle ne fait toujours pas attention."
+"Bonjour ! vous allez bien ? Que faites-vous dehors par un froid pareil ? ... "
+"elle ne fait toujours pas attention."
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:167
@@ -15248,22 +15207,17 @@ msgstr ""
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:358
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:359
 #, fuzzy
-#| msgid ""
-#| "We will not be able to fight in this blizzard forever, Konrad. Unless we "
-#| "have very fast warriors, we may have to split up if we want to collect "
-#| "all of Jeniver’s ingredients before we run out of time and the cold "
-#| "drives us away. The northeastern mountains look especially hard to reach!"
 msgid ""
 "Brrr... this is a far cry from the warm shores of Alduin. Unless we have "
 "very fast warriors, we may have to split up if we want to collect all of "
 "Jeniver’s ingredients before we run out of time and the cold drives us away. "
 "The northeastern mountains look especially hard to reach."
 msgstr ""
-"Nous ne pourrons pas combattre indéfiniment dans ce blizzard, Konrad. À "
-"moins d'avoir des guerriers très rapides, nous devrons peut-être nous "
-"séparer si nous voulons rassembler tous les ingrédients de Jeniver avant que "
-"le temps ne nous manque et que le froid ne nous chasse. Les montagnes du "
-"nord-est semblent particulièrement difficiles d'accès !"
+"Brrr... On est bien loin des plages chaudes d'Alduin. À moins d'avoir des "
+"guerriers très rapides, on devrait peut-être se séparer pour avoir une "
+"chance de rassembler tous les ingrédients de Jeniver dans le temps "
+"disponible et avant que le froid ne nous chasse. Les montagnes du Nord-Est "
+"semblent particulièrement difficiles d'accès."
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:360
@@ -15632,11 +15586,6 @@ msgstr ""
 #. [message]: speaker=Jeniver
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:667
 #, fuzzy
-#| msgid ""
-#| "Hmm? Oh yes, yes, that’s quite right, of course. In fact I’ve got some "
-#| "new ideas that I’m just longing to pursue; perhaps joining you on your "
-#| "travels will provide me with a good opportunity for travel and research. "
-#| "I’d be glad to accompany you on your travels, Konrad!"
 msgid ""
 "Oh, yes, no I understand; that’s quite all right. In fact I’ve got some new "
 "ideas that I’m just longing to pursue; regardless of the remaining "
@@ -15644,9 +15593,10 @@ msgid ""
 "good opportunity for travel and research. If you’ll have me, of course!"
 msgstr ""
 "Hmm ? Oh oui, oui, c'est tout à fait exact. En fait, j'ai de nouvelles idées "
-"que j'ai très envie de mettre en pratique ; vous accompagner lors de vos "
-"voyages me donnerait peut-être l'occasion idéale de voyager et de faire des "
-"recherches. Je serais ravi de vous accompagner, Konrad !"
+"que j'ai très envie de mettre en pratique ; même avec les ingrédients qui "
+"restent ici, si je vous accompagnais dans vos voyages, cela me donnerait "
+"l'occasion idéale de découvrir le monde et de nouvelles vérités. Si vous "
+"m'acceptez bien sûr !"
 
 #. [message]: speaker=Konrad {KONRAD_VARIATION concerned}
 #: data/campaigns/Heir_To_The_Throne/scenarios/23_Northern_Winter.cfg:683
@@ -16544,17 +16494,13 @@ msgstr ""
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/28_The_Lost_General.cfg:220
 #, fuzzy
-#| msgid ""
-#| "Caves and crypts are no place for the fair folk, Konrad, and dwarvish "
-#| "tunnels even less so. I am not eager to proceed, but what must be done "
-#| "must be done."
 msgid ""
 "Cave and crypts are no place for cavalry, Konrad, and dwarvish tunnels even "
 "less so. I am not eager to proceed, but what must be done must be done."
 msgstr ""
-"Les cavernes et les cryptes ne conviennent guère au peuple féerique, Konrad, "
-"et encore moins les tunnels des nains. Je ne me réjouis point d’avancer, "
-"mais ce qui doit être fait… doit être fait."
+"Les cavernes et les cryptes ne conviennent pas à la cavalerie, Konrad, et "
+"encore moins les tunnels des nains. Je ne me réjouis point d’avancer, mais "
+"ce qui doit être fait… doit être fait."
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/28_The_Lost_General.cfg:221
@@ -17185,16 +17131,14 @@ msgstr ""
 #. this is a hint to the player that there's a special event if they also complete "Lost General" and entirely wipe out the orcs in "Dwarven Doors"
 #: data/campaigns/Heir_To_The_Throne/scenarios/29_Digging_for_Dwarves.cfg:575
 #, fuzzy
-#| msgid ""
-#| "Whether you get yer throne back or not, you’ll always be welcome in "
-#| "Knalga — what remains o’ it, at least."
 msgid ""
 "Whether you get yer throne back or not, you’ll always be welcome in Knalga — "
 "what remains o’ it, at least. Between the trolls in the west an’ the orcs in "
 "the Doors we’re just spread too thin. Mebbe if those were gone..."
 msgstr ""
 "Que vous récupériez votre trône ou non, vous serez toujours le bienvenu à "
-"Knalga — du moins ce qu'il en reste."
+"Knalga — du moins ce qu'il en reste. Entre les trolls à l'Ouest et les orcs "
+"aux Portes, nous sommes trop dispersés. Si on pouvait en être débarassés..."
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/29_Digging_for_Dwarves.cfg:603
@@ -17347,14 +17291,11 @@ msgstr ""
 #: data/campaigns/Heir_To_The_Throne/scenarios/30_The_Sceptre_of_Fire.cfg:285
 #: data/campaigns/Heir_To_The_Throne/scenarios/30_The_Sceptre_of_Fire.cfg:286
 #, fuzzy
-#| msgid ""
-#| "It’s overwhelming! I never— well, Delfador, thank you for trusting me to "
-#| "be here with you. Where shall we start the search?"
 msgid ""
 "I feel the power! It’s overwhelming! I never— well, Delfador, thank you for "
 "trusting me to be here with you. Where shall we start the search?"
 msgstr ""
-"C'est impressionnant ! Je n'aurais jamais… Enfin, Delfador, merci de me "
+"Je sens son pouvoir ! C'est si fort que je ne— enfin, Delfador, merci de me "
 "faire confiance et de me laisser être à vos côtés. Par où commencer les "
 "recherches ?"
 
@@ -18659,17 +18600,15 @@ msgstr ""
 #. [message]: speaker=Delfador
 #: data/campaigns/Heir_To_The_Throne/scenarios/31_Plunging_into_Darkness.cfg:722
 #, fuzzy
-#| msgid ""
-#| "Indeed, hunger and weakness already gnaw at my stomach. We must find a "
-#| "way to the surface soon, or these caves may yet prove our doom..."
 msgid ""
 "Even worse, the bulk of our stores and rations have been lost to the lava! "
 "Hunger and weakness already gnaw at my stomach. We must find a way to the "
 "surface soon, or these caves may yet prove our doom..."
 msgstr ""
-"En effet, la faim et la faiblesse me tenaillent déjà l'estomac. Il nous faut "
-"trouver rapidement un moyen de remonter à la surface, sinon ces grottes "
-"pourraient bien causer notre perte…"
+"Et pire, presque tous nos stocks et les rations ont été perdues dans la "
+"lave ! La faim et la faiblesse me tenaillent déjà l'estomac. Il faut trouver "
+"rapidement un moyen de remonter à la surface, sinon ces grottes pourraient "
+"causer notre perte…"
 
 #. [scenario]: id=32_The_Swamp_of_Dread
 #: data/campaigns/Heir_To_The_Throne/scenarios/32_The_Swamp_of_Dread.cfg:7
@@ -18919,11 +18858,11 @@ msgid ""
 "your allies to aid us, or are we all to fight and bleed and die until our "
 "bodies cold are buried under crimson snow?"
 msgstr ""
-"Ne soyez pas insensé ; ni nous ni vos soldats ne pouvez l’emporter seuls. Et "
-"si nous tombons face aux morts‑vivants, vous périrez sûrement avec nous. "
-"Choisissez : ordonnerez‑vous à vos alliés de nous aider, ou combattrons-nous "
-"tous, devrons-nous saigner et mourir jusqu’à ce que nos corps glacés soient "
-"ensevelis sous une neige rougie par le sang ?"
+"Ne soyez pas insensé ; ni nous ni vos soldats ne pouvons l’emporter seuls. "
+"Et si nous tombons face aux morts‑vivants, vous périrez sûrement avec nous. "
+"Choisissez : ordonnerez‑vous à vos alliés de nous aider, ou nous combattrons-"
+"nous et devrons-nous saigner et mourir jusqu’à ce que nos corps glacés "
+"soient ensevelis sous une neige rougie par le sang ?"
 
 #. [message]: speaker=Lisar {LISAR_VARIATION defeat}
 #: data/campaigns/Heir_To_The_Throne/scenarios/32_The_Swamp_of_Dread.cfg:425
@@ -18967,9 +18906,9 @@ msgid ""
 "distance she may not notice us, and will surely perish at the hands of the "
 "zombies!"
 msgstr ""
-"Mais d’après ce que je vois, ils sont à la fois surpassés par le nombre et "
-"encerclés. Si nous gardons nos distances, ces soldats ne nous remarqueront "
-"peut‑être pas, et périront sûrement sous les coups des zombies !"
+"Et en plus elle doit combattre des hordes de morts-vivants ! Si nous gardons "
+"nos distances, elle ne nous remarquera pas, et périra sûrement sous les "
+"coups des zombis !"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/32_The_Swamp_of_Dread.cfg:450
@@ -19056,11 +18995,10 @@ msgid ""
 "her word if she agrees not to harm us. I ask you to trust my judgement on "
 "this, my mentor."
 msgstr ""
-"Li’sar n’est pas Eldred. Bien qu’elle soit notre ennemie, j’en suis venu à "
-"croire que son altesse se soucie de son peuple autant que nous, et qu’elle "
-"est suffisamment digne de confiance pour tenir parole si elle s’engage à ne "
-"pas nous faire de mal. Je vous demande de faire confiance à mon jugement à "
-"ce sujet, mon mentor."
+"Bien qu’elle soit notre ennemie, j’en suis venu à croire qu'elle est "
+"suffisamment digne de confiance pour tenir parole si elle s’engage à ne pas "
+"nous faire de mal. Je vous demande de faire confiance à mon jugement à ce "
+"sujet, mon mentor."
 
 #. [message]: speaker=Delfador
 #: data/campaigns/Heir_To_The_Throne/scenarios/32_The_Swamp_of_Dread.cfg:492
@@ -21313,18 +21251,15 @@ msgstr ""
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/43_Cliffs_of_Thoria.cfg:632
 #, fuzzy
-#| msgid ""
-#| "Must I remind you that he, like all the others who fought us underground, "
-#| "once tried his utmost to kill us? Will he follow you, or will he choose "
-#| "to betray us to Asheviere?"
 msgid ""
 "What honor is there in the heart of a man who has served Asheviere; who "
 "pursued us underground and fought to kill us? Will he follow you, or will he "
 "choose to betray us to the dark queen?"
 msgstr ""
-"Dois-je vous rappeler que lui aussi, comme tous ceux qui nous ont combattus "
-"dans la clandestinité, a tout fait pour nous tuer ? Vous suivra-t-il, ou "
-"choisira-t-il de nous trahir au profit d’Asheviere ?"
+"Quel hooneur y-a-t-il dans le cœur d'une homme qui a servi Asheviere, qui "
+"nous a combattus dans la clandestinité et a chercher à nous tuer ? Vous "
+"suivra-t-il, ou choisira-t-il de nous trahir au profit de la reine des "
+"ténèbres ?"
 
 #. [companion_message]
 #: data/campaigns/Heir_To_The_Throne/scenarios/43_Cliffs_of_Thoria.cfg:633
@@ -22098,50 +22033,38 @@ msgstr ""
 #. $clansmen_remaining will be between 1 and 60
 #: data/campaigns/Heir_To_The_Throne/scenarios/47_Test_of_the_Clans.cfg:348
 #, fuzzy
-#| msgid ""
-#| "Defeat {ON_DIFFICULTY4 30 40 50 60} enemies to rout the Horse Clans "
-#| "($clansmen_remaining remaining)"
 msgid ""
 "Defeat 30 enemies to rout the Horse Clans ($clansmen_remaining remaining)"
 msgstr ""
-"Vaincre {ON_DIFFICULTY4 30 40 50 60} ennemis pour mettre en déroute les "
-"clans de chevaliers ($clansmen_remaining restants)"
+"Vaincre 30 ennemis pour mettre en déroute les clans de chevaliers "
+"($clansmen_remaining restants)"
 
 #. [objective]: description={ON_DIFFICULTY4, condition=win
 #: data/campaigns/Heir_To_The_Throne/scenarios/47_Test_of_the_Clans.cfg:349
 #, fuzzy
-#| msgid ""
-#| "Defeat {ON_DIFFICULTY4 30 40 50 60} enemies to rout the Horse Clans "
-#| "($clansmen_remaining remaining)"
 msgid ""
 "Defeat 40 enemies to rout the Horse Clans ($clansmen_remaining remaining)"
 msgstr ""
-"Vaincre {ON_DIFFICULTY4 30 40 50 60} ennemis pour mettre en déroute les "
-"clans de chevaliers ($clansmen_remaining restants)"
+"Vaincre 40 ennemis pour mettre en déroute les clans de chevaliers "
+"($clansmen_remaining restants)"
 
 #. [objective]: description={ON_DIFFICULTY4, condition=win
 #: data/campaigns/Heir_To_The_Throne/scenarios/47_Test_of_the_Clans.cfg:350
 #, fuzzy
-#| msgid ""
-#| "Defeat {ON_DIFFICULTY4 30 40 50 60} enemies to rout the Horse Clans "
-#| "($clansmen_remaining remaining)"
 msgid ""
 "Defeat 50 enemies to rout the Horse Clans ($clansmen_remaining remaining)"
 msgstr ""
-"Vaincre {ON_DIFFICULTY4 30 40 50 60} ennemis pour mettre en déroute les "
-"clans de chevaliers ($clansmen_remaining restants)"
+"Vaincre 50 ennemis pour mettre en déroute les clans de chevaliers "
+"($clansmen_remaining restants)"
 
 #. [objective]: description={ON_DIFFICULTY4, condition=win
 #: data/campaigns/Heir_To_The_Throne/scenarios/47_Test_of_the_Clans.cfg:351
 #, fuzzy
-#| msgid ""
-#| "Defeat {ON_DIFFICULTY4 30 40 50 60} enemies to rout the Horse Clans "
-#| "($clansmen_remaining remaining)"
 msgid ""
 "Defeat 60 enemies to rout the Horse Clans ($clansmen_remaining remaining)"
 msgstr ""
-"Vaincre {ON_DIFFICULTY4 30 40 50 60} ennemis pour mettre en déroute les "
-"clans de chevaliers ($clansmen_remaining restants)"
+"Vaincre 60 ennemis pour mettre en déroute les clans de chevaliers "
+"($clansmen_remaining restants)"
 
 #. [objective]: condition=win
 #: data/campaigns/Heir_To_The_Throne/scenarios/47_Test_of_the_Clans.cfg:357
@@ -22155,41 +22078,32 @@ msgstr ""
 #. [objective]: condition=win
 #: data/campaigns/Heir_To_The_Throne/scenarios/47_Test_of_the_Clans.cfg:365
 #, fuzzy
-#| msgid ""
-#| "Defeat one or more enemy leaders — defeated leaders will join your recall "
-#| "list next scenario"
 msgid ""
 "Defeat mounted enemies with Haldiel or Simyr — defeated cavalry will join "
 "your recall list after this scenario"
 msgstr ""
-"Vaincre un ou plusieurs chefs ennemis — les chefs vaincus rejoindront votre "
-"liste de rappel dans le prochain scénario"
+"Vaincre des cavaliers ennemis avec Haldiel ou Simyr  — la cavalerie vaincue "
+"rejoindra votre liste de rappel après ce scénario"
 
 #. [objective]: condition=win
 #: data/campaigns/Heir_To_The_Throne/scenarios/47_Test_of_the_Clans.cfg:375
 #, fuzzy
-#| msgid ""
-#| "Defeat one or more enemy leaders — defeated leaders will join your recall "
-#| "list next scenario"
 msgid ""
 "Defeat mounted enemies with Haldiel — defeated cavalry will join your recall "
 "list after this scenario"
 msgstr ""
-"Vaincre un ou plusieurs chefs ennemis — les chefs vaincus rejoindront votre "
-"liste de rappel dans le prochain scénario"
+"Vaincre des cavaliers ennemis avec Haldiel  — la cavalerie vaincue rejoindra "
+"votre liste de rappel après ce scénario"
 
 #. [objective]: condition=win
 #: data/campaigns/Heir_To_The_Throne/scenarios/47_Test_of_the_Clans.cfg:385
 #, fuzzy
-#| msgid ""
-#| "Defeat one or more enemy leaders — defeated leaders will join your recall "
-#| "list next scenario"
 msgid ""
 "Defeat mounted enemies with Simyr — defeated cavalry will join your recall "
 "list after this scenario"
 msgstr ""
-"Vaincre un ou plusieurs chefs ennemis — les chefs vaincus rejoindront votre "
-"liste de rappel dans le prochain scénario"
+"Vaincre des cavaliers ennemis avec Simyr  — la cavalerie vaincue rejoindra "
+"votre liste de rappel après ce scénario"
 
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne/scenarios/47_Test_of_the_Clans.cfg:407

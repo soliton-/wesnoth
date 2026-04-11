@@ -1060,13 +1060,9 @@ msgstr "Détruisez-les !"
 #. [message]: speaker=Tallin
 #: data/campaigns/Northern_Rebirth/scenarios/02_01_Infested_Caves.cfg:554
 #, fuzzy
-#| msgid ""
-#| "Hey look, it’s an ancient door. It seems the trolls were too stupid to "
-#| "figure out how to open it."
 msgid "An ancient gate... it seems the trolls were unable to open it."
 msgstr ""
-"Hé, regardez, une vieille porte. Les trolls semblent avoir été trop stupides "
-"pour comprendre comment l'ouvrir."
+"Une vieille porte... il semble que les trolls n'ont pas réussi à l'ouvrir."
 
 #. [message]: speaker=unit
 #: data/campaigns/Northern_Rebirth/scenarios/02_01_Infested_Caves.cfg:560
@@ -1080,13 +1076,10 @@ msgstr ""
 #. [message]: speaker=Tallin
 #: data/campaigns/Northern_Rebirth/scenarios/02_01_Infested_Caves.cfg:577
 #, fuzzy
-#| msgid ""
-#| "Hey look, it’s an ancient door. It seems the skeletons were too stupid to "
-#| "find out how to open it."
 msgid "An ancient gate... it seems the skeletons did not bother opening it."
 msgstr ""
-"Hé, regardez, une vieille porte. Les squelettes semblent avoir été trop "
-"stupides pour savoir comment l'ouvrir."
+"Une vieille porte... il semble que les squelettes n'ont pas tenté de "
+"l'ouvrir."
 
 #. [message]: speaker=unit
 #: data/campaigns/Northern_Rebirth/scenarios/02_01_Infested_Caves.cfg:583
@@ -1173,7 +1166,8 @@ msgid ""
 "Look, the wall here seems to be very thin and damaged. We might be able to "
 "bring it down."
 msgstr ""
-"Regarde, ce mur a l’air très fragile. On pourrait peut-être le faire tomber."
+"Regarde, ce mur a l’air très endommagé et fragile. On pourrait peut-être le "
+"faire tomber."
 
 #. [message]: speaker=Tallin
 #: data/campaigns/Northern_Rebirth/scenarios/02_01_Infested_Caves.cfg:766
@@ -3290,9 +3284,8 @@ msgstr "Un lac souterrain."
 #. [message]: speaker=Krash
 #: data/campaigns/Northern_Rebirth/scenarios/05a_01_The_Pursuit.cfg:2084
 #, fuzzy
-#| msgid "Monsters"
 msgid "Monster! Kill!"
-msgstr "Monstres"
+msgstr "Un monstre ! À l'attaque !"
 
 #. [message]: speaker=unit
 #: data/campaigns/Northern_Rebirth/scenarios/05a_01_The_Pursuit.cfg:2090
@@ -3356,7 +3349,7 @@ msgstr "Mais qui donc ose s'aventurer dans ces profonds tunnels ?"
 #, fuzzy
 #| msgid "Tallin"
 msgid "I am Tallin."
-msgstr "Tallin"
+msgstr "Je suis Tallin"
 
 #. [message]: speaker=unit
 #: data/campaigns/Northern_Rebirth/scenarios/05a_01_The_Pursuit.cfg:2173
@@ -3530,7 +3523,7 @@ msgstr ""
 #, fuzzy
 #| msgid "(<i>Sigh</i>) There doesn’t seem to be anything down this tunnel."
 msgid "There doesn’t seem to be anything this way other than another body."
-msgstr "(<i>Pfffff</i>) Il a l'air de n'avoir rien dans ce tunnel."
+msgstr "(<i>Pfffff</i>) Il n'y a l'air de n'avoir rien d'autre qu'un corps."
 
 #. [message]: speaker=Krash
 #: data/campaigns/Northern_Rebirth/scenarios/05a_01_The_Pursuit.cfg:2361
@@ -3756,7 +3749,7 @@ msgstr ""
 msgid ""
 "Even arcane weapons have no effect on him! We need an expert in white magic."
 msgstr ""
-"Même les armes arcaniques n’ont aucun effet sur lui ! Il nous faut un expert "
+"Même les frappes d'arcane n’ont aucun effet sur lui ! Il nous faut un expert "
 "en magie blanche."
 
 #. [message]: speaker=Malifor
@@ -7768,8 +7761,8 @@ msgid ""
 "time."
 msgstr ""
 "Le flot de ses souvenirs d'enfance et la profondeur de son chagrin "
-"l'empêchèrent d'en dire plus. Tallin et elle s'assirent ensemble "
-"silencieusement, enlacés pour un instant."
+"l'empêchèrent d'en dire plus. Tallin et elle restèrent enlacés en silence "
+"pour un long moment."
 
 #. [part]
 #: data/campaigns/Northern_Rebirth/scenarios/12a_Get_the_Gold.cfg:92

@@ -102,9 +102,8 @@ msgstr "Maintenance de la campagne"
 #. [about]
 #: data/campaigns/Son_Of_The_Black_Eye/_main.cfg:47
 #, fuzzy
-#| msgid "Campaign Maintenance"
 msgid "Campaign Maintainers (former)"
-msgstr "Maintenance de la campagne"
+msgstr "Maintenance passée de la campagne"
 
 #. [about]
 #: data/campaigns/Son_Of_The_Black_Eye/_main.cfg:56
@@ -185,11 +184,12 @@ msgstr "Mort de Kapou'e"
 msgid "Kapou’e"
 msgstr "Kapou’e"
 
+# Standardisé dans les autres chaînes
 #. [side]: type=Lieutenant, id=Alber
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/01_End_of_Peace.cfg:72
 #, fuzzy
 msgid "Alber"
-msgstr "Alber"
+msgstr "Albert"
 
 #. [side]: type=Lieutenant, id=Alber
 #. [side]: type=General, id=Lanbec'h
@@ -1666,10 +1666,6 @@ msgstr "Est-ce que les chamans sont en sécurité ?"
 #. [message]: speaker=Affman
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/06_Black_Flag.cfg:238
 #, fuzzy
-#| msgid ""
-#| "When we realized that there was no way we could hold the humans off, we "
-#| "sent them east to a place near the Mourned Hills along with most of our "
-#| "women and children. The rest of us remained here to buy them some time."
 msgid ""
 "When we realized that there was no way we could hold the humans off, we sent "
 "them east to a place near the Mourned Hills along with most of our women and "
@@ -1677,20 +1673,15 @@ msgid ""
 "their safety. The rest of us remained here to buy them some time. It has "
 "been three days since their evacuation."
 msgstr ""
-"Quand nous avons compris qu'il n'y aurait pas moyen de retenir les humains, "
-"nous les avons envoyés à l'est, près des Collines Mornes, avec la plupart de "
-"nos femmes et de nos enfants. Le reste est resté ici pour gagner un peu de "
-"temps."
+"Quand nous avons compris qu'il n'y aurait pas moyen de contenir les humains, "
+"nous les avons envoyés à l'Est, vers les Collines Mornes, avec nos femmes et "
+"de nos enfants. La majorité de nos grognards et nos archers les ont "
+"accompagnés. Le reste est ici avec moi pour leur assurer un peu d'avance. Il "
+"y a trois jours qu'ils ont été évacués."
 
 #. [message]: speaker=Kapou'e
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/06_Black_Flag.cfg:243
 #, fuzzy
-#| msgid ""
-#| "Wise decision. We have actually come to speak to the shamans, but while "
-#| "we are here we must help you out of this scrape. Grüü, hold them while I "
-#| "run to the keep and organize our forces to counterattack. We can’t defeat "
-#| "them by sea without ships, but we can destroy the foothold they have "
-#| "gained on the land."
 msgid ""
 "Wise decision. We have actually come to speak to the shamans, but while we "
 "are here we must help you out of this scrape. Grüü, fight the humans if you "
@@ -1701,9 +1692,10 @@ msgid ""
 msgstr ""
 "Sage décision. Nous étions venus parler aux chamans, mais tant que nous "
 "sommes ici, nous devons aider nos frères en péril. Grüü, retiens les humains "
-"pendant que je retourne au donjon pour organiser la contre-attaque. On ne "
-"peut pas les battre sur l'eau sans force navale, mais on peut détruire leur "
-"tête de pont sur la côte."
+"si nécessaire, mais sois prudent. Notre seule chance est que je retourne au "
+"camp de Tirigaz pour organiser la contre-attaque. Mais on aura besoin de toi "
+"vivant. On ne peut pas les battre sur l'eau sans force navale, alors on doit "
+"détruire leur tête de pont sur la côte."
 
 #. [message]: speaker=Grüü
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/06_Black_Flag.cfg:248
@@ -2584,13 +2576,8 @@ msgstr "Attendre l'arrivée d'Inarix depuis le sud au tour 4"
 #. [objective]: condition=win
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/10_Saving_Inarix.cfg:48
 #, fuzzy
-#| msgid ""
-#| "In order to recruit saurians later on, bring Inarix and at least four "
-#| "saurians to safety"
 msgid "Escort Inarix and at least four saurians to Prestim."
-msgstr ""
-"Pour pouvoir recruter des sauriens par la suite, mettre en sûreté Inarix et "
-"au moins quatre sauriens"
+msgstr "Mettre Inarix et au moins quatre sauriens en sûreté à Prestim."
 
 #. [note]
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/10_Saving_Inarix.cfg:75

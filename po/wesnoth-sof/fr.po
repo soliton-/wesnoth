@@ -1969,13 +1969,13 @@ msgstr "Il vient de replonger sous terre…"
 #: data/campaigns/Sceptre_of_Fire/scenarios/3_Searching_for_the_Runecrafter.cfg:571
 #, fuzzy
 msgid "... and collapsed the tunnel. He got away!"
-msgstr "… et il a effondré le tunnel puis il a filé !"
+msgstr "… et il a fait ébouler le tunnel puis il a filé !"
 
 #. [message]: speaker=Rugnur
 #: data/campaigns/Sceptre_of_Fire/scenarios/3_Searching_for_the_Runecrafter.cfg:519
 #, fuzzy
 msgid "He can’t get far, can he?"
-msgstr "Il ne doit pas pouvoir aller bien loin, n’est-ce pas ?"
+msgstr "Il ne doit pas être bien loin, n’est-ce pas ?"
 
 #. [message]: speaker=Baglur
 #: data/campaigns/Sceptre_of_Fire/scenarios/3_Searching_for_the_Runecrafter.cfg:523
@@ -2045,8 +2045,7 @@ msgid ""
 "part of the nonsense of kings and those who crave power!"
 msgstr ""
 "Vous n’avez pas l’air de bien comprendre ! Je suis ici parce que je ne veux "
-"pas prendre part aux absurdités des rois et de ceux qui convoitent le "
-"pouvoir !"
+"pas prendre part aux inepties des rois et de ceux qui convoitent le pouvoir !"
 
 #. [message]: speaker=Rugnur
 #: data/campaigns/Sceptre_of_Fire/scenarios/3_Searching_for_the_Runecrafter.cfg:584
@@ -2064,8 +2063,8 @@ msgid ""
 "The Ruby causes madness, it is said. A magical cage that could protect the "
 "King would help us all."
 msgstr ""
-"On dit que le Rubis rend fou. Une cage magique capable de protéger le roi "
-"nous serait utile à tous."
+"On dit que le rubis rend fou. Une cage magique capable de protéger le roi "
+"nous serait salutaire à tous."
 
 #. [message]: speaker=Baglur
 #: data/campaigns/Sceptre_of_Fire/scenarios/3_Searching_for_the_Runecrafter.cfg:592
@@ -2448,7 +2447,7 @@ msgid ""
 msgstr ""
 "Voilà les mines de l’Est, riches en minerais de qualité, mais aussi peuplées "
 "de trolls et d’autres habitants des ténèbres. L’extraction va prendre du "
-"temps du temps, ça ne sera pas une mince affaire."
+"temps, ça ne sera pas une mince affaire."
 
 #. [message]: speaker=Thursagan
 #: data/campaigns/Sceptre_of_Fire/scenarios/4_Gathering_Materials.cfg:705
@@ -2495,8 +2494,8 @@ msgid ""
 "caverns, we should be able to use the rails and carts, if we’re smart about "
 "it."
 msgstr ""
-"Hum, tu as raison… Ce sont de vieilles mines, pas des grottes sauvages. On "
-"devrait pouvoir se servir des rails et des wagonnets si on est malins."
+"Hum, tu as raison… Mais ce sont de vieilles mines, pas des grottes sauvages. "
+"On devrait pouvoir se servir des rails et des wagonnets si on est malins."
 
 #. [message]: speaker=Rugnur
 #: data/campaigns/Sceptre_of_Fire/scenarios/4_Gathering_Materials.cfg:745
@@ -2504,7 +2503,8 @@ msgstr ""
 msgid ""
 "We’re not facing a united enemy, maybe we can use that to our advantage."
 msgstr ""
-"Nous n’avons pas affaire à un ennemi uni, ça peut jouer en notre faveur."
+"Nous n’avons pas affaire à un ennemi uni, on devrait utiliser ça en notre "
+"faveur."
 
 #. [message]: speaker=Thursagan
 #: data/campaigns/Sceptre_of_Fire/scenarios/4_Gathering_Materials.cfg:766
@@ -4043,7 +4043,7 @@ msgid ""
 "just grab those gold coins. Too bad."
 msgstr ""
 "Hrm, je vois ce que tu veux dire. Le trésor du dragon a fondu avec la roche "
-"— impossible de simplement ramasser ces pièces d’or. Dommage."
+"— c'est impossible de ramasser ces pièces d’or. Dommage."
 
 #. [message]: speaker=Thursagan
 #: data/campaigns/Sceptre_of_Fire/scenarios/8_The_Dragon.cfg:513
@@ -5195,14 +5195,16 @@ msgid ""
 "monsters are simply a manifestation of that danger."
 msgstr ""
 "Les golems de neige sont des formes vaguement humanoïdes qui errent dans les "
-"terres gelées du nord, sans aucun rôle apparent dans la nature, n’étant ni "
+"terres gelées du Nord, sans aucun rôle apparent dans la nature, n’étant ni "
 "prédateurs ni proies. Beaucoup disent qu’ils sont des constructions oubliées "
-"issues de batailles oubliées, en raison de leur lien avec les lutins de "
-"neige, plus faibles. D’autres affirment que l’extrême nord est une terre "
-"hostile, et que ces monstres sont simplement une manifestation de ce danger."
+"sorties de batailles oubliées, en raison de leur ressemblance avec les "
+"lutins de neige, plus faibles. D’autres affirment que l’extrême Nord est une "
+"terre hostile et que ces monstres sont simplement une incarnation de ce "
+"danger."
 
 #. [unit_type]: id=Snow Golem, race=monster
 #: data/campaigns/Sceptre_of_Fire/units/Snow_Golem.cfg:40
+#, fuzzy
 msgid ""
 "As they are constructs of snow and ice, they can repair and regenerate when "
 "in a favorable environment. However, the icy regrowth seems prone to errors, "
@@ -5210,20 +5212,13 @@ msgid ""
 "become misshapen and their movement thus compromised. This malformation is "
 "most obvious in their hand and arms, which take the most damage."
 msgstr ""
-"Les golems de neige sont des formes vaguement humanoïdes qui errent dans le "
-"nord glacial, sans rôle apparent dans la nature, n’étant ni prédateurs ni "
-"proies. Beaucoup affirment qu’ils sont les vestiges oubliés de batailles "
-"oubliées, en raison de leur lien avec les diablotins de neige, plus faibles. "
-"D’autres estiment que l’Extrême-Nord est une terre foncièrement hostile, et "
-"que ces monstres ne sont que la manifestation de ce danger.\n"
-"\n"
 "Étant des constructions de neige et de glace, ils peuvent se réparer et se "
 "régénérer lorsqu’ils se trouvent dans un environnement favorable. Toutefois, "
 "cette régénération glacée semble sujette à des imperfections : bien qu’ils "
-"aient à l’origine été façonnés comme des guerriers idéaux, ils sont devenus "
+"aient été façonnés à l’origine comme des guerriers idéaux, ils sont devenus "
 "difformes, ce qui entrave leurs mouvements. Cette malformation est "
-"particulièrement visible au niveau de leurs mains et de leurs bras, qui "
-"subissent le plus de dégâts."
+"particulièrement visible au niveau de leurs mains et de leurs bras, qui sont "
+"les plus endommagés."
 
 #. [attack]: type=cold
 #: data/campaigns/Sceptre_of_Fire/units/Snow_Golem.cfg:62

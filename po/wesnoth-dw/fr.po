@@ -40,7 +40,7 @@ msgstr "Citoyen"
 #. [campaign]: id=Dead_Water
 #: data/campaigns/Dead_Water/_main.cfg:18
 msgid "Easy"
-msgstr "Facil"
+msgstr "Facile"
 
 #. [campaign]: id=Dead_Water
 #: data/campaigns/Dead_Water/_main.cfg:19
@@ -75,14 +75,6 @@ msgstr "Triton"
 #. [campaign]: id=Dead_Water
 #: data/campaigns/Dead_Water/_main.cfg:23
 #, fuzzy
-#| msgid ""
-#| "You are Kai Krellis, son and heir of the last merman king but only a "
-#| "child. A necromancer is turning your subjects into undead slaves! Lead "
-#| "your people on a mission to convince a powerful mer-sorceress to help you "
-#| "repel the invasion. The oceans near the Northern Lands are perilous, so "
-#| "you will need cunning and bravery to survive. But first you need to gain "
-#| "the respect of your troops!\n"
-#| "\n"
 msgid ""
 "You are Kai Krellis, son and heir of the last merman king but only a child. "
 "A necromancer is turning your subjects into undead slaves! Lead your people "
@@ -96,7 +88,7 @@ msgstr ""
 "un enfant. Un nécromancien est en train de faire de vos sujets des esclaves "
 "morts-vivants ! Prenez la tête de vos ondins avec pour mission de convaincre "
 "une puissante sorcière ondine de vous aider à repousser l'invasion. Les "
-"océans qui bordent les pays du nord sont périlleux, vous aurez donc besoin "
+"océans qui bordent les pays du Nord sont périlleux, vous aurez donc besoin "
 "de ruse et de courage pour survivre. Mais vous devrez d'abord gagner le "
 "respect de vos troupes !\n"
 "\n"
@@ -140,13 +132,13 @@ msgid ""
 "spring rains; always, they were driven back to dry land with heavy losses, "
 "the salt water of the bay stinging their wounds."
 msgstr ""
-"Dans les pays du nord, là où les contreforts des Montagnes Centrales "
+"Dans les pays du Nord, là où les contreforts des Montagnes Centrales "
 "rejoignent la côte, se trouve une baie avec une embouchure étroite. Dans les "
 "eaux calmes de cette baie demeurait la cité ondine de Jotha. Le port naturel "
 "et la richesse des ondins qui y vivaient attiraient de nombreux regards "
 "envieux. Néanmoins personne ne pouvait rivaliser avec la force des ondins "
 "dans leur domaine aquatique. Durant des années, les orcs de la cité "
-"portuaire de Tirigaz située plus au nord lançaient des raids contre Jotha de "
+"portuaire de Tirigaz située plus au Nord lançaient des raids contre Jotha de "
 "façon aussi prévisible que les pluies du printemps. Mais ils étaient "
 "toujours repoussés vers les terres avec d'énormes pertes, l'eau salée de la "
 "baie brûlant leurs blessures."
@@ -331,6 +323,10 @@ msgstr ""
 
 #. [message]: speaker=Cylanna
 #: data/campaigns/Dead_Water/scenarios/01_Invasion.cfg:355
+#, fuzzy
+#| msgid ""
+#| "Gwabbo speaks wisely. You must fight; I will protect you as much as I "
+#| "can... but when war looms, a kai must lead. It is our way."
 msgid ""
 "Gwabbo speaks wisely. You must fight; I will protect you as much as I "
 "can...but when war looms, a kai must lead. It is our way."
@@ -2227,7 +2223,7 @@ msgstr "Trouver le mage Caladon"
 #: data/campaigns/Dead_Water/scenarios/09_The_Mage.cfg:84
 #, fuzzy
 msgid "Move a merfolk unit to Caladon’s shack and talk to him"
-msgstr "Amenez un ondin à la cabane de Caladon pour discuter avec lui."
+msgstr "Amener un ondin à la cabane de Caladon pour discuter avec lui."
 
 #. [objective]: condition=win
 #: data/campaigns/Dead_Water/scenarios/09_The_Mage.cfg:94
@@ -2337,7 +2333,7 @@ msgstr "En avant, les gars !"
 #: data/campaigns/Dead_Water/scenarios/09_The_Mage.cfg:584
 #, fuzzy
 msgid "Caladon’s shack"
-msgstr "La cabane de Caladon"
+msgstr "Cabane de Caladon"
 
 #. [message]: speaker=Caladon
 #: data/campaigns/Dead_Water/scenarios/09_The_Mage.cfg:538
@@ -2360,7 +2356,7 @@ msgstr "Il y a quelqu'un ici."
 #: data/campaigns/Dead_Water/scenarios/09_The_Mage.cfg:632
 #, fuzzy
 msgid "Gllllbbbg!"
-msgstr "Gllllbbbg!"
+msgstr "Gllllbbbg !"
 
 #. [message]: speaker=Caladon
 #: data/campaigns/Dead_Water/scenarios/09_The_Mage.cfg:638
@@ -3387,19 +3383,15 @@ msgstr "Roi guerrier"
 #. [unit_type]: id=Merman Warrior King, race=merman
 #: data/campaigns/Dead_Water/units/Warrior_King.cfg:20
 #, fuzzy
-#| msgid ""
-#| "Warrior kings often become legendary in their own time. Their skill and "
-#| "strength allows them to be truly formidable in battle. They are also fast "
-#| "despite their heavy armor. Even skilled soldiers look upon them with awe."
 msgid ""
 "Warrior Kings often become legendary in their own time. Their skill and "
 "strength allows them to be truly formidable in battle. They are also fast "
 "despite their heavy armor. Even skilled soldiers look upon them with awe."
 msgstr ""
 "Les rois guerriers deviennent souvent légendaires de leur vivant. Leur "
-"talent et leur force leur permettent d'être vraiment impressionnants au "
-"combat. Ils sont également rapides en dépit de leur lourde armure. Même les "
-"soldats aguerris les regardent avec admiration."
+"talent et leur force leur permettent d'être sans-rivaux au combat. Ils sont "
+"également rapides en dépit de leur lourde armure. Même les soldats aguerris "
+"les regardent avec admiration."
 
 #. [unit_type]: id=Merman Young King, race=merman
 #: data/campaigns/Dead_Water/units/Young_King.cfg:4
