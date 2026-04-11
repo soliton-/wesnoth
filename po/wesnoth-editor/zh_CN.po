@@ -609,11 +609,11 @@ msgstr "Cmd+点击：复制地形"
 msgid "Ctrl + click: copy terrain"
 msgstr "Ctrl+点击：复制地形"
 
-#~ msgid "Unable to parse file to find map data"
-#~ msgstr "无法解析文件以找到地图数据"
-
 #~ msgid "Load Map"
 #~ msgstr "载入地图"
+
+#~ msgid "Unable to parse file to find map data"
+#~ msgstr "无法解析文件以找到地图数据"
 
 #~ msgid "Left-click: Place item "
 #~ msgstr "左击：放置物品 "

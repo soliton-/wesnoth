@@ -2788,32 +2788,6 @@ msgstr ""
 msgid "At least I die with my axe in my hand..."
 msgstr ""
 
-#~ msgid "I found some gold!"
-#~ msgstr "我找到了一些金币！"
-
-#~ msgid "This must be one of the runic keys!"
-#~ msgstr "这肯定是符文钥匙之一！"
-
-#~ msgid "We still need to find the other one!"
-#~ msgstr "我们还得要找到另一把！"
-
-#~ msgid "Find and activate the runic keys (one remaining)"
-#~ msgstr "找到并激活符文钥匙（还剩一把）"
-
-#~ msgid ""
-#~ "You may teleport units between matching runes (the destination must be "
-#~ "clear)"
-#~ msgstr "你可以在相匹配的符文之间传送单位（目的地必须无人占据）"
-
-#~ msgid "We’ve found a runic key!"
-#~ msgstr "我们找到了一把符文钥匙！"
-
-#~ msgid "The keys have been found. The door should open..."
-#~ msgstr "我们找到了钥匙，这门该开了……"
-
-#~ msgid "Find and activate the runic keys to the sealed door"
-#~ msgstr "找到并激活可以打开门的符文钥匙"
-
 #~ msgid "Fighter"
 #~ msgstr "战士"
 
@@ -3367,6 +3341,32 @@ msgstr ""
 
 #~ msgid "Find and defeat Karrag"
 #~ msgstr "找到并击败卡拉格"
+
+#~ msgid "I found some gold!"
+#~ msgstr "我找到了一些金币！"
+
+#~ msgid "This must be one of the runic keys!"
+#~ msgstr "这肯定是符文钥匙之一！"
+
+#~ msgid "We still need to find the other one!"
+#~ msgstr "我们还得要找到另一把！"
+
+#~ msgid "Find and activate the runic keys (one remaining)"
+#~ msgstr "找到并激活符文钥匙（还剩一把）"
+
+#~ msgid ""
+#~ "You may teleport units between matching runes (the destination must be "
+#~ "clear)"
+#~ msgstr "你可以在相匹配的符文之间传送单位（目的地必须无人占据）"
+
+#~ msgid "We’ve found a runic key!"
+#~ msgstr "我们找到了一把符文钥匙！"
+
+#~ msgid "The keys have been found. The door should open..."
+#~ msgstr "我们找到了钥匙，这门该开了……"
+
+#~ msgid "Find and activate the runic keys to the sealed door"
+#~ msgstr "找到并激活可以打开门的符文钥匙"
 
 #~ msgid ""
 #~ "I have been on your track for weeks. Word of your rout of Tan-Morgh and "
