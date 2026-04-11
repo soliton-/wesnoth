@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.3-svn\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-27 22:22-0500\n"
-"PO-Revision-Date: 2026-03-06 20:34-0300\n"
+"PO-Revision-Date: 2026-04-02 11:40-0300\n"
 "Last-Translator: Andrei Machado <andreisp.machado@yahoo.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-l10n-br@listas.cipsga.org.br>\n"
 "Language: pt_BR\n"
@@ -510,11 +510,17 @@ msgstr "B<--no-log-to-file>"
 
 #. type: Plain text
 #: doc/man/wesnoth.6:171
+#, fuzzy
+#| msgid ""
+#| "prevents redirecting logged output to a file. Log files are created in "
+#| "the logs directory under the userdata folder."
 msgid ""
 "prevents redirecting logged output to a file. The environment variable "
 "WESNOTH_NO_LOG_FILE can also be set as an alternative. Log files are created "
 "in the logs directory under the userdata folder."
 msgstr ""
+"previne o redirecionamento de um logged output para um arquivo. Arquivos de "
+"log são criados no diretório do log na pasta dos dados do usuário."
 
 # type: TP
 #. type: TP
@@ -529,6 +535,8 @@ msgid ""
 "log output is written to a file. Cancels the effect of --no-log-to-file "
 "whether implicit or explicit."
 msgstr ""
+"o log output é escrito em um arquivo. Cancela o efeito de --no-log-to-file "
+"independente dele ser implícito ou explícito."
 
 # type: TP
 #. type: TP
@@ -558,6 +566,8 @@ msgid ""
 "For Windows, when used with --no-log-to-file, results in output being "
 "written to cerr/cout instead of CONOUT. Otherwise, does nothing."
 msgstr ""
+"Para Windows, quando utilizado com --no-log-to-file, faz com que o output "
+"seja escrito em cerr/cout ao invés de CONOUT. Caso contrário, não faz nada."
 
 # type: TP
 #. type: TP
@@ -1024,12 +1034,6 @@ msgstr "B<-t[>I<scenario_id>B<],\\ --test[>I<=scenario_id>B<]>"
 
 #. type: Plain text
 #: doc/man/wesnoth.6:335
-#, fuzzy
-#| msgid ""
-#| "runs the game in a small test scenario. The scenario should be one "
-#| "defined with a B<[test]> WML tag. The default is B<test>.  A "
-#| "demonstration of the B<[micro_ai]> feature can be started with "
-#| "B<micro_ai_test>.  Implies B<--nogui>."
 msgid ""
 "runs the game in a small test scenario. The scenario should be one defined "
 "with a B<[test]> WML tag. The default is B<test>.  A demonstration of the "
@@ -1037,7 +1041,7 @@ msgid ""
 msgstr ""
 "roda o jogo num pequeno cenário de teste. Este cenário deve ser definido com "
 "uma B<[test]> WML tag. O padrão é B<test>.  Uma demonstração da "
-"B<[micro_ai]> pode ser iniciada por B<micro_ai_test>.  Implica B<--nogui>."
+"B<[micro_ai]> pode ser iniciada por B<micro_ai_test>."
 
 #. type: TP
 #: doc/man/wesnoth.6:335
@@ -1937,6 +1941,9 @@ msgid ""
 "information. Generally is the major.minor version of accepted clients, such "
 "as 1.16 or 1.17."
 msgstr ""
+"O ID do servidor quando utilizada a funcionalidade da base de dados para "
+"salvar informação do jogo. Geralmente é a versão major.minor de clientes "
+"aceitos, tal quais 1.16 ou 1.17."
 
 # type: TP
 #. type: TP
@@ -2059,6 +2066,8 @@ msgstr "B<tls_enabled>"
 #: doc/man/wesnothd.6:149
 msgid "Enable use of TLS. If true, requires 3 following options to be set too."
 msgstr ""
+"Habilita o uso de TLS. Se verdadeiro, necessita que as três opções seguintes "
+"sejam habilitadas também."
 
 #. type: TP
 #: doc/man/wesnothd.6:149
@@ -2069,7 +2078,7 @@ msgstr "B<tls_fullchain>"
 #. type: Plain text
 #: doc/man/wesnothd.6:152
 msgid "TLS full certificate chain in .pem format"
-msgstr ""
+msgstr "TLS cadeia completa de certificado em formato .pem"
 
 #. type: TP
 #: doc/man/wesnothd.6:152
@@ -2080,7 +2089,7 @@ msgstr "B<tls_private_key>"
 #. type: Plain text
 #: doc/man/wesnothd.6:155
 msgid "private key for TLS in .pem format"
-msgstr ""
+msgstr "chaves pessoais para TLS em formato .pem"
 
 #. type: TP
 #: doc/man/wesnothd.6:155
@@ -2094,6 +2103,8 @@ msgid ""
 "TLS DH parameters, as .pem file. Generate with B<openssl dhparam -out "
 "filename.pem 4096>"
 msgstr ""
+"Parâmetros do TLS DH, como um arquivo .pem. Gerado com B<openssl dhparam "
+"-out filename.pem 4096>"
 
 # type: TP
 #. type: TP
@@ -2318,15 +2329,11 @@ msgstr "B<db_users_table>"
 # type: Plain text
 #. type: Plain text
 #: doc/man/wesnothd.6:233
-#, fuzzy
-#| msgid ""
-#| "The name of the table in which your phpbb forums saves its user data. "
-#| "Most likely this will be E<lt>table-prefixE<gt>_users (e.g. phpbb3_users)."
 msgid ""
 "The name of the table in which your phpbb forum saves its user data. Most "
 "likely this will be E<lt>table-prefixE<gt>_users (e.g. phpbb3_users)."
 msgstr ""
-"O nome da tabela onde os seus fóruns phpbb salvam os dados do usuário. Mais "
+"O nome da tabela onde o seu fórum phpbb salva os dados do usuário. Mais "
 "provavelmente ele será E<lt>table-prefixE<gt>_users (e.g. phpbb3_users)."
 
 # type: TP
@@ -2407,17 +2414,12 @@ msgstr "B<db_user_group_table>"
 # type: Plain text
 #. type: Plain text
 #: doc/man/wesnothd.6:248
-#, fuzzy
-#| msgid ""
-#| "The name of the table in which your phpbb forums saves its user group "
-#| "data. Most likely this will be E<lt>table-prefixE<gt>_user_group (e.g. "
-#| "phpbb3_user_group)."
 msgid ""
 "The name of the table in which your phpbb forum saves its user group data. "
 "Most likely this will be E<lt>table-prefixE<gt>_user_group (e.g. "
 "phpbb3_user_group)."
 msgstr ""
-"O nome da tabela em que os seus phpbb dos fórums salvam a dos grupos dos "
+"O nome da tabela em que o seu phpbb do fórum salva os dados dos grupos dos "
 "usuários. Isto mais provavelmente será E<lt>table-prefixE<gt>_user_group "
 "(e.g. phpbb3_user_group)."
 
@@ -2449,6 +2451,8 @@ msgid ""
 "The name of the table in which to store login/logout times. Also used for "
 "matching IPs to users and vice versa."
 msgstr ""
+"O nome da tabela onde são armazenados os horários de login/logout. Também "
+"utilizado para relacionar IP com usuários e vice-versa."
 
 # type: TP
 #. type: TP
@@ -2460,17 +2464,14 @@ msgstr "B<db_topics_table>"
 # type: Plain text
 #. type: Plain text
 #: doc/man/wesnothd.6:257
-#, fuzzy
-#| msgid ""
-#| "The name of the table in which your phpbb forums saves its user data. "
-#| "Most likely this will be E<lt>table-prefixE<gt>_users (e.g. phpbb3_users)."
 msgid ""
 "The name of the table in which your phpbb forum saves its topic (thread) "
 "information. Most likely this will be E<lt>table-prefixE<gt>_topics (e.g. "
 "phpbb3_topics)."
 msgstr ""
-"O nome da tabela onde os seus fóruns phpbb salvam os dados do usuário. Mais "
-"provavelmente ele será E<lt>table-prefixE<gt>_users (e.g. phpbb3_users)."
+"O nome da tabela onde os seu fórum phpbb salva a informação do tópico "
+"(thread). Mais provavelmente ele será E<lt>table-prefixE<gt>_topics (e.g. "
+"phpbb3_topics)."
 
 # type: TP
 #. type: TP
@@ -2482,17 +2483,14 @@ msgstr "B<db_banlist_table>"
 # type: Plain text
 #. type: Plain text
 #: doc/man/wesnothd.6:260
-#, fuzzy
-#| msgid ""
-#| "The name of the table in which your phpbb forums saves its user data. "
-#| "Most likely this will be E<lt>table-prefixE<gt>_users (e.g. phpbb3_users)."
 msgid ""
 "The name of the table in which your phpbb forum saves its user bans data. "
 "Most likely this will be E<lt>table-prefixE<gt>_banlist (e.g. "
 "phpbb3_banlist)."
 msgstr ""
-"O nome da tabela onde os seus fóruns phpbb salvam os dados do usuário. Mais "
-"provavelmente ele será E<lt>table-prefixE<gt>_users (e.g. phpbb3_users)."
+"O nome da tabela onde o seu fórum phpbb salva os dados dos usuários banidos. "
+"Mais provavelmente ele será E<lt>table-prefixE<gt>_banlist (e.g. "
+"phpbb3_banlist)."
 
 #. type: TP
 #: doc/man/wesnothd.6:260

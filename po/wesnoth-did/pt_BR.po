@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2025-11-18 02:02 UTC\n"
-"PO-Revision-Date: 2023-01-06 17:49-0300\n"
+"PO-Revision-Date: 2026-03-28 18:38-0300\n"
 "Last-Translator: Andrei Machado <andreisp.machado@yahoo.com>\n"
 "Language-Team: Gatts_Berserk <gatts_games@hotmail.com>\n"
 "Language: pt_BR\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 3.1.1\n"
+"X-Generator: Poedit 3.6\n"
 
 #. [campaign]: id=Descent_into_Darkness
 #. [achievement_group]
@@ -100,76 +100,76 @@ msgstr "Miscelânea"
 #. [achievement]: id=did_rat_eater
 #: data/campaigns/Descent_Into_Darkness/achievements.cfg:10
 msgid "A Big Hunk of Flesh"
-msgstr ""
+msgstr "Um Enorme Pedação de Carne"
 
 #. [achievement]: id=did_rat_eater
 #. the achievements are somewhat written as if from Malin's point of view which is why there's some weird and sometimes quirky flavor in them
 #: data/campaigns/Descent_Into_Darkness/achievements.cfg:12
 msgid "Feed a Ghoul way too many rats."
-msgstr ""
+msgstr "Dê ratos demais para um Carniçal."
 
 #. [achievement]: id=did_drogan
 #. you can interpret this as a Harry Potter reference or you can think about it as Malin making fun of Drogan's country accent, or you can take artistic liberty with the translation
 #: data/campaigns/Descent_Into_Darkness/achievements.cfg:19
-#, fuzzy
-#| msgid "Death of Drogan"
 msgid "Yer a Ghoul, Drogan"
-msgstr "Morte de Drogan"
+msgstr "Você é um Carniçal, Drogan"
 
 #. [achievement]: id=did_drogan
 #: data/campaigns/Descent_Into_Darkness/achievements.cfg:20
 msgid "Make that arrogant jerk Drogan into just another one of your minions."
-msgstr ""
+msgstr "Faça daquele idiota arrogante do Drogan só mais um dos seus servos."
 
 #. [achievement]: id=did_sushi
 #: data/campaigns/Descent_Into_Darkness/achievements.cfg:26
 msgid "High Grade Sushi"
-msgstr ""
+msgstr "Sushi de Alta Qualidade"
 
 #. [achievement]: id=did_sushi
 #: data/campaigns/Descent_Into_Darkness/achievements.cfg:27
 msgid "Upgrade a normal swimmer zombie into a super zombie."
-msgstr ""
+msgstr "Melhore um zumbi nadador melhor em um super zumbi."
 
 #. [achievement]: id=did_drunk
 #: data/campaigns/Descent_Into_Darkness/achievements.cfg:33
 msgid "Drunken Fist Style"
-msgstr ""
+msgstr "Estilo do Punho Bêbado"
 
 #. [achievement]: id=did_drunk
 #: data/campaigns/Descent_Into_Darkness/achievements.cfg:34
 msgid "Make the drunken sailor zombie drink some poorly aged rum."
-msgstr ""
+msgstr "Faça o zumbi marinheiro bêbado beber o rum que envelheceu mal."
 
 #. [achievement]: id=did_monolith
 #: data/campaigns/Descent_Into_Darkness/achievements.cfg:40
 msgid "A Monolith of Stone"
-msgstr ""
+msgstr "Um Monólito de Pedra"
 
 #. [achievement]: id=did_monolith
 #: data/campaigns/Descent_Into_Darkness/achievements.cfg:41
 msgid "Find and explore all eight unique monoliths in a single playthrough."
 msgstr ""
+"Encontre e explore todos os oito monólitos únicos durante um único "
+"playthrough."
 
 #. [achievement]: id=did_reflection
 #: data/campaigns/Descent_Into_Darkness/achievements.cfg:48
 msgid "Am I the Bad Guy?"
-msgstr ""
+msgstr "Será que eu sou o Vilão?"
 
 #. [achievement]: id=did_reflection
 #: data/campaigns/Descent_Into_Darkness/achievements.cfg:49
 msgid "Reflect on all of your doings. Did you learn anything from them?"
-msgstr ""
+msgstr "Reflita em tudo o que você fez. O que você aprendeu com isso?"
 
 #. [achievement]: id=did_tentacle
 #: data/campaigns/Descent_Into_Darkness/achievements.cfg:55
 msgid "Fish are Friends not Food"
-msgstr ""
+msgstr "Peixes são Amigos e não Comida"
 
 #. [achievement]: id=did_tentacle
 #: data/campaigns/Descent_Into_Darkness/achievements.cfg:56
 msgid "Find and eat Inky in the secret underground squid village."
-msgstr ""
+msgstr "Encontre e coma Tintosa na aldeia de lulas subterrânea secreta."
 
 # nome de cenário
 #. [scenario]: id=01_Saving_Parthyn
@@ -241,8 +241,8 @@ msgstr ""
 "pensamento voltou-se para Parthyn, onde magias mais práticas seriam "
 "necessárias para expulsar os orcs. Malin começou a pesquisar novas magias "
 "por conta própria, mas sua impaciência e indiscrição eventualmente levou a "
-"muitos conflitos com os seus professores e os outros alunos. aAchando que "
-"ele era impudente demais, os magos o expulsaram de Alduin."
+"muitos conflitos com os seus professores e os outros alunos. Achando que ele "
+"era impudente demais, os magos o expulsaram de Alduin."
 
 #. [part]
 #: data/campaigns/Descent_Into_Darkness/scenarios/01_Saving_Parthyn.cfg:48
@@ -3276,10 +3276,8 @@ msgstr "Guarda"
 #. Unit name
 #: data/campaigns/Descent_Into_Darkness/scenarios/07b_A_Small_Favor2.cfg:265
 #: data/campaigns/Descent_Into_Darkness/scenarios/07c_A_Small_Favor3.cfg:347
-#, fuzzy
-#| msgid "female^maimed"
 msgid "female^Guard"
-msgstr "aleijada"
+msgstr "Guarda"
 
 #. [message]: speaker=narrator
 #: data/campaigns/Descent_Into_Darkness/scenarios/07b_A_Small_Favor2.cfg:419
@@ -3526,10 +3524,8 @@ msgstr "Guardião"
 #. Book guards
 #: data/campaigns/Descent_Into_Darkness/scenarios/07c_A_Small_Favor3.cfg:52
 #: data/campaigns/Descent_Into_Darkness/scenarios/07c_A_Small_Favor3.cfg:53
-#, fuzzy
-#| msgid "Guardian"
 msgid "female^Guardian"
-msgstr "Guardião"
+msgstr "Guardiã"
 
 #. [objective]: condition=win
 #: data/campaigns/Descent_Into_Darkness/scenarios/07c_A_Small_Favor3.cfg:207
@@ -3543,10 +3539,8 @@ msgstr "Mago"
 
 #. [command]
 #: data/campaigns/Descent_Into_Darkness/scenarios/07c_A_Small_Favor3.cfg:377
-#, fuzzy
-#| msgid "female^maimed"
 msgid "female^Mage"
-msgstr "aleijada"
+msgstr "Maga"
 
 #. [message]: speaker=Darken Volk
 #: data/campaigns/Descent_Into_Darkness/scenarios/07c_A_Small_Favor3.cfg:467
@@ -3965,10 +3959,8 @@ msgstr "... não, bobagem..."
 
 #. [message]: speaker=Malin Keshar
 #: data/campaigns/Descent_Into_Darkness/scenarios/08_Alone_at_Last.cfg:605
-#, fuzzy
-#| msgid "He seems to be drinking the remains of the wine in the cargo hold."
 msgid "He seems to be drinking the remains of the rum in the cargo hold."
-msgstr "Ele está bebendo orestante do vinho no porão de carga."
+msgstr "Ele está bebendo o restante do rum no porão de carga."
 
 #. [unit]: type=Paladin, id=Sir Cadaeus
 #: data/campaigns/Descent_Into_Darkness/scenarios/08_Alone_at_Last.cfg:665
@@ -5470,19 +5462,20 @@ msgstr "Herói Tolo"
 #. [message]: speaker=Mal Keshar
 #: data/campaigns/Descent_Into_Darkness/scenarios/10_Endless_Night.cfg:965
 msgid "That was quite the nightmare..."
-msgstr ""
+msgstr "Mas que pesadelo..."
 
 #. [message]: speaker=Mal Keshar
 #: data/campaigns/Descent_Into_Darkness/scenarios/10_Endless_Night.cfg:969
 msgid ""
 "...unless it was not one? No. No no no. I don’t even want to think about "
 "that."
-msgstr ""
+msgstr "...será que foi rela? Não. Não não não. Eu não quer pensar nisso."
 
 #. [message]: speaker=Mal Keshar
 #: data/campaigns/Descent_Into_Darkness/scenarios/10_Endless_Night.cfg:973
 msgid "I need to go slaughter some foolish heroes to purge that from my mind."
 msgstr ""
+"Eu preciso ir matar alguns heróis tolos para expurgar isso da minha mente."
 
 #. [message]: speaker=Mal Keshar
 #: data/campaigns/Descent_Into_Darkness/scenarios/10_Endless_Night.cfg:989
@@ -5795,20 +5788,18 @@ msgstr "Nos encontramos novamente, lulinha."
 #. [message]: speaker=Mal Keshar
 #: data/campaigns/Descent_Into_Darkness/scenarios/10_Endless_Night.cfg:1452
 msgid "Get these tentacles off of me!"
-msgstr ""
+msgstr "Tire esses tentáculos de mim!"
 
 #. [message]: speaker=Mal Keshar
 #: data/campaigns/Descent_Into_Darkness/scenarios/10_Endless_Night.cfg:1465
 msgid "Release me at once you oversized piece of calamari— eeeeaaaaaaaaa!"
-msgstr ""
+msgstr "Me largue imediatamente seu peixe super cresci— aaaaaaaaaaaaa!"
 
 #. [message]: speaker=narrator
 #. Mal Keshar is sinking...
 #: data/campaigns/Descent_Into_Darkness/scenarios/10_Endless_Night.cfg:1470
-#, fuzzy
-#| msgid "<i>It’s... so... cold...</i>"
 msgid "<i>Blub... blub... blub...</i>"
-msgstr "<i>Está... tão... frio...</i>"
+msgstr "<i>Glup... glup... glup...</i>"
 
 #. [message]: speaker=Inky
 #: data/campaigns/Descent_Into_Darkness/scenarios/10_Endless_Night.cfg:1495
@@ -6197,19 +6188,17 @@ msgstr "... Então minha batalha contra os orcs está perdida!"
 #. [scenario]: id=11_Squidville
 #: data/campaigns/Descent_Into_Darkness/scenarios/11_Squidville.cfg:5
 msgid "Squidville"
-msgstr ""
+msgstr "Lulópolis"
 
 #. [side]
 #: data/campaigns/Descent_Into_Darkness/scenarios/11_Squidville.cfg:41
-#, fuzzy
-#| msgid "teamname^Void"
 msgid "teamname^Squid"
-msgstr "teamname^Vazio"
+msgstr "Lula"
 
 #. [message]: speaker=Mal Keshar
 #: data/campaigns/Descent_Into_Darkness/scenarios/11_Squidville.cfg:118
 msgid "This cuttlefish will not escape me any longer! Hunt her down!"
-msgstr ""
+msgstr "Este choco não vai escapar de mim de novo! Cacem ela!"
 
 #. [message]: speaker=Mal Keshar
 #: data/campaigns/Descent_Into_Darkness/scenarios/11_Squidville.cfg:152
@@ -6217,33 +6206,33 @@ msgid ""
 "Right, I got dragged down here without any of my minions. I suppose I will "
 "have to do this myself."
 msgstr ""
+"Isso, eu fui arrastado para cá sem nenhum dos meus servos. Parece que eu vou "
+"ter que me virar sozinho."
 
 #. [objective]: condition=win
 #: data/campaigns/Descent_Into_Darkness/scenarios/11_Squidville.cfg:161
 msgid "Hunt down Inky"
-msgstr ""
+msgstr "Cace Tintosa"
 
 #. [message]: speaker=Mal Keshar
 #: data/campaigns/Descent_Into_Darkness/scenarios/11_Squidville.cfg:217
-#, fuzzy
-#| msgid "Why are these bats chasing me?"
 msgid "Why are these tentacles so large..?"
-msgstr "Por que estes morcegos estão me perseguindo?"
+msgstr "Por que esses tentáculos são tão grandes?"
 
 #. [message]: speaker=Mal Keshar
 #: data/campaigns/Descent_Into_Darkness/scenarios/11_Squidville.cfg:230
 msgid "(<i>huff huff huff</i>)"
-msgstr ""
+msgstr "(<i>huff huff huff</i>)"
 
 #. [message]: speaker=Mal Keshar
 #: data/campaigns/Descent_Into_Darkness/scenarios/11_Squidville.cfg:250
 msgid "I can see... the colors of the universe..!"
-msgstr ""
+msgstr "Eu consigo ver... as cores do universo...!"
 
 #. [message]: speaker=Mal Keshar
 #: data/campaigns/Descent_Into_Darkness/scenarios/11_Squidville.cfg:269
 msgid "The stars go whirly whirl and turn into..."
-msgstr ""
+msgstr "As estrelas giram e giram e formam..."
 
 #. [message]: speaker=Mal Keshar
 #. He's high so basically this is gibberish describing mushrooms
@@ -6252,22 +6241,26 @@ msgid ""
 "... glowy mushrooms lighting up this dank gloom, blue and green, loomy "
 "bloomy big shroomy..."
 msgstr ""
+"... cogumelos brilhantes iluminando essa melancolia fria e úmida, azul e "
+"verde, grandão verdão cogumelão..."
 
 #. [message]: speaker=Mal Keshar
 #: data/campaigns/Descent_Into_Darkness/scenarios/11_Squidville.cfg:289
 msgid "... hi hi ho ho the shrooms go marching lo..."
-msgstr ""
+msgstr ".. hi hi há há os cogumelões vão marchando pra lá lá..."
 
 #. [message]: speaker=Mal Keshar
 #: data/campaigns/Descent_Into_Darkness/scenarios/11_Squidville.cfg:293
 msgid "... wait for me shroomies..!"
-msgstr ""
+msgstr "... esperem por mim cogumelinhos...!"
 
 #. [message]: speaker=Mal Keshar
 #: data/campaigns/Descent_Into_Darkness/scenarios/11_Squidville.cfg:324
 msgid "(<i>huff huff</i>)"
-msgstr ""
+msgstr "(<i>huff huff</i>)"
 
+# Se é para se divertir um pouco com a fala e não é para ser levada a sério, pq não zuar um pouco?
+# Inserida na fala está uma famosa fala de Euricão do Santo e a Porca.
 #. [message]: speaker=Mal Keshar
 #. He breaks the fourth wall here because he's enlightened from the shrooms of course, so he talks directly to the player
 #: data/campaigns/Descent_Into_Darkness/scenarios/11_Squidville.cfg:332
@@ -6279,16 +6272,24 @@ msgid ""
 "entertainment? How revolting. I hope your sick enjoyment at my predicament "
 "is worth it, you monster."
 msgstr ""
+"... Espere só um instante. O quê é que eu estou fazendo? Um esqueleto não "
+"tem paladar nem olfato e nem é capaz de comer nada. Esses cogumelos não "
+"surtem efeito em mim. Você acha que eu sou algum tipo de tolo? Será que eu "
+"sou um ator ruim que fui contratado pra dar uma de palhaço? Mas que tipo de "
+"poder maior sádico faz um triste, pobre, triste, lich solitário como eu "
+"sofrer só para o seu entretenimento? Ai a crise! Ai a carestia! Mas que "
+"revoltante. Eu espero que você tenha se divertido com a minha situação "
+"triste, seu monstro."
 
 #. [floating_text]
 #: data/campaigns/Descent_Into_Darkness/scenarios/11_Squidville.cfg:352
 msgid "ENLIGHTENED"
-msgstr ""
+msgstr "ILUMINADO"
 
 #. [unit]: type=Necrophage Necron, id=Necron
 #: data/campaigns/Descent_Into_Darkness/scenarios/11_Squidville.cfg:390
 msgid "Necron"
-msgstr ""
+msgstr "Necron"
 
 #. [message]: speaker=Mal Keshar
 #: data/campaigns/Descent_Into_Darkness/scenarios/11_Squidville.cfg:400
@@ -6297,75 +6298,76 @@ msgid ""
 "disgusting. Maybe I can send it to a quick death against all those Foolish "
 "Heroes."
 msgstr ""
+"... mas que pilha horripilante de carma. Mesmo para um carniçal, essa coisa "
+"é nojenta demais. Talvez eu devesse enviar ela pra ter uma morte rápida "
+"contra aqueles Heróis Tolos."
 
 #. [message]: speaker=Mal Keshar
 #: data/campaigns/Descent_Into_Darkness/scenarios/11_Squidville.cfg:428
 msgid "You are not the creature I seek!"
-msgstr ""
+msgstr "Você não é a criatura que eu busco!"
 
 #. [message]: speaker=Mal Keshar
 #: data/campaigns/Descent_Into_Darkness/scenarios/11_Squidville.cfg:467
 msgid "Oh for the love of... not these slimy things again..."
-msgstr ""
+msgstr "Ah, pelo amor de... essas coisas asquerosas d enovo não..."
 
 #. [message]: speaker=Mal Keshar
 #: data/campaigns/Descent_Into_Darkness/scenarios/11_Squidville.cfg:499
 msgid ""
 "... wait a second, is this creature even supposed to live in this kind of "
 "habitat?"
-msgstr ""
+msgstr "... espera um momentinho, essa criatura mora nesse tipo de hábitat?"
 
 #. [message]: speaker=Mal Keshar
 #: data/campaigns/Descent_Into_Darkness/scenarios/11_Squidville.cfg:531
 msgid "The creatures down here keep getting stranger and stranger."
-msgstr ""
+msgstr "As criaturas dessas redondezas ficam cada vez mais estranhas."
 
 #. [message]: speaker=Mal Keshar
 #: data/campaigns/Descent_Into_Darkness/scenarios/11_Squidville.cfg:572
 msgid "Aha!"
-msgstr ""
+msgstr "Aha!"
 
 #. [message]: speaker=Mal Keshar
 #: data/campaigns/Descent_Into_Darkness/scenarios/11_Squidville.cfg:576
 msgid "Finally, I have found you! Now hold still for just a moment..."
-msgstr ""
+msgstr "Finalmente eu te achei! Agora, fique paradinho aí..."
 
 #. [message]: speaker=Mal Keshar
 #: data/campaigns/Descent_Into_Darkness/scenarios/11_Squidville.cfg:597
 msgid "Ha! I have you now!"
-msgstr ""
+msgstr "Há! Te peguei!"
 
 #. [message]: speaker=Mal Keshar
 #: data/campaigns/Descent_Into_Darkness/scenarios/11_Squidville.cfg:610
 msgid "... what’s that sound?"
-msgstr ""
+msgstr "... mas que som é esse?"
 
 #. [message]: speaker=Mal Keshar
 #: data/campaigns/Descent_Into_Darkness/scenarios/11_Squidville.cfg:636
 msgid "Where did you come from? Get off of me!"
-msgstr ""
+msgstr "De onde você veio? Me larga!"
 
 #. [message]: speaker=Mal Keshar
 #: data/campaigns/Descent_Into_Darkness/scenarios/11_Squidville.cfg:675
 msgid "Uh oh."
-msgstr ""
+msgstr "Vish."
 
 #. [message]: speaker=Mal Keshar
 #: data/campaigns/Descent_Into_Darkness/scenarios/11_Squidville.cfg:714
-#, fuzzy
-#| msgid "Let’s get out of here."
 msgid "I’m getting out of here!"
-msgstr "Vamos sair daqui."
+msgstr "Eu vou me embora daqui!"
 
 #. [message]: speaker=unit
 #: data/campaigns/Descent_Into_Darkness/scenarios/11_Squidville.cfg:739
 msgid "Aaargh, so many tentacles! Aieeeeee!!!"
-msgstr ""
+msgstr "Aaaargh, quantos tentáculos! Aiiii!!!"
 
 #. [story]
 #: data/campaigns/Descent_Into_Darkness/scenarios/11_Squidville.cfg:749
 msgid "Bad Ending"
-msgstr ""
+msgstr "Final Ruim"
 
 #. [part]
 #: data/campaigns/Descent_Into_Darkness/scenarios/11_Squidville.cfg:751
@@ -6375,6 +6377,10 @@ msgid ""
 "no more than a few decorative elements around the watery backdrop of the "
 "village of squids for all eternity."
 msgstr ""
+"Infelizmente para ele, Mal Keshar foi sobrepujado por uma horda de "
+"tentáculos. Com sua megalomania obliterada, seus restos esqueléticos se "
+"tornaram pouco mais que uns elementos decorativos ao redor da aldeia das "
+"lulas por toda a eternidade."
 
 #. [unit_type]: id=Apprentice Mage, race=human, gender=male
 #: data/campaigns/Descent_Into_Darkness/units/Apprentice_Mage.cfg:4
@@ -6468,7 +6474,7 @@ msgstr ""
 #. [attack]: type=blade
 #: data/campaigns/Descent_Into_Darkness/units/Ghast2.cfg:29
 msgid "bite"
-msgstr ""
+msgstr "mordida"
 
 #. [advancement]: id=mal_keshar_amla_melee
 #. [advancement]: id=eidolon_baneblade
@@ -6653,10 +6659,8 @@ msgstr "Ganha a habilidade consumo"
 
 #. [attack]: type=blade
 #: data/campaigns/Descent_Into_Darkness/units/Necrophage2.cfg:18
-#, fuzzy
-#| msgid "Outlaws"
 msgid "claws"
-msgstr "Foragidos"
+msgstr "garras"
 
 #. [advancement]
 #: data/campaigns/Descent_Into_Darkness/units/Spectral_Servant.cfg:79
@@ -6817,15 +6821,11 @@ msgstr "rasgar alma"
 #. [dummy]: id=did_soul_rend
 #: data/campaigns/Descent_Into_Darkness/utils/abilities.cfg:250
 #: data/campaigns/Descent_Into_Darkness/utils/abilities.cfg:251
-#, fuzzy
-#| msgid ""
-#| "Every turn, this unit loses 5 hitpoints, but drains 4 hitpoints from each "
-#| "adjacent enemy."
 msgid ""
 "Every turn, this unit loses 3 hitpoints, but drains 6 hitpoints from each "
 "adjacent enemy."
 msgstr ""
-"Todo turno esta unidade perde 5 pontos de vida mas drena 4 pontos de vida de "
+"Todo turno esta unidade perde 3 pontos de vida mas drena 6 pontos de vida de "
 "cada inimigo adjacente."
 
 #. [damage]: id=did_malevolence
@@ -6873,19 +6873,17 @@ msgstr "Unidades inimigas adjacentes causam 40% de dano a menos."
 #. [teleport]: id=did_enlightened
 #: data/campaigns/Descent_Into_Darkness/utils/abilities.cfg:409
 msgid "enlightened"
-msgstr ""
+msgstr "iluminado"
 
 #. [teleport]: id=did_enlightened
 #: data/campaigns/Descent_Into_Darkness/utils/abilities.cfg:410
-#, fuzzy
-#| msgid "female^maimed"
 msgid "female^enlightened"
-msgstr "aleijada"
+msgstr "iluminada"
 
 #. [teleport]: id=did_enlightened
 #: data/campaigns/Descent_Into_Darkness/utils/abilities.cfg:411
 msgid "This unit can teleport between mushroom groves."
-msgstr ""
+msgstr "Esta unidade é capaz de teleportar entre colônias de cogumelos."
 
 #. [heal_on_hit]: id=did_vitalize1
 #. [heal_on_hit]: id=did_vitalize2
@@ -6943,18 +6941,13 @@ msgstr "lançar corpo"
 
 #. [attacks]: id=did_corpse_launcher
 #: data/campaigns/Descent_Into_Darkness/utils/abilities.cfg:487
-#, fuzzy
-#| msgid ""
-#| "On offense, enemies cannot retaliate against this attack. This attack "
-#| "consumes 3 HP from each nearby allied corpse to deal 11 impact damage "
-#| "(per corpse) to the target on top of this attack’s base damage."
 msgid ""
 "On offense, enemies cannot retaliate against this attack. This attack "
 "consumes 3 HP from each nearby allied corpse to deal 15 impact damage (per "
 "corpse) to the target on top of this attack’s base damage."
 msgstr ""
 "Quando usado ofensivamente, inimigos não podem retaliar contra este ataque. "
-"Este ataque consome 3 de HP de cada corpo aliado adjacente para causar 11 de "
+"Este ataque consome 3 de HP de cada corpo aliado adjacente para causar 15 de "
 "dano de impacto (por corpo) no alvo, além do dano base deste ataque."
 
 #. [leadership]: id=did_consumption
@@ -7037,52 +7030,52 @@ msgstr ""
 #. [plague]: id=ghoulfication, type=Ghoul
 #: data/campaigns/Descent_Into_Darkness/utils/abilities.cfg:955
 msgid "ghoulfication"
-msgstr ""
+msgstr "carniçalização"
 
 #. [plague]: id=ghoulfication, type=Ghoul
 #: data/campaigns/Descent_Into_Darkness/utils/abilities.cfg:956
 msgid "When a unit is killed by this attack, it turns into a ghoul."
-msgstr ""
+msgstr "Quando uma unidade é morta por este ataque, ela se torna um carniçal."
 
 #. [dummy]: id=did_starving
 #: data/campaigns/Descent_Into_Darkness/utils/abilities.cfg:964
 #: data/campaigns/Descent_Into_Darkness/utils/abilities.cfg:965
 msgid "starving"
-msgstr ""
+msgstr "faminto"
 
 #. [dummy]: id=did_starving
 #: data/campaigns/Descent_Into_Darkness/utils/abilities.cfg:966
 #: data/campaigns/Descent_Into_Darkness/utils/abilities.cfg:967
 msgid "This unit loses 1 hitpoint every turn."
-msgstr ""
+msgstr "Esta unidade perde 1 ponto de vida por turno."
 
 #. [leadership]: id=masochism1
 #. [leadership]: id=masochism2
 #: data/campaigns/Descent_Into_Darkness/utils/abilities.cfg:1010
 #: data/campaigns/Descent_Into_Darkness/utils/abilities.cfg:1022
-#, fuzzy
-#| msgid "Schism"
 msgid "masochism"
-msgstr "Cisma"
+msgstr "masoquista"
 
 #. [leadership]: id=masochism1
 #. [leadership]: id=masochism2
 #: data/campaigns/Descent_Into_Darkness/utils/abilities.cfg:1011
 #: data/campaigns/Descent_Into_Darkness/utils/abilities.cfg:1023
-#, fuzzy
-#| msgid "female^maimed"
 msgid "female^masochism"
-msgstr "aleijada"
+msgstr "masoquista"
 
 #. [leadership]: id=masochism1
 #: data/campaigns/Descent_Into_Darkness/utils/abilities.cfg:1012
 msgid "This unit gains up to 50% damage as its hitpoints are reduced."
 msgstr ""
+"Esta unidade ganha até 50% de dano adicional conforme seus pontos de vida "
+"são diminuídos."
 
 #. [leadership]: id=masochism2
 #: data/campaigns/Descent_Into_Darkness/utils/abilities.cfg:1024
 msgid "This unit gains up to 100% damage as its hitpoints are reduced."
 msgstr ""
+"Esta unidade ganha até 100% de dano adicional conforme seus pontos de vida "
+"são diminuídos."
 
 #. [resistance]: id=did_drunk
 #: data/campaigns/Descent_Into_Darkness/utils/abilities.cfg:1036
@@ -7211,14 +7204,12 @@ msgstr "Recebe a habilidade névoa de morte"
 #: data/campaigns/Descent_Into_Darkness/utils/amlas.cfg:1029
 #: data/campaigns/Descent_Into_Darkness/utils/amlas.cfg:1056
 msgid "Gain increasing damage as hitpoints are reduced"
-msgstr ""
+msgstr "Dá mais dano conforme perde pontos de vida"
 
 #. [advancement]: id=necron_ghoulfication
 #: data/campaigns/Descent_Into_Darkness/utils/amlas.cfg:1083
-#, fuzzy
-#| msgid "Gain the ability to hide allied units"
 msgid "Gains the ability to turn enemies into ghouls"
-msgstr "Ganha a habilidade de esconder unidades aliadas"
+msgstr "Ganha a habilidade de transformar inimigos em carniçais"
 
 #. [trait]: id=loyal
 #: data/campaigns/Descent_Into_Darkness/utils/characters.cfg:44

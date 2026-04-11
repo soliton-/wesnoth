@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Battle for Wesnoth 0.8.2-CVS\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2026-03-23 18:10-0500\n"
-"PO-Revision-Date: 2026-03-06 19:30-0300\n"
+"PO-Revision-Date: 2026-03-31 11:28-0300\n"
 "Last-Translator: Andrei Machado <andreisp.machado@yahoo.com>\n"
 "Language-Team: Portuguese - Brasil\n"
 "Language: pt_BR\n"
@@ -73,9 +73,9 @@ msgstr "Arquivos de texto grandes e simples"
 #. [advanced_preference]: type=boolean
 #: data/advanced_preferences.cfg:26
 #, fuzzy
-#| msgid "Show vision range"
+#| msgid "Whether to show icons in the add-ons list on the add-ons manager"
 msgid "Show icons in the Add-ons manager"
-msgstr "Mostrar o alcance de visão"
+msgstr "Se deve mostrar ícones na lista de add-ons no gerenciador de add-ons"
 
 #. [advanced_preference]: type=boolean
 #: data/advanced_preferences.cfg:27
@@ -83,6 +83,8 @@ msgid ""
 "Disabling saves bandwidth by not sending icons for the add-ons list in the "
 "add-ons manager"
 msgstr ""
+"Desabilitar salva banda larga, pois não envia ícones para a lista de add-ons "
+"no gerenciador de add-ons"
 
 #
 # File: data/advanced_preferences.cfg, line: 11
@@ -305,6 +307,9 @@ msgid ""
 "Scales all text up or down from the standard size for your resolution. "
 "Warning: Scaling text up may cause issues in the in-game sidebar."
 msgstr ""
+"Redimensiona todo o texto para maior ou menor do que o tamanho padrão da sua "
+"resolução. Aviso: Redimensionar os texto pode causar problemas com a barra "
+"lateral dentro do jogo."
 
 #
 # File: src/multiplayer.cpp, line: 235
@@ -5739,10 +5744,8 @@ msgstr "Carregar Turno..."
 # File: data/themes/macros.cfg, line: 109
 #. [menu]: id=menu-quickreplay
 #: data/themes/default.cfg:108
-#, fuzzy
-#| msgid "play turn"
 msgid "Replay Turn..."
-msgstr "executar turno"
+msgstr "Replay do Turno..."
 
 #
 # File: data/themes/default.cfg, line: 123
@@ -7251,6 +7254,9 @@ msgid ""
 "the underworld hinders the flightless, while offering illumination in "
 "darkness to those that may fly above it."
 msgstr ""
+"As águas límpidas do oásis vão curar os feridos. O ardente icor do submundo "
+"atrapalha aqueles que são incapazes de voar e oferece iluminação nas trevas "
+"para aqueles que são capazes de voar por sobre ele."
 
 #
 # File: data/hardwired/tips.cfg, line: 13
@@ -7258,10 +7264,8 @@ msgstr ""
 # File: data/hardwired/tips.cfg, line: 13
 #. [tip]
 #: data/tips.cfg:258
-#, fuzzy
-#| msgid "<i>― King Konrad, 536YW</i>"
 msgid "<i>― Dominant Gorlack, 3YW</i>"
-msgstr "<i>― Rei Konrad, 536 AW</i>"
+msgstr "<i>― Dominante Gorlack, 3YW</i>"
 
 #. [tip]
 #: data/tips.cfg:261
@@ -7547,16 +7551,16 @@ msgstr "(aperte $hotkey para continuar o movimento)"
 # File: src/gui/dialogs/lobby_player_info.cpp, line: 147
 # File: src/multiplayer_create.cpp, line: 666
 #: src/actions/undo.cpp:330
-#, fuzzy
-#| msgid "Game Error"
 msgid "Redo Error"
-msgstr "Erro no Jogo"
+msgstr "Erro de Redo"
 
 #: src/actions/undo.cpp:331
 msgid ""
 "The redo stack is out of sync. This is most commonly caused by a corrupt "
 "save file or by faulty WML code in the scenario or era. Details:"
 msgstr ""
+"O redo stack está dessincronizado. Isto é geralmente causado por um save "
+"corrompido ou um problema com código WML no cenário ou era. Detalhes:"
 
 #: src/actions/undo.cpp:342
 msgid "Unhandled choices while redoing"
@@ -7727,6 +7731,8 @@ msgid ""
 "The connection to the remote server is not secure. The add-on "
 "<i>$addon_title</i> cannot be uploaded."
 msgstr ""
+"A conexão para o servidor remoto não é segura. Não pode ser realizado o "
+"upload do add-on <i>$addon_title</i>."
 
 #
 # File: src/addon/client.cpp, line: 140
@@ -8185,6 +8191,8 @@ msgid ""
 "Forum authentication was requested for a user that is not registered on the "
 "forums."
 msgstr ""
+"Autenticação de fórum foi requisitada para um usuário que não está "
+"registrado nos fóruns."
 
 #: src/addon/validation.cpp:404
 msgid "Upload denied. Please contact the server administration for assistance."
@@ -8328,10 +8336,16 @@ msgid "The add-on publish information contains an invalid UTF-8 sequence."
 msgstr "A informação de publicação do add-on contêm uma sequência UTF-8."
 
 #: src/addon/validation.cpp:506
+#, fuzzy
+#| msgid ""
+#| "The add-on's forum_auth attribute does not match what was previously "
+#| "uploaded."
 msgid ""
 "The add-on’s forum_auth attribute does not match what was previously "
 "uploaded."
 msgstr ""
+"O atributo forum_auth do add-on não corresponde ao atributo da versão do "
+"upload prévio."
 
 #: src/addon/validation.cpp:510
 msgid "The add-on’s icon’s file size is too large."
@@ -8360,7 +8374,7 @@ msgstr "Lista de versão do add-on vazia no servidor."
 #: src/addon/validation.cpp:535
 msgid ""
 "This server does not support using the forum_auth attribute in your pbl."
-msgstr ""
+msgstr "Este servidor não suporta utilizar o atributo forum_auth no seu pbl."
 
 #: src/addon/validation.cpp:545
 msgid "Unspecified validation failure."
@@ -9985,11 +9999,11 @@ msgstr "Novo Add-on"
 
 #: src/gui/dialogs/editor/choose_addon.cpp:78
 msgid "Mainline"
-msgstr ""
+msgstr "Mainline"
 
 #: src/gui/dialogs/editor/choose_addon.cpp:78
 msgid "Mainline multiplayer scenarios"
-msgstr ""
+msgstr "Cenários multijogador da Mainline"
 
 #
 # File: src/multiplayer_wait.cpp, line: 268
@@ -10071,18 +10085,16 @@ msgstr " UTC+0"
 # File: src/multiplayer_create.cpp, line: 266
 # File: src/multiplayer_create.cpp, line: 266
 #: src/gui/dialogs/multiplayer/match_history.cpp:253
-#, fuzzy
-#| msgid "No eras found."
 msgid "No game history found."
-msgstr "Nenhuma Era encontrada."
+msgstr "Nenhum histórico de partida encontrado."
 
 #: src/gui/dialogs/multiplayer/match_history.cpp:266
 msgid "Request timed out."
-msgstr ""
+msgstr "Tempo limite do pedido excedido."
 
 #: src/gui/dialogs/multiplayer/match_history.cpp:276
 msgid "Request encountered an unexpected error, please check the logs."
-msgstr ""
+msgstr "O pedido encontrou um erro inesperado. Por favor, cheque os logs."
 
 #
 # File: src/gui/dialogs/lobby_player_info.cpp, line: 98
@@ -10368,13 +10380,13 @@ msgstr "Alinhamento: "
 #, fuzzy
 #| msgid ""
 #| "This is a group of units, all of whom are <ref>dst='$topic_id' "
-#| "text='$help_taxonomy'</ref>"
+#| "text='$help_taxonomy'</ref>."
 msgid ""
 "This is a group of units, all of whom are <ref "
 "dst='$topic_id'>$help_taxonomy</ref>."
 msgstr ""
-"Esse é um grupo de unidades, todas as quais são <ref>dst='$topic_id' "
-"text='$help_taxonomy'</ref>"
+"Este é um grupo de unidades, todas as quais são <ref>dst='$topic_id' "
+"text='$help_taxonomy'</ref>."
 
 #: src/help/help_impl.cpp:1172
 #, fuzzy
@@ -10462,19 +10474,17 @@ msgstr "Voltar para o Começo"
 # File: data/themes/macros.cfg, line: 109
 #: src/hotkey/hotkey_handler.cpp:419
 #, fuzzy
-#| msgid "play turn"
+#| msgid "Replay from Turn "
 msgid "Replay from Turn $number"
-msgstr "executar turno"
+msgstr "Replay do Turno "
 
 #
 # File: src/play_controller.cpp, line: 1152
 # File: src/play_controller.cpp, line: 1152
 # File: src/play_controller.cpp, line: 1152
 #: src/hotkey/hotkey_handler.cpp:420
-#, fuzzy
-#| msgid "Ready to start!"
 msgid "Replay from Start"
-msgstr "Pronto para começar!"
+msgstr "Replay do Começo"
 
 #
 # File: src/playsingle_controller.cpp, line: 222
@@ -10515,9 +10525,9 @@ msgstr "Modo de planejamento desativado!"
 # File: src/game_controller.cpp, line: 428
 #: src/hotkey/hotkey_handler_sp.cpp:342
 #, fuzzy
-#| msgid "The file you have tried to load is corrupt"
+#| msgid "The file you have tried to load has no replay information. "
 msgid "The file you have tried to load has no replay information."
-msgstr "O Arquivo que você tentou carregar está corrompido"
+msgstr "O arquivo que você tentou carregar não contêm informação de replay. "
 
 #
 # File: src/game_controller.cpp, line: 410
@@ -10527,10 +10537,8 @@ msgstr "O Arquivo que você tentou carregar está corrompido"
 # File: src/game_controller.cpp, line: 410
 # File: src/game_controller.cpp, line: 428
 #: src/hotkey/hotkey_handler_sp.cpp:346
-#, fuzzy
-#| msgid "The file you have tried to load is corrupt"
 msgid "The file you have tried to load is not from the current session."
-msgstr "O Arquivo que você tentou carregar está corrompido"
+msgstr "O arquivo que você tentou carregar não é da sessão atual."
 
 #
 # File: src/language.cpp, line: 101
@@ -10579,14 +10587,14 @@ msgstr "Este comando está atualmente indisponível."
 #: src/map_command_handler.hpp:227
 #, fuzzy
 #| msgid ""
-#| "Unknown command '$command', try $help_command for a list of available "
-#| "commands."
+#| "Unknown command '$command', did you mean '$command_proposal'? try "
+#| "$help_command for a list of available commands."
 msgid ""
 "Unknown command ‘$command’, did you mean ‘$command_proposal’? try "
 "$help_command for a list of available commands."
 msgstr ""
-"Comando desconhecido '$command', tente $help_command para ver a lista de "
-"comandos disponíveis."
+"Comando desconhecido '$command', você quis dizer '$command_proposal'? tente "
+"$help_command para ver a lista dos comandos disponíveis."
 
 #
 # File: src/menu_events.cpp, line: 1462
@@ -11761,10 +11769,8 @@ msgstr ""
 # File: src/attack_prediction_display.cpp, line: 104
 # File: src/attack_prediction_display.cpp, line: 236
 #: src/mouse_events.cpp:1410
-#, fuzzy
-#| msgid "Attacks"
 msgid "No Attacks"
-msgstr "Ataques"
+msgstr "Nenhum Ataque"
 
 #
 # File: src/attack_prediction_display.cpp, line: 260
@@ -11778,10 +11784,8 @@ msgid "This unit has no usable weapons."
 msgstr "Esta unidade não possui nenhuma arma utilizavel."
 
 #: src/mouse_events.cpp:1486 src/mouse_events.cpp:1502
-#, fuzzy
-#| msgid "Other team"
 msgid "Other aspects: "
-msgstr "Outro time"
+msgstr "Outros Aspectos: "
 
 #
 # File: src/reports.cpp, line: 679
@@ -11829,10 +11833,8 @@ msgstr "Ataques: "
 # File: src/reports.cpp, line: 245
 # File: src/reports.cpp, line: 245
 #: src/mouse_events.cpp:1519 src/mouse_events.cpp:1533
-#, fuzzy
-#| msgid "Advances to: "
 msgid "Chance to hit: "
-msgstr "Avança para: "
+msgstr "Chance de acerto: "
 
 #: src/mp_ui_alerts.cpp:46
 msgid "A game ($name|, $scenario|) has been created"
@@ -11895,31 +11897,27 @@ msgstr ""
 
 #: src/network_download_file.cpp:55
 msgid "Confirm overwrite"
-msgstr ""
+msgstr "Confirmar sobrescrever"
 
 #: src/network_download_file.cpp:55
 msgid "Overwrite existing file?"
-msgstr ""
+msgstr "Sobrescrever arquivo preexistente?"
 
 #
 # File: src/addon/manager_ui.cpp, line: 528
 # File: src/addon/manager_ui.cpp, line: 528
 # File: src/addon/manager_ui.cpp, line: 528
 #: src/network_download_file.cpp:61
-#, fuzzy
-#| msgid "Downloads"
 msgid "Download complete"
-msgstr "Downloads"
+msgstr "Download concluído"
 
 #
 # File: src/savegame.cpp, line: 965
 # File: src/savegame.cpp, line: 965
 # File: src/savegame.cpp, line: 965
 #: src/network_download_file.cpp:61
-#, fuzzy
-#| msgid "The game has been saved."
 msgid "The file has been downloaded."
-msgstr "O jogo foi salvo."
+msgstr "O arquivo foi baixado."
 
 #
 # File: src/addon/manager_ui.cpp, line: 884
@@ -11929,13 +11927,12 @@ msgstr "O jogo foi salvo."
 # File: src/addon/manager_ui.cpp, line: 884
 # File: src/addon/manager_ui.cpp, line: 894
 #: src/network_download_file.cpp:63
-#, fuzzy
-#| msgid ""
-#| "An error occurred while downloading the add-ons list from the server."
 msgid ""
 "An error occurred when downloading the file. Check the game logs for more "
 "information."
-msgstr "Ocorreu um erro ao baixar a lista de add-ons do servidor."
+msgstr ""
+"Ocorreu um erro ao baixar o arquivo. Para mais informação cheque os logs do "
+"jogo."
 
 #
 # File: src/addon/manager_ui.cpp, line: 528
@@ -11981,7 +11978,7 @@ msgstr "hora local atual"
 
 #: src/play_controller.cpp:604
 msgid "Trying to create a corrupt file, please report this bug"
-msgstr ""
+msgstr "Tentando criar um arquivo corrompido. Por favor, reporte esse bug"
 
 #
 # File: src/play_controller.cpp, line: 1414
@@ -12390,15 +12387,17 @@ msgstr "Esta unidade esta petrificada. Ela não pode se mover nem atacar."
 # File: data/lua/wml-tags.lua, line: 1120
 #: src/reports.cpp:360
 #, fuzzy
-#| msgid "unhealable"
+#| msgid "unhealable: "
 msgid "unhealable:"
-msgstr "incurável"
+msgstr "incurável: "
 
 #: src/reports.cpp:361
 msgid ""
 "This unit is unhealable. It cannot be healed by healers or villages and "
 "doesn’t benefit from resting."
 msgstr ""
+"Esta unidade é incurável. Ela não pode nem ser curada por curandeiros e nem "
+"por aldeias, e não se beneficia de descanso."
 
 #
 # File: src/reports.cpp, line: 307
@@ -12408,20 +12407,16 @@ msgstr ""
 #, fuzzy
 #| msgid "invulnerable: "
 msgid "invulnerable:"
-msgstr "Invulnerável: "
+msgstr "invulnerável: "
 
 #
 # File: src/reports.cpp, line: 308
 # File: src/reports.cpp, line: 308
 # File: src/reports.cpp, line: 308
 #: src/reports.cpp:365
-#, fuzzy
-#| msgid ""
-#| "This unit is invisible. It cannot be seen or attacked by enemy units."
 msgid "This unit is invulnerable. It cannot be harmed by any attack."
 msgstr ""
-"Esta unidade está invisível. Ela não pode ser vista ou atacada por unidades "
-"inimigas."
+"Esta unidade é invulnerável. Ela não pode ser ferida por nenhum ataque."
 
 #
 # File: src/reports.cpp, line: 343
@@ -12753,12 +12748,12 @@ msgstr "Dano versus: "
 # File: src/unit_types.cpp, line: 319
 #: src/reports.cpp:1002
 #, fuzzy
-#| msgid "$number damage"
-#| msgid_plural "$number damage"
+#| msgid "$number attack used"
+#| msgid_plural "$number attacks used"
 msgid "uses $num attack"
 msgid_plural "uses $num attacks"
-msgstr[0] "$number dano"
-msgstr[1] "$number danos"
+msgstr[0] "$number ataque usado"
+msgstr[1] "$number ataques suados"
 
 #: src/reports.cpp:1010
 msgid "This attack uses $num attack point"
@@ -13670,20 +13665,18 @@ msgstr "Este Período do Dia é só um Exemplo!"
 # File: src/reports.cpp, line: 311
 # File: src/reports.cpp, line: 311
 #: src/units/abilities.cpp:1140
-#, fuzzy
-#| msgid "slowed: "
 msgid "Owned: "
-msgstr "lento: "
+msgstr "Possuido: "
 
 #. TRANSLATORS: Past-participle of "teach", used for an ability similar to leadership
 #: src/units/abilities.cpp:1142
 msgid "Taught: "
-msgstr ""
+msgstr "Ensinado: "
 
 #. TRANSLATORS: Past-participle of "teach", used for an ability similar to leadership
 #: src/units/abilities.cpp:1144
 msgid "Taught: (by an enemy): "
-msgstr ""
+msgstr "Ensinado: (por uma unidade inimiga): "
 
 #: src/units/abilities.cpp:1145
 msgid "Used by opponent: "
@@ -13703,7 +13696,7 @@ msgstr "Precisão:"
 # File: src/reports.cpp, line: 788
 #: src/units/attack_type.cpp:117
 msgid "Parry:"
-msgstr "Desvio:"
+msgstr "Aparar:"
 
 #
 # File: src/unit_types.cpp, line: 239
@@ -13872,13 +13865,10 @@ msgstr[1] ""
 # File: src/unit_types.cpp, line: 319
 #. TRANSLATORS: Current value for WML code set_attacks_used, documented in https://wiki.wesnoth.org/EffectWML
 #: src/units/attack_type.cpp:652
-#, fuzzy
-#| msgid "$number damage"
-#| msgid_plural "$number damage"
 msgid "$number attack used"
 msgid_plural "$number attacks used"
-msgstr[0] "$number dano"
-msgstr[1] "$number danos"
+msgstr[0] "$number ataque usado"
+msgstr[1] "$number ataques suados"
 
 #
 # File: src/playsingle_controller.cpp, line: 274
@@ -13886,14 +13876,10 @@ msgstr[1] "$number danos"
 # File: src/playsingle_controller.cpp, line: 274
 #. TRANSLATORS: Current value for WML code increase_attacks_used, documented in https://wiki.wesnoth.org/EffectWML
 #: src/units/attack_type.cpp:661
-#, fuzzy
-#| msgid "<span color=\"$color\">$number_or_percent</span> attack per turn"
-#| msgid_plural ""
-#| "<span color=\"$color\">$number_or_percent</span> attacks per turn"
 msgid "<span color=\"$color\">$number_or_percent</span> attack used"
 msgid_plural "<span color=\"$color\">$number_or_percent</span> attacks used"
-msgstr[0] "<span color=\"$color\">$number_or_percent</span> ataque por turno"
-msgstr[1] "<span color=\"$color\">$number_or_percent</span> ataques por turnos"
+msgstr[0] "<span color=\"$color\">$number_or_percent</span> ataque usado"
+msgstr[1] "<span color=\"$color\">$number_or_percent</span> ataques usados"
 
 #
 # File: src/reports.cpp, line: 240
@@ -14036,12 +14022,10 @@ msgstr "Esta unidade não possui nenhuma arma utilizavel."
 # File: src/reports.cpp, line: 308
 #: src/units/unit.cpp:752
 #, fuzzy
-#| msgid ""
-#| "This unit is invisible. It cannot be seen or attacked by enemy units."
+#| msgid "This unit is invulnerable. It cannot be harmed by any attack."
 msgid "This unit is a leader and cannot be dismissed."
 msgstr ""
-"Esta unidade está invisível. Ela não pode ser vista ou atacada por unidades "
-"inimigas."
+"Esta unidade é invulnerável. Ela não pode ser ferida por nenhum ataque."
 
 #
 # File: src/unit.cpp, line: 2379
@@ -14146,6 +14130,10 @@ msgid ""
 "incorrect folder permissions, anti-virus software restricting folder access, "
 "or using OneDrive to manage your My Documents folder."
 msgstr ""
+"Não foi possível criar arquivos de log no diretório $logdir. Geralmente, "
+"isto é causado por permissões de pasta incorretas, software antivírus "
+"restringindo o acesso para a pasta ou usando o OneDrive para gerenciar a sua "
+"pasta Documentos."
 
 #: src/wesnoth.cpp:812
 msgid "Logging Failure"
@@ -14246,10 +14234,8 @@ msgstr "Opções do Quadro-Branco"
 # File: src/multiplayer.cpp, line: 256
 # File: src/multiplayer.cpp, line: 256
 # File: src/multiplayer.cpp, line: 256
-#, fuzzy
-#~| msgid "Do you want to continue?"
 #~ msgid "Do you want to load it anyway?"
-#~ msgstr "Você deseja continuar?"
+#~ msgstr "Você deseja carregar mesmo assim?"
 
 #
 # File: src/multiplayer_create.cpp, line: 266
@@ -14724,6 +14710,9 @@ msgstr "Opções do Quadro-Branco"
 
 #~ msgid "Show attack range"
 #~ msgstr "Mostrar o alcance de ataque"
+
+#~ msgid "Show vision range"
+#~ msgstr "Mostrar o alcance de visão"
 
 #~ msgid "Reload and execute Lua code"
 #~ msgstr "Recaregar e executar o código Lua"
