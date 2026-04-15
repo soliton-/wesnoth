@@ -12,6 +12,8 @@
 ### Units
 ### User interface
 ### WML Engine
+   * WFL: fixed serialization of empty map literals
+   * WFL: fixed double multiplication when converting a config attribute to a decimal value
   * Removed deprecated macros
     * `EARLY_FINISH_BONUS_NOTE`
     * `NO_EARLY_FINISH_BONUS_NOTE`
@@ -27,7 +29,7 @@
     * `MAKE_AI_SIDE_PERSISTENT`
     * `DRAKE_FLYING_ANIM`
     * `NO_INTERRUPT_NO_UNDO`
-    * `ENABLE_NIGHTBLADE`   
+    * `ENABLE_NIGHTBLADE`
 ### Miscellaneous and Bug Fixes
 
 ## Version 1.19.22
