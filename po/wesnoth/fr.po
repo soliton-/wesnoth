@@ -3794,7 +3794,7 @@ msgstr "Bonus de PV max +6%"
 #: data/internal/resources/AMLAs/_main.cfg:95
 #, fuzzy
 msgid "Gain +8 hitpoints."
-msgstr "+$hitpoints| points de vie"
+msgstr "Ajoute +$hitpoints points de vie."
 
 #. [advancement]: id=melee_increase1
 #: data/internal/resources/AMLAs/_main.cfg:121

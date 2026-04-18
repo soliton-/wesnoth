@@ -335,16 +335,12 @@ msgstr ""
 #. [message]: speaker=Kaleh
 #: data/campaigns/Under_the_Burning_Suns/scenarios/01_The_Morning_After.cfg:298
 #, fuzzy
-#| msgid ""
-#| "What’s happened? Oh Eloh, the craters are everywhere, everything is gone, "
-#| "ruined. I can hardly recognize our village. I didn’t think it could be "
-#| "this bad."
 msgid ""
 "What’s happened? Oh Eloh! The craters are everywhere. Everything is gone, "
 "ruined! I can hardly recognize our village. I didn’t think it could be this "
 "bad."
 msgstr ""
-"Que s'est-il passé ? Oh Eloh, il y a des cratères partout, tout est parti en "
+"Que s'est-il passé ? Oh Eloh, il y a des cratères partout. Tout est parti en "
 "fumée, en ruine. Je reconnais à peine notre village. Je ne pensais pas que "
 "ça puisse être aussi terrible."
 
@@ -5164,15 +5160,6 @@ msgstr ""
 #. [message]: speaker=narrator
 #: data/campaigns/Under_the_Burning_Suns/scenarios/06a_In_the_Tunnels_of_Trolls.cfg:957
 #, fuzzy
-#| msgid ""
-#| "Any unit that ends its turn on a lava hex, except those who can fly over "
-#| "the lava, will take 25 damage at the beginning of the next turn. This "
-#| "lava damage can kill units. Flying units will just take $heat_damage "
-#| "damage per turn when flying over lava, though they too can die if they "
-#| "spend too much time over it. Also because of the heat in the cavern, all "
-#| "units on cave floor hexes will take $heat_damage damage at the start of "
-#| "each turn. This heat damage can reduce a unit to 1 hit point, but it "
-#| "can’t kill it."
 msgid ""
 "Any unit that ends its turn on a lava hex, except those who can fly over the "
 "lava, will take $lava_damage damage at the beginning of the next turn. This "
@@ -5181,11 +5168,11 @@ msgid ""
 "much time over it."
 msgstr ""
 "Une unité qui termine son tour sur un hexagone de lave, à l'exception des "
-"unité qui peuvent survoler la lave, subira 25 points de dégâts au début du "
-"tour suivant. Ces dégâts peuvent être mortels. Les unités volantes subiront "
-"seulement $heat_damage points de dégâts chaque tour en survolant la lave, "
-"cependant elles peuvent également mourir si elles passe trop de temps au-"
-"dessus de la lave."
+"unité qui peuvent survoler la lave, subira $lava_damage points de dégâts au "
+"début du tour suivant. Ces dégâts peuvent être mortels. Les unités volantes "
+"subiront seulement $heat_damage points de dégâts chaque tour en survolant la "
+"lave, cependant elles peuvent également mourir si elles passent trop de "
+"temps au-dessus de la lave."
 
 #. [message]: speaker=narrator
 #: data/campaigns/Under_the_Burning_Suns/scenarios/06a_In_the_Tunnels_of_Trolls.cfg:962
@@ -13688,7 +13675,8 @@ msgstr ""
 msgid ""
 "Thank you, Sovereign. They will come here soon. Now, I wonder where the "
 "merfolk are?"
-msgstr "Je me demande maintenant où sont les ondins ?"
+msgstr ""
+"Merci maître. Ils viendront bientôt. Mais je me demande où sont les ondins ?"
 
 #. [message]: speaker=Kaleh
 #: data/campaigns/Under_the_Burning_Suns/scenarios/11_Battle_for_Zocthanol_Isle.cfg:1024
@@ -13702,36 +13690,26 @@ msgstr ""
 #. [message]: race=merman
 #: data/campaigns/Under_the_Burning_Suns/scenarios/11_Battle_for_Zocthanol_Isle.cfg:1048
 #, fuzzy
-#| msgid ""
-#| "Fear not, here we are! We have explored the southern half of the island. "
-#| "And except for those lizards you found, and some abandoned villages, it "
-#| "seem to be empty. We captured those villages for you, to help support "
-#| "your troops."
 msgid ""
 "Fear not, here we are! We have explored the southern half of the island. And "
 "we found lizards living there, and some abandoned villages."
 msgstr ""
 "N'ayez crainte, nous sommes là ! Nous avons exploré la moitié Sud de l'île. "
-"Et on a trouvé que des lézards et quelques villages abandonnés."
+"Et on n'a trouvé que des lézards et quelques villages abandonnés."
 
 #. [message]: speaker=Nym
 #: data/campaigns/Under_the_Burning_Suns/scenarios/11_Battle_for_Zocthanol_Isle.cfg:1053
 #, fuzzy
-#| msgid "Thanks, I think we’re going to need all the support we can get."
 msgid ""
 "Thanks, I think that villages are important but right now we’re going to "
 "need all the support we can get to help our new allies here."
 msgstr ""
-"Merci, je pense que nous aurons besoin de tous les appuis que nous pourrons "
-"avoir."
+"Merci, les villages sont importants mais pour le moment, je pense que nous "
+"aurons besoin ici de tout le support possible pour aider nos nouveaux alliés."
 
 #. [message]: speaker=Kaleh
 #: data/campaigns/Under_the_Burning_Suns/scenarios/11_Battle_for_Zocthanol_Isle.cfg:1106
 #, fuzzy
-#| msgid ""
-#| "Now that we’ve set up a base of operations we should make our way to the "
-#| "black citadel in the mountains at the center of the island. I bet it’s "
-#| "somewhere in the middle of that dark jungle."
 msgid ""
 "Now that we’ve set up a base of operations we should make our way to the "
 "black citadel in the mountains at the center of the island. It should be not "
@@ -13739,8 +13717,7 @@ msgid ""
 msgstr ""
 "Maintenant que nous avons mis en place notre base d'opérations, nous "
 "devrions nous frayer un chemin jusqu'à la citadelle noire dans les montagnes "
-"au centre de l'île. Je parie que c'est quelque part au milieu de cette "
-"jungle obscure."
+"au centre de l'île. Elle ne devrait pas être très éloignée."
 
 #. [message]: speaker=Kelur
 #: data/campaigns/Under_the_Burning_Suns/scenarios/11_Battle_for_Zocthanol_Isle.cfg:1155
@@ -13779,9 +13756,8 @@ msgstr ""
 #. [message]: speaker=Nym
 #: data/campaigns/Under_the_Burning_Suns/scenarios/11_Battle_for_Zocthanol_Isle.cfg:1240
 #, fuzzy
-#| msgid "What are they like?"
 msgid "What are they doing here?"
-msgstr "Comment sont-ils ?"
+msgstr "Que font-ils ici ?"
 
 #. [message]: speaker=Graghht
 #: data/campaigns/Under_the_Burning_Suns/scenarios/11_Battle_for_Zocthanol_Isle.cfg:1261
@@ -13840,11 +13816,6 @@ msgstr ""
 #. [message]: speaker=Kaleh
 #: data/campaigns/Under_the_Burning_Suns/scenarios/11_Battle_for_Zocthanol_Isle.cfg:1335
 #, fuzzy
-#| msgid ""
-#| "I have an idea. I bet Eloh has given them to those she trusts most. And "
-#| "one orc and one skeleton were guarding the door. The keys must be being "
-#| "held by one of each faction. I bet the leaders would be in charge of such "
-#| "valuable objects."
 msgid ""
 "I have an idea. I bet Eloh has given them to those she trusts most. And one "
 "saurian and one skeleton were guarding the door. The keys must be being held "
@@ -13852,7 +13823,7 @@ msgid ""
 "valuable objects."
 msgstr ""
 "J'ai une idée. Je parie qu'Eloh les a données à ceux en qui elle a le plus "
-"confiance. Et un orc et un squelette gardaient la porte. Chacune de ces "
+"confiance. Et un saurien et un squelette gardaient la porte. Chacune de ces "
 "factions doit posséder une des clés. Je parie que les chefs sont en charge "
 "d'objets aussi précieux."
 
@@ -15535,11 +15506,6 @@ msgstr "Commandant humain"
 #. [unit_type]: id=Human Commander, race=human
 #: data/campaigns/Under_the_Burning_Suns/units/humans/Human_Commander.cfg:31
 #, fuzzy
-#| msgid ""
-#| "In this new harsh world, might often makes right and these commanders are "
-#| "strong enough to rise to positions of leadership. Leading small groups of "
-#| "warriors, commanders rally their troops around them and show no mercy to "
-#| "their enemies, striking fiercely with both sword and bow."
 msgid ""
 "In this new harsh world, might often makes right and these Commanders are "
 "strong enough to rise to positions of leadership. Leading small groups of "
@@ -15550,7 +15516,7 @@ msgstr ""
 "commandants sont assez costauds pour avoir pris une position de meneur. "
 "Dirigeant de petits groupes de combattants, les commandants savent rallier "
 "leurs troupes et ne montrent aucune pitié pour leurs ennemis. Ils attaquent "
-"férocement avec soit des épées, soit des arcs."
+"brutalement de l'épée ou de l'arc."
 
 #. [unit_type]: id=Central Body Base, race=monster
 #: data/campaigns/Under_the_Burning_Suns/units/monsters/Alien_Body.cfg:5
@@ -15718,12 +15684,6 @@ msgstr "Golem de chair"
 #. [unit_type]: id=Flesh Golem, race=monster
 #: data/campaigns/Under_the_Burning_Suns/units/monsters/Flesh_Golem.cfg:25
 #, fuzzy
-#| msgid ""
-#| "Incredibly strong constructs, flesh golems are created by powerful "
-#| "necromancers from the bodies of fallen warriors. Though these golems "
-#| "dutifully follow every command, and attack their enemies with ceaseless "
-#| "rage, the madness that possesses them has occasionally caused them to "
-#| "turn on their masters."
 msgid ""
 "Incredibly strong constructs, Flesh Golems are created by powerful "
 "necromancers from the bodies of fallen warriors. Though these Golems "
@@ -15733,9 +15693,9 @@ msgid ""
 msgstr ""
 "Les golems de chair sont des constructions extrêmement fortes, créées à "
 "partir des corps de guerriers morts par des nécromanciens puissants. Bien "
-"que ces golems suivent scrupuleusement chaque ordre et chargent leurs "
-"ennemis avec une rage frénétique, la folie intérieure qui les possède les a "
-"fait plus d'une fois se retourner contre leurs maîtres."
+"que ces golems suivent docilement tous les ordres et chargent leurs ennemis "
+"avec une rage frénétique, la folie intérieure qui les possède les a fait "
+"plus d'une fois se retourner contre leurs maîtres."
 
 #. [attack]: type=impact
 #: data/campaigns/Under_the_Burning_Suns/units/monsters/Flesh_Golem.cfg:30
@@ -16060,14 +16020,6 @@ msgstr "Tirailleur de Quenoth"
 #. [unit_type]: id=Quenoth Flanker, race=quenoth
 #: data/campaigns/Under_the_Burning_Suns/units/quenoth/Flanker.cfg:23
 #, fuzzy
-#| msgid ""
-#| "Some fighters find that their true talents lie not within rigid spear "
-#| "ranks, but out in the sands, striking at the flanks and rear of enemy "
-#| "forces. Fast and nimble, these elves make use of the weaknesses in enemy "
-#| "formations to disrupt their lines and sow chaos on the battlefield. In "
-#| "more cutthroat conflicts, Flankers even rely on the use of poison — a "
-#| "tool whose use was frowned on by their ancestors — to cripple their foes "
-#| "before charging in for the finish."
 msgid ""
 "Some Fighters find that their true talents lie not within rigid spear ranks, "
 "but out in the sands, striking at the flanks and rear of enemy forces. Fast "
@@ -16663,9 +16615,8 @@ msgstr "Escrime"
 #. [advancement]: id=strength_training
 #: data/campaigns/Under_the_Burning_Suns/units/quenoth/Youth.cfg:146
 #, fuzzy
-#| msgid "Stamina Training"
 msgid "Strength Training"
-msgstr "Entraînement à l'énergie"
+msgstr "Entraînement à la force"
 
 # Avancement sans précondition, ajouter "entraînement ..."
 #. [advancement]: id=bowmanship_training
@@ -16677,9 +16628,8 @@ msgstr "Entraînement à l'archerie"
 #. [advancement]: id=strong_shots
 #: data/campaigns/Under_the_Burning_Suns/units/quenoth/Youth.cfg:175
 #, fuzzy
-#| msgid "Strong Strikes"
 msgid "Strong Shots"
-msgstr "Frappes puissantes"
+msgstr "Tirs puissants"
 
 #. [advancement]: id=Bowman
 #: data/campaigns/Under_the_Burning_Suns/units/quenoth/Youth.cfg:187
@@ -16745,9 +16695,8 @@ msgstr "Opportunisme"
 #. [advancement]: id=leading
 #: data/campaigns/Under_the_Burning_Suns/units/quenoth/Youth.cfg:386
 #, fuzzy
-#| msgid "Leader"
 msgid "Leading"
-msgstr "Chef"
+msgstr "Commandement"
 
 #. [advancement]: id=accurate_strikes
 #: data/campaigns/Under_the_Burning_Suns/units/quenoth/Youth.cfg:423
@@ -17174,15 +17123,12 @@ msgstr ""
 #. [dummy]: id=blast
 #: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:473
 #, fuzzy
-#| msgid ""
-#| "This weapon, when used offensively, deals damage to all units adjacent to "
-#| "the caster when it hits."
 msgid ""
 "This weapon, when used offensively, deals damage to all units adjacent to "
 "the enemy when it hits."
 msgstr ""
 "Quand cette attaque est utilisée offensivement et qu'elle touche, elle "
-"inflige des dégâts à toutes les unités entourant l'attaquant."
+"inflige des dégâts à toutes les unités entourant la cible."
 
 #. [dummy]: id=blast
 #: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:475
@@ -17645,19 +17591,16 @@ msgstr ""
 #. [dummy]: id=corrupting_influence
 #: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:1897
 #, fuzzy
-#| msgid " This unit is capable of basic healing and slowing dehydration."
 msgid "This unit is capable of control over nature."
-msgstr ""
-" Cette unité peut fournir des soins de base et ralentir la déshydratation."
+msgstr " Cette unité est capable de prendre le contrôle de la nature."
 
 # C'est une attaque spéciale
 #. [extra_attack]: id=intercept
 #: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:1939
 #: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:1940
 #, fuzzy
-#| msgid "pierce"
 msgid "intercept"
-msgstr "perforation"
+msgstr "interception"
 
 #. [extra_attack]: id=intercept
 #: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:1941

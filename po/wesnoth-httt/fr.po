@@ -572,7 +572,7 @@ msgstr ""
 #. [scenario]: id=02_Blackwater_Port
 #: data/campaigns/Heir_To_The_Throne_Classic/scenarios/02_Blackwater_Port.cfg:4
 msgid "scenario name^Blackwater Port"
-msgstr "scenario name^Le Port d'Aiguenoire"
+msgstr "Le Port d'Aiguenoire"
 
 #. [objective]: condition=win
 #: data/campaigns/Heir_To_The_Throne_Classic/scenarios/02_Blackwater_Port.cfg:21

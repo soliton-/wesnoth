@@ -7359,9 +7359,7 @@ msgstr "estropiée"
 #: data/campaigns/Descent_Into_Darkness/utils/traits.cfg:8
 msgid ""
 "<italic>text='Maimed'</italic> units have 3 less movement points than usual."
-msgstr ""
-"Les unités <italic>text='estropiées'</italic> ont 3 points de déplacement en "
-"moins."
+msgstr "Les unités <i>estropiées</i> ont 3 points de déplacement en moins."
 
 #, fuzzy
 #~ msgid "Dark blue"

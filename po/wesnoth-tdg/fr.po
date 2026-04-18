@@ -72,7 +72,7 @@ msgstr "Conception de la campagne"
 #: data/campaigns/The_Deceivers_Gambit/_main.cfg:80
 #, fuzzy
 msgid "Setting and Story"
-msgstr "Histoire"
+msgstr "Histoire et décor"
 
 #. [about]
 #: data/campaigns/The_Deceivers_Gambit/_main.cfg:86
@@ -85,7 +85,7 @@ msgstr "Graphiques divers"
 #: data/campaigns/The_Deceivers_Gambit/_main.cfg:164
 #, fuzzy
 msgid "TDG"
-msgstr "LPT"
+msgstr "RP"
 
 #. [campaign]: id=The Deceivers Gambit 1
 #: data/campaigns/The_Deceivers_Gambit/_main.cfg:148
@@ -157,12 +157,14 @@ msgstr ""
 "La saga continue dans\n"
 "<i>Liberté</i>"
 
+# "Blast" est ici est l'utilisation du feu contre des créatures résistantes au feu (d'où "deliberately underperform")
 #. [achievement_group]
 #: data/campaigns/The_Deceivers_Gambit/achievements.cfg:21
 #, fuzzy
 msgid "Blast the fire elementals in <i>Graduation</i>."
-msgstr "Éliminez les élémentaux de feu dans <i>Remise des diplômes</i>."
+msgstr "Foudroyer les élémentaux de feu dans <i>Examen final</i>."
 
+# po: "sandbagging" means to deliberately underperform
 #. [achievement_group]
 #: data/campaigns/The_Deceivers_Gambit/achievements.cfg:21
 #, fuzzy
@@ -194,6 +196,8 @@ msgstr "Scénario 2 : Assoiffé de sang"
 msgid "Complete <i>The Ambassador</i> without killing any wose."
 msgstr "Terminer <i>L'Ambassadeur</i> sans tuer de woses."
 
+# #po: "Mellon" is a Lord of the Rings reference
+# Ami en langue elfique?
 #. [achievement_group]
 #: data/campaigns/The_Deceivers_Gambit/achievements.cfg:24
 #, fuzzy
@@ -215,8 +219,8 @@ msgstr "Scenario 4: Glouglou"
 #, fuzzy
 msgid "Defeat both enemy leaders in <i>The Deceiver</i> before Garard does."
 msgstr ""
-"Vaincre les deux chefs ennemis dans <i>Le trompeur</i> avant que Garard ne "
-"le fasse."
+"Vaincre les deux chefs ennemis dans <i>Perfidie</i> avant que Garard ne le "
+"fasse."
 
 #. [achievement_group]
 #: data/campaigns/The_Deceivers_Gambit/achievements.cfg:26
@@ -259,6 +263,7 @@ msgstr "Scénario 8 : Monstre dans la brume"
 msgid "Complete <i>Omaranth</i> before turns run out."
 msgstr "Terminer Omaranth avant la fin des tours."
 
+# "a soldier responsible for tasks such as building and repairing roads and bridges, laying and clearing mines, etc."
 #. [achievement_group]
 #: data/campaigns/The_Deceivers_Gambit/achievements.cfg:30
 #, fuzzy
@@ -298,8 +303,9 @@ msgstr "Scénario 12 : Terre brûlée"
 
 #. [achievement_group]
 #: data/campaigns/The_Deceivers_Gambit/achievements.cfg:37
+#, fuzzy
 msgid "Defeat all enemy leaders in <i>Revelry, Revisited</i>."
-msgstr "Vaincre tous les chefs ennemis dans <i>Les festivités, revisitées</i>."
+msgstr "Vaincre tous les chefs ennemis dans <i>Le banquet, revisité</i>."
 
 #. [achievement_group]
 #: data/campaigns/The_Deceivers_Gambit/achievements.cfg:37
@@ -336,30 +342,35 @@ msgstr "Passif :"
 msgid "Magic Missile"
 msgstr "Missile magique"
 
+# Détaille une "capacité" (skill)
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:22
+#, fuzzy
 msgid "Ranged 7x3 fire, <i><ref dst='weaponspecial_magical'>magical</ref></i>."
 msgstr ""
-"Tir à distance de feu 7x3, <i><ref dst='weaponspecial_magical'>magique</"
-"ref></i>."
+"Gagne un tir à distance de feu 7x3, <i><ref "
+"dst='weaponspecial_magical'>magique</ref></i>."
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:29
 msgid "Shield"
 msgstr "Bouclier"
 
+# Détaille une "capacité" (skill)
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:31
+#, fuzzy
 msgid ""
 "Spend <span color='#00bbe6' style='italic'>8 XP</span> to gain an additional "
 "<i>20% terrain defense</i> (chance to evade) until the start\n"
 "          of your next turn or until cancelled."
 msgstr ""
-"Dépenser <span color='#00bbe6' style='italic'>8 XP</span> pour obtenir <i>20 "
+"Dépense <span color='#00bbe6' style='italic'>8 XP</span> pour obtenir <i>20 "
 "% de défense de terrain</i> supplémentaire (chance d'esquiver)\n"
-"          jusqu'au début de votre prochain tour ou jusqu'à annulation."
+"          jusqu'au début du prochain tour ou jusqu'à annulation."
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:39
 msgid "Panacea"
 msgstr "Panacée"
 
+# Détaille une "capacité" (skill)
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:41
 #, fuzzy
 msgid ""
@@ -368,23 +379,25 @@ msgid ""
 "          attacks, strikes, and damage by its level. <span color='#dd0000' "
 "weight='bold'>Next turn, it dies.</span>"
 msgstr ""
-"Dépenser <span color='#00bbe6' style='italic'>8 XP</span> pour soigner "
+"Dépense <span color='#00bbe6' style='italic'>8 XP</span> pour soigner "
 "entièrement l'allié humain adjacent ayant le moins de points de vie\n"
-"          et augmenter ses attaques, ses coups et ses dégâts par son niveau. "
+"          et augmente ses attaques, ses coups et ses dégâts par son niveau. "
 "<span color='#dd0000' weight='bold'>Au tour suivant, il meurt.</span>"
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:49
 msgid "Animate Mud"
 msgstr "Animer la boue"
 
+# Détaille une "capacité" (skill)
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:51
+#, fuzzy
 msgid ""
 "Learn to recruit <i><ref dst='unit_Mudcrawler'>Mudcrawlers</ref></i>. "
 "Mudcrawlers gain +100% damage and XP\n"
 "               while adjacent to you, but dissolve at the end of each "
 "scenario."
 msgstr ""
-"Apprendre à recruter des <i><ref dst='unit_Mudcrawler'>golems de boue</ref></"
+"Apprend à recruter des <i><ref dst='unit_Mudcrawler'>golems de boue</ref></"
 "i>. Les golems de boue gagnent\n"
 "               +100 % de dégâts et d'XP tant qu'ils vous sont adjacents, "
 "mais disparaissent à la fin de chaque scénario."
@@ -393,20 +406,21 @@ msgstr ""
 msgid "Chill Touch"
 msgstr "Toucher glacial"
 
+# Détaille une "capacité" (skill)
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:65
 #, fuzzy
 msgid ""
 "Melee 6x3 cold, <i><ref dst='weaponspecial_slows'>slows</ref></i>. Replaces "
 "your default melee attack."
 msgstr ""
-"Attaque au corps à corps de froid 6x3, <i><ref "
-"dst='weaponspecial_slows'>ralentissement</ref></i>. Remplace votre attaque "
-"par défaut."
+"Remplace votre attaque par défaut par une attaque au corps à corps de froid "
+"6x3, <i><ref dst='weaponspecial_slows'>ralentissement</ref></i>."
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:72
 msgid "Levitate"
 msgstr "Léviter"
 
+# Détaille une "capacité" (skill)
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:74
 #, fuzzy
 msgid ""
@@ -414,21 +428,23 @@ msgid ""
 "and the <i><ref dst='ability_skirmisher'>skirmisher</ref></i> ability until "
 "the start of your next turn or until cancelled."
 msgstr ""
-"Dépendre <span color='#00bbe6' style='italic'>8 XP</span> pour gagner "
-"<i>vol</i> et la capacité <i><ref dst='ability_skirmisher'>tirailleur</ref></"
-"i> jusqu'au début de votre prochain tour ou jusqu'à annulation."
+"Dépense <span color='#00bbe6' style='italic'>8 XP</span> pour gagner <i>vol</"
+"i> et la capacité <i><ref dst='ability_skirmisher'>tirailleur</ref></i> "
+"jusqu'au début du prochain tour ou jusqu'à annulation."
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:82
 msgid "Find Familiar"
 msgstr "Touver un familier"
 
+# Détaille une "capacité" (skill)
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:84
+#, fuzzy
 msgid ""
 "Begin each scenario with your trusty pet raven.\n"
 "               Your familiar’s level and XP persist across scenarios, but "
 "reset if it dies."
 msgstr ""
-"Débuter chaque scénario avec votre fidèle corbeau.\n"
+"Débute chaque scénario avec votre fidèle corbeau.\n"
 "               Le niveau et l'expérience de votre familier sont conservés "
 "d'un scénario à l'autre, mais sont réinitialisés s'il meurt."
 
@@ -436,12 +452,13 @@ msgstr ""
 msgid "Mnemonic"
 msgstr "Mnémonique"
 
+# Détaille une "capacité" (skill)
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:93
 #, fuzzy
 msgid "Whenever an adjacent ally gains XP, you gain the same amount of XP."
 msgstr ""
-"À chaque fois qu'un allié adjacent gagne de l'XP, vous gagnez la même "
-"quantité d'XP."
+"Gagne la même quantité d'XP qu'un allié adjacent à chaque fois qu'il gagne "
+"de l'XP."
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:105
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:171
@@ -449,61 +466,72 @@ msgstr ""
 msgid "Fireball"
 msgstr "Boule de feu"
 
+# Détaille une "capacité" (skill)
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:107
+#, fuzzy
 msgid "Ranged 8x4 fire, <i><ref dst='weaponspecial_magical'>magical</ref></i>."
 msgstr ""
-"Tir à distance de feu 8x4, <i><ref dst='weaponspecial_magical'>magique</"
-"ref></i>."
+"Gagne un tir à distance de feu 8x4, <i><ref "
+"dst='weaponspecial_magical'>magique</ref></i>."
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:114
 msgid "Siphon"
 msgstr "Siphon"
 
+# Détaille une "capacité" (skill)
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:116
+#, fuzzy
 msgid ""
 "Ranged 8x4 arcane, <i><ref dst='weaponspecial_magical'>magical</ref></i> and "
 "<i><ref dst='weaponspecial_drains'>drains</ref></i>."
 msgstr ""
-"Tir à distance arcane 8x4, <i><ref dst='weaponspecial_magical'>magique</"
-"ref></i> et <i><ref dst='weaponspecial_drains'>drain</ref></i>."
+"Gagne un tir à distance arcane 8x4, <i><ref "
+"dst='weaponspecial_magical'>magique</ref></i> et <i><ref "
+"dst='weaponspecial_drains'>drain</ref></i>."
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:123
 msgid "Blizzard"
 msgstr "Blizzard"
 
+# Détaille une "capacité" (skill)
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:125
+#, fuzzy
 msgid ""
 "Spend <span color='#00bbe6' style='italic'>16 XP</span> and <span "
 "color='#c06a61' style='italic'>your attack</span> to <i><ref "
 "dst='weaponspecial_slows'>slow</ref></i> enemy units and freeze terrain in a "
 "3-hex radius."
 msgstr ""
-"Dépenser <span color='#00bbe6' style='italic'>16 XP</span> et <span "
+"Dépense <span color='#00bbe6' style='italic'>16 XP</span> et <span "
 "color='#c06a61' style='italic'>votre attaque</span> pour <i><ref "
-"dst='weaponspecial_slows'>ralentit</ref></i> les unités ennemies et gèle le "
-"terrain dans un rayon de 3 hexagones."
+"dst='weaponspecial_slows'>ralentir</ref></i> les unités ennemies et gèler le "
+"terrain dans un rayon de 3 cases."
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:133
 msgid "Counterspell"
 msgstr "Contresort"
 
+# Détaille une "capacité" (skill)
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:135
+#, fuzzy
 msgid ""
 "Spend <span color='#00bbe6' style='italic'>16 XP</span> to <i>disallow <ref "
 "dst='weaponspecial_magical'>magical</ref> attacks</i> in a 3-hex radius, "
 "until cancelled.\n"
 "          Disables Delfador’s spells, but not his passive skills."
 msgstr ""
-"Dépenser <span color='#00bbe6' style='italic'>16 XP</span> pour <i>empêcher "
+"Dépense <span color='#00bbe6' style='italic'>16 XP</span> pour <i>empêcher "
 "les <ref dst='weaponspecial_magical'>attaques magiques</ref></i> dans un "
-"rayon de 3 hexagones, jusqu'à annulation.\n"
+"rayon de 3 cases, jusqu'à annulation.\n"
 "          Désactive les sorts de Delfador, mais pas ses compétences passives."
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:143
 msgid "Polymorph"
 msgstr "Polymorphe"
 
+# Détaille une "capacité" (skill)
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:145
+#, fuzzy
 msgid ""
 "Transform into a <ref dst='unit_Frost Stoat Poly'>stoat</ref> (<span "
 "color='#00bbe6' style='italic'>1 XP</span>), <ref dst='unit_Cave Bear "
@@ -514,7 +542,7 @@ msgid ""
 "           Replaces Delfador’s attacks, spells, and passives, but does not "
 "affect hitpoints."
 msgstr ""
-"Se transformer en <ref dst='unit_Frost Stoat Poly'>hermine</ref> (<span "
+"Se transforme en <ref dst='unit_Frost Stoat Poly'>hermine</ref> (<span "
 "color='#00bbe6' style='italic'>1 XP</span>), <ref dst='unit_Cave Bear "
 "Poly'>ours</ref> (<span color='#00bbe6' style='italic'>8 XP</span>), <ref "
 "dst='unit_Giant Crab'>crabe</ref> (<span color='#00bbe6' style='italic'>16 "
@@ -527,36 +555,42 @@ msgstr ""
 msgid "Glamour"
 msgstr "Charisme"
 
+# Détaille une "capacité" (skill)
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:159
+#, fuzzy
 msgid "Gain the <i><ref dst='ability_leadership'>leadership</ref></i> ability."
 msgstr ""
-"Acquérir la capacité de <i><ref dst='ability_leadership'>commandement</ref></"
-"i>."
+"Gagne la capacité de <i><ref dst='ability_leadership'>commandement</ref></i>."
 
+# Détaille une "capacité" (skill)
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:173
+#, fuzzy
 msgid ""
 "Ranged 12x4 fire, <i><ref dst='weaponspecial_magical'>magical</ref></i>."
 msgstr ""
-"Tir à distance de feu 12x4, <i><ref dst='weaponspecial_magical'>magique</"
-"ref></i>."
+"Gagne un tir à distance de feu 12x4, <i><ref "
+"dst='weaponspecial_magical'>magique</ref></i>."
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:180
 msgid "Dancing Daggers"
 msgstr "Dagues dansantes"
 
+# Détaille une "capacité" (skill)
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:182
 #, fuzzy
 msgid ""
 "Ranged 5x8 blade, <i><ref dst='weaponspecial_backstab'>backstab</ref></i>"
 msgstr ""
-"Tir à distance tranchant 5x8, <i><ref dst='weaponspecial_backstab'>coup dans "
-"le dos</ref></i>"
+"Gagne un tir à distance tranchant 5x8, <i><ref "
+"dst='weaponspecial_backstab'>coup dans le dos</ref></i>"
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:189
 msgid "Enthrall"
 msgstr "Captiver"
 
+# Détaille une "capacité" (skill)
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:191
+#, fuzzy
 msgid ""
 "Spend <span color='#00bbe6' style='italic'>48 XP</span> and <span "
 "color='#c06a61' style='italic'>your attack</span> to magically disguise "
@@ -566,11 +600,11 @@ msgid ""
 "          (chance to evade) and chance to hit (except for magical attacks). "
 "Lasts until cancelled."
 msgstr ""
-"Dépenser <span color='#00bbe6' style='italic'>48 XP</span> et <span "
-"color='#c06a61' style='italic'>votre attaque</span> pour vous métamorphoser "
-"comme par magie en un dracan impressionnant.\n"
-"          Les ennemis dans un rayon de 2 hexagones subissent un malus de -10 "
-"% à leur défense de terrain\n"
+"Dépense <span color='#00bbe6' style='italic'>48 XP</span> et <span "
+"color='#c06a61' style='italic'>votre attaque</span> pour se métamorphoser "
+"comme par magie en un dracan terrifiant.\n"
+"          Les ennemis dans un rayon de 2 cases subissent un malus de -10 % à "
+"leur défense de terrain\n"
 "          (chance d'esquive) et à leur chance de toucher (sauf pour les "
 "attaques magiques). Cet effet dure jusqu'à son annulation."
 
@@ -578,14 +612,16 @@ msgstr ""
 msgid "Animate Fire"
 msgstr "Animer le feu"
 
+# Détaille une "capacité" (skill)
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:201
+#, fuzzy
 msgid ""
 "Learn to recruit <i><ref dst='unit_Fire Guardian'>Fire Guardians</ref></i>. "
 "Fire Guardians gain +100% damage and XP\n"
 "               while adjacent to you, but dissipate at the end of each "
 "scenario."
 msgstr ""
-"Apprendre à recruter des <i><ref dst='unit_Fire Guardian'>esprits du feu</"
+"Apprend à recruter des <i><ref dst='unit_Fire Guardian'>esprits du feu</"
 "ref></i>. Les esprits du feu gagnent +100 % de dégâts et d'XP\n"
 "               tant qu'ils sont à côté de vous, mais disparaissent à la fin "
 "de chaque scénario."
@@ -597,45 +633,54 @@ msgstr ""
 msgid "Contingency"
 msgstr "Contingence"
 
+# Détaille une "capacité" (skill)
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:210
+#, fuzzy
 msgid ""
 "Whenever one of your human soldiers dies, they are instead returned safely "
 "to your recall list."
 msgstr ""
-"Lorsqu'un de vos soldats humains meurt, il est renvoyé en toute sûreté dans "
-"votre liste de rappel."
+"Renvoie en toute sûreté dans votre liste de rappel un de vos soldats humains "
+"lorsqu'il meurt."
 
+# Détaille une "capacité" (skill)
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:224
+#, fuzzy
 msgid ""
 "Ranged 18x4 fire, <i><ref dst='weaponspecial_magical'>magical</ref></i>."
 msgstr ""
-"Tir à distance de feu 18x4, <i><ref dst='weaponspecial_magical'>magique</"
-"ref></i>."
+"Gagne un tir à distance de feu 18x4, <i><ref "
+"dst='weaponspecial_magical'>magique</ref></i>."
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:231
 msgid "Chain Lightning"
 msgstr "Foudre en chaîne"
 
+# Détaille une "capacité" (skill)
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:233
+#, fuzzy
 msgid ""
 "Ranged 14x4 fire, <i><ref dst='weaponspecial_magical'>magical</ref></i>. If "
 "this attack kills an enemy, you may attack again."
 msgstr ""
-"Tir à distance de feu 14x4, <i><ref dst='weaponspecial_magical'>magique</"
-"ref></i>. Si cette attaque tue un ennemi, vous pouvez attaquer à nouveau."
+"Gagne un tir à distance de feu 14x4, <i><ref "
+"dst='weaponspecial_magical'>magique</ref></i>. Si cette attaque tue un "
+"ennemi, vous pouvez attaquer à nouveau."
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:240
 msgid "Time Dilation"
 msgstr "Dilation temporelle"
 
+# Détaille une "capacité" (skill)
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:242
+#, fuzzy
 msgid ""
 "Spend <span color='#00bbe6' style='italic'>48 XP</span> to grant yourself "
 "and all allies double movement and a second attack this turn.\n"
 "          When this turn ends, affected units become <ref "
 "dst='weaponspecial_slows'>slowed</ref>."
 msgstr ""
-"Dépenser <span color='#00bbe6' style='italic'>48 XP</span> pour vous "
+"Dépense <span color='#00bbe6' style='italic'>48 XP</span> pour vous "
 "octroyer, ainsi qu'à tous vos alliés, un double mouvement et une seconde "
 "attaque ce tour-ci.\n"
 "          À la fin de ce tour, les unités affectées sont <ref "
@@ -645,7 +690,9 @@ msgstr ""
 msgid "Cataclysm"
 msgstr "Cataclysme"
 
+# Détaille une "capacité" (skill)
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:252
+#, fuzzy
 msgid ""
 "Spend <span color='#00bbe6' style='italic'>99 XP</span> and <span "
 "color='#c06a61' style='italic'>your attack</span> to blast everything in a 5-"
@@ -653,9 +700,9 @@ msgid ""
 "          to 1 HP. Dries water, melts snow, burns forest, and levels castles/"
 "villages."
 msgstr ""
-"Dépenser <span color='#00bbe6' style='italic'>99 XP</span> et <span "
+"Dépense <span color='#00bbe6' style='italic'>99 XP</span> et <span "
 "color='#c06a61' style='italic'>votre attaque</span> pour détruire tout dans "
-"un rayon de 5 hexagones. Les unités (sauf Delfador) seront réduites\n"
+"un rayon de 5 cases. Les unités (sauf Delfador) seront réduites\n"
 "          à 1 PV. Assèche l'eau, fait fondre la neige, brûle les forêts et "
 "rase les châteaux et villages."
 
@@ -691,7 +738,7 @@ msgid ""
 msgstr ""
 "<span size='small'><i>Delfador connaît de nombreux sorts utiles et en "
 "apprendra d'autres en gagnant automatiquement des niveaux tout au long de la "
-"campagne. Delfador ne dépense pas d'XP pour gagner des niveaux.En "
+"campagne. Delfador ne dépense pas d'XP pour gagner des niveaux. En "
 "revanche, \n"
 "Delfador utilise l'XP pour lancer certains sorts. Si vous sélectionnez des "
 "sorts qui coûtent de l'XP, <b>double-cliquez ou faites un clic droit sur "
@@ -746,7 +793,7 @@ msgstr ""
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:4
 #, fuzzy
 msgid "Graduation"
-msgstr "Remise des diplômes"
+msgstr "Examen final"
 
 #. [leader]
 #. [event]
@@ -826,13 +873,13 @@ msgstr ""
 "défi, même pour les joueurs expérimentés ! Si vous découvrez Wesnoth, il "
 "vous est vivement recommandé de choisir un niveau de difficulté inférieur."
 
-# #units: Gardien du feu
+# Tutoiement par le maître (comme les dialogues ultérieurs)
 #. [message]: speaker=Methor
 #. the fire wraiths are not visible yet. Delfador is about to appear on the left edge of the map
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:178
 #, fuzzy
 msgid "Faster, faster! The wraiths will soon be upon you!"
-msgstr "Hâtez-vous, vite ! Les apparitions vont bientôt fondre sur vous !"
+msgstr "Hâte-toi, vite ! Les gardiens du feu vont fondre sur toi !"
 
 #. [message]: speaker=Delfador
 #. referencing events that happened minutes before the beginning of the campaign
@@ -844,7 +891,7 @@ msgid ""
 msgstr ""
 "Hé, comment étais-je censé savoir que la grotte à mi-parcours était protégée "
 "par des enchantements ? J’ai juste lancé quelques boules de feu pour fêter "
-"ça ! Pour le public, vous voyiez?"
+"ça ! Pour le public, vous voyez?"
 
 #. [message]: speaker=Methor
 #. there's a blue orb at the east edge of the map, which will dispel the fire guardians that will soon appear to chase Delfador
@@ -871,7 +918,7 @@ msgid ""
 "Out of all the masters in Alduin, why did the sages curse me with the most "
 "reckless apprentice in all Wesnoth?"
 msgstr ""
-"Parmi tous les maîtres d’Alduin, pourquoi a t'il fallu que les sages me "
+"Parmi tous les maîtres d’Alduin, pourquoi a-t-il fallu que les sages me "
 "collent l’apprenti le plus téméraire de tout Wesnoth ?"
 
 # #units: Gardien du feu
@@ -880,15 +927,15 @@ msgstr ""
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:246
 #, fuzzy
 msgid "The wraiths are catching up! Keep moving!"
-msgstr "Les apparitions te rattrapent ! Ne t'arrête pas !"
+msgstr "Les gardiens du feu te rattrapent ! Ne t'arrête pas !"
 
+# Ici "copper" comme monnaie sans valeur
 #. [message]: speaker=Saegwylyn
 #. another of Delfador's instructors; implying Delfador has attempted to firebolt the fire guardians before, and it ended badly
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:251
 #, fuzzy
 msgid "10 copper says he tries to firebolt them again..."
-msgstr ""
-"Je parie 10 pièces de cuivre qu’il va encore leur lancer une boule de feu…"
+msgstr "Je parie 10 sous qu’il va encore leur lancer une boule de feu…"
 
 # #units: Gardien du feu
 #. [message]: speaker=Methor
@@ -900,9 +947,10 @@ msgid ""
 "the eyestalks! You may need to cast it several turns in a row to keep ahead "
 "of the wraiths."
 msgstr ""
-"Ne fais pas attention à elle. Tu avances bien pour l’instant — lance "
-"Lévitation et glisse-toi entre les tiges oculaires ! Il faudra sans doute "
-"enchaîner plusieurs invocations pour garder de l’avance sur les apparitions."
+"Ne fais pas attention à elle. Tu avances bien pour l’instant — lance la "
+"lévitation et glisse-toi entre les tiges oculaires ! Il faudra sans doute "
+"enchaîner plusieurs invocations pour garder de l’avance sur les gardiens du "
+"feu."
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:260
@@ -934,9 +982,9 @@ msgstr ""
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:287
 #, fuzzy
 msgid "All right, all right! It’s just as you said."
-msgstr "Très bien, très bien ! C'est exactement comme vous l'avez dit."
+msgstr "D'accord, c'est vrai ! C'est exactement comme tu le disait."
 
-# pièce de cuivre = pièce d'1 centime?
+# Ici "copper" comme monnaie sans valeur
 #. [message]: speaker=Saegwylyn
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:292
 #, fuzzy
@@ -1025,7 +1073,7 @@ msgid "So mine is the deciding vote. Very well, I’ve made up my mind."
 msgstr ""
 "Donc mon vote va permettre de trancher. Très bien, ma décision est prise."
 
-# Et si "Perfidie" pour "The Deceiver" ?
+# "Perfidie est grande" pour pouvoir mattre une majuscule qui rappelle celle dans le titre
 #. [message]: speaker=narrator
 #. non sequitur. The screen has faded to black, and Delfador is hearing a voice with no apparent origin. In scenario 4, this is later revealed to be the elvish seer Elende, prophesying about Delfador's future.
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:511
@@ -1034,10 +1082,9 @@ msgid ""
 "<i>The Deceiver weaves the twine encircling the puppets in the court of "
 "royals.</i>"
 msgstr ""
-"<i>Les fils qui enserrent les marionnettes de la cour royale sont maniées "
-"avec une grande perfidie.</i>"
+"<i>Perfidie est grande qui manie les fils enserrant les marionnettes de la "
+"cour royale.</i>"
 
-# Tenir à un fil (?)
 #. [message]: speaker=narrator
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:515
 #, fuzzy
@@ -1045,10 +1092,9 @@ msgid ""
 "<i>Fatherless prince and sovereignless king, the balance of man hangs upon "
 "this thread.</i>"
 msgstr ""
-"<i>Prince orphelin et roi sans trône, le destin de l’humanité repose sur ce "
-"fil.</i>"
+"<i>Un prince orphelin et roi sans trône, le destin de l’humanité ne tient "
+"qu'à un fil.</i>"
 
-# Ce fil sera rompu (?)
 #. [message]: speaker=narrator
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:519
 #, fuzzy
@@ -1056,18 +1102,16 @@ msgid ""
 "<i>Should force and fire brandish themselves where wisdom and pity are left "
 "wanting, this string of fate shall inexorably be sundered.</i>"
 msgstr ""
-"<i>Si la force et les flammes s’imposent là où la sagesse et la pitié font "
-"défaut, ce fil du destin sera inexorablement brisé.</i>"
+"<i>Si la force et les flammes s’imposent là où la sagesse et la pitié sont "
+"requises, ce fil du destin sera inexorablement rompu.</i>"
 
-# complimenter (?)
 #. [message]: speaker=Leollyn
 #. the screen has faded back to normal, and master Leollyn is annoyed that Delfador wasn't paying attention
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:532
 #, fuzzy
 msgid "Apprentice! Are you listening? I’m trying to congratulate you!"
 msgstr ""
-"Apprenti ! Tu m’écoutes au moins ? Je suis en train de te féliciter, bon "
-"sang !"
+"Apprenti ! Tu m’écoutes au moins ? J'étais en train de te complimenter !"
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/00_Graduation.cfg:536
@@ -1083,8 +1127,8 @@ msgid ""
 "to the written section; please conjure your quill and parchment..."
 msgstr ""
 "…pour en revenir à ce que je disais… apprenti, toutes mes félicitations pour "
-"avoir réussi la partie pratique de ton examen de fin d’études ! Passons "
-"maintenant à la partie écrite : invoque ta plume et ton parchemin…"
+"avoir réussi la partie pratique de ton examen final ! Passons maintenant à "
+"la partie écrite : invoque ta plume et ton parchemin…"
 
 #. [message]: speaker=Delfador
 #. Delfador has just taken lethal damage
@@ -1147,7 +1191,7 @@ msgstr ""
 "Le cœur du roi battait pour l’épée et le bouclier, pour la bataille et le "
 "sang. Mécontent de la vie monotone au sein des domaines de Weldyn, Garard se "
 "concentra sur les orcs des Montagnes Centrales dont les incursions semaient "
-"depuis longtemps le désordre le long de sa frontière septentrionale."
+"régulièrement le désordre à la frontière septentrionale."
 
 #. [part]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:37
@@ -1210,9 +1254,9 @@ msgid ""
 "Nearer than the last time you asked, yet further than we will be the next. "
 "Really apprentice, would it kill you to learn a proper seeker spell?"
 msgstr ""
-"Un peu plus près que la dernière fois que tu as demandé, mais encore loin de "
-"là où nous serons la prochaine fois que tu demanderas. Franchement, "
-"apprenti, ça te coûterait tant que ça d’apprendre un vrai sort de recherche ?"
+"Un peu plus près que la dernière fois que tu as demandé, mais plus loin que "
+"là où nous serons la prochaine fois. Franchement, apprenti, ça te coûterait "
+"tant que ça d’apprendre un vrai sort de recherche ?"
 
 #. [message]: speaker=Delfador
 #. Delfador has never met King Garard II, but rather idolizes him
@@ -1224,7 +1268,7 @@ msgid ""
 "even get to counsel with the king himself! What I wouldn’t give for a chance "
 "to prove myself to him..."
 msgstr ""
-"Pas besoin d’être si morose, maître. À la tête de notre délégation, vous "
+"Pas besoin d’être si irritable, maître. À la tête de notre délégation, vous "
 "aurez même l’occasion de conseiller le roi en personne ! Que ne donnerais-je "
 "pas pour avoir la chance de faire mes preuves devant lui…"
 
@@ -1354,8 +1398,7 @@ msgid ""
 "use, but to recruit mages I’ll need to stand on our keep."
 msgstr ""
 "Tu n'es pas encore un compagnon, apprenti ! Tes golems de boue ne sont pas "
-"inutiles, mais pour recruter des mages, il me faudra me tenir sur notre "
-"donjon."
+"inutiles, mais pour recruter des mages, je devrai me tenir dans notre donjon."
 
 #. [message]: speaker=Methor
 #. Methor says this when Delfador stands on their keep. Delfador can not recruit; Methor recruits mages
@@ -1442,7 +1485,7 @@ msgid ""
 "<i><b>good</b></i> in the world..."
 msgstr ""
 "(soupir) Encore des victimes de politiques absurdes. J’avais rejoint l’ordre "
-"pour faire du <i><b>bien</b></i> dans le monde…"
+"pour faire le <i><b>bien</b></i> dans le monde…"
 
 #. [message]: speaker=Ozgob
 #. Ozgob has lost most of his goblins ('runts'), and is about to charge at Delfador personally
@@ -1463,10 +1506,9 @@ msgid ""
 "powerful on the front lines, if we’re ever struggling it’s also important "
 "that I have the chance to recruit new magi from our keep."
 msgstr ""
-"Nous avons amassé une grande quantité d'or, apprenti. Si ma magie est "
+"Nous avons amassé une grande quantité d'or, apprenti. Bien que ma magie soit "
 "puissante en première ligne, si jamais nous rencontrons des difficultés, il "
-"est également crucial que j'aie la possibilité de recruter de nouveaux mages "
-"depuis notre donjon."
+"est crucial que je puisse recruter de nouveaux mages depuis notre donjon."
 
 #. [message]
 #. Ozgob has died, and any remaining goblins are deserting him
@@ -1534,7 +1576,7 @@ msgid ""
 msgstr ""
 "Mais que se passe-t-il ? Des mages maigres comme des clous nous ont devancés "
 "au combat, et ils sont même incapables d’éliminer quelques gobelins ! Bah, "
-"retournez à d’Alduin, vous autres érudits n’avez rien à faire à la guerre."
+"retournez à d’Alduin, vous autres étudiants n’avez rien à faire à la guerre."
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:683
@@ -1782,7 +1824,7 @@ msgstr ""
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:517
 #, fuzzy
 msgid "Win before Garard defeats the orcish leader"
-msgstr "Gagner avant que Garard ne vainque le chef orc"
+msgstr "L'emporter avant que Garard ne batte le chef orc"
 
 #. [objective]: condition=lose
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:525
@@ -1942,7 +1984,7 @@ msgstr "Delfador"
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:733
 #, fuzzy
 msgid "Del-fa-dor; Delfador! Thanks master, I like the sound of that."
-msgstr "Del‑fa‑dor… Delfador ! Merci, maître ! Ce nom a une belle résonance."
+msgstr "Del‑fa‑dor… Delfador ! Merci, maître ! Ce nom a une belle consonance."
 
 #. [message]: speaker=Methor
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:737
@@ -2020,11 +2062,12 @@ msgstr ""
 "La première ligne d'orcs sera bientôt brisée ! En avant, cavaliers ; nous "
 "chevauchons vers la victoire !"
 
+# Une seule majuscule aux titres de scénario
 #. [scenario]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:11
 #, fuzzy
 msgid "The Ambassador"
-msgstr "L'Ambassadeur"
+msgstr "L'ambassadeur"
 
 #. [side]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:43
@@ -2104,7 +2147,6 @@ msgstr ""
 msgid "It can’t understand me, and I can’t understand it... Oh no..."
 msgstr "Il ne peut pas me comprendre, et je ne peux pas le comprendre… Oh non…"
 
-# comme Garard me l'a demandé
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:210
 #, fuzzy
@@ -2114,8 +2156,8 @@ msgid ""
 "Garard tasked me with making."
 msgstr ""
 "Ils s’apprêtent à attaquer ! Quelques saules ambulants ne me font pas peur, "
-"mais mettre le feu à la moitié de la forêt ne serait pas la meilleure "
-"manière de faire bonne impression auprès du roi Garard."
+"mais mettre le feu à la moitié de la forêt ne ferait pas la bonne première "
+"impression que le roi Garard m'a chargé de donner."
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:212
@@ -2173,7 +2215,6 @@ msgstr ""
 "plus de détails, faites un clic droit sur un wose et sélectionnez <i>« "
 "Description du type d’unité »</i>."
 
-# envoyer les nouvelles recrues en reconnaissance?
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:255
 #, fuzzy
@@ -2181,8 +2222,9 @@ msgid ""
 "Where are those woses hiding? If I’m worried about my valuable veterans "
 "getting ambushed, I could use new recruits as expendable pickets."
 msgstr ""
-"Où se cachent ces woses ? Si je crains que mes précieux vétérans ne soient "
-"pris en embuscade, je pourrais recruter de la piétaille sacrifiable."
+"Où se cachent ces woses ? Comme je crains que mes précieux vétérans ne "
+"soient pris en embuscade, je devrais envoyer de nouvelles recrues en "
+"reconnaissance."
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/03_The_Ambassador.cfg:295
@@ -2471,6 +2513,8 @@ msgstr ""
 "Deoran, Delfador, ce que je m’apprête à vous révéler concerne l’un de nos "
 "grands secrets ; vous ne devez le confier à personne, pas même à votre roi."
 
+# Est-ce que "reflected" est une référence au "mirror pool" ?
+# Je crois que "illuminate" et "blaze brighter" y font écho et supporte cette hypothèse
 #. [message]: speaker=Kalenz
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:237
 #, fuzzy
@@ -2482,9 +2526,9 @@ msgid ""
 msgstr ""
 "Au plus profond de Lintanir réside notre sylphide — une devineresse elfe. "
 "Nous craignons autant que nous admirons la vision fragmentée et magique "
-"d’Elende, ses fils de prophétie réfléchie. Peut-être ses visions révéleront-"
-"elles une part de votre avenir, vous aidant ainsi à en forger un plus "
-"radieux."
+"d’Elende, ses rais de réflections prophétiques. Peut-être ses visions "
+"éclaireront-elles une part de votre avenir, vous aidant ainsi à en forger un "
+"plus radieux."
 
 #. [message]: speaker=Eloreis
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:241
@@ -2566,7 +2610,7 @@ msgid ""
 "find the way again. At last, in the dead of night, a small structure looms "
 "out of the forest..."
 msgstr ""
-"Le soleil se couche comme une braise mourante éteinte sous l’horizon, et la "
+"Le soleil se couche comme une braise mourante étouffée sous l’horizon, et la "
 "forêt s’assombrit peu à peu. Plusieurs fois, même Kalenz se perd, mais à "
 "chaque fois il retrouve son chemin. Enfin, en pleine nuit, une petite "
 "structure émerge de l’obscurité de la forêt..."
@@ -2579,8 +2623,8 @@ msgid ""
 "We have arrived. The seer’s mirror pool is just ahead; she herself should be "
 "close by."
 msgstr ""
-"Nous sommes arrivés. La bassin miroir de la devineresse est juste devant ; "
-"elle-même devrait être tout près."
+"Nous sommes arrivés. Le bassin miroitant de la devineresse est juste "
+"devant ; elle devrait être tout près."
 
 #. [objective]: condition=win
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:417
@@ -2614,13 +2658,13 @@ msgstr "Dans ce scénario, vous ne pouvez ni gagner ni dépenser d'or."
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:448
 #, fuzzy
 msgid "There lies the mirror pool, but it is strangely dry..."
-msgstr "Ici se trouve le bassin miroir, mais il est étrangement à sec..."
+msgstr "Ici se trouve le bassin miroitant, mais il est étrangement à sec..."
 
 #. [objective]: condition=win
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:453
 #, fuzzy
 msgid "Fill the central pool with water"
-msgstr "Remplir le bassin central d'eau"
+msgstr "Remplir d'eau le bassin central"
 
 #. [note]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:468
@@ -2654,7 +2698,7 @@ msgstr ""
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:498
 #, fuzzy
 msgid "Play the puzzle <i>(includes XP)</i>"
-msgstr "Résoudre le casse-tête <i>inclut de l'XP</i>"
+msgstr "Résoudre le casse-tête <i>(gain d'XP)</i>"
 
 #. [option]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:501
@@ -2673,8 +2717,8 @@ msgid ""
 msgstr ""
 "Deoran, j'ai passé un examen sur toi pendant ma deuxième année à Alduin. Est-"
 "il vrai que tu as, à toi seul, battu une horde de bandits adeptes de la "
-"magie noire et sauvé le Sud de la destruction ? Tu es pratiquement un héros "
-"populaire !"
+"magie noire et sauvé le Sud de la destruction ? On a fait de toi un héros de "
+"chansons !"
 
 #. [message]: speaker=Deoran
 #. this is what has happened to Deoran since ending The South Guard
@@ -2699,10 +2743,10 @@ msgid ""
 "come to value my friends here."
 msgstr ""
 "Mais tout cela s’est passé il y a bien des années. Être ambassadeur à "
-"Lintanir est un poste prestigieux, même si c’est surtout une question de "
-"titre, et une occasion de mettre en pratique les leçons tirées de mon séjour "
-"parmi les elfes de la forêt de l’Aethen. J’ai appris à apprécier les amis "
-"que je me suis fait ici."
+"Lintanir est un poste prestigieux, même si ce n'est qu'honorifique, et une "
+"occasion de mettre en pratique les leçons de mon séjour auprès des elfes de "
+"la forêt de l’Aethen. J’ai appris à apprécier les amis que je me suis fait "
+"ici."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:547
@@ -2723,9 +2767,9 @@ msgid ""
 "ambassador. Deoran is no fool; if he does not already know, he certainly "
 "suspects."
 msgstr ""
-"Chantal, nous avons bien des choses à aborder. Il est évident que tu as des "
-"sentiments pour l’ambassadeur. Deoran n’est pas dupe ; s’il ne le sait pas "
-"encore, il le pressent probablement."
+"Chantal, nous avons bien des choses à discuter. Il est évident que tu as des "
+"sentiments pour l’ambassadeur. Deoran n’est pas dupe ; s’il n'en est pas "
+"déjà certain, alors il en a des soupçons."
 
 #. [message]: speaker=Chantal
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:565
@@ -2737,6 +2781,7 @@ msgstr ""
 #. [message]: speaker=Chantal
 #. continuing the "Chantal has feelings for Deoran" conversation, a moment after it ended
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:572
+#, fuzzy
 msgid ""
 "Okay— fine, yes, but Deoran is a good man! Wise and kind, and quietly "
 "bearing his burden of exile, so far away from his people? And he’s <i>human</"
@@ -2744,9 +2789,9 @@ msgid ""
 "are exotic."
 msgstr ""
 "Bon, d'accord— mais Deoran est un homme bien ! Sage et gentil, portant en "
-"silence son fardeau d’exilé, si loin de son peuple ? Et puis il est "
-"<i>humain</i> ! Même un vieux elfe râleur comme toi doit admettre que des "
-"oreilles rondes et une barbe de trois jours, c’est exotique."
+"silence son fardeau d’exilé, si loin de son peuple ? Et puis c'est un "
+"<i>humain</i> ! Même un vieil elfe râleur comme toi doit admettre que des "
+"oreilles arrondies et une barbe au menton, c’est exotique."
 
 #. [message]: speaker=Kalenz
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:576
@@ -2767,12 +2812,13 @@ msgstr ""
 msgid "Look, the stream is changing direction!"
 msgstr "Regarde, le courant change de direction !"
 
-# qu'es-tu devenue?
+# [voir message précédent]
+# C'est une exclamation, pas un message à Elende
 #. [message]: speaker=Chantal
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:593
 #, fuzzy
 msgid "Moonstones! Elende, what have you been up to..."
-msgstr "Pierres de lune ! Elende, qu'as-tu fait ces derniers temps..."
+msgstr "Pierres de lune ! Elende, qu'as-tu encore manigancé..."
 
 #. [message]: speaker=Delfador
 #. a monster has just drowned in the river, as a result of the player redirecting the river into the beast's hex
@@ -2816,17 +2862,19 @@ msgstr "Glouglou glouglou glouglou..."
 msgid "There! The pool is full!"
 msgstr "Voilà ! Le bassin est plein !"
 
+# Le temps s'est arrêté
 #. [time]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1090
 #: data/campaigns/The_Deceivers_Gambit/scenarios/14_Long_Live_the_Queen.cfg:913
+#, fuzzy
 msgid "Void"
-msgstr "Vide"
+msgstr "Néant"
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1128
 #, fuzzy
 msgid "What was that?!"
-msgstr "C'était quoi ça?!"
+msgstr "C'était quoi çà ?!"
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1139
@@ -2834,7 +2882,7 @@ msgstr "C'était quoi ça?!"
 msgid ""
 "I think this whole mirror world is starting to fall apart! I have to hurry!"
 msgstr ""
-"Je crois que tout ce monde des miroirs est en train de s'effondrer ! Il faut "
+"Je crois que tout ce monde de miroirs est en train de s'effondrer ! Il faut "
 "que je me dépêche !"
 
 #. [message]
@@ -2889,11 +2937,12 @@ msgstr "Perte de Delfador"
 
 #. [note]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1390
+#, fuzzy
 msgid ""
 "In this strange world, fate guides every strike. <i>(attacks never miss)</i>"
 msgstr ""
-"Dans ce monde étrange, le destin guide chaque coup. <i>(Les attaques ne "
-"ratent jamais leur cible.)</i>"
+"Dans ce monde étrange, le destin guide chaque coup. <i>(les attaques ne "
+"ratent jamais leur cible)</i>"
 
 #. [event]: id=always_hit
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1416
@@ -2935,6 +2984,7 @@ msgstr "Aube"
 msgid "I didn’t get to finish hearing everything..."
 msgstr "Je n'ai pas pu tout entendre..."
 
+# "à l'avant de toi" compris comme "dans le futur pour toi"
 #. [message]
 #. spoken by Elende (through Kalenz's mirror image), referencing Legend of Wesmere's invisibility potion and Landar
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1497
@@ -2943,8 +2993,9 @@ msgid ""
 "Lich’s eye and brother’s bone; what have you sacrificed to save your people, "
 "Kalenz? Your greatest fear stands before you... ahead of you?"
 msgstr ""
-"Œil du Liche et os du frère ; qu'as-tu sacrifié pour sauver ton peuple, "
-"Kalenz ? Ta plus grande peur se dresse face à toi... ou plutôt, devant toi ?"
+"Œil de liche et os de frère ; qu'as-tu sacrifié pour sauver ton peuple, "
+"Kalenz ? Ta plus grande peur se dresse face à toi... ou plutôt, à l'avant de "
+"toi ?"
 
 #. [message]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1501
@@ -2973,8 +3024,8 @@ msgid ""
 "I know my duty! A captain of Wesnoth will never entertain doubts of loyalty, "
 "whether to his country or his King."
 msgstr ""
-"Je sais quel est mon devoir ! Un capitaine de Wesnoth ne se permettra jamais "
-"de douter de sa loyauté, que ce soit envers son royaume ou son roi."
+"Je sais quel est mon devoir ! Un capitaine de Wesnoth ne permettra jamais de "
+"douter de sa loyauté, que ce soit envers son royaume ou son roi."
 
 #. [message]
 #. spoken by Elende (through Chantal's mirror image), referencing Cleodil's historic death and foreshadowing Deoran's upcoming death
@@ -3037,6 +3088,7 @@ msgstr ""
 "Dépensez 8 XP pour obtenir les capacités de vol et de tirailleur jusqu’au "
 "début de votre prochain tour ou jusqu’à annulation."
 
+# "Ringed swords" ferait référence à une alliance de deux armées
 #. [message]
 #. pale spy meaning Asheviere. Referencing Asheviere resolving to kill Garard, and working with orcs to arrange the events of the next two scenarios
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1684
@@ -3046,7 +3098,7 @@ msgid ""
 "deceiver. Ringed swords, cold blood, false friends."
 msgstr ""
 "Je perçois des secrets dans l’obscurité ; un espion pâle se libérant de ses "
-"entraves. Une mort, de la perfidie. Épées en anneau, sang froid, faux amis."
+"entraves. Une mort, de la perfidie. Union d'épées, sang froid, faux amis."
 
 #. [message]
 #. referencing Delfador's adventures in scenarios 8-10, where he works with (or kills) poachers to fight saurians, then fights undead and a ghost given the appearance of a living drake.
@@ -3057,8 +3109,8 @@ msgid ""
 "shadow cloaked in the spirits of the dead. Battles won while wars are lost."
 msgstr ""
 "Le marais sombre se profile. Bourses et braconniers, miroir et fumée. Une "
-"silhouette d’ombre enveloppée des esprits des morts. Des batailles gagnées "
-"tandis que des guerres sont perdues"
+"silhouette d’ombre enveloppée des esprits des morts. Batailles gagnées "
+"pendant que les guerres sont perdues."
 
 #. [event]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1750
@@ -3080,8 +3132,8 @@ msgid ""
 msgstr ""
 "Frère contre frère, père contre enfant. Du trône désert s’élèvera un ange de "
 "cendres ; grand et terrible à la fois. L'équilibre fragile de l’humanité "
-"sera brisé, et des flammes s’enflammeront à nouveau sur les braises du "
-"peuple de Haldric."
+"sera brisé, et des flammes s’enfleront à nouveau sur les braises du peuple "
+"de Haldric."
 
 #. [event]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1780
@@ -3115,9 +3167,9 @@ msgid ""
 "written."
 msgstr ""
 "Mais ce destin n'est pas le seul chemin. Mage d'Alduin, tu te trouves à "
-"l’intersection des fils, un carrefour des éclats. Pendant un instant fugace, "
-"tu détiendras le pouvoir d’altérer le cours du temps ; de réécrire l'avenir "
-"qui est déjà tracé."
+"l’intersection des faisceaux, au carrefour des éclats. Pendant un instant "
+"fugace, tu détiendras le pouvoir d’altérer le cours du temps ; de réécrire "
+"l'avenir qui est déjà tracé."
 
 #. [message]
 #. referencing Delfador's choice in S10x. He can either listen to a drunk Garard and kill Garard's brother Arand based on false reports of a betrayal, or refuse, stay with Garard, and find out more about Arand before attacking
@@ -3145,8 +3197,9 @@ msgstr "—prends pas ce que tu dis..."
 
 #. [scenario]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:10
+#, fuzzy
 msgid "The Deceiver"
-msgstr "La journée des dupes"
+msgstr "Perfidie"
 
 #. [part]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:21
@@ -3155,7 +3208,7 @@ msgid ""
 "Sylph’s words weighed heavily on each of their minds."
 msgstr ""
 "Delfador et ses compagnons quittèrent le bosquet des miroirs dans un silence "
-"lourd. Les paroles de la sylphide résonnaient dans leurs esprits, lourds de "
+"lourd. Les paroles de la sylphide résonnaient dans leurs esprits, lourdes de "
 "sens."
 
 #. [part]
@@ -3231,13 +3284,12 @@ msgid ""
 msgstr ""
 "Deoran, cela a été un plaisir de t’avoir parmi nous pendant toutes ces "
 "années. Et Delfador, j’espère qu’un jour je pourrai dire la même chose de "
-"toi. Elende semble avoir une haute opinion de toi, et cela compte beaucoup "
+"toi. Elende semble t'avoir pris en haute estime, et cela compte beaucoup "
 "pour moi et mon peuple.\n"
 "\n"
 "Si l’un de vous deux venait un jour à chercher un refuge loin de Wesnoth, "
 "vous serez toujours les bienvenus chez nous."
 
-# à nos côtés?
 #. [message]: speaker=Garard
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:341
 #, fuzzy
@@ -3246,17 +3298,16 @@ msgid ""
 "me, are the north-elves with us?"
 msgstr ""
 "Salut ! Le jeune mage de guerre revient. Bienvenue, Delfador... et Deoran. "
-"Dites-moi, les elfes du Nord sont-ils avec nous ?"
+"Dites-moi, les elfes du Nord sont-ils à nos côtés ?"
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:345
 #, fuzzy
 msgid "Deepest apologies my Lord, but they are not. Lintanir—"
 msgstr ""
-"Mes plus sincères excuses, mon Seigneur, mais ils ne sont pas avec nous. "
+"Mes plus sincères excuses, mon seigneur, mais ils ne sont pas avec nous. "
 "Lintanir—"
 
-# importance?
 #. [message]: speaker=Garard
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:349
 #, fuzzy
@@ -3264,7 +3315,7 @@ msgid ""
 "I see. Unfortunate, but ultimately of no consequence. Victory is nearly won "
 "even without their aid."
 msgstr ""
-"Je vois. C'est regrettable, mais finalement cela n’a aucune conséquence. La "
+"Je vois. C'est regrettable, mais finalement cela n’a aucune importance. La "
 "victoire est presque acquise, même sans leur aide."
 
 #. [message]
@@ -3287,7 +3338,7 @@ msgstr ""
 "Lionel et mon frère Arand les attaqueront de front, pendant que toi, tu "
 "passeras par l’arrière et rôtiras leur chef comme un cochon sur la broche."
 
-# alternative pour "disloqueront"?
+# alternative pour "disloqueront"
 #. [message]: speaker=Garard
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:362
 #, fuzzy
@@ -3295,8 +3346,8 @@ msgid ""
 "Without their chief the Whitefangs will dissolve into an infighting mass of "
 "petty squabbles, and our— Wesnoth’s victory will be complete!"
 msgstr ""
-"Sans leur chef, les Crocs-blancs se disloqueront dans des querelles "
-"mesquines, et notre— la victoire de Wesnoth sera totale !"
+"Sans leur chef, les Crocs-blancs se diviseront dans des querelles mesquines, "
+"et notre— la victoire de Wesnoth sera totale !"
 
 #. [objective]: condition=win
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:370
@@ -3400,7 +3451,7 @@ msgid ""
 "pillage and plunder. Last chance to surrender!"
 msgstr ""
 "Vous occupez ma résidence d'été, bande de voyous ! Plus d’incursion, plus de "
-"pillage ! C'est la dernière chance de se rendre !"
+"pillage ! C'est votre dernière chance de se rendre !"
 
 #. [message]: speaker=second_unit
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:493
@@ -3466,6 +3517,7 @@ msgstr ""
 "Fantassins — descendez dans les donjons du fort ! Éliminez les retardataires "
 "et parachevez notre victoire."
 
+# Pas de majuscule. Ce ne sont pas des noms de lieux réels.
 #. [message]: speaker=Garard
 #. Garard thinks he's won, even though he hasn't. "Wold" means "a piece of high, open, uncultivated land or moor."
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:650
@@ -3474,9 +3526,9 @@ msgid ""
 "Hah! I think “Garard’s Wold” will make a good name for the new province... "
 "or perhaps “Garard’s Triumph”? What do you think, Lionel?"
 msgstr ""
-"Hah ! Je pense que « Les collines de Garard » sera un bon nom pour la "
-"nouvelle province... ou peut-être « Le Triomphe de Garard » ? Qu'en penses-"
-"tu, Lionel ?"
+"Hah ! Je pense que « le plateau de Garard » sera un bon nom pour la nouvelle "
+"province... ou peut-être « le triomphe de Garard » ? Qu'en penses-tu, "
+"Lionel ?"
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:655
@@ -3504,7 +3556,7 @@ msgstr ""
 "dont je me souviens, et son casque n'a pas les peintures de guerre "
 "appropriées. Delfador, je pense qu'on nous a trompés !"
 
-# Il le renvoie car il ne se bat pas assez?
+# Garard ne peut pas croire ce qu'il voit
 #. [message]: speaker=Garard
 #: data/campaigns/The_Deceivers_Gambit/scenarios/05_The_Deceiver.cfg:710
 #, fuzzy
@@ -3512,15 +3564,15 @@ msgid ""
 "Are you even trying to fight, Delfador!? I should have known a mage would "
 "never have the stomach for true battle; get back to Alduin where you belong!"
 msgstr ""
-"Essaies-tu vraiment de te battre, Delfador ?! J’aurais dû m’en douter, un "
-"mage n’a pas vraiment le cœur pour un vrai combat ; retourne à Alduin, c’est "
-"là ta place !"
+"Est-ce que tu te bats vraiment, Delfador ?! J’aurais dû m’en douter, un mage "
+"n’aura jamais le cœur d'un vrai combattant ; retourne à Alduin, c’est là ta "
+"place !"
 
 #. [scenario]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:10
 #, fuzzy
 msgid "Ring of Swords"
-msgstr "Anneau d'épées"
+msgstr "Union d'épées"
 
 #. [side]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:46
@@ -3537,12 +3589,12 @@ msgstr "Muhku"
 msgid "Irbirch"
 msgstr "Irbirch"
 
-# Mais "Orcs Crocs-blancs"?
+# Car "Orcs Crocs-blancs". Majuscule ?
 #. [side]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:80
 #, fuzzy
 msgid "Blackcrest Orcs"
-msgstr "Orcs des Crêtes-Noires"
+msgstr "Orcs Crêtes-Noires"
 
 #. [side]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:88
@@ -3641,10 +3693,9 @@ msgid ""
 "What devilry is this? How did they sneak in behind us. I’m separated from my "
 "generals and most of my soldiers..."
 msgstr ""
-"Quelle infamie est-ce ? Comment ont-ils pu s'infiltrer derrière nos lignes ? "
-"Je suis coupé de mes généraux et de la plupart de mes soldats…"
+"Quelle diablerie ? Comment ont-ils pu s'infiltrer derrière nos lignes ? Je "
+"suis coupé de mes généraux et de la plupart de mes soldats…"
 
-# si vaillamment?
 #. [message]: speaker=Garard
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:441
 #, fuzzy
@@ -3652,9 +3703,9 @@ msgid ""
 "Foul orcs, come at me then! If this is where I am to fall, I shall make such "
 "a stand as to stir the gods themselves to tears!"
 msgstr ""
-"Infâmes ors, venez donc à moi ! Si c'est ici que je dois tomber, je me "
-"battrai avec une telle force que les dieux eux-mêmes en auront les larmes "
-"aux yeux !"
+"Infâmes orcs, venez donc à moi ! Si c'est ici que je dois mourir, je me "
+"battrai si vaillamment que les dieux eux-mêmes en auront les larmes aux "
+"yeux !"
 
 #. [message]: speaker=Irbirch
 #. Asheviere is next to Irbirch. The player is led to think she's been captured, but it's possible she actually went of her own free will to escape Garard
@@ -3665,8 +3716,7 @@ msgid ""
 "plenty of fun with her, <b><i>and</i></b> your unborn heir. Haw, haw, haw!"
 msgstr ""
 "Jolie tirade ! Je me demande ce que ta femme en pense ? Ne t'inquiète pas, "
-"on va bien s'amuser avec elle, <b><i>et</i></b> ton futur héritier. Ha ha "
-"ha !"
+"on va bien s'occuper d'elle, <b><i>et</i></b> ton futur héritier. Ha ha ha !"
 
 #. [message]: speaker=Methor
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:475
@@ -3686,8 +3736,8 @@ msgid ""
 "break through to us!"
 msgstr ""
 "Encerclés et sans la reine ; c'est un désastre ! Vite, il faut rassembler ce "
-"qu'il reste de l'infanterie du royale. Envoyez un détachement pour secourir "
-"la reine Asheviere, et le reste devra protéger le roi Garard jusqu'à ce que "
+"qu'il reste de l'infanterie royale. Envoyez un détachement pour secourir la "
+"reine Asheviere, et le reste devra protéger le roi Garard jusqu'à ce que "
 "Lionel et Arand réussissent une percée jusqu'à nous !"
 
 #. [message]: speaker=Delfador
@@ -3695,12 +3745,12 @@ msgstr ""
 msgid "I won’t let you down! For Wesnoth!"
 msgstr "Je ne vous laisserai pas tomber ! Pour Wesnoth !"
 
-# Sauvetage d'Asheviere non-réussi avant la fin des tours
+# Objectif -> infinitif
 #. [event]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:490
 #, fuzzy
 msgid "Fail to rescue Asheviere before turns run out"
-msgstr "Échec du sauvetage d'Asheviere avant la fin du tour."
+msgstr "Échouer à secourir Asheviere avant la fin des tours"
 
 #. [objective]: condition=win
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:493
@@ -3736,7 +3786,6 @@ msgstr ""
 "Crêtes-Noires ! C'est <b>notre</b> terre ; nos rangs grossissent d'heure en "
 "heure, tandis que les rangs des humains sont de plus en plus clairsemés."
 
-# "se font de plus en plus rares". Montrer qu'ils s'affaiblissent?
 #. [message]: speaker=Ushka'e
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:597
 #, fuzzy
@@ -3747,8 +3796,8 @@ msgid ""
 msgstr ""
 "Ces lézards sont bons à rien ! Ils ne savent même pas se défendre, encore "
 "moins gagner une guerre. Envoyez plus d’orcs ! C’est <b>notre</b> patrie ; "
-"nos rangs grossissent d'heure en heure, tandis que ces humains se font de "
-"plus en plus rares à chaque instant."
+"nos rangs grossissent d'heure en heure, tandis que ces humains sont plus "
+"faibles à chaque instant."
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:610
@@ -3765,7 +3814,7 @@ msgstr ""
 "Cette alliance entre races est une bien mauvaise nouvelle ! J'ai souvent vu "
 "des orcs recruter des trolls, mais rarement des sauriens. Et avec ces trois "
 "factions qui luttent ensemble, bientôt tous les seigneurs de guerre "
-"entendront parler de leur bravoure."
+"entendront parler de leur prouesse."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:653
@@ -3876,8 +3925,7 @@ msgstr "Pas maintenant, femme ! J'ai un combat à mener !"
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:772
 #, fuzzy
 msgid "I’m not dying! Just... need a moment..."
-msgstr ""
-"Je ne suis pas en train de mourir ! J'ai juste... besoin d'un instant..."
+msgstr "Je ne meurs pas ! J'ai juste... besoin d'un instant..."
 
 #. [message]: speaker=Mukhu
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:779
@@ -3888,7 +3936,7 @@ msgstr "Nooon ! Au secoooours !"
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:786
 #, fuzzy
 msgid "Ssssuch ssssskill!"
-msgstr "Quel talent !"
+msgstr "Quelsss talents !"
 
 #. [message]: speaker=Ssisaix
 #: data/campaigns/The_Deceivers_Gambit/scenarios/06_Ring_of_Swords.cfg:793
@@ -3903,8 +3951,8 @@ msgid ""
 "Rally behind me, men! We swore our oaths, now we do our duty. Fight, fight "
 "through to the king!"
 msgstr ""
-"Rassemblez-vous derrière moi, mes braves ! Nous avons prêté serment, "
-"maintenant accomplissons notre devoir. Combattez, combattez jusqu’au roi !"
+"Tous avec moi, mes braves ! Nous avons prêté serment, alors accomplissons "
+"notre devoir. Combattez, frayez un chemin jusqu’au roi !"
 
 #. [message]: speaker=Deoran
 #. the player has survived, but failed ot rescue the queen
@@ -3989,10 +4037,10 @@ msgid ""
 "heavily fortified, and river commerce grinds to a halt. Many years pass, "
 "with neither side able to gain an advantage."
 msgstr ""
-"L'entrée du nlan Crêtes-Noires dans la guerre ouvre un nouveau front plus à "
+"L'entrée du clan Crêtes-Noires dans la guerre ouvre un nouveau front plus à "
 "l'Ouest, nécessitant une réponse rapide. Wesnoth se mobilise entièrement, et "
 "une série de batailles sanglantes au Gué d'Abez se termine par une impasse "
-"pour les deux camps. Le gué est fortement fortifié, et le commerce fluvial "
+"pour les deux camps. Le gué est puissamment fortifié, et le commerce fluvial "
 "est complètement paralysé. Les années passent et aucune des deux factions "
 "n'arrive à prendre l'avantage."
 
@@ -4008,12 +4056,12 @@ msgid ""
 "orcs still firmly hold the hills, but limited settlement begins."
 msgstr ""
 "Pendant ce temps, Asheviere donne naissance à un garçon en bonne santé — le "
-"Prince Héritier Eldred. Sous une pression forte venant de ses parents et "
-"grâce à l'enseignement du Général Lionel, Eldred mûrit rapidement en un "
-"prince-soldat. Le Prince Arand prend Eldred sous son aile, et, travaillant "
-"ensemble, l'oncle et le neveu parviennent à stabiliser le front est autour "
-"du Fort Garard. Les orques Crocs-blans conservent toujours leur emprise sur "
-"les collines, mais les premiers établissements commencent à voir le jour."
+"prince héritier Eldred. Sous une pression forte venant de ses parents et "
+"grâce à l'enseignement du général Lionel, Eldred mûrit rapidement en un "
+"prince-soldat. Le prince Arand prend Eldred sous son aile, et, travaillant "
+"ensemble, l'oncle et le neveu parviennent à stabiliser le front Est autour "
+"du Fort Garard. Les orcs Crocs-blancs conservent toujours leur emprise sur "
+"les collines, mais les premiers colons s'installent."
 
 #. [part]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/07_The_Great_River.cfg:55
@@ -4148,8 +4196,8 @@ msgid ""
 "the orcish host at the Ford of Abez is alerted before we can get through to "
 "the swamp, we’ll be slaughtered!"
 msgstr ""
-"Même à travers le brouillard, un feu de signalisation aussi important sera "
-"visible à des kilomètres à la ronde. Si l'armée orque du Gué d'Abez est "
+"Même à travers le brouillard, un flambeau de signalisation aussi important "
+"sera visible à des kilomètres à la ronde. Si l'armée orque du gué d'Abez est "
 "alertée avant que nous ne parvenions à atteindre les marais, nous serons "
 "massacrés !"
 
@@ -4194,6 +4242,7 @@ msgstr ""
 "Déborder ou éliminer des ennemis pendant votre tour ne déclenchera pas "
 "l'alerte."
 
+# Dans #wesnoth-help, "backstab" -> "coup dans le dos"
 #. [object]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/07_The_Great_River.cfg:430
 #, fuzzy
@@ -4216,9 +4265,9 @@ msgstr ""
 "Les petites frappes sont des éclaireurs rapides mais fragiles, avec des "
 "attaques au corps-à-corps et à distance relativement faibles.\n"
 "\n"
-"Les Voleurs échangent l'attaque à distance des petites frappes contre des "
-"dégâts accrus au corps-à-corps, et sont particulièrement mortels lorsqu'ils "
-"attaquent un ennemi par derrière.\n"
+"Les voleurs n'ont pas d'attaque à distance mais font des dégâts accrus au "
+"corps-à-corps, et particulièrement lorsqu'ils portent le coup dans le "
+"dos\".\n"
 "\n"
 "Les mages renégats sont des combattants fragiles, maîtrisant aussi bien les "
 "attaques physiques que magiques."
@@ -4284,8 +4333,8 @@ msgstr ""
 "Aux niveaux de difficulté inférieurs, ce scénario indique clairement quelles "
 "cases\n"
 "sont dans le champ de vision ennemi. Comme vous jouez au niveau de "
-"difficulté le plus élevé,\n"
-"vous devrez vous en occuper vous-même."
+"difficulté\n"
+"le plus élevé, vous devrez faire ce suivi vous-même."
 
 #. [object]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/07_The_Great_River.cfg:674
@@ -4294,10 +4343,10 @@ msgid ""
 "With the right spells and strategy, this scenario (like all campaigns)\n"
 "can be completed <i><b>without relying on luck or risky attacks.</b></i>"
 msgstr ""
-"Avec les bons sorts et la bonne stratégie, ce scénario (comme toutes les "
+"Avec les sorts adéquats et la bonne stratégie, ce scénario (comme toutes les "
 "campagnes)\n"
-"peut être mené à bien <i><b>sans avoir recours à la chance ni à des attaques "
-"risquées.</b></i>"
+"peut être terminé <i><b>sans dépendre de la chance ni reposer sur des "
+"attaques risquées.</b></i>"
 
 #. [message]: speaker=Lynyan
 #. that one's patrolling back and forth! Those lizards are ugly
@@ -4317,7 +4366,7 @@ msgid ""
 "Excellent! That one perished swiftly, before it had a chance to raise the "
 "alarm."
 msgstr ""
-"Excellent ! Celui-ci a péri rapidement, avant même d'avoir eu un chance de "
+"Excellent ! Celui-ci a péri rapidement, avant même d'avoir eu une chance de "
 "donner l'alerte."
 
 #. [message]: speaker=Delfador
@@ -4363,8 +4412,8 @@ msgid ""
 "We’ve been spotted, and soon this outpost will be swarming with orcs! I hate "
 "running from a fight, but we have to retreat..."
 msgstr ""
-"On a été repérés, et bientôt cet avant-poste sera envahi par des orques ! "
-"J’ai horreur de fuir un combat, mais il faut qu’on se retire..."
+"On a été repérés, et bientôt cet avant-poste sera envahi par des orcs ! Je "
+"déteste fuir devant un combat, mais il faut qu’on batte en retraite..."
 
 #. [message]: speaker=Ysaxis
 #. Ysaxis is ordering his minions to light the beacon fire, but there's nobody left to light the beacon
@@ -4402,7 +4451,7 @@ msgid ""
 " No matter, my sssaurians will ssslip past and warn the army! Everyone, "
 "essscape to the west!"
 msgstr ""
-"Peu importe, mes sssauriens se faufileront et avertiront l'armée ! Fuyez "
+" Peu importe, mes sssauriens se faufileront et avertiront l'armée ! Fuyez "
 "tous vers l'ouest !"
 
 #. [message]: speaker=Delfador
@@ -4469,7 +4518,7 @@ msgid ""
 "fight, but we have to retreat..."
 msgstr ""
 "L'un d'eux a réussi à s'échapper pour prévenir l'armée orque ! Je déteste "
-"fuir le combat, mais nous devons battre en retraite..."
+"fuir devant un combat, mais il faut qu’on batte en retraite..."
 
 #. [message]: type=Orcish Warlord
 #. an orc has just woken up and found Delfador fighting saurians
@@ -4547,8 +4596,8 @@ msgid ""
 "brother?"
 msgstr ""
 "Même ma femme ! Depuis que Delfador nous a parlé de cette prophétie, tout ce "
-"que j'entends à propos d'Asheviere ne sont que des commérages ; des rumeurs "
-"sur les nobles, sur les expéditions et les chercheurs de trésors et autres "
+"que j'entends d'Asheviere ne sont que des commérages ; des rumeurs sur les "
+"nobles, sur les expéditions et les chercheurs de trésors et autres "
 "balivernes. Qu'en penses-tu, frère ?"
 
 #. [message]: speaker=Arand
@@ -4687,7 +4736,7 @@ msgid ""
 "warriors away at war, they will be vulnerable."
 msgstr ""
 "Les sept matriarches sauriennes se trouvent quelque part dans ce marais. "
-"Puisque la plupart de leurs guerrierès sont parties au combat, elles sont "
+"Puisque la plupart de leurs guerriers sont partis au combat, elles sont "
 "vulnérables."
 
 #. [message]: speaker=Delfador
@@ -4714,7 +4763,7 @@ msgstr ""
 "Enfin, si nous réussissons à trouver leurs camps. Ce lieu en ruines était "
 "autrefois une grande ville de leur espèce — même ce qui en reste est bien "
 "trop étendu pour que nous puissions tout fouiller. C’est bien ici que vos "
-"guides devraient nous retrouver, $companion_name ?"
+"guides devaient nous retrouver, $companion_name ?"
 
 #. [message]: speaker=Delfador
 #. in this string, $companion_name is male
@@ -4733,7 +4782,7 @@ msgstr ""
 #: data/campaigns/The_Deceivers_Gambit/scenarios/08_Ruins_of_Saurgrath.cfg:346
 #, fuzzy
 msgid "You’re almost there! Jus’ a lil bit further... almost..."
-msgstr "On y est presque ! Encore un tout petit effort…"
+msgstr "Vous y êtes presque ! Encore un tout petit effort… presque..."
 
 #. [objective]: condition=win
 #: data/campaigns/The_Deceivers_Gambit/scenarios/08_Ruins_of_Saurgrath.cfg:360
@@ -4878,8 +4927,8 @@ msgid ""
 "Serves them right, preying on innocent travelers... Now, where’s these "
 "guides of yours we’re going to meet?"
 msgstr ""
-"Bien fait pour eux, à s'en prendre à des voyageurs innocents... Au fait, où "
-"sont ces guides que nous sommes censés rencontrer ?"
+"Bien fait pour eux, s'en prendre à des voyageurs innocents... Au fait, où "
+"sont vos guides que nous sommes censés rencontrer ?"
 
 #. [message]: speaker=$companion_id
 #: data/campaigns/The_Deceivers_Gambit/scenarios/08_Ruins_of_Saurgrath.cfg:606
@@ -4895,12 +4944,13 @@ msgstr ""
 #: data/campaigns/The_Deceivers_Gambit/scenarios/08_Ruins_of_Saurgrath.cfg:620
 #, fuzzy
 msgid "Defeat three of the seven saurian leaders"
-msgstr "Vaincre trois des sept chefs sauriens {PROGRESS_STRING}"
+msgstr "Vaincre trois des sept chefs sauriens"
 
 #. [event]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/08_Ruins_of_Saurgrath.cfg:637
+#, fuzzy
 msgid "(3 remaining)"
-msgstr ""
+msgstr "(3 restants)"
 
 #. [note]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/08_Ruins_of_Saurgrath.cfg:639
@@ -4917,9 +4967,9 @@ msgid ""
 "That saurian has different markings than the others I’ve seen, and is "
 "somewhat smaller. A juvenile or invalid, perhaps?"
 msgstr ""
-"Cette saurienne présente des taches différentes de celles des autres que "
-"j’ai observées, et elle semble un peu plus petite. Un juvénile ou un "
-"invalide, peut-être ?"
+"Ce saurien présente des taches différentes de celles des autres que j’ai "
+"observées, et il semble un peu plus petit. Un juvénile ou un invalide, peut-"
+"être ?"
 
 #. [message]: speaker=second_unit
 #. delfador has just attacked an unarmed saurian
@@ -4927,6 +4977,7 @@ msgstr ""
 msgid "The monssstersss hunt usss for sssport! Flee, flee!"
 msgstr "Les monssstres nous pourchasssent pour le plaisir ! Fuyez, fuyez !"
 
+# L'attaque est annulée
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/08_Ruins_of_Saurgrath.cfg:672
 #, fuzzy
@@ -4934,14 +4985,14 @@ msgid ""
 "They really are unarmed juveniles! Hang on a minute, they’re not dangerous, "
 "maybe we should just let them be."
 msgstr ""
-"Ce sont vraiment des juvéniles inoffensifs! Attendez une minute, ils ne sont "
-"pas dangereux, peut-être devrions-nous les laisser tranquilles."
+"Ce ne sont vraiment que des juvéniles désarmés ! Attendez une minute, ils ne "
+"sont pas dangereux, nous devrions les laisser tranquilles."
 
 #. [message]: speaker=$found_unit.id
 #: data/campaigns/The_Deceivers_Gambit/scenarios/08_Ruins_of_Saurgrath.cfg:695
 msgid "We’re under assssault! Sssound the alarm and rally our warriorsss!"
 msgstr ""
-"Nous sssommes attaqués ! Sssonnez l’alarme et rassemblez nosss guerrières !"
+"Nous sssommes attaqués ! Sssonnez l’alarme et rassemblez nosss guerriers !"
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/08_Ruins_of_Saurgrath.cfg:699
@@ -5022,8 +5073,9 @@ msgstr ""
 
 #. [event]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/08_Ruins_of_Saurgrath.cfg:776
+#, fuzzy
 msgid "(2 remaining)"
-msgstr ""
+msgstr "(2 restants)"
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/08_Ruins_of_Saurgrath.cfg:793
@@ -5109,8 +5161,9 @@ msgstr ""
 
 #. [event]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/08_Ruins_of_Saurgrath.cfg:875
+#, fuzzy
 msgid "(1 remaining)"
-msgstr ""
+msgstr "(1 restant)"
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/08_Ruins_of_Saurgrath.cfg:898
@@ -5425,9 +5478,9 @@ msgid ""
 "Only you and I; usss femalesss may look upon the other Great One; your "
 "sssister, our massster, our god!"
 msgstr ""
-"Ô grande élue, tu sssais que ccc’est interdit ! Les mâlesss ne sssont pas "
+"Ô grande être, tu sssais que ccc’est interdit ! Les mâlesss ne sssont pas "
 "autorisés ! Toi et moi sssseulement ; nous, les femellesss, pouvons "
-"contempler l’autre grande élue ; ta sssœur, notre maîtresssse, notre "
+"contempler l’autre grande être ; ta sssœur, notre maîtresssse, notre "
 "déesssse !"
 
 #. [message]: speaker=Delfador
@@ -5454,7 +5507,7 @@ msgid ""
 msgstr ""
 "Non, cette vallée est maudite… Ma grand-mère disssait qu’autrefois, il y "
 "avait de nombreuses créaturesss puissssantes en ce lieu, mais elles furent "
-"tuéesss bien avant que je n'éclossse. Maintenant, seule notre grande élue "
+"tuéesss bien avant que je n'éclossse. Maintenant, seule notre grande être "
 "subsissste."
 
 #. [message]: speaker=$saurian_guide_id
@@ -5464,7 +5517,7 @@ msgid ""
 "will be unssstoppable!"
 msgstr ""
 "Mais une fois que tu la trouveras, alors il y en aura deux ! Ensssemble, les "
-"grandes élues seront invinciblesss !"
+"grandes êtres seront invinciblesss !"
 
 #. [message]: speaker=$saurian_guide_id
 #: data/campaigns/The_Deceivers_Gambit/scenarios/09_Omaranth.cfg:260
@@ -5634,7 +5687,7 @@ msgid ""
 "Sounds like a pretty easy job. All we gots to do is wait ’round here for the "
 "boss to come back out."
 msgstr ""
-"Ça n’a air d'être un boulot plutôt facile. Tout ce qu’on a à faire, c’est "
+"Ça m’a l'air d'être un boulot plutôt facile. Tout ce qu’on a à faire, c’est "
 "attendre ici que le patron revienne."
 
 #. [objective]: condition=win
@@ -5688,8 +5741,7 @@ msgstr "Aaaah!"
 #, fuzzy
 msgid "Hell no! Curse it all, I didn’t sign up for fighting zombies!"
 msgstr ""
-"Mais pas question ! Bon sang, je ne me suis pas engagé pour combattre des "
-"zombies !"
+"Abomination ! Bon sang, je ne me suis pas engagé pour combattre des zombis !"
 
 #. [message]: speaker=$companion_id
 #: data/campaigns/The_Deceivers_Gambit/scenarios/09_Omaranth.cfg:1032
@@ -5951,7 +6003,7 @@ msgstr "Les fantômes alliés ne vous suivront pas dans le scénario suivant."
 #: data/campaigns/The_Deceivers_Gambit/scenarios/10_Houses_of_the_Dead.cfg:378
 #, fuzzy
 msgid "Ghost Captured"
-msgstr "Fantôme capturé"
+msgstr "Fantôme captif"
 
 #. [event]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/10_Houses_of_the_Dead.cfg:398
@@ -5999,7 +6051,6 @@ msgstr ""
 "Iliah-Malal a brûlé notre aire.\n"
 "Iliah-Malal mourra."
 
-# "comment a-t-il survécu si ce n’est pas le cas des autres"
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/10_Houses_of_the_Dead.cfg:456
 #, fuzzy
@@ -6010,7 +6061,7 @@ msgid ""
 msgstr ""
 "Tu es un dracan, et Iliah-Malal a rasé ton foyer avec… une armée d’hommes "
 "vivants ? Et qu’en est-il du dracan appelé Omaranth ; comment a-t-il survécu "
-"si ce n’est pas le cas des autres ?"
+"alors que les autres pas ?"
 
 #. [message]: speaker=VellinKa
 #: data/campaigns/The_Deceivers_Gambit/scenarios/10_Houses_of_the_Dead.cfg:460
@@ -6288,11 +6339,12 @@ msgstr ""
 "Donc tu as découvert où je suis réellement. Peu importe. Je te vaincrai, "
 "Delfador !"
 
+# Tutoiement (comme plus haut)
 #. [message]: speaker=Iliah-Malal
 #: data/campaigns/The_Deceivers_Gambit/scenarios/10_Houses_of_the_Dead.cfg:1157
 #, fuzzy
 msgid "Shadows consume you!"
-msgstr "Les ombres vous consument !"
+msgstr "Les ombres te consument !"
 
 #. [message]: speaker=Iliah-Malal
 #: data/campaigns/The_Deceivers_Gambit/scenarios/10_Houses_of_the_Dead.cfg:1170
@@ -6310,7 +6362,6 @@ msgstr ""
 "d’ombre, enveloppée des esprits des morts”</i>... Bon débarras. Ses "
 "manipulations de la vie et de la mort ont été la source de grands maux."
 
-# "une vie à drainer de ceux" ->  à drainer la vie de ceux?
 #. [message]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/10_Houses_of_the_Dead.cfg:1210
 #, fuzzy
@@ -6320,10 +6371,10 @@ msgid ""
 "into your service, Delfador; lead us to your foes! Lead us against the "
 "living!"
 msgstr ""
-"Je suis libre… libre ! Tu m’as insufflé une soif de vie nouvelle, une vie à "
-"drainer de ceux qui errent sans entraves sous le pâle soleil. Prends-nous à "
-"ton service, Delfador ; mène-nous vers tes ennemis ! Mène-nous contre les "
-"vivants !"
+"Je suis libre… libre ! Tu m’as insufflé une soif de vie nouvelle, une soif "
+"de drainer la vie de ceux qui errent sans entraves sous le pâle soleil. "
+"Prends-nous à ton service, Delfador ; mène-nous vers tes ennemis ! Mène-nous "
+"contre les vivants !"
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/10_Houses_of_the_Dead.cfg:1214
@@ -6548,7 +6599,7 @@ msgid ""
 "Saurians of Saurgrath! It is I, your Great One, bringing an even greater "
 "warning!"
 msgstr ""
-"Sauriens de Saurgrath ! C'est moi, votre grand être et je viens vous "
+"Sauriens de Saurgrath ! C'est moi, votre grand Être et je viens vous "
 "délivrer un avertissement d'une importance encore plus grande !"
 
 #. [message]: speaker=Drakefador
@@ -6566,7 +6617,7 @@ msgid ""
 "Can it be? The Great One ssspeaksss to usss! I am not worthy! I am blessed "
 "to hear your great voice, unusssual though it may be!"
 msgstr ""
-"Essst-ce possible ? Le grand être nous parle ! Je n’en suis pas digne ! Je "
+"Essst-ce possible ? Le grand Être nous parle ! Je n’en suis pas digne ! Je "
 "sssuis béni d'entendre votre grande voix, bien que sssi… particulière !"
 
 #. [message]: speaker=defector3
@@ -6585,7 +6636,7 @@ msgid ""
 "matriarchsss? Why does the Great One ssspeak ssso nasssally?"
 msgstr ""
 "...Attention, attention, quelque chose cloche ! Où sont les sssept "
-"matriarches ? Pourquoi le grand être parle-t-il d'une voix si nasillarde ?"
+"matriarches ? Pourquoi le grand Être parle-t-il d'une voix si nasillarde ?"
 
 #. [message]: speaker=defector3
 #: data/campaigns/The_Deceivers_Gambit/scenarios/11_Clan_Blackcrest.cfg:343
@@ -6621,7 +6672,7 @@ msgid ""
 "You insssult usss! Worssse, you dare insssult the Great One! Curssses upon "
 "you, cursses upon you! We ssshall fight you, we mussst fight you!"
 msgstr ""
-"Tu nous insssultes ! Pire encore, tu oses insssulter le grand être ! "
+"Tu nous insssultes ! Pire encore, tu oses insssulter le grand Être ! "
 "Malédictions sssur toi, malédictions sssur toi ! Nous allons te combattre, "
 "nous devons te combattre !"
 
@@ -6711,7 +6762,6 @@ msgstr "Vaincre Ghuvog, le chef de guerre des Crêtes-Noires"
 msgid "Death of Garard"
 msgstr "Mort de Garard"
 
-# "neither should I take it for granted" -> sans te demander ton avis?
 #. [message]: speaker=Delfador
 #. in this string, $companion_name is female (probably "Lynyan")
 #: data/campaigns/The_Deceivers_Gambit/scenarios/11_Clan_Blackcrest.cfg:517
@@ -6723,9 +6773,9 @@ msgid ""
 "I take it for granted."
 msgstr ""
 "Es-tu bien sûr d'être prête pour ce combat, $companion_name ? Tu es une hors-"
-"la-loi, pas un soldat, et ta bande a déjà versé bien plus de son sang que ce "
-"que je ne t'ai payé. Je ne vais pas te mentir en disant que ton aide n'est "
-"pas nécessaire, mais je ne devrais pas non plus la considérer comme acquise."
+"la-loi, pas une soldat, et ta bande a déjà versé plus de sang que ne "
+"justifie l'or je t'ai donné. Je ne vais pas te mentir en disant que ton aide "
+"est superflue, mais je ne veux pas non plus considérer qu'elle m'est acquise."
 
 # "neither should I take it for granted" -> sans te demander ton avis?
 #. [message]: speaker=Delfador
@@ -6739,9 +6789,9 @@ msgid ""
 "it for granted."
 msgstr ""
 "Es-tu bien sûr d'être prêt pour ce combat, $companion_name ? Tu es un hors-"
-"la-loi, pas un soldat, et ta bande a déjà versé bien plus de son sang que ce "
-"que je ne t'ai payé. Je ne vais pas mentir en disant que ton aide n'est pas "
-"nécessaire, mais je ne devrais pas non plus la considérer comme acquise."
+"la-loi, pas un soldat, et ta bande a déjà versé plus de sang que ne justifie "
+"l'or je t'ai donné. Je ne vais pas te mentir en disant que ton aide est "
+"superflue, mais je ne veux pas non plus considérer qu'elle m'est acquise."
 
 #. [message]: speaker=$companion_id
 #: data/campaigns/The_Deceivers_Gambit/scenarios/11_Clan_Blackcrest.cfg:528
@@ -6852,7 +6902,7 @@ msgid ""
 "I sssurrender, I sssurrender! Chief Ghuvog is the true Great One; my "
 "allegiance isss only to you, great chief! Pleassse, ssspare me and my kin!"
 msgstr ""
-"Je me rends, je me rends ! Le chef Ghuvog est le véritable grand être ; ma "
+"Je me rends, je me rends ! Le chef Ghuvog est le véritable grand Être ; ma "
 "loyauté est toute pour toi, grand chef ! Sss'il te plaît, épargne-moi, "
 "ainsssi que ma tribu !"
 
@@ -6865,7 +6915,7 @@ msgstr ""
 #. [message]: speaker=$unit.id
 #: data/campaigns/The_Deceivers_Gambit/scenarios/11_Clan_Blackcrest.cfg:611
 msgid "You betray the Great One... the stars shall bring your doom..."
-msgstr "Tu trahis le grand être... les étoiles vont t'amener à ta perte..."
+msgstr "Tu trahis le grand Être... les étoiles vont t'amener à ta perte..."
 
 #. [message]: speaker=Ghuvog
 #: data/campaigns/The_Deceivers_Gambit/scenarios/11_Clan_Blackcrest.cfg:624
@@ -6973,7 +7023,6 @@ msgstr ""
 "Centrales au Nord ! Vous, orcs, tomberez sous nos épées comme le blé sous la "
 "faux !"
 
-# "from the hills around Fort Garard" manque
 #. [message]: speaker=Garard
 #: data/campaigns/The_Deceivers_Gambit/scenarios/11_Clan_Blackcrest.cfg:964
 #, fuzzy
@@ -6991,8 +7040,8 @@ msgstr ""
 "que vos guerriers, à une condition.\n"
 "\n"
 "Vous devrez prêter serment de regrouper votre clan ainsi que le clan Crocs-"
-"blancs. Vous quitterez ces terres et ne reviendrez jamais tant que je serai "
-"en vie, sous peine de mort !"
+"blancs des collines aux environs de Ford Garard. Vous quitterez ces terres "
+"et ne reviendrez jamais tant que je serai en vie, sous peine de mort !"
 
 #. [message]: speaker=Ghuvog
 #: data/campaigns/The_Deceivers_Gambit/scenarios/11_Clan_Blackcrest.cfg:970
@@ -7051,7 +7100,7 @@ msgid ""
 "Now come, let us celebrate my— our— ...all right, <i><b>your</b></i> "
 "success! Victory! Victory! Victory by the name of Delfador!!"
 msgstr ""
-"Allez, célébrons mon… notre… … d’accord, <i><b>votre</b></i> succès ! "
+"Allez, célébrons mon— notre— … d’accord, <i><b>votre</b></i> succès ! "
 "Victoire ! Victoire ! Victoire portant le nom de Delfador !"
 
 #. [message]: speaker=Delfador
@@ -7085,9 +7134,8 @@ msgstr ""
 
 #. [scenario]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/11x_Revelry.cfg:4
-#, fuzzy
 msgid "Revelry"
-msgstr "Festivités"
+msgstr "Le banquet"
 
 #. [side]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/11x_Revelry.cfg:22
@@ -7098,20 +7146,19 @@ msgstr "Moreth"
 #: data/campaigns/The_Deceivers_Gambit/scenarios/11x_Revelry.cfg:119
 #, fuzzy
 msgid "Three cheers for Delfador, hero of the Abez!"
-msgstr "Trois ovations pour Delfador, le héros d'Abez !"
+msgstr "Hip hip hip pour Delfador, le héros d'Abez !"
 
 #. [message]: speaker=Garard
 #: data/campaigns/The_Deceivers_Gambit/scenarios/11x_Revelry.cfg:123
 #, fuzzy
 msgid "Three cheers— three cheers for Delfador the Great! Hurrah!"
-msgstr ""
-"Trois acclamations— trois acclamations pour Delfador le Grand ! Hourra !"
+msgstr "Hip hip hip— Hip hip hip pour Delfador le Grand ! Hourra !"
 
 #. [message]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/11x_Revelry.cfg:129
 #, fuzzy
 msgid "Hurrah for Delfador!"
-msgstr "Hourra pour Delfador!"
+msgstr "Hourra pour Delfador !"
 
 #. [message]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/11x_Revelry.cfg:136
@@ -7122,7 +7169,7 @@ msgstr "Vive Delfador !"
 #: data/campaigns/The_Deceivers_Gambit/scenarios/11x_Revelry.cfg:143
 #, fuzzy
 msgid "Hurrah for Del— *hic* Delfador!"
-msgstr "Hourra pour Del— *hic* Delfador!"
+msgstr "Hip hip hip— *hips* pour Delfador !"
 
 #. [message]: speaker=Garard
 #: data/campaigns/The_Deceivers_Gambit/scenarios/11x_Revelry.cfg:152
@@ -7131,7 +7178,7 @@ msgid ""
 "proper CELEBRATION!!"
 msgstr ""
 "Oh ho, que l’on aille me chercher du vin ! La nuit n’est pas encore finie ; "
-"je suis prêt à fêter comme il se doit !!"
+"je suis prêt à fêter ça comme il se doit !!"
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/11x_Revelry.cfg:156
@@ -7507,6 +7554,7 @@ msgstr ""
 "l'exécuter. Vous n'êtes pas obligé de partir sur-le-champ, vous savez. Du "
 "moins, pas aussi précipitamment."
 
+# À Delfador
 #. [message]: speaker=Deoran
 #: data/campaigns/The_Deceivers_Gambit/scenarios/11x_Revelry.cfg:489
 #, fuzzy
@@ -7515,10 +7563,10 @@ msgid ""
 "information before committing so much of the army to this attack. Wesnoth "
 "can scant afford a civil war, and certainly not so soon after the orcs!"
 msgstr ""
-"Refuse l’ordre de Garard. Prends du recul, envoie des éclaireurs, et récolte "
-"plus d’informations avant d’engager autant de troupes dans cette attaque. "
-"Wesnoth ne peut pas se permettre une guerre civile, surtout pas juste après "
-"celle des orcs !"
+"Refusez l’ordre de Garard. Prenez du recul, envoyez des éclaireurs, et "
+"récoltez plus d’informations avant d’engager autant de troupes dans cette "
+"attaque. Wesnoth ne peut pas se permettre une guerre civile, surtout pas "
+"juste après celle des orcs !"
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/11x_Revelry.cfg:493
@@ -7685,9 +7733,10 @@ msgstr ""
 
 #. [message]: speaker=narrator
 #: data/campaigns/The_Deceivers_Gambit/scenarios/12_The_Traitor.cfg:491
+#, fuzzy
 msgid "Welcome to Garard’s Wold, last civilized town north of the Great River."
 msgstr ""
-"Bienvenue aux collines de Garard, dernière ville civilisée au Nord du Grand "
+"Bienvenue au plateau de Garard, dernière ville civilisée au Nord du Grand "
 "Fleuve"
 
 #. [message]: speaker=Delfador
@@ -7705,8 +7754,8 @@ msgid ""
 "The rebellion is broken! In the name of King Garard and the royal scepter, I "
 "strike you down!"
 msgstr ""
-"La rébellion est anéantie ! Je te frappe au nom du roi Garard et du sceptre "
-"royal!"
+"La rébellion est anéantie ! Je signe ton arrêt de mort au nom du roi Garard "
+"et du sceptre royal !"
 
 #. [message]: speaker=Arand
 #: data/campaigns/The_Deceivers_Gambit/scenarios/12_The_Traitor.cfg:552
@@ -7846,7 +7895,9 @@ msgstr "Mais si vous êtes ici avec moi, alors Eldred est seul avec le roi ?"
 msgid ""
 "So much blood... please, you must believe me! Save my brother... save "
 "Wesnoth..."
-msgstr "Que de sang… croyez-moi ! Sauvez mon frère… sauvez Wesnoth…"
+msgstr ""
+"Tant de sang… Vous devez me croire, prière ! Sauvez mon frère… sauvez "
+"Wesnoth…"
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/12_The_Traitor.cfg:682
@@ -7867,12 +7918,12 @@ msgstr "Hein ? Quoi ?"
 #: data/campaigns/The_Deceivers_Gambit/scenarios/13_Revelry_Revisited.cfg:23
 #, fuzzy
 msgid "Revelry, Revisited"
-msgstr "Les festivités, revisitées"
+msgstr "Le banquet, revisité"
 
 #. [side]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/13_Revelry_Revisited.cfg:41
 msgid "Deoran’s Company"
-msgstr "La compagnie de Deoran"
+msgstr "Compagnie de Deoran"
 
 #. [event]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/13_Revelry_Revisited.cfg:73
@@ -8092,8 +8143,8 @@ msgid ""
 "Ignore the killer’s murderous ramblings. Rally, soldiers of Wesnoth! Slay "
 "Deoran and avenge the king!"
 msgstr ""
-"Ignorez les propos haineux de ce tueur. Soldats de Wesnoth, unissez-vous ! "
-"Tuez Deoran et vengez notre roi !"
+"Ignorez les divagations régicides du meurtrier. Soldats de Wesnoth, unissez-"
+"vous ! Tuez Deoran et vengez le roi !"
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_Deceivers_Gambit/scenarios/13_Revelry_Revisited.cfg:512
@@ -8111,7 +8162,7 @@ msgid ""
 "I don’t— what do I do? They all believe Eldred!? I’m not ready for a fight!"
 msgstr ""
 "Je ne… que dois-je faire ? Ils croient tous Eldred ?! Je ne suis pas préparé "
-"pour à combattre !"
+"à combattre !"
 
 #. [message]: speaker=$companion_id
 #: data/campaigns/The_Deceivers_Gambit/scenarios/13_Revelry_Revisited.cfg:521
@@ -8166,9 +8217,8 @@ msgid ""
 "...hey, how come you’re not following? Don’t even think about sacrificing "
 "yourself because of “chivalry” or some other bunk."
 msgstr ""
-"Hé, pourquoi tu ne me suis pas ? Tu ne songes tout de même pas à te "
-"sacrifier à cause de la « chevalerie » ou de n’importe quelle autre autre "
-"connerie de ce genre."
+"Hé, pourquoi tu ne me suis pas ? Tu ne songes tout de même pas à sacrifier "
+"ta vie pour la « chevalerie » ou d'autres bobards de ce genre."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_Deceivers_Gambit/scenarios/13_Revelry_Revisited.cfg:545
@@ -8183,15 +8233,15 @@ msgid ""
 "prince, that will give Delfador and me much-needed time to gather gold "
 "before our next battle!"
 msgstr ""
-"Rien d'aussi héroïque. Les forces de Wesnoth me prennent peut-être pour un "
-"conspirateur à présent, mais je ne les laisserai pas tomber aussi "
-"facilement. Si je réussis à me frayer un chemin jusqu'à chaque commandant en "
-"privé, je suis sûr de pouvoir leur faire comprendre la vérité sur Eldred — "
-"les relations familiales de Garard étaient loin d’être secrètes.\n"
+"Rien d'héroïque. Les forces de Wesnoth me prennent pour un conspirateur, "
+"mais je ne les laisserai pas tomber aussi facilement. Si je réussis à me "
+"frayer un chemin jusqu'à chaque commandant pour une audience privée, je suis "
+"sûr de leur faire comprendre la vérité sur Eldred — les relations familiales "
+"de Garard étaient loin d’être secrètes.\n"
 "\n"
 "Même si je ne parviens qu'à convaincre quelques commandants de reporter leur "
-"soutien au prince félon, cela nous donnera, à Delfador et à moi, tout le "
-"temps nécessaire pour rassembler de l’or avant notre prochaine bataille !"
+"allégeance au prince félon, cela nous donnera, à Delfador et à moi, le temps "
+"nécessaire pour rassembler de l’or avant notre prochaine bataille !"
 
 #. [message]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/13_Revelry_Revisited.cfg:551
@@ -8213,8 +8263,8 @@ msgid ""
 msgstr ""
 "Quand la force me fera défaut, je fuirai à travers la forêt — mon destrier "
 "est d'origine elfique, aucun cheval de Wesnoth ne pourra rivaliser avec sa "
-"vitesse dans les bois. Mais plus je parviendrai à obtenir de soutien "
-"maintenant, meilleure sera notre position à l'avenir !"
+"vitesse dans les bois. Mais plus je parviendrai à rallier de soutien ici, "
+"meilleure sera notre position à l'avenir !"
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_Deceivers_Gambit/scenarios/13_Revelry_Revisited.cfg:559
@@ -8224,7 +8274,7 @@ msgid ""
 "what soldiers I can spare after you!"
 msgstr ""
 "Maintenant dépêche-toi, et que Dieu te garde ! Tu dois rejoindre Delfador ; "
-"je t’enverrai les soldats que je peux te prêter !"
+"je t’enverrai les soldats dont je peux me passer !"
 
 #. [message]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/13_Revelry_Revisited.cfg:567
@@ -8261,7 +8311,7 @@ msgstr ""
 #, fuzzy
 msgid "When an enemy leader is defeated, their remaining soldiers will flee."
 msgstr ""
-"Lorsqu'un chef ennemi est vaincu, les soldats restants prennent la fuite."
+"Lorsqu'un chef ennemi est vaincu, ses soldats restants prennent la fuite."
 
 #. [note]: description=<b>
 #: data/campaigns/The_Deceivers_Gambit/scenarios/13_Revelry_Revisited.cfg:647
@@ -8397,7 +8447,7 @@ msgid ""
 "against the orcs."
 msgstr ""
 "Peut-être n'est-ce pas une coïncidence si tant de vétérans de la vieille "
-"garde soient tombés au combat contre les orcs."
+"garde sont tombés au combat contre les orcs."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_Deceivers_Gambit/scenarios/13_Revelry_Revisited.cfg:823
@@ -8555,7 +8605,7 @@ msgid ""
 "to slay a righteous man. Begone."
 msgstr ""
 "Je devrais t'achever, mais tes intentions sont bonnes. Je ne peux me "
-"résoudre à tuer un homme juste. Vas-t'en."
+"résoudre à tuer un homme juste. Va-t'en."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_Deceivers_Gambit/scenarios/13_Revelry_Revisited.cfg:936
@@ -8671,7 +8721,7 @@ msgid ""
 "company and I are getting back to Tath while we still have the chance!"
 msgstr ""
 "Se battre à tes côtés n'a pas vraiment été bénéfique pour le roi, n'est-ce "
-"pas ? Non, moi et mes compagnons, on rentre à Tath tant que on le peut "
+"pas ? Non, moi et mes compagnons, on rentre à Tath tant qu'on le peut "
 "encore !"
 
 #. [message]: speaker=Deoran
@@ -8730,16 +8780,15 @@ msgid ""
 "nuisance to Eldred’s orcish allies! The longer we survive, the longer "
 "Delfador will have to prepare!"
 msgstr ""
-"Il ne nous reste plus qu'à tenir le plus longtemps possible et à importuner "
-"les alliés orcs d'Eldred ! Plus longtemps nous survivrons, plus Delfador "
-"aura de temps pour se préparer !"
+"Il ne nous reste plus qu'à tenir le plus longtemps possible et à occuper les "
+"alliés orcs d'Eldred ! Plus longtemps nous survivrons, plus Delfador aura de "
+"temps pour se préparer !"
 
 #. [objective]: condition=win
 #: data/campaigns/The_Deceivers_Gambit/scenarios/13_Revelry_Revisited.cfg:1081
 msgid "Survive as long as possible (bonus gold next scenario)."
 msgstr "Survivre le plus longtemps possible (bonus d'or au prochain scénario)."
 
-# "to the ground" -> "Brûlé jusqu'aux fondations"?
 #. [message]: speaker=Ghuvog
 #: data/campaigns/The_Deceivers_Gambit/scenarios/13_Revelry_Revisited.cfg:1148
 #, fuzzy
@@ -8749,8 +8798,8 @@ msgid ""
 "ground!"
 msgstr ""
 "Vous feriez bien de tenir la promesse de votre reine humaine concernant le "
-"tribut, vermissaux ! Le chef Ghuvog n’est pas facile à acheter ; vous m’avez "
-"juré que le Fort Garard brûlerait jusqu’au sol !"
+"tribut, vermissaux ! Le chef Ghuvog n’est pas facile à acheter ; vous "
+"m’aviez juré que le Fort Garard serait rasé par les flammes !"
 
 #. [message]: role=ghuvog_friend
 #: data/campaigns/The_Deceivers_Gambit/scenarios/13_Revelry_Revisited.cfg:1152
@@ -8788,7 +8837,7 @@ msgstr ""
 #: data/campaigns/The_Deceivers_Gambit/scenarios/13_Revelry_Revisited.cfg:1209
 #, fuzzy
 msgid "The orcs are back! There’s hordes of them!"
-msgstr "Les orcs sont de retour ! Il y a toute une horde !"
+msgstr "Les orcs sont de retour ! Il y en a des hordes entières !"
 
 #. [message]: speaker=Eldred
 #: data/campaigns/The_Deceivers_Gambit/scenarios/13_Revelry_Revisited.cfg:1213
@@ -8972,13 +9021,13 @@ msgid ""
 "Not a deceitful bone in his body. I didn’t even have to drink the potion. "
 "That’s... a relief."
 msgstr ""
-"Aucune malhonnêteté en lui. Je n'ai même pas eu besoin de boire la potion. "
-"C’est... un soulagement."
+"Pas une once de duplicité chez cet homme. Je n'ai même pas eu besoin de "
+"boire la potion. C’est... un soulagement."
 
 #. [message]: speaker=Kestrel
 #: data/campaigns/The_Deceivers_Gambit/scenarios/13_Revelry_Revisited.cfg:1468
 msgid "The traitor is vanquished! Now hail, hail to your new king!"
-msgstr "Le traître est vaincu ! Maintenant, vive, vive votre nouveau roi !"
+msgstr "Le traître est vaincu ! Maintenant, vive, vive notre nouveau roi !"
 
 #. [message]: id=$speaker1_id
 #: data/campaigns/The_Deceivers_Gambit/scenarios/13_Revelry_Revisited.cfg:1482
@@ -9058,8 +9107,8 @@ msgid ""
 "I’m not “The Great” anymore, $horselord_name. Was I ever? Everything I ever "
 "achieved was either a lie or has already been undone."
 msgstr ""
-"Je ne suis plus 'Le Grand Delfador' maintenant, $horselord_name. L'ai-je "
-"jamais été ? Tout ce que j'ai réalisé n'était qu'un tissu de mensonges, ou a "
+"Je ne suis plus 'le Grand' maintenant, $horselord_name. L'ai-je jamais été ? "
+"Tout ce que j'ai construit n'était soit qu'un tissu de mensonges, soit a "
 "déjà été détruit."
 
 #. [message]: speaker=Delfador
@@ -9166,7 +9215,7 @@ msgstr ""
 #: data/campaigns/The_Deceivers_Gambit/scenarios/13x_The_King_is_Dead.cfg:210
 #, fuzzy
 msgid "Well? Shall we fight?"
-msgstr "Alors ? On se bat ?"
+msgstr "Alors ? On engage le combat ?"
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/13x_The_King_is_Dead.cfg:220
@@ -9311,7 +9360,7 @@ msgstr "Soyez vigilants, je crois qu'ils nous ont repérés !"
 #. [message]: speaker=$companion_id
 #: data/campaigns/The_Deceivers_Gambit/scenarios/14_Long_Live_the_Queen.cfg:610
 msgid "female^Look sharp, I think they’ve spotted us!"
-msgstr "Soyez vigilantes, je crois qu'ils nous ont repérées !"
+msgstr "Soyez vigilants, je crois qu'ils nous ont repérés !"
 
 #. [message]: speaker=Eldred
 #: data/campaigns/The_Deceivers_Gambit/scenarios/14_Long_Live_the_Queen.cfg:618
@@ -9394,7 +9443,6 @@ msgstr ""
 "Un avenir pour moi ? Je peux compter sur les doigts d'une main les rares "
 "fois où le vieux tyran a eu quelque chose de gentil à dire à mon égard."
 
-# juste battu a la fin?
 #. [message]: speaker=Eldred
 #: data/campaigns/The_Deceivers_Gambit/scenarios/14_Long_Live_the_Queen.cfg:732
 #, fuzzy
@@ -9403,7 +9451,7 @@ msgid ""
 "going to be him or me — I just beat him to the finish."
 msgstr ""
 "Je n’allais pas attendre d’être déshérité, ou pire. Ça a toujours été lui ou "
-"moi — j’ai juste été plus rapide."
+"moi — j’ai juste été le plus rapide à la fin."
 
 #. [message]: speaker=Delfador
 #: data/campaigns/The_Deceivers_Gambit/scenarios/14_Long_Live_the_Queen.cfg:736
@@ -9687,7 +9735,8 @@ msgstr ""
 "Ainsi périt Eldred, treizième roi de Wesnoth.\n"
 "\n"
 "Avec lui s'achève l'histoire des fils d'Haldric, cette lignée royale "
-"ininterrompue remontant à cinq cents ans jusqu'à l'Île Verte."
+"ininterrompue remontant à cinq cents ans et ayant son berceau sur l'Île "
+"Verte."
 
 #. [message]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/14_Long_Live_the_Queen.cfg:1665
@@ -9937,7 +9986,7 @@ msgstr ""
 #: data/campaigns/The_Deceivers_Gambit/units/Human_Deoran_Elvish.cfg:8
 #, fuzzy
 msgid "Veteran Cavalier"
-msgstr "Chevaliers de renom"
+msgstr "Cuirassier vétéran"
 
 #. [unit_type]: id=Veteran Cavalier, race=human, description=<i>
 #: data/campaigns/The_Deceivers_Gambit/units/Human_Deoran_Elvish.cfg:12
@@ -10028,17 +10077,19 @@ msgstr ""
 "de javelots et le maniement de l’épée, chaque arme compensant les faiblesses "
 "de l’autre."
 
+# #wesnoth-units
 #. [attack]
 #: data/campaigns/The_Deceivers_Gambit/units/Human_Eldred_Magic.cfg:29
 #, fuzzy
 msgid "baneblade"
-msgstr "Lame de malheur"
+msgstr "lame de ruine"
 
+# #wesnoth-units
 #. [attack]
 #: data/campaigns/The_Deceivers_Gambit/units/Human_Eldred_Magic.cfg:33
 #, fuzzy
 msgid "shadow wave"
-msgstr "onde ténébreuse"
+msgstr "onde obscure"
 
 #. [attack]
 #: data/campaigns/The_Deceivers_Gambit/units/Human_Eldred_Prince.cfg:27
@@ -10068,7 +10119,7 @@ msgstr ""
 "Les rois sont formés rigoureusement aux arts martiaux, parfois par "
 "nécessité, mais le plus souvent par une tradition héritée des souverains "
 "guerriers de jadis. Sur le champ de bataille, un roi peut manier l’épée et "
-"la lance, montant un destrier élevé pour sa puissance plutôt que pour sa "
+"la lance, montant un destrier pour un surcroît de puissance plutôt que de "
 "vitesse. La vue d’un souverain à la tête d’une charge de cavalerie est un "
 "spectacle terrifiant pour l’infanterie ennemie et le choc résultant suffit "
 "souvent à briser une ligne défensive."
@@ -10083,7 +10134,7 @@ msgstr "épée longue"
 #: data/campaigns/The_Deceivers_Gambit/units/Monster_Cave_Bear.cfg:18
 #, fuzzy
 msgid "consume"
-msgstr "absorber"
+msgstr "absorption"
 
 #. [dummy]
 #: data/campaigns/The_Deceivers_Gambit/units/Monster_Cave_Bear.cfg:11
@@ -10148,7 +10199,7 @@ msgstr "crachat"
 #: data/campaigns/The_Deceivers_Gambit/units/Monster_Silverback.cfg:8
 #, fuzzy
 msgid "Silverback"
-msgstr "Dos argentés"
+msgstr "Dos gris"
 
 #. [unit_type]: id=Silverback, race=monster
 #: data/campaigns/The_Deceivers_Gambit/units/Monster_Silverback.cfg:10
@@ -10159,10 +10210,10 @@ msgid ""
 "the eldest of these creatures are said to possess the strength of a dozen "
 "men."
 msgstr ""
-"Les plus grands des singes sont les dos argentés, ainsi nommés en raison de "
-"la couleur caractéristique de leur dos. Plus petits qu’un ogre mais beaucoup "
-"plus musclés, les plus âgées de ces créatures seraient dotés de la force "
-"d’une douzaine d’hommes."
+"Les plus grands des singes sont les dos gris, ainsi nommés en raison de la "
+"couleur argentée de leur dos. Plus petits qu’un ogre mais beaucoup plus "
+"musclés, les plus âgées de ces créatures seraient dotées de la force d’une "
+"douzaine d’hommes."
 
 #. [attack]: type=impact
 #: data/campaigns/The_Deceivers_Gambit/units/Monster_Silverback.cfg:31
@@ -10214,7 +10265,6 @@ msgstr "siphon"
 msgid "Orcish Shaman"
 msgstr "Chamane orque"
 
-# orcs/orc/orque/orques
 #. [unit_type]: id=Orcish Shaman, race=orc, gender=female
 #: data/campaigns/The_Deceivers_Gambit/units/Orcish_Shaman.cfg:24
 #, fuzzy
@@ -10233,12 +10283,12 @@ msgid ""
 "tradition. This much-practiced wisdom has many applications, not least of "
 "which is their improved ability to draw life from their foes during battle."
 msgstr ""
-"À l’instar de la plupart des races douées de raison, les orques "
-"s’interrogent sur les rouages du monde qui les entoure. Certaines cherchent "
-"à aller au-delà de ces simples réflexions, mais le mode de vie violent et "
-"nomade des plus grands clans orcs ne se prête pas aux études académiques, et "
-"la rare orque érudite est invariablement tuée ou réduite en esclavage par "
-"ses frères plus belliqueux.\n"
+"À l’instar de la plupart des races douées de raison, les orcs s’interrogent "
+"sur les rouages du monde qui les entoure. Certains cherchent à aller au-delà "
+"de ces simples réflexions, mais le mode de vie violent et nomade des plus "
+"grands clans orcs ne se prête pas aux études académiques, et le rare orc "
+"érudit est invariablement tuée ou réduite en esclavage par ses frères plus "
+"belliqueux.\n"
 "\n"
 "Les chamanes orques constituent de rares exceptions à cette règle. "
 "Respectées au sein des clans et considérés comme des médiatrices fiables et "
@@ -10279,11 +10329,12 @@ msgstr ""
 "perfectionné leur magie au fil des années, ces orques âgées sont hautement "
 "respectées dans tous les clans."
 
+# une attaque
 #. [attack]: type=arcane
 #: data/campaigns/The_Deceivers_Gambit/units/Orcish_Sorceress.cfg:40
 #, fuzzy
 msgid "sap"
-msgstr "saper"
+msgstr "sève"
 
 #. [unit_type]: id=Beacon, race=mechanical
 #: data/campaigns/The_Deceivers_Gambit/units/Saurian_Beacon.cfg:5
@@ -10371,11 +10422,12 @@ msgstr "Craa !"
 msgid "Glob glob glob."
 msgstr "Glou glou glou."
 
+# Onomatopée pour l'apparition d'unités de feu
 #. [message]: speaker={UNIT}
 #: data/campaigns/The_Deceivers_Gambit/utils/macros.cfg:590
 #, fuzzy
 msgid "Fsss crackle hiss."
-msgstr "Fsss crépitement sifflement"
+msgstr "Psss crac ffouuu"
 
 #. [object]
 #: data/campaigns/The_Deceivers_Gambit/utils/spellcasting.cfg:79
@@ -10430,7 +10482,7 @@ msgid ""
 "My levitate spell has ended over impassable terrain! I‘m falling to my death!"
 msgstr ""
 "Mon sort de lévitation a pris fin au-dessus d'un terrain impraticable ! Je "
-"vais mourir en tombant !"
+"verse dans ma tombe !"
 
 #. [event]
 #: data/campaigns/The_Deceivers_Gambit/utils/spellcasting.cfg:598
@@ -10466,7 +10518,7 @@ msgstr "contré par un sort"
 #: data/campaigns/The_Deceivers_Gambit/utils/spellcasting.cfg:1014
 #, fuzzy
 msgid "Counterspell is nullifying this magical attack."
-msgstr "Contresort"
+msgstr "Le contresort annule cette attaque magique."
 
 #. [message]: speaker=Delfador
 #. Delfador has just cast his Counterspell spell. Magical attacks (including Delfador's) are disabled when near Delfador
@@ -10487,8 +10539,8 @@ msgid ""
 "My polymorph spell has ended over impassable terrain! I‘m falling to my "
 "death!"
 msgstr ""
-"Mon sort de polymorphie vient de prendre fin au-dessus d’un terrain "
-"infranchissable ! Je tombe vers ma perte !"
+"Mon sort de polymorphie vient de prendre fin au centre d’un terrain "
+"infranchissable ! Je suis coincé dans ma tombe !"
 
 #. [object]
 #: data/campaigns/The_Deceivers_Gambit/utils/spellcasting.cfg:1374
@@ -10651,14 +10703,13 @@ msgstr "Non ! Magie, pourquoi m’as-tu abandonné…"
 msgid "If only I had been a little wiser..."
 msgstr "Si seulement j'avais été un peu plus sage..."
 
-# ...fait de mon mieux pour changer...?
 #. [message]: speaker=Methor
 #: data/campaigns/The_Deceivers_Gambit/utils/unified_characters.cfg:548
 #, fuzzy
 msgid "War, pain, death... I tried so hard to change things..."
 msgstr ""
-"Guerre, douleur, mort... J'ai poutant essayé de changer les choses de mon "
-"mieux..."
+"Guerre, douleur, mort... J'ai poutant fait de mon mieux pour changer les "
+"choses..."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_Deceivers_Gambit/utils/unified_characters.cfg:560
@@ -10714,5 +10765,5 @@ msgid ""
 "I am grievously injured; I can be of no further aid in your quest. Fight on "
 "without me, Delfador!"
 msgstr ""
-"Je suis grièvement blessé ; je ne peux plus être d'aucune aide dans ta "
-"quête. Combat sans moi, Delfador !"
+"Je suis grièvement blessé ; je ne peux plus t'être d'aucune aide dans ta "
+"quête. Continue le combat sans moi, Delfador !"

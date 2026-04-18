@@ -4381,25 +4381,17 @@ msgstr "La Passe aux ogres"
 #. [part]
 #: data/campaigns/Eastern_Invasion/scenarios/07b_Ogre_Crossing.cfg:17
 #, fuzzy
-#| msgid ""
-#| "The Ford of Parthyn is second only to Abez in its notoriety. It was here "
-#| "where Iliah-Malal’s ghostly army first wrought its terror, only to be "
-#| "routed by the legendary Delfador. It was here where Malin Keshar cast "
-#| "aside his humanity and began delving into the dark arts. And it was here "
-#| "where Gweddry and his men attempted their escape from Wesnoth and Mal-"
-#| "Ravanal’s undead hordes into the wild northlands."
 msgid ""
 "As the best river crossing for miles in either direction, and the site of "
 "many an old orc-raid, the Ford of Parthyn is second only to Abez in its "
 "notoriety. It is here where Gweddry and his men attempted their escape from "
 "Wesnoth and Mal-Ravanal’s undead hordes into the wild north."
 msgstr ""
-"Le gué de Parthyn n'a d'égal que celui d'Abez en termes de notoriété. C'est "
-"ici que l'armée fantomatique d'Iliah-Malal sema la terreur pour la première "
-"fois, avant d'être mise en déroute par le légendaire Delfador. C'est ici que "
-"Malin Keshar renonça à son humanité et se tourna vers les arts occultes. Et "
-"c'est ici que Gweddry et ses hommes tentèrent de fuir Wesnoth et les hordes "
-"de morts-vivants de Mal-Ravanal pour gagner les contrées sauvages du Nord."
+"Parce qu'il est le meilleur point de traversée du fleuve et ainsi le lieu "
+"d'innombrables raids orcs, le gué de Parthyn n'est dépassé que par celui "
+"d'Abez en termes de notoriété. C'est ici que Gweddry et ses hommes tentèrent "
+"de fuir Wesnoth et les hordes de morts-vivants de Mal-Ravanal pour gagner "
+"les contrées sauvages du Nord."
 
 #. [side]: type=Ogre, id=Grug
 #: data/campaigns/Eastern_Invasion/scenarios/07b_Ogre_Crossing.cfg:40
@@ -5934,8 +5926,8 @@ msgid ""
 "The zombie searches the ruined town and finds some valuables worth $gold "
 "gold pieces."
 msgstr ""
-"Cette ville en ruines contient encore quelques objets de valeur ! Ça doit "
-"bien valoir au moins $gold pièces d’or."
+"Le zombi fouille cette ville en ruines et trouve quelques objets d'une "
+"valeur de $gold pièces d’or !"
 
 #. [event]
 #. circa 15 gold pieces
@@ -14384,8 +14376,8 @@ msgstr ""
 "Cette épée immatérielle ressemble à celles utilisées par les spectres morts-"
 "vivants. Tout mortel assez courageux pour la manier devient <i><b>chaotique</"
 "b></i> et s’attaque à ses ennemis avec une fougue téméraire.\n"
-"dégâts <i><b>6x4 d'arcane</b></i>, <i><b>drain</b></i> et <i><b>berserk</b></"
-"i>. Toujours sélectionnée pour la défense."
+"Dégâts de <i><b>6x4 d'arcane</b></i>, <i><b>drain</b></i> et <i><b>berserk</"
+"b></i>. Toujours sélectionnée pour la défense."
 
 #: data/campaigns/Eastern_Invasion/utils/items.cfg:682
 msgid "Drop Baneblade"
