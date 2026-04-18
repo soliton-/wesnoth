@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2026-03-23 23:10 UTC\n"
-"PO-Revision-Date: 2026-02-27 17:16+0100\n"
+"PO-Revision-Date: 2026-04-04 19:45+0200\n"
 "Last-Translator: Antonio 'Antro' Rosella <arosella@yahoo.com>\n"
 "Language-Team: none\n"
 "Language: it\n"
@@ -536,7 +536,7 @@ msgstr "Crier"
 #: data/campaigns/Of_Pearls_and_Pirates/scenarios/01_Pirates.cfg:406
 msgid "Hear ye! Word from Weldyn! I bring a proclamation from King Garard!"
 msgstr ""
-"Udite, udite! Notizie da Weldyn! Porto un proclama da parte di Re Garard!"
+"Udite, udite! Notizie da Weldyn! Reco un proclama da parte di Re Garard!"
 
 #. [message]: speaker=Rael
 #: data/campaigns/Of_Pearls_and_Pirates/scenarios/01_Pirates.cfg:410
@@ -597,8 +597,8 @@ msgstr "Il messaggio è stato riportato. Avanti verso il prossimo villaggio."
 #: data/campaigns/Of_Pearls_and_Pirates/scenarios/01_Pirates.cfg:451
 msgid "Ten acres... well, that’d be most of us. Blimey. But it is our duty."
 msgstr ""
-"Dieci acri... beh, sarebbe la maggior parte di noi. Accidenti. Ma è nostro "
-"dovere."
+"Dieci acri... beh, direi che è la maggior parte di noi . Accidenti. Ma è "
+"nostro dovere."
 
 #. [message]: speaker=Elyn
 #: data/campaigns/Of_Pearls_and_Pirates/scenarios/01_Pirates.cfg:455
@@ -710,7 +710,7 @@ msgstr "Feccia pirata. Col cavolo che lo farai. Che ne dite, ragazzi?"
 #. [message]: speaker=Maudie
 #: data/campaigns/Of_Pearls_and_Pirates/scenarios/02_Swimming_with_Serpents.cfg:157
 msgid "Charming. My new allies will make short work of you."
-msgstr "Affascinante. I miei nuovi alleati faranno di te un boccone."
+msgstr "Affascinante. I miei nuovi alleati faranno di voi un sol boccone."
 
 #. [event]
 #: data/campaigns/Of_Pearls_and_Pirates/scenarios/02_Swimming_with_Serpents.cfg:164
@@ -748,7 +748,7 @@ msgid ""
 "take the old skiff and warn the merfolk that naga are here."
 msgstr ""
 "Maledizione! Thea, raduna i contadini e mettiti al sicuro. Devo prendere la "
-"vecchia barca e avvertire i tritoni che i naga sono qui."
+"vecchia barca e avvertire i nereidi che i naga sono qui."
 
 #. [message]: speaker=Thea
 #: data/campaigns/Of_Pearls_and_Pirates/scenarios/02_Swimming_with_Serpents.cfg:203
@@ -845,9 +845,9 @@ msgid ""
 "right-click the hex and select <i>Terrain Description</i>."
 msgstr ""
 "Alcuni esagoni sono <i><b>una combinazione di più tipi di terreno.</b></i>\n"
-"I ponti, ad esempio, contano sia come acque poco profonde che come terreno "
-"pianeggiante,\n"
-"a seconda di quale sia più vantaggioso per l’unità che li attraversa.\n"
+"I ponti, ad esempio, contano sia come acque poco profonde che come terreno\n"
+"pianeggiante, a seconda di quale sia più vantaggioso per l’unità che li "
+"attraversa.\n"
 "\n"
 "Se sei confuso riguardo alla difesa di un’unità (possibilità di schivare) o "
 "al movimento\n"
@@ -883,8 +883,8 @@ msgid ""
 "so capturing just a small handful of villages from your\n"
 "opponents can make a big difference."
 msgstr ""
-"Ricorda che ogni villaggio occupato genera una mo per turno\n"
-"e sostiene il mantenimento di una unità. Le unità di livello 2 costano 2 "
+"Ricorda che ogni villaggio occupato genera una mo per turno e\n"
+"sostiene il mantenimento di una unità. Le unità di livello 2 costano 2 "
 "punti\n"
 "di mantenimento, quelle di livello 3 ne costano 3, ecc. Invece, le unità\n"
 "di livello 0, come i contadini e i boscaioli, non costano nulla.\n"
