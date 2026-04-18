@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: wesnoth-1.16\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2026-01-20 17:31 UTC\n"
-"PO-Revision-Date: 2024-06-13 12:08+0800\n"
+"PO-Revision-Date: 2025-12-14 14:09+0800\n"
 "Last-Translator: vimacs <vimacs.hacks@gmail.com>\n"
 "Language-Team: Wesnoth Simplified Chinese Team\n"
 "Language: zh_CN\n"
@@ -21,23 +21,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n>1;\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.8\n"
 
 #. [campaign]: id=Heir_To_The_Throne_Classic
 #. [achievement_group]
 #: data/campaigns/Heir_To_The_Throne_Classic/_main.cfg:12
 #: data/campaigns/Heir_To_The_Throne_Classic/achievements.cfg:3
-#, fuzzy
-#| msgid "Heir to the Throne"
 msgid "Heir to the Throne, Classic"
-msgstr "王座继承人"
+msgstr "王座继承人（经典版）"
 
 #. [campaign]: id=Heir_To_The_Throne_Classic
 #: data/campaigns/Heir_To_The_Throne_Classic/_main.cfg:15
-#, fuzzy
-#| msgid "HttT"
 msgid "HttTC"
-msgstr "HttT"
+msgstr "HttTC"
 
 # I have translated Wesnoth into two chinese characters counting from the last four characters.
 # Wesnoth = mid(TranslatedString, 9,2)
@@ -62,11 +58,25 @@ msgstr ""
 
 #. [campaign]: id=Heir_To_The_Throne_Classic
 #: data/campaigns/Heir_To_The_Throne_Classic/_main.cfg:24
+#, fuzzy
+#| msgid ""
+#| "Fight to regain the throne of Wesnoth, of which you are the legitimate "
+#| "heir.\n"
+#| "\n"
+#| "This is the original version of this classic campaign, preserved for "
+#| "historical reasons. Also optionally includes the old <i>Battle Training</"
+#| "i> tutorial.\n"
+#| "\n"
 msgid ""
 "This is the original version of this classic campaign, preserved for "
 "historical reasons. Also optionally includes the old <i>Battle Training</i> "
 "tutorial."
 msgstr ""
+"为夺回韦诺的王座而战斗吧，你才是合法的继承人。\n"
+"\n"
+"这是这个经典战役的原版，为历史原因而保留。同时可选地包含老的<i>战斗训练</i>教"
+"程。\n"
+"\n"
 
 #. [campaign]: id=Heir_To_The_Throne_Classic
 #: data/campaigns/Heir_To_The_Throne_Classic/_main.cfg:26
@@ -6465,7 +6475,7 @@ msgstr "……"
 #. [message]: speaker=Konrad
 #: data/campaigns/Heir_To_The_Throne_Classic/scenarios/20a_North_Elves.cfg:536
 msgid "...and Delfador, of course. And Kalenz... and.."
-msgstr "……当然，还有德法多。还有卡雷兹……还有……"
+msgstr "…当然，还有德法多。还有卡雷兹…还有…"
 
 #. [message]: speaker=Li'sar
 #: data/campaigns/Heir_To_The_Throne_Classic/scenarios/20a_North_Elves.cfg:541
@@ -8476,13 +8486,6 @@ msgstr "海洋兽人"
 
 #. [unit_type]: id=Sea Orc, race=orc
 #: data/campaigns/Heir_To_The_Throne_Classic/units/Sea_Orc.cfg:32
-#, fuzzy
-#| msgid ""
-#| "While often viewed as inferior to their land-loving counterparts, Sea "
-#| "Orcs represent a great leap for all goblins as they have adapted to "
-#| "aquatic environments. With their curved swords they are competent "
-#| "fighters, although their lack of a ranged attack and poor defense on land "
-#| "do represent strategic weaknesses."
 msgid ""
 "While often viewed as inferior to their land-loving counterparts, Sea Orcs "
 "represent a great leap for all orcs and goblins as they have adapted to "
@@ -8490,9 +8493,9 @@ msgid ""
 "although their lack of a ranged attack and poor defense on land do represent "
 "strategic weaknesses."
 msgstr ""
-"尽管通常被认为比喜爱陆地的同类们低级，海洋兽人代表着地精进化中的一大步——他们"
-"已经适应了水生环境。靠着他们的弯剑，海洋兽人们成为了很有能力的战士。但是他们"
-"没有远程攻击，在陆地上的防御能力也很差，这确实是他们的战略弱点。"
+"尽管通常被认为比喜爱陆地的同类们低级，海洋兽人代表着兽人和地精进化中的一大步"
+"——他们已经适应了水生环境。靠着他们的弯剑，海洋兽人们成为了很有能力的战士。但"
+"是他们没有远程攻击，在陆地上的防御能力也很差，这确实是他们的战略弱点。"
 
 #. [unit_type]: id=Sleeping Gryphon, race=gryphon
 #: data/campaigns/Heir_To_The_Throne_Classic/units/Sleeping_Gryphon.cfg:4
@@ -8519,7 +8522,7 @@ msgstr "所有相邻的友方单位都能够在近战中抢先攻击，甚至在
 #. [firststrike]: id=initiative
 #: data/campaigns/Heir_To_The_Throne_Classic/utils/abilities.cfg:8
 msgid "first strike"
-msgstr ""
+msgstr "先制"
 
 #. [firststrike]: id=initiative
 #: data/campaigns/Heir_To_The_Throne_Classic/utils/abilities.cfg:9
@@ -8527,6 +8530,8 @@ msgid ""
 "When under initiative influence, this unit always strikes first when "
 "attacked by melee weapon, even if they are defending."
 msgstr ""
+"在主导的影响下，这个单位在受到近战武器攻击时，总是能率先攻击，即使是在防御时"
+"也不例外。"
 
 #. [firststrike]: id=initiative
 #: data/campaigns/Heir_To_The_Throne_Classic/utils/abilities.cfg:10

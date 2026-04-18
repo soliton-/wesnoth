@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: wesnoth-1.16\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2025-10-21 01:10 UTC\n"
-"PO-Revision-Date: 2025-11-20 22:28+0800\n"
+"PO-Revision-Date: 2025-03-11 14:24+0800\n"
 "Last-Translator: vimacs <vimacs.hacks@gmail.com>\n"
 "Language-Team: Wesnoth Simplified Chinese Team\n"
 "Language: zh_CN\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n>1;\n"
-"X-Generator: Poedit 3.8\n"
+"X-Generator: Poedit 3.5\n"
 
 #. [generic_multiplayer]: id=user_map
 #: data/multiplayer/_main.cfg:8
@@ -32,136 +32,102 @@ msgstr "用户地图"
 #. [achievement_group]
 #: data/multiplayer/achievements.cfg:3
 msgid "Wesnoth Multiplayer (Survivals)"
-msgstr "韦诺多人游戏（生存模式）"
+msgstr ""
 
 #. [achievement]: id=Wesnoth_MP_Dark_Forecast
 #: data/multiplayer/achievements.cfg:9 data/multiplayer/achievements.cfg:10
 msgid "Foresight of Triumph"
-msgstr "胜利的远见"
+msgstr ""
 
 #. [achievement]: id=Wesnoth_MP_Dark_Forecast
 #: data/multiplayer/achievements.cfg:11
-#, fuzzy
-#| msgid "Complete the survival scenario <i>2p - Dark Forecast</i>."
 msgid "Complete the survival scenario <i>2p — Dark Forecast</i>."
-msgstr "完成生存场景 <i>2p — 黑暗预想</i>。"
+msgstr ""
 
 #. [achievement]: id=Wesnoth_MP_Dark_Forecast
 #: data/multiplayer/achievements.cfg:12
-#, fuzzy
-#| msgid "Completed the survival scenario <i>2p - Dark Forecast</i>."
 msgid "Completed the survival scenario <i>2p — Dark Forecast</i>."
-msgstr "已完成生存场景 <i>2p — 黑暗预想</i>。"
+msgstr ""
 
 #. [achievement]: id=Wesnoth_MP_Isle_of_Mists
 #: data/multiplayer/achievements.cfg:20
 msgid "Banish the Mists"
-msgstr "驱散迷雾"
+msgstr ""
 
 #. [achievement]: id=Wesnoth_MP_Isle_of_Mists
 #: data/multiplayer/achievements.cfg:21
 msgid "Banished the Mists"
-msgstr "已驱散迷雾"
+msgstr ""
 
 #. [achievement]: id=Wesnoth_MP_Isle_of_Mists
 #: data/multiplayer/achievements.cfg:22
-#, fuzzy
-#| msgid "Complete the survival scenario <i>2p - Isle of Mists</i>."
 msgid "Complete the survival scenario <i>2p — Isle of Mists</i>."
-msgstr "完成生存场景 <i>2p — 迷雾岛</i>。"
+msgstr ""
 
 #. [achievement]: id=Wesnoth_MP_Isle_of_Mists
 #: data/multiplayer/achievements.cfg:23
-#, fuzzy
-#| msgid "Completed the survival scenario <i>2p - Isle of Mists</i>."
 msgid "Completed the survival scenario <i>2p — Isle of Mists</i>."
-msgstr "已完成生存场景 <i>2p — 迷雾岛</i>。"
+msgstr ""
 
 #. [achievement]: id=Wesnoth_MP_Team_Survival
 #: data/multiplayer/achievements.cfg:31 data/multiplayer/achievements.cfg:32
 msgid "Flawless Teamwork"
-msgstr "无懈可击的团队合作"
+msgstr ""
 
 #. [achievement]: id=Wesnoth_MP_Team_Survival
 #: data/multiplayer/achievements.cfg:33
-#, fuzzy
-#| msgid "Complete the survival scenario <i>6p - Team Survival</i>."
 msgid "Complete the survival scenario <i>6p — Team Survival</i>."
-msgstr "完成生存场景 <i>6p — 组队生存</i>。"
+msgstr ""
 
 #. [achievement]: id=Wesnoth_MP_Team_Survival
 #: data/multiplayer/achievements.cfg:34
-#, fuzzy
-#| msgid "Completed the survival scenario <i>6p - Team Survival</i>."
 msgid "Completed the survival scenario <i>6p — Team Survival</i>."
-msgstr "已完成生存场景 <i>6p — 组队生存</i>。"
+msgstr ""
 
 #. [achievement]: id=Wesnoth_MP_ANL
 #: data/multiplayer/achievements.cfg:42 data/multiplayer/achievements.cfg:43
 msgid "Return to Glory"
-msgstr "重返荣耀"
+msgstr ""
 
-# Translated by openrouter with model z-ai/glm-4.5-air:free.
 #. [achievement]: id=Wesnoth_MP_ANL
 #: data/multiplayer/achievements.cfg:44
-#, fuzzy
 msgid "Complete the survival scenario <i>4p — A New Land</i>."
-msgstr "完成生存场景 <i>4p - A New Land</i>。"
+msgstr ""
 
-# Translated by openrouter with model z-ai/glm-4.5-air:free.
 #. [achievement]: id=Wesnoth_MP_ANL
 #: data/multiplayer/achievements.cfg:45
-#, fuzzy
 msgid "Completed the survival scenario <i>4p — A New Land</i>."
-msgstr "完成了生存场景<i>4p - 新大陆</i>。"
+msgstr ""
 
-# Translated by openrouter with model z-ai/glm-4.5-air:free.
 #. [achievement]: id=Wesnoth_MP_ANL_mines
 #: data/multiplayer/achievements.cfg:52 data/multiplayer/achievements.cfg:53
-#, fuzzy
 msgid "Economic Recession"
 msgstr ""
-"\n"
-"\n"
-"经济衰退"
 
-# Translated by openrouter with model z-ai/glm-4.5-air:free.
 #. [achievement]: id=Wesnoth_MP_ANL_mines
 #: data/multiplayer/achievements.cfg:54
-#, fuzzy
 msgid "Destroy all enemy mushroom mines in <i>4p — A New Land</i>."
 msgstr ""
-"\n"
-"\n"
-"在《4p - 新世界》中摧毁所有敌方蘑菇矿。"
 
-# Translated by openrouter with model z-ai/glm-4.5-air:free.
 #. [achievement]: id=Wesnoth_MP_ANL_mines
 #: data/multiplayer/achievements.cfg:55
-#, fuzzy
 msgid "Destroyed all enemy mushroom mines in <i>4p — A New Land</i>."
-msgstr "在<i>4p - A New Land</i>中摧毁了所有敌方蘑菇地雷。"
+msgstr ""
 
-# Translated by openrouter with model z-ai/glm-4.5-air:free.
 #. [achievement]: id=Wesnoth_MP_ANL_rescue_allies
 #: data/multiplayer/achievements.cfg:63 data/multiplayer/achievements.cfg:64
-#, fuzzy
 msgid "Rescue!"
-msgstr "救援！"
+msgstr ""
 
-# Translated by openrouter with model z-ai/glm-4.5-air:free.
 #. [achievement]: id=Wesnoth_MP_ANL_rescue_allies
 #: data/multiplayer/achievements.cfg:65
-#, fuzzy
 msgid "Rescue the trapped units in <i>4p — A New Land</i>."
-msgstr "在<i>4p - A New Land</i>中解救被困单位。"
+msgstr ""
 
-# Translated by openrouter with model z-ai/glm-4.5-air:free.
 #. [achievement]: id=Wesnoth_MP_ANL_rescue_allies
 #: data/multiplayer/achievements.cfg:66
-#, fuzzy
 msgid "Rescued the trapped units in <i>4p — A New Land</i>."
-msgstr "在《4p - A New Land》中解救了被困的单位。"
+msgstr ""
 
 #. [era]: id=era_default, type=hybrid
 #: data/multiplayer/eras.cfg:5
@@ -781,8 +747,7 @@ msgstr ""
 msgid "teamname^Statues"
 msgstr "雕像"
 
-# verses are, in my opinion, untranslatable. anyone interested may want to
-# give a try...
+# verses are, in my opinion, untranslatable. anyone interested may want to give a try...
 # 自便
 #. [unit]
 #: data/multiplayer/scenarios/2p_Caves_of_the_Basilisk.cfg:94
@@ -2401,10 +2366,8 @@ msgstr "4p — 山丘之王"
 msgid " Recommended setting of 2 gold per village and 150 starting gold."
 msgstr " 建议设置每座村庄供给2枚金币，并有150枚金币的起始资金。"
 
-# Translated by openrouter with model z-ai/glm-4.5-air:free.
 #. [multiplayer]: id=multiplayer_King_of_the_Hill
 #: data/multiplayer/scenarios/4p_King_of_the_Hill.cfg:55
-#, fuzzy
 msgid ""
 "The King is dead. Without an heir, his quarrelsome lords now vie for the "
 "hilltop throne and all the power and wealth it commands. Are you mighty "
@@ -2413,10 +2376,6 @@ msgid ""
 "throne of a king? This free for all map has 38 villages and bonus income for "
 "the leader on the center keep."
 msgstr ""
-"国王驾崩，王位空悬。他的领主们素来不和，如今竞相争夺那座至高王座以及其背后无"
-"上的权力与财富。你是否有足够的力量，在对手之前夺得这权力的宝座？你能抵挡住他"
-"们众多的刺客吗？你的臀部，真的有资格坐上那王位吗？这张地图为混战模式，包含38"
-"个村庄，并且中堡领主将获得额外收入。"
 
 #. [side]
 #: data/multiplayer/scenarios/4p_King_of_the_Hill.cfg:63
@@ -2438,46 +2397,32 @@ msgstr "东北"
 msgid "Northwest"
 msgstr "西北"
 
-# Translated by openrouter with model z-ai/glm-4.5-air:free.
 #. [side]
 #: data/multiplayer/scenarios/4p_King_of_the_Hill.cfg:106
-#, fuzzy
 msgid "High Guard"
-msgstr "高级警卫"
+msgstr ""
 
-# Translated by openrouter with model z-ai/glm-4.5-air:free.
 #. [slider]: id=bonus_income
 #: data/multiplayer/scenarios/4p_King_of_the_Hill.cfg:121
-#, fuzzy
 msgid "Hill Bonus Income"
 msgstr ""
-"\n"
-"\n"
-"希尔奖金收入"
 
-# Translated by openrouter with model z-ai/glm-4.5-air:free.
 #. [slider]: id=bonus_income
 #: data/multiplayer/scenarios/4p_King_of_the_Hill.cfg:122
-#, fuzzy
 msgid ""
 "The amount of extra gold per turn granted to the leader who occupies the "
 "hill keep."
-msgstr "占领山丘要塞的领袖每回合获得的额外黄金数量。"
+msgstr ""
 
-# Translated by openrouter with model z-ai/glm-4.5-air:free.
 #. [slider]: id=chest_gold
 #: data/multiplayer/scenarios/4p_King_of_the_Hill.cfg:130
-#, fuzzy
 msgid "Treasure Chest Gold"
 msgstr ""
-"\n"
-"\n"
-"黄金宝箱"
 
 #. [slider]: id=chest_gold
 #: data/multiplayer/scenarios/4p_King_of_the_Hill.cfg:131
 msgid "The amount of gold stashed inside the treasure chest on the hill."
-msgstr "藏在山上宝箱里的黄金数量。"
+msgstr ""
 
 #. [objective]: condition=win
 #: data/multiplayer/scenarios/4p_King_of_the_Hill.cfg:139
@@ -2489,14 +2434,14 @@ msgstr "击败敌方首领"
 msgid ""
 "The treasure chest on the hill keep can only be unlocked by a leader, for a "
 "bonus of $chest_gold gold."
-msgstr "山丘城堡里的宝箱只能由领导者解锁，可获得 $chest_gold 金币奖励。"
+msgstr ""
 
 #. [note]
 #: data/multiplayer/scenarios/4p_King_of_the_Hill.cfg:146
 msgid ""
 "A side with a leader holding the hill keep gets +$bonus_income gold income "
 "each turn."
-msgstr "有首领占领山丘城堡的一方每回合获得 +$bonus_income 的金币收入。"
+msgstr ""
 
 #. [note]
 #: data/multiplayer/scenarios/4p_King_of_the_Hill.cfg:149
@@ -2504,7 +2449,6 @@ msgid ""
 "Each side gets two leaders. Whenever a leader is lost then another appears "
 "on the recall list at its full cost."
 msgstr ""
-"每方有两名首领。每当失去一名首领时，另一名将以其全额价格出现在召回列表上。"
 
 #. [floating_text]
 #: data/multiplayer/scenarios/4p_King_of_the_Hill.cfg:233
@@ -3042,23 +2986,19 @@ msgstr ""
 "一幅设定在冬去春来的时节，以雪地为主要地形的随机地图。注意：随机地图往往不太"
 "平衡，但是如果你有足够的时间，可以不断地重新生成，直到得到一幅平衡的地图。"
 
-# Translated by openrouter with model z-ai/glm-4.5-air:free.
 #. [multiplayer]: id=multiplayer_test_Elevation_Demo
 #: data/multiplayer/scenarios/Test_Elevation_Test.cfg:5
 #, fuzzy
+#| msgid "2p — Clearing Gushes"
 msgid "3p — Elevation Test"
-msgstr "3p - 升高测试"
+msgstr "2p — 清理涌流"
 
-# Translated by openrouter with model z-ai/glm-4.5-air:free.
 #. [multiplayer]: id=multiplayer_test_Elevation_Demo
 #: data/multiplayer/scenarios/Test_Elevation_Test.cfg:6
-#, fuzzy
 msgid ""
 "This map is an example of how to use the new (BfW v1.17) elevated terrain "
 "graphics. Please be advised that it is not intended for playing."
 msgstr ""
-"这张地图展示了如何使用新版（BfW v1.17）的抬升地形图形。请注意，此地图仅供示"
-"例，并不用于实际游玩。"
 
 #~ msgid "Default + Dunefolk"
 #~ msgstr "默认 + 沙丘游民"

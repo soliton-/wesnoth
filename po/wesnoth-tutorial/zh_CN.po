@@ -2233,19 +2233,30 @@ msgstr ""
 "\n"
 "<big>点击鼠标按钮或者按空格键继续……</big>"
 
-#~ msgid "Battle Training"
+#, fuzzy
+#~| msgid "Battle Training"
+#~ msgid "Battle Training — Old Tutorial"
 #~ msgstr "战斗训练"
 
 #~ msgid "Tutorial"
 #~ msgstr "教程"
 
+#, fuzzy
+#~| msgid ""
+#~| "Learn the basics of Wesnoth gameplay with a tutorial. Recommended for "
+#~| "first-time players."
 #~ msgid ""
-#~ "Learn the basics of Wesnoth gameplay with a tutorial. Recommended for "
-#~ "first-time players."
+#~ "Learn the basics of Wesnoth gameplay with a tutorial.\n"
+#~ "    \n"
 #~ msgstr "通过教程，学习韦诺的基础玩法。推荐第一次游玩的玩家游玩此教程。"
 
 #~ msgid "Beginner"
 #~ msgstr "初学者"
+
+#, fuzzy
+#~| msgid "Tutorial"
+#~ msgid "Old Tutorial"
+#~ msgstr "教程"
 
 #~ msgid "Completed the Tutorial"
 #~ msgstr "完成教程"
@@ -2253,10 +2264,15 @@ msgstr ""
 #~ msgid "Complete the Battle Training."
 #~ msgstr "完成战斗训练。"
 
+#, fuzzy
+#~| msgid ""
+#~| "You have beaten the orcs! You may want to try one of the rookie-level "
+#~| "campaigns next, which include strategy hints. <i>A Tale of Two Brothers</"
+#~| "i> is the easiest and is the recommended first campaign."
 #~ msgid ""
-#~ "You have beaten the orcs! You may want to try one of the rookie-level "
-#~ "campaigns next, which include strategy hints. <i>A Tale of Two Brothers</"
-#~ "i> is the easiest and is the recommended first campaign."
+#~ "You have beaten the orcs! You may want to try one of the novice-level "
+#~ "campaigns next. <i>A Tale of Two Brothers</i> is the easiest and is the "
+#~ "recommended first campaign."
 #~ msgstr ""
 #~ "你击败了兽人！接下去你或许可以试试看几个菜鸟级别的战役之一，这些战役里有策"
 #~ "略提示。<b>兄弟传说</b>是最简单的战役，也是推荐给新手的第一个战役。"

@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: wesnoth-1.18\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2026-03-23 18:10-0500\n"
-"PO-Revision-Date: 2026-03-24 22:10+0800\n"
+"PO-Revision-Date: 2026-04-12 09:26+0800\n"
 "Last-Translator: vimacs <vimacs.hacks@gmail.com>\n"
 "Language-Team: Wesnoth Simplified Chinese Team\n"
 "Language: zh_CN\n"
@@ -2318,25 +2318,21 @@ msgstr "显示后一条每日提示"
 
 #. [button]: id=toggle_tip_panel
 #: data/gui/themes/celes/dialogs/title_screen.cfg:215
-#, fuzzy
-#| msgid "Next Tip of the Day"
 msgid "Tip of the Day"
-msgstr "下一条每日提示"
+msgstr "每日提示"
 
 #. [button]: id=toggle_tip_panel
 #. [toggle_button]: id=show_tips
 #: data/gui/themes/celes/dialogs/title_screen.cfg:216
 #: data/gui/themes/default/dialogs/preferences/03_display.cfg:223
-#, fuzzy
-#| msgid "Show next tip of the day"
 msgid "Show tip of the day"
-msgstr "显示后一条每日提示"
+msgstr "显示每日提示"
 
 #. [button]: id=about
 #: data/gui/themes/celes/dialogs/title_screen.cfg:229
 #: data/gui/themes/default/dialogs/title_screen.cfg:472
 msgid "About"
-msgstr ""
+msgstr "关于"
 
 #. [button]: id=about
 #: data/gui/themes/celes/dialogs/title_screen.cfg:230
@@ -2494,10 +2490,8 @@ msgstr "帮助"
 
 #. [grid]
 #: data/gui/themes/celes/dialogs/title_screen.cfg:297
-#, fuzzy
-#| msgid "Change the in-game theme"
 msgid "Visit the in-game help"
-msgstr "改变游戏中的主题"
+msgstr "访问游戏中的帮助"
 
 #. [grid]
 #. [button]: id=cancel
@@ -2964,7 +2958,7 @@ msgstr ""
 #. [button]: id=admin_list_hidden
 #: data/gui/themes/default/dialogs/addon_server_info.cfg:149
 msgid "List hidden add-ons (admin)"
-msgstr ""
+msgstr "列出隐藏的附加组件（管理员）"
 
 #. [scroll_label]
 #: data/gui/themes/default/dialogs/addon_uninstall_list.cfg:68
@@ -3038,7 +3032,7 @@ msgstr "防守方"
 #. This one is the page title, shown in bold.
 #: data/gui/themes/default/dialogs/campaign_dialog.cfg:205
 msgid "campaign_landing^Welcome to Wesnoth v1.20"
-msgstr ""
+msgstr "campaign_landing^欢迎来到韦诺之战 v1.20"
 
 #. [label]
 #: data/gui/themes/default/dialogs/campaign_dialog.cfg:207
@@ -3191,10 +3185,8 @@ msgstr ""
 
 #. [option]
 #: data/gui/themes/default/dialogs/campaign_dialog.cfg:329
-#, fuzzy
-#| msgid "Completed"
 msgid "Not Completed"
-msgstr "已完成"
+msgstr "未完成"
 
 #. [option]
 #. campaigns which the player hasn't beaten, rather than campaigns which the author hasn't finished writing
@@ -3248,7 +3240,7 @@ msgstr "已完成"
 #. [option]
 #: data/gui/themes/default/dialogs/campaign_dialog.cfg:351
 msgid "Show completed campaigns"
-msgstr ""
+msgstr "显示已完成的战役"
 
 #. [label]
 #. [label]: id=mods_header
@@ -3453,17 +3445,13 @@ msgstr "使用文件管理器浏览此位置"
 #. [button]: id=preview_
 #: data/gui/themes/default/dialogs/custom_tod.cfg:90
 #: data/gui/themes/default/dialogs/editor_edit_unit.cfg:98
-#, fuzzy
-#| msgid "Previous page"
 msgid "Preview image"
-msgstr "上一页"
+msgstr "预览图像"
 
 #. [button]: id=preview_
 #: data/gui/themes/default/dialogs/custom_tod.cfg:108
-#, fuzzy
-#| msgid "Player joins"
 msgid "Play sound"
-msgstr "玩家加入"
+msgstr "播放声音"
 
 #. [label]
 #: data/gui/themes/default/dialogs/custom_tod.cfg:186
@@ -3626,8 +3614,6 @@ msgstr "仅用于团队"
 
 #. [label]
 #: data/gui/themes/default/dialogs/editor_choose_addon.cfg:47
-#, fuzzy
-#| msgid "Add-on selection"
 msgid "Add-on Selection"
 msgstr "附加组件选择"
 
@@ -3786,10 +3772,8 @@ msgstr ""
 
 #. [grid]
 #: data/gui/themes/default/dialogs/editor_edit_pbl.cfg:214
-#, fuzzy
-#| msgid "Secondary Authors:"
 msgid "Primary Authors:"
-msgstr "第二作者："
+msgstr "主要作者："
 
 #. [grid]
 #: data/gui/themes/default/dialogs/editor_edit_pbl.cfg:215
@@ -4067,24 +4051,18 @@ msgstr ""
 #: data/gui/themes/default/dialogs/editor_edit_unit.cfg:246
 #: data/gui/themes/default/dialogs/mp_join_game.cfg:197
 #: data/gui/themes/default/dialogs/mp_staging.cfg:200
-#, fuzzy
-#| msgid "<b>Gender:</b>"
 msgid "Gender:"
-msgstr "<b>性别：</b>"
+msgstr "性别："
 
 #. [row]
 #: data/gui/themes/default/dialogs/editor_edit_unit.cfg:254
-#, fuzzy
-#| msgid "gender^Random"
 msgid "gender^Male"
-msgstr "随机"
+msgstr "gender^男"
 
 #. [row]
 #: data/gui/themes/default/dialogs/editor_edit_unit.cfg:255
-#, fuzzy
-#| msgid "Female"
 msgid "gender^Female"
-msgstr "女"
+msgstr "gender^女"
 
 #. [label]
 #: data/gui/themes/default/dialogs/editor_edit_unit.cfg:270
@@ -4107,15 +4085,11 @@ msgstr ""
 
 #. [label]
 #: data/gui/themes/default/dialogs/editor_edit_unit.cfg:375
-#, fuzzy
-#| msgid "HP: "
 msgid "HP:"
 msgstr "生命："
 
 #. [label]
 #: data/gui/themes/default/dialogs/editor_edit_unit.cfg:405
-#, fuzzy
-#| msgid "XP: "
 msgid "XP:"
 msgstr "经验："
 
@@ -4239,10 +4213,8 @@ msgstr "图片："
 
 #. [label]
 #: data/gui/themes/default/dialogs/editor_edit_unit.cfg:1172
-#, fuzzy
-#| msgid "Map Editor"
 msgid "Unit Type Editor"
-msgstr "地图编辑器"
+msgstr "单位类型编辑器"
 
 #. [tab]
 #: data/gui/themes/default/dialogs/editor_edit_unit.cfg:1194
@@ -5002,10 +4974,8 @@ msgstr "显示标签"
 
 #. [toggle_button]: id=contents
 #: data/gui/themes/default/dialogs/help_browser.cfg:125
-#, fuzzy
-#| msgid "Show Credits"
 msgid "Show Topics"
-msgstr "显示制作者名单"
+msgstr "显示主题"
 
 #. [text_box]: id=filter_box
 #: data/gui/themes/default/dialogs/help_browser.cfg:163
@@ -5093,10 +5063,8 @@ msgstr "需要密码才能加入游戏"
 
 #. [button]: id=delete_preset
 #: data/gui/themes/default/dialogs/lobby_main.cfg:305
-#, fuzzy
-#| msgid "Delete Unit"
 msgid "Delete this preset"
-msgstr "删除单位"
+msgstr "删除这个预设"
 
 #. [toggle_button]: id=filter_vacant_slots
 #: data/gui/themes/default/dialogs/lobby_main.cfg:477
@@ -5802,10 +5770,8 @@ msgstr "地图尺寸："
 #: data/gui/themes/default/dialogs/mp_create_game/default_resolution.cfg:460
 #: data/gui/themes/default/dialogs/mp_create_game/small_resolution.cfg:378
 #: data/gui/themes/default/dialogs/mp_create_game/tiny_resolution.cfg:335
-#, fuzzy
-#| msgid "Saved Games"
 msgid "Save Preset"
-msgstr "游戏存档"
+msgstr "保存预设"
 
 #. [row]
 #: data/gui/themes/default/dialogs/mp_faction_select.cfg:210
@@ -5860,10 +5826,8 @@ msgstr "选择此阵营的派系和首领"
 #. [label]
 #: data/gui/themes/default/dialogs/mp_join_game.cfg:155
 #: data/gui/themes/default/dialogs/mp_staging.cfg:157
-#, fuzzy
-#| msgid "Faction"
 msgid "Faction:"
-msgstr "阵营"
+msgstr "阵营："
 
 #. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=status_label
@@ -5967,12 +5931,12 @@ msgstr "登录到官方韦诺多人游戏服务器"
 
 #. [widget]: id=name
 #: data/gui/themes/default/dialogs/mp_method_selection.cfg:261
-#, fuzzy
-#| msgid "Join Official Server"
 msgid ""
 "Join\n"
 "Official Server"
-msgstr "加入官方服务器"
+msgstr ""
+"加入\n"
+"官方服务器"
 
 #. [column]
 #: data/gui/themes/default/dialogs/mp_method_selection.cfg:272
@@ -5981,12 +5945,12 @@ msgstr "加入其他服务器"
 
 #. [widget]: id=name
 #: data/gui/themes/default/dialogs/mp_method_selection.cfg:281
-#, fuzzy
-#| msgid "Connect to Server"
 msgid ""
 "Connect to\n"
 "Server"
-msgstr "连接到服务器"
+msgstr ""
+"连接到\n"
+"服务器"
 
 #. [column]
 #: data/gui/themes/default/dialogs/mp_method_selection.cfg:292
@@ -6342,10 +6306,8 @@ msgstr ""
 
 #. [label]
 #: data/gui/themes/default/dialogs/preferences/03_display.cfg:152
-#, fuzzy
-#| msgid "Interface theme:"
 msgid "In-game theme:"
-msgstr "界面主题："
+msgstr "游戏内主题："
 
 #. [menu_button]: id=choose_theme
 #: data/gui/themes/default/dialogs/preferences/03_display.cfg:165
@@ -6356,10 +6318,8 @@ msgstr ""
 
 #. [label]
 #: data/gui/themes/default/dialogs/preferences/03_display.cfg:176
-#, fuzzy
-#| msgid "Interface theme:"
 msgid "UI theme:"
-msgstr "界面主题："
+msgstr "用户界面主题："
 
 #. [menu_button]: id=choose_gui2_theme
 #: data/gui/themes/default/dialogs/preferences/03_display.cfg:192
@@ -7655,10 +7615,8 @@ msgstr ""
 
 #: src/gui/dialogs/editor/custom_tod.cpp:171
 #: src/gui/dialogs/editor/edit_unit.cpp:295
-#, fuzzy
-#| msgid "Choose Test"
 msgid "Choose File"
-msgstr "选择测试"
+msgstr "选择文件"
 
 #: src/gui/dialogs/editor/custom_tod.cpp:182
 #: src/gui/dialogs/editor/edit_unit.cpp:306
@@ -7811,10 +7769,8 @@ msgid "Find File"
 msgstr "查找文件"
 
 #: src/gui/dialogs/file_dialog.cpp:191
-#, fuzzy
-#| msgid "Winter Elven Castle"
 msgid "enter filename"
-msgstr "冬季精灵城堡"
+msgstr "输入文件名"
 
 #: src/gui/dialogs/file_dialog.cpp:201
 msgid "invalid extension (use $extensions)"
@@ -8945,10 +8901,8 @@ msgid "Terrain Description"
 msgstr "地形描述"
 
 #: src/hotkey/hotkey_command.cpp:102
-#, fuzzy
-#| msgid "Unit Description"
 msgid "Unit Type Description"
-msgstr "单位描述"
+msgstr "单位类型描述"
 
 #: src/hotkey/hotkey_command.cpp:104
 msgid "Delete Unit"
@@ -9159,10 +9113,8 @@ msgid "Assign Local Time"
 msgstr "指定本地时间"
 
 #: src/hotkey/hotkey_command.cpp:178
-#, fuzzy
-#| msgid "Next Unit"
 msgid "New Unit Type"
-msgstr "下一单位"
+msgstr "新单位类型"
 
 #: src/hotkey/hotkey_command.cpp:180
 msgid "Time Schedule Editor"
@@ -9539,10 +9491,8 @@ msgid "Select active Add-on"
 msgstr "选择附加组件版本"
 
 #: src/hotkey/hotkey_command.cpp:280
-#, fuzzy
-#| msgid "Open saves folder"
 msgid "Open Add-on folder"
-msgstr "打开存档文件夹"
+msgstr "打开附加组件文件夹"
 
 #: src/hotkey/hotkey_command.cpp:283
 msgid "Edit Side"

@@ -16736,10 +16736,6 @@ msgstr "幻影城堡"
 msgid "Phantom Keep"
 msgstr "幻影主楼"
 
-#~ msgid ""
-#~ "stunned: This unit is stunned. It cannot enforce its Zone of Control."
-#~ msgstr "昏迷: 此单位已昏迷，无法确保其控制区域。"
-
 #~ msgid "a fully-healed Dust Devil"
 #~ msgstr "一个完全治愈的尘土魔"
 
@@ -16814,6 +16810,10 @@ msgstr "幻影主楼"
 #~ "the end of the combat."
 #~ msgstr ""
 #~ "每次妮慕击中敌人时，她都会获得+10%的精确度和10%的闪避，直到战斗结束。"
+
+#~ msgid ""
+#~ "stunned: This unit is stunned. It cannot enforce its Zone of Control."
+#~ msgstr "昏迷: 此单位已昏迷，无法确保其控制区域。"
 
 #~ msgid "Hunter"
 #~ msgstr "猎手"

@@ -8637,12 +8637,12 @@ msgstr "伊蕊莎，不！别死！"
 msgid "How could this happen? We can’t possibly go on without her..."
 msgstr "怎么会这样？没有她我们不可能继续前进了……"
 
+#~ msgid "HAHAHAHA, DEATH HAS NO EFFECT ON ME YOU FOOLS!"
+#~ msgstr "哈哈哈哈，你们这些笨蛋，我是不会死的！"
+
 #~ msgid ""
 #~ "The old door crumbles away, revealing an old tunnel on the other side."
 #~ msgstr "老旧的门碎裂了，门后显出一条老旧的隧道。"
-
-#~ msgid "HAHAHAHA, DEATH HAS NO EFFECT ON ME YOU FOOLS!"
-#~ msgstr "哈哈哈哈，你们这些笨蛋，我是不会死的！"
 
 #~ msgid ""
 #~ "The Water Serpent is a foe dire enough when encountered in the rivers and "
