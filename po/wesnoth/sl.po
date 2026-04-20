@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sl\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2026-03-23 18:10-0500\n"
+"POT-Creation-Date: 2026-04-19 22:20-0500\n"
 "PO-Revision-Date: 2010-10-04 14:32+0100\n"
 "Last-Translator: Klemen Košir <klemen913@gmail.com>\n"
 "Language-Team: Slovenian\n"
@@ -414,7 +414,7 @@ msgid "Miscellaneous Contributors"
 msgstr "Razno"
 
 #. [about]
-#: data/core/about.cfg:1894
+#: data/core/about.cfg:1897
 #, fuzzy
 msgid "Bots"
 msgstr "IRC roboti"
@@ -644,71 +644,71 @@ msgid "Portuguese (Brazil) Translation"
 msgstr "Portugalski (Brazilija) prevod"
 
 #. [about]
-#: data/core/about_i18n.cfg:1545
+#: data/core/about_i18n.cfg:1548
 msgid "Romanian Translation"
 msgstr "Romunski prevod"
 
 #. [about]
-#: data/core/about_i18n.cfg:1553
+#: data/core/about_i18n.cfg:1556
 msgid "Russian Translation"
 msgstr "Ruski prevod"
 
 #. [about]
-#: data/core/about_i18n.cfg:1660
+#: data/core/about_i18n.cfg:1663
 #, fuzzy
 #| msgid "Galician Translation"
 msgid "Scottish Gaelic Translation"
 msgstr "Galicijski prevod"
 
 #. [about]
-#: data/core/about_i18n.cfg:1669
+#: data/core/about_i18n.cfg:1672
 msgid "Serbian Translation"
 msgstr "Srbski prevod"
 
 #. [about]
-#: data/core/about_i18n.cfg:1688
+#: data/core/about_i18n.cfg:1691
 msgid "Slovak Translation"
 msgstr "Slovaški prevod"
 
 #. [about]
-#: data/core/about_i18n.cfg:1723
+#: data/core/about_i18n.cfg:1726
 msgid "Slovenian Translation"
 msgstr "Slovenski prevod"
 
 #. [about]
-#: data/core/about_i18n.cfg:1739
+#: data/core/about_i18n.cfg:1742
 msgid "Spanish Translation"
 msgstr "Španski prevod"
 
 #. [about]
-#: data/core/about_i18n.cfg:1833
+#: data/core/about_i18n.cfg:1836
 msgid "Swedish Translation"
 msgstr "Švedski prevod"
 
 #. [about]
-#: data/core/about_i18n.cfg:1878
+#: data/core/about_i18n.cfg:1881
 msgid "Turkish Translation"
 msgstr "Turški prevod"
 
 #. [about]
-#: data/core/about_i18n.cfg:1903
+#: data/core/about_i18n.cfg:1906
 #, fuzzy
 #| msgid "Romanian Translation"
 msgid "Ukrainian Translation"
 msgstr "Romunski prevod"
 
 #. [about]
-#: data/core/about_i18n.cfg:1937
+#: data/core/about_i18n.cfg:1940
 msgid "Valencian (southern Catalan) Translation"
 msgstr "Valencijski (južnokatalonski) prevod"
 
 #. [about]
-#: data/core/about_i18n.cfg:1950
+#: data/core/about_i18n.cfg:1953
 msgid "Vietnamese Translation"
 msgstr "Vietnamski prevod"
 
 #. [about]
-#: data/core/about_i18n.cfg:1969
+#: data/core/about_i18n.cfg:1972
 #, fuzzy
 #| msgid "Polish Translation"
 msgid "Welsh Translation"
@@ -716,7 +716,7 @@ msgstr "Poljski prevod"
 
 #. [about]
 #. Real Acadèmia de Cultura Valenciana
-#: data/core/about_i18n.cfg:1978
+#: data/core/about_i18n.cfg:1981
 msgid "RACV’s Translation"
 msgstr "Valencijski (RACV) prevod"
 
@@ -1775,54 +1775,13 @@ msgstr ""
 msgid "This unit has been renamed to: "
 msgstr "Ni orožja"
 
-#. [lua]: generate_objectives
-#: data/core/macros/deprecated-utils.cfg:52 data/lua/wml/objectives.lua:106
-#, fuzzy
-msgid "Early finish bonus."
-msgstr "Bonus za zgodnji konec: "
-
-#. [lua]: generate_objectives
-#: data/core/macros/deprecated-utils.cfg:56 data/lua/wml/objectives.lua:109
-#, fuzzy
-msgid "No early finish bonus."
-msgstr "Bonus za zgodnji konec: "
-
-#. [lua]: generate_objectives
-#: data/core/macros/deprecated-utils.cfg:60 data/lua/wml/objectives.lua:117
-msgid "No gold carried over to the next scenario."
-msgstr ""
-
-#: data/core/macros/deprecated-utils.cfg:64
-msgid ""
-"\n"
-"100% of finishing gold carried over to the next scenario."
-msgstr ""
-"\n"
-"100% končnega zlata se prenese v naslednji scenarij."
-
-#: data/core/macros/deprecated-utils.cfg:69
-msgid ""
-"\n"
-"40% of finishing gold carried over to the next scenario."
-msgstr ""
-"\n"
-"40% končnega zlata se prenese v naslednji scenarij."
-
-#: data/core/macros/deprecated-utils.cfg:74
-msgid ""
-"\n"
-"20% of finishing gold carried over to the next scenario."
-msgstr ""
-"\n"
-"20% končnega zlata se prenese v naslednji scenarij."
-
 #. [chance_to_hit]: id=deflect
-#: data/core/macros/deprecated-utils.cfg:400
+#: data/core/macros/deprecated-utils.cfg:124
 msgid "deflect"
 msgstr ""
 
 #. [chance_to_hit]: id=deflect
-#: data/core/macros/deprecated-utils.cfg:401
+#: data/core/macros/deprecated-utils.cfg:125
 #, fuzzy
 msgid ""
 "When used defensively, this attack reduces the opponent’s chance to hit by "
@@ -1832,26 +1791,26 @@ msgstr ""
 "V napadu (ne v obrambi) ima enota vedno vsaj 60% možnosti da zadane."
 
 #. [chance_to_hit]: id=deflect
-#: data/core/macros/deprecated-utils.cfg:402
+#: data/core/macros/deprecated-utils.cfg:126
 msgid ""
 "This unit’s defensive techniques reduce the chance of a successful enemy "
 "attack."
 msgstr ""
 
 #. [damage]: id=absorb
-#: data/core/macros/deprecated-utils.cfg:415
+#: data/core/macros/deprecated-utils.cfg:139
 msgid "absorb"
 msgstr ""
 
 #. [damage]: id=absorb
-#: data/core/macros/deprecated-utils.cfg:416
+#: data/core/macros/deprecated-utils.cfg:140
 msgid ""
 "This attack puts the unit in good defensive position, and it absorbs some of "
 "the damage dealt by an enemy strike."
 msgstr ""
 
 #. [damage]: id=absorb
-#: data/core/macros/deprecated-utils.cfg:417
+#: data/core/macros/deprecated-utils.cfg:141
 msgid ""
 "This unit can block enemy strikes, so that it takes reduced damage when hit."
 msgstr ""
@@ -4376,6 +4335,23 @@ msgstr[2] ""
 msgstr[3] ""
 
 #. [lua]: generate_objectives
+#: data/lua/wml/objectives.lua:106
+#, fuzzy
+msgid "Early finish bonus."
+msgstr "Bonus za zgodnji konec: "
+
+#. [lua]: generate_objectives
+#: data/lua/wml/objectives.lua:109
+#, fuzzy
+msgid "No early finish bonus."
+msgstr "Bonus za zgodnji konec: "
+
+#. [lua]: generate_objectives
+#: data/lua/wml/objectives.lua:117
+msgid "No gold carried over to the next scenario."
+msgstr ""
+
+#. [lua]: generate_objectives
 #: data/lua/wml/objectives.lua:119
 #, fuzzy
 msgid "$percent|% of gold carried over to the next scenario."
@@ -5812,7 +5788,7 @@ msgstr ""
 msgid "Do you really wish to continue?"
 msgstr "Želite shraniti igro?"
 
-#: src/addon/client.cpp:722 src/addon/manager_ui.cpp:171
+#: src/addon/client.cpp:722 src/addon/manager_ui.cpp:187
 #: src/game_initialization/multiplayer.cpp:373
 msgid "Confirm"
 msgstr "Potrdi"
@@ -5882,24 +5858,28 @@ msgstr "(neznano)"
 msgid "unit_byte^B"
 msgstr ""
 
-#: src/addon/manager_ui.cpp:81 src/addon/manager_ui.cpp:320
-#, fuzzy
-msgid "Network communication error."
-msgstr "Napaka v mrežni komunikaciji."
-
-#: src/addon/manager_ui.cpp:84 src/addon/manager_ui.cpp:323
+#: src/addon/manager_ui.cpp:55
 #, fuzzy
 msgid "Remote host disconnected."
 msgstr "Oddaljeni gostitelj je prekinil povezavo."
 
-#: src/addon/manager_ui.cpp:87 src/addon/manager_ui.cpp:326
+#: src/addon/manager_ui.cpp:63
+msgid "Raw network error:"
+msgstr ""
+
+#: src/addon/manager_ui.cpp:97 src/addon/manager_ui.cpp:336
+#, fuzzy
+msgid "Network communication error."
+msgstr "Napaka v mrežni komunikaciji."
+
+#: src/addon/manager_ui.cpp:103 src/addon/manager_ui.cpp:342
 #, fuzzy
 msgid ""
 "A problem occurred when trying to create the files necessary to install this "
 "add-on."
 msgstr "Namestitev kampanje ni uspela; nekaj datotek ni bilo mogoče ustvariti."
 
-#: src/addon/manager_ui.cpp:96 src/addon/manager_ui.cpp:335
+#: src/addon/manager_ui.cpp:112 src/addon/manager_ui.cpp:351
 msgid ""
 "A local file with add-on publishing information could not be read.\n"
 "\n"
@@ -5907,16 +5887,16 @@ msgid ""
 "Error message: $msg"
 msgstr ""
 
-#: src/addon/manager_ui.cpp:104 src/addon/manager_ui.cpp:341
+#: src/addon/manager_ui.cpp:120 src/addon/manager_ui.cpp:357
 msgid "The add-ons server address specified is not valid."
 msgstr ""
 
-#: src/addon/manager_ui.cpp:117
+#: src/addon/manager_ui.cpp:133
 #, fuzzy
 msgid "You have no add-ons installed."
 msgstr "Dodatek je bil nameščen."
 
-#: src/addon/manager_ui.cpp:166
+#: src/addon/manager_ui.cpp:182
 #, fuzzy
 #| msgid "Are you sure you want to remove the add-on '$addon|'?"
 msgid "Are you sure you want to remove the following installed add-on?"
@@ -5926,7 +5906,7 @@ msgstr[1] "Ali res želite odstraniti dodatek '$addon|'?"
 msgstr[2] "Ali res želite odstraniti dodatek '$addon|'?"
 msgstr[3] "Ali res želite odstraniti dodatek '$addon|'?"
 
-#: src/addon/manager_ui.cpp:192
+#: src/addon/manager_ui.cpp:208
 msgid ""
 "The following add-on appears to have publishing or version control "
 "information stored locally, and will not be removed:"
@@ -5938,7 +5918,7 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: src/addon/manager_ui.cpp:202
+#: src/addon/manager_ui.cpp:218
 #, fuzzy
 msgid "The following add-on could not be deleted properly:"
 msgid_plural "The following add-ons could not be deleted properly:"
@@ -5947,7 +5927,7 @@ msgstr[1] "Dodatka ni mogoče pravilno izbrisati:"
 msgstr[2] "Dodatka ni mogoče pravilno izbrisati:"
 msgstr[3] "Dodatka ni mogoče pravilno izbrisati:"
 
-#: src/addon/manager_ui.cpp:209
+#: src/addon/manager_ui.cpp:225
 #, fuzzy
 #| msgid "Add-on deleted"
 msgid "Add-on Deleted"
@@ -5957,7 +5937,7 @@ msgstr[1] "Dodatek izbrisan"
 msgstr[2] "Dodatek izbrisan"
 msgstr[3] "Dodatek izbrisan"
 
-#: src/addon/manager_ui.cpp:211
+#: src/addon/manager_ui.cpp:227
 #, fuzzy
 msgid "The following add-on was successfully deleted:"
 msgid_plural "The following add-ons were successfully deleted:"
@@ -5966,12 +5946,12 @@ msgstr[1] "Sledeče dodatne kampanje zaradi napak ni bilo možno naložiti: "
 msgstr[2] "Sledeče dodatne kampanje zaradi napak ni bilo možno naložiti: "
 msgstr[3] "Sledeče dodatne kampanje zaradi napak ni bilo možno naložiti: "
 
-#: src/addon/manager_ui.cpp:268
+#: src/addon/manager_ui.cpp:284
 #, fuzzy
 msgid "An error occurred while downloading the add-ons list from the server."
 msgstr "Napaka pri komunikaciji s strežnikom."
 
-#: src/addon/manager_ui.cpp:313
+#: src/addon/manager_ui.cpp:329
 #, fuzzy
 msgid ""
 "Could not find add-ons matching the ids $addon_ids on the add-on server."
@@ -9173,22 +9153,22 @@ msgstr "Čas dneva"
 msgid "This Time of Day is only a Stub!"
 msgstr ""
 
-#: src/units/abilities.cpp:1140
+#: src/units/abilities.cpp:1141
 #, fuzzy
 msgid "Owned: "
 msgstr "upočasnjena: "
 
 #. TRANSLATORS: Past-participle of "teach", used for an ability similar to leadership
-#: src/units/abilities.cpp:1142
+#: src/units/abilities.cpp:1143
 msgid "Taught: "
 msgstr ""
 
 #. TRANSLATORS: Past-participle of "teach", used for an ability similar to leadership
-#: src/units/abilities.cpp:1144
+#: src/units/abilities.cpp:1145
 msgid "Taught: (by an enemy): "
 msgstr ""
 
-#: src/units/abilities.cpp:1145
+#: src/units/abilities.cpp:1146
 msgid "Used by opponent: "
 msgstr ""
 
@@ -9539,6 +9519,27 @@ msgstr "Zamenjaj z $player"
 #: src/whiteboard/manager.cpp:1140
 msgid "Whiteboard Options"
 msgstr ""
+
+#~ msgid ""
+#~ "\n"
+#~ "100% of finishing gold carried over to the next scenario."
+#~ msgstr ""
+#~ "\n"
+#~ "100% končnega zlata se prenese v naslednji scenarij."
+
+#~ msgid ""
+#~ "\n"
+#~ "40% of finishing gold carried over to the next scenario."
+#~ msgstr ""
+#~ "\n"
+#~ "40% končnega zlata se prenese v naslednji scenarij."
+
+#~ msgid ""
+#~ "\n"
+#~ "20% of finishing gold carried over to the next scenario."
+#~ msgstr ""
+#~ "\n"
+#~ "20% končnega zlata se prenese v naslednji scenarij."
 
 #, fuzzy
 #~ msgid "Do you want to load it anyway?"

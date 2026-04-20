@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.5+CVS\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2026-03-23 18:10-0500\n"
+"POT-Creation-Date: 2026-04-19 22:20-0500\n"
 "PO-Revision-Date: 2008-11-04 13:44+0200\n"
 "Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
@@ -397,7 +397,7 @@ msgid "Miscellaneous Contributors"
 msgstr "Forskellige bidragsydere"
 
 #. [about]
-#: data/core/about.cfg:1894
+#: data/core/about.cfg:1897
 msgid "Bots"
 msgstr "Bots"
 
@@ -628,72 +628,72 @@ msgid "Portuguese (Brazil) Translation"
 msgstr "Portugisisk (brasiliansk) oversættelse"
 
 #. [about]
-#: data/core/about_i18n.cfg:1545
+#: data/core/about_i18n.cfg:1548
 msgid "Romanian Translation"
 msgstr "Rumænsk oversættelse"
 
 #. [about]
-#: data/core/about_i18n.cfg:1553
+#: data/core/about_i18n.cfg:1556
 msgid "Russian Translation"
 msgstr "Russisk oversættelse"
 
 #. [about]
-#: data/core/about_i18n.cfg:1660
+#: data/core/about_i18n.cfg:1663
 #, fuzzy
 #| msgid "Galician Translation"
 msgid "Scottish Gaelic Translation"
 msgstr "Galician oversættelse"
 
 #. [about]
-#: data/core/about_i18n.cfg:1669
+#: data/core/about_i18n.cfg:1672
 msgid "Serbian Translation"
 msgstr "Serbisk oversættelse"
 
 #. [about]
-#: data/core/about_i18n.cfg:1688
+#: data/core/about_i18n.cfg:1691
 msgid "Slovak Translation"
 msgstr "Slovakisk oversættelse"
 
 #. [about]
-#: data/core/about_i18n.cfg:1723
+#: data/core/about_i18n.cfg:1726
 msgid "Slovenian Translation"
 msgstr "Slovensk oversættelse"
 
 #. [about]
-#: data/core/about_i18n.cfg:1739
+#: data/core/about_i18n.cfg:1742
 msgid "Spanish Translation"
 msgstr "Spansk oversættelse"
 
 #. [about]
-#: data/core/about_i18n.cfg:1833
+#: data/core/about_i18n.cfg:1836
 msgid "Swedish Translation"
 msgstr "Svensk oversættelse"
 
 #. [about]
-#: data/core/about_i18n.cfg:1878
+#: data/core/about_i18n.cfg:1881
 msgid "Turkish Translation"
 msgstr "Tyrkisk oversættelse"
 
 #. [about]
-#: data/core/about_i18n.cfg:1903
+#: data/core/about_i18n.cfg:1906
 #, fuzzy
 #| msgid "Romanian Translation"
 msgid "Ukrainian Translation"
 msgstr "Rumænsk oversættelse"
 
 #. [about]
-#: data/core/about_i18n.cfg:1937
+#: data/core/about_i18n.cfg:1940
 msgid "Valencian (southern Catalan) Translation"
 msgstr "Valencisk (sydlig katalansk) oversættelse"
 
 #. [about]
-#: data/core/about_i18n.cfg:1950
+#: data/core/about_i18n.cfg:1953
 #, fuzzy
 msgid "Vietnamese Translation"
 msgstr "Kinesisk oversættelse"
 
 #. [about]
-#: data/core/about_i18n.cfg:1969
+#: data/core/about_i18n.cfg:1972
 #, fuzzy
 #| msgid "Polish Translation"
 msgid "Welsh Translation"
@@ -701,7 +701,7 @@ msgstr "Polsk oversættelse"
 
 #. [about]
 #. Real Acadèmia de Cultura Valenciana
-#: data/core/about_i18n.cfg:1978
+#: data/core/about_i18n.cfg:1981
 msgid "RACV’s Translation"
 msgstr "RACV’s oversættelse"
 
@@ -1771,48 +1771,13 @@ msgstr ""
 msgid "This unit has been renamed to: "
 msgstr "Intet brugbar våben"
 
-#. [lua]: generate_objectives
-#: data/core/macros/deprecated-utils.cfg:52 data/lua/wml/objectives.lua:106
-#, fuzzy
-msgid "Early finish bonus."
-msgstr "Bonus for hurtig afslutning: "
-
-#. [lua]: generate_objectives
-#: data/core/macros/deprecated-utils.cfg:56 data/lua/wml/objectives.lua:109
-#, fuzzy
-msgid "No early finish bonus."
-msgstr "Bonus for hurtig afslutning: "
-
-#. [lua]: generate_objectives
-#: data/core/macros/deprecated-utils.cfg:60 data/lua/wml/objectives.lua:117
-msgid "No gold carried over to the next scenario."
-msgstr ""
-
-#: data/core/macros/deprecated-utils.cfg:64
-msgid ""
-"\n"
-"100% of finishing gold carried over to the next scenario."
-msgstr ""
-
-#: data/core/macros/deprecated-utils.cfg:69
-msgid ""
-"\n"
-"40% of finishing gold carried over to the next scenario."
-msgstr ""
-
-#: data/core/macros/deprecated-utils.cfg:74
-msgid ""
-"\n"
-"20% of finishing gold carried over to the next scenario."
-msgstr ""
-
 #. [chance_to_hit]: id=deflect
-#: data/core/macros/deprecated-utils.cfg:400
+#: data/core/macros/deprecated-utils.cfg:124
 msgid "deflect"
 msgstr ""
 
 #. [chance_to_hit]: id=deflect
-#: data/core/macros/deprecated-utils.cfg:401
+#: data/core/macros/deprecated-utils.cfg:125
 #, fuzzy
 #| msgid ""
 #| "Marksman:\n"
@@ -1826,26 +1791,26 @@ msgstr ""
 "Hvis anvendt offensivt, har dette angreb en træfsikkerhed på mindst 60 %."
 
 #. [chance_to_hit]: id=deflect
-#: data/core/macros/deprecated-utils.cfg:402
+#: data/core/macros/deprecated-utils.cfg:126
 msgid ""
 "This unit’s defensive techniques reduce the chance of a successful enemy "
 "attack."
 msgstr ""
 
 #. [damage]: id=absorb
-#: data/core/macros/deprecated-utils.cfg:415
+#: data/core/macros/deprecated-utils.cfg:139
 msgid "absorb"
 msgstr ""
 
 #. [damage]: id=absorb
-#: data/core/macros/deprecated-utils.cfg:416
+#: data/core/macros/deprecated-utils.cfg:140
 msgid ""
 "This attack puts the unit in good defensive position, and it absorbs some of "
 "the damage dealt by an enemy strike."
 msgstr ""
 
 #. [damage]: id=absorb
-#: data/core/macros/deprecated-utils.cfg:417
+#: data/core/macros/deprecated-utils.cfg:141
 msgid ""
 "This unit can block enemy strikes, so that it takes reduced damage when hit."
 msgstr ""
@@ -4378,6 +4343,23 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. [lua]: generate_objectives
+#: data/lua/wml/objectives.lua:106
+#, fuzzy
+msgid "Early finish bonus."
+msgstr "Bonus for hurtig afslutning: "
+
+#. [lua]: generate_objectives
+#: data/lua/wml/objectives.lua:109
+#, fuzzy
+msgid "No early finish bonus."
+msgstr "Bonus for hurtig afslutning: "
+
+#. [lua]: generate_objectives
+#: data/lua/wml/objectives.lua:117
+msgid "No gold carried over to the next scenario."
+msgstr ""
+
+#. [lua]: generate_objectives
 #: data/lua/wml/objectives.lua:119
 msgid "$percent|% of gold carried over to the next scenario."
 msgstr ""
@@ -5870,7 +5852,7 @@ msgstr ""
 msgid "Do you really wish to continue?"
 msgstr "Vil du gemme dit spil?"
 
-#: src/addon/client.cpp:722 src/addon/manager_ui.cpp:171
+#: src/addon/client.cpp:722 src/addon/manager_ui.cpp:187
 #: src/game_initialization/multiplayer.cpp:373
 msgid "Confirm"
 msgstr "Bekræft"
@@ -5939,22 +5921,26 @@ msgstr ""
 msgid "unit_byte^B"
 msgstr ""
 
-#: src/addon/manager_ui.cpp:81 src/addon/manager_ui.cpp:320
-msgid "Network communication error."
-msgstr "Fejl i netværkskommunikationen"
-
-#: src/addon/manager_ui.cpp:84 src/addon/manager_ui.cpp:323
+#: src/addon/manager_ui.cpp:55
 msgid "Remote host disconnected."
 msgstr "Vært mistede forbindelsen"
 
-#: src/addon/manager_ui.cpp:87 src/addon/manager_ui.cpp:326
+#: src/addon/manager_ui.cpp:63
+msgid "Raw network error:"
+msgstr ""
+
+#: src/addon/manager_ui.cpp:97 src/addon/manager_ui.cpp:336
+msgid "Network communication error."
+msgstr "Fejl i netværkskommunikationen"
+
+#: src/addon/manager_ui.cpp:103 src/addon/manager_ui.cpp:342
 msgid ""
 "A problem occurred when trying to create the files necessary to install this "
 "add-on."
 msgstr ""
 "Kunne ikke oprette de nødvendige filer for at denne kampagne kan installeres."
 
-#: src/addon/manager_ui.cpp:96 src/addon/manager_ui.cpp:335
+#: src/addon/manager_ui.cpp:112 src/addon/manager_ui.cpp:351
 msgid ""
 "A local file with add-on publishing information could not be read.\n"
 "\n"
@@ -5962,15 +5948,15 @@ msgid ""
 "Error message: $msg"
 msgstr ""
 
-#: src/addon/manager_ui.cpp:104 src/addon/manager_ui.cpp:341
+#: src/addon/manager_ui.cpp:120 src/addon/manager_ui.cpp:357
 msgid "The add-ons server address specified is not valid."
 msgstr ""
 
-#: src/addon/manager_ui.cpp:117
+#: src/addon/manager_ui.cpp:133
 msgid "You have no add-ons installed."
 msgstr "Du har ingen kampagner installeret."
 
-#: src/addon/manager_ui.cpp:166
+#: src/addon/manager_ui.cpp:182
 #, fuzzy
 #| msgid "Are you sure you want to remove the add-on '$addon|'?"
 msgid "Are you sure you want to remove the following installed add-on?"
@@ -5978,7 +5964,7 @@ msgid_plural "Are you sure you want to remove the following installed add-ons?"
 msgstr[0] "Er du sikker på at du ønsker at fjerne udvidelsesmodul '$addon|'?"
 msgstr[1] "Er du sikker på at du ønsker at fjerne udvidelsesmodul '$addon|'?"
 
-#: src/addon/manager_ui.cpp:192
+#: src/addon/manager_ui.cpp:208
 msgid ""
 "The following add-on appears to have publishing or version control "
 "information stored locally, and will not be removed:"
@@ -5988,7 +5974,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/addon/manager_ui.cpp:202
+#: src/addon/manager_ui.cpp:218
 #, fuzzy
 #| msgid "Add-on could not be deleted properly:"
 msgid "The following add-on could not be deleted properly:"
@@ -5996,7 +5982,7 @@ msgid_plural "The following add-ons could not be deleted properly:"
 msgstr[0] "Kampagne kunne ikke slettes ordentligt:"
 msgstr[1] "Kampagne kunne ikke slettes ordentligt:"
 
-#: src/addon/manager_ui.cpp:209
+#: src/addon/manager_ui.cpp:225
 #, fuzzy
 #| msgid "Add-on deleted"
 msgid "Add-on Deleted"
@@ -6004,7 +5990,7 @@ msgid_plural "Add-ons Deleted"
 msgstr[0] "Udvidelsesmodul slettet"
 msgstr[1] "Udvidelsesmodul slettet"
 
-#: src/addon/manager_ui.cpp:211
+#: src/addon/manager_ui.cpp:227
 #, fuzzy
 #| msgid "The following add-on had errors and could not be loaded:"
 #| msgid_plural "The following add-ons had errors and could not be loaded:"
@@ -6015,13 +6001,13 @@ msgstr[0] ""
 msgstr[1] ""
 "Følgende udvidelsesmoduler indeholder fejl og kunne derfor ikke indlæses:"
 
-#: src/addon/manager_ui.cpp:268
+#: src/addon/manager_ui.cpp:284
 #, fuzzy
 #| msgid "An error occurred while communicating with the server."
 msgid "An error occurred while downloading the add-ons list from the server."
 msgstr "En fejl opstod under kommunikation med serveren."
 
-#: src/addon/manager_ui.cpp:313
+#: src/addon/manager_ui.cpp:329
 #, fuzzy
 #| msgid "There are no add-ons available for download from this server."
 msgid ""
@@ -9264,23 +9250,23 @@ msgstr "Tid på døgnet"
 msgid "This Time of Day is only a Stub!"
 msgstr ""
 
-#: src/units/abilities.cpp:1140
+#: src/units/abilities.cpp:1141
 #, fuzzy
 #| msgid "slowed: "
 msgid "Owned: "
 msgstr "langsom: "
 
 #. TRANSLATORS: Past-participle of "teach", used for an ability similar to leadership
-#: src/units/abilities.cpp:1142
+#: src/units/abilities.cpp:1143
 msgid "Taught: "
 msgstr ""
 
 #. TRANSLATORS: Past-participle of "teach", used for an ability similar to leadership
-#: src/units/abilities.cpp:1144
+#: src/units/abilities.cpp:1145
 msgid "Taught: (by an enemy): "
 msgstr ""
 
-#: src/units/abilities.cpp:1145
+#: src/units/abilities.cpp:1146
 msgid "Used by opponent: "
 msgstr ""
 

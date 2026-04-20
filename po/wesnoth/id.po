@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.3-svn\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2026-03-23 18:10-0500\n"
+"POT-Creation-Date: 2026-04-19 22:20-0500\n"
 "PO-Revision-Date: 2021-06-10 16:48+0700\n"
 "Last-Translator: I. Musthafa <sevennightmare@tutanota.de>\n"
 "Language-Team: none\n"
@@ -403,7 +403,7 @@ msgid "Miscellaneous Contributors"
 msgstr "Penyumbang bermacam-macam"
 
 #. [about]
-#: data/core/about.cfg:1894
+#: data/core/about.cfg:1897
 msgid "Bots"
 msgstr "Robot"
 
@@ -629,67 +629,67 @@ msgid "Portuguese (Brazil) Translation"
 msgstr "Bahasa Portugis (Brasil)"
 
 #. [about]
-#: data/core/about_i18n.cfg:1545
+#: data/core/about_i18n.cfg:1548
 msgid "Romanian Translation"
 msgstr "Bahasa Rumania"
 
 #. [about]
-#: data/core/about_i18n.cfg:1553
+#: data/core/about_i18n.cfg:1556
 msgid "Russian Translation"
 msgstr "Bahasa Rusia"
 
 #. [about]
-#: data/core/about_i18n.cfg:1660
+#: data/core/about_i18n.cfg:1663
 msgid "Scottish Gaelic Translation"
 msgstr "Bahasa Gael Skotlandia"
 
 #. [about]
-#: data/core/about_i18n.cfg:1669
+#: data/core/about_i18n.cfg:1672
 msgid "Serbian Translation"
 msgstr "Bahasa Serbia"
 
 #. [about]
-#: data/core/about_i18n.cfg:1688
+#: data/core/about_i18n.cfg:1691
 msgid "Slovak Translation"
 msgstr "Bahasa Slovakia"
 
 #. [about]
-#: data/core/about_i18n.cfg:1723
+#: data/core/about_i18n.cfg:1726
 msgid "Slovenian Translation"
 msgstr "Bahasa Slovenia"
 
 #. [about]
-#: data/core/about_i18n.cfg:1739
+#: data/core/about_i18n.cfg:1742
 msgid "Spanish Translation"
 msgstr "Bahasa Spanyol"
 
 #. [about]
-#: data/core/about_i18n.cfg:1833
+#: data/core/about_i18n.cfg:1836
 msgid "Swedish Translation"
 msgstr "Bahasa Swedia"
 
 #. [about]
-#: data/core/about_i18n.cfg:1878
+#: data/core/about_i18n.cfg:1881
 msgid "Turkish Translation"
 msgstr "Bahasa Turki"
 
 #. [about]
-#: data/core/about_i18n.cfg:1903
+#: data/core/about_i18n.cfg:1906
 msgid "Ukrainian Translation"
 msgstr "Bahasa Ukrania"
 
 #. [about]
-#: data/core/about_i18n.cfg:1937
+#: data/core/about_i18n.cfg:1940
 msgid "Valencian (southern Catalan) Translation"
 msgstr "Bahasa Valensia (Katalonia selatan)"
 
 #. [about]
-#: data/core/about_i18n.cfg:1950
+#: data/core/about_i18n.cfg:1953
 msgid "Vietnamese Translation"
 msgstr "Bahasa Vietnam"
 
 #. [about]
-#: data/core/about_i18n.cfg:1969
+#: data/core/about_i18n.cfg:1972
 #, fuzzy
 #| msgid "Polish Translation"
 msgid "Welsh Translation"
@@ -697,7 +697,7 @@ msgstr "Bahasa Polandia"
 
 #. [about]
 #. Real Acadèmia de Cultura Valenciana
-#: data/core/about_i18n.cfg:1978
+#: data/core/about_i18n.cfg:1981
 msgid "RACV’s Translation"
 msgstr "Terjemahan RACV"
 
@@ -1766,52 +1766,13 @@ msgstr ""
 msgid "This unit has been renamed to: "
 msgstr "Tidak ada senjata yang bisa dipakai"
 
-#. [lua]: generate_objectives
-#: data/core/macros/deprecated-utils.cfg:52 data/lua/wml/objectives.lua:106
-msgid "Early finish bonus."
-msgstr "Bonus menyelesaikan lebih awal."
-
-#. [lua]: generate_objectives
-#: data/core/macros/deprecated-utils.cfg:56 data/lua/wml/objectives.lua:109
-msgid "No early finish bonus."
-msgstr "Tidak ada bonus menyelesaikan lebih awal."
-
-#. [lua]: generate_objectives
-#: data/core/macros/deprecated-utils.cfg:60 data/lua/wml/objectives.lua:117
-msgid "No gold carried over to the next scenario."
-msgstr "Tidak ada emas yang dibawa ke skenario berikutnya."
-
-#: data/core/macros/deprecated-utils.cfg:64
-msgid ""
-"\n"
-"100% of finishing gold carried over to the next scenario."
-msgstr ""
-"\n"
-"100% emas dimiliki ketika selesai dibawa ke skenario berikutnya."
-
-#: data/core/macros/deprecated-utils.cfg:69
-msgid ""
-"\n"
-"40% of finishing gold carried over to the next scenario."
-msgstr ""
-"\n"
-"40% emas dimiliki ketika selesai dibawa ke skenario berikutnya."
-
-#: data/core/macros/deprecated-utils.cfg:74
-msgid ""
-"\n"
-"20% of finishing gold carried over to the next scenario."
-msgstr ""
-"\n"
-"20% emas dimiliki ketika selesai dibawa ke skenario berikutnya."
-
 #. [chance_to_hit]: id=deflect
-#: data/core/macros/deprecated-utils.cfg:400
+#: data/core/macros/deprecated-utils.cfg:124
 msgid "deflect"
 msgstr ""
 
 #. [chance_to_hit]: id=deflect
-#: data/core/macros/deprecated-utils.cfg:401
+#: data/core/macros/deprecated-utils.cfg:125
 #, fuzzy
 #| msgid ""
 #| "Marksman:\n"
@@ -1826,26 +1787,26 @@ msgstr ""
 "60% kemungkinan mengenai sasaran."
 
 #. [chance_to_hit]: id=deflect
-#: data/core/macros/deprecated-utils.cfg:402
+#: data/core/macros/deprecated-utils.cfg:126
 msgid ""
 "This unit’s defensive techniques reduce the chance of a successful enemy "
 "attack."
 msgstr ""
 
 #. [damage]: id=absorb
-#: data/core/macros/deprecated-utils.cfg:415
+#: data/core/macros/deprecated-utils.cfg:139
 msgid "absorb"
 msgstr ""
 
 #. [damage]: id=absorb
-#: data/core/macros/deprecated-utils.cfg:416
+#: data/core/macros/deprecated-utils.cfg:140
 msgid ""
 "This attack puts the unit in good defensive position, and it absorbs some of "
 "the damage dealt by an enemy strike."
 msgstr ""
 
 #. [damage]: id=absorb
-#: data/core/macros/deprecated-utils.cfg:417
+#: data/core/macros/deprecated-utils.cfg:141
 msgid ""
 "This unit can block enemy strikes, so that it takes reduced damage when hit."
 msgstr ""
@@ -4514,6 +4475,21 @@ msgid_plural "($remaining_turns turns left)"
 msgstr[0] "(sisa giliran ini)"
 
 #. [lua]: generate_objectives
+#: data/lua/wml/objectives.lua:106
+msgid "Early finish bonus."
+msgstr "Bonus menyelesaikan lebih awal."
+
+#. [lua]: generate_objectives
+#: data/lua/wml/objectives.lua:109
+msgid "No early finish bonus."
+msgstr "Tidak ada bonus menyelesaikan lebih awal."
+
+#. [lua]: generate_objectives
+#: data/lua/wml/objectives.lua:117
+msgid "No gold carried over to the next scenario."
+msgstr "Tidak ada emas yang dibawa ke skenario berikutnya."
+
+#. [lua]: generate_objectives
 #: data/lua/wml/objectives.lua:119
 #, fuzzy
 #| msgid "%d%% of gold carried over to the next scenario."
@@ -6107,7 +6083,7 @@ msgstr ""
 msgid "Do you really wish to continue?"
 msgstr "Apakah anda mau melanjutkan?"
 
-#: src/addon/client.cpp:722 src/addon/manager_ui.cpp:171
+#: src/addon/client.cpp:722 src/addon/manager_ui.cpp:187
 #: src/game_initialization/multiplayer.cpp:373
 msgid "Confirm"
 msgstr "Tegaskan"
@@ -6174,15 +6150,19 @@ msgstr "(tidak diketahui)"
 msgid "unit_byte^B"
 msgstr "B"
 
-#: src/addon/manager_ui.cpp:81 src/addon/manager_ui.cpp:320
-msgid "Network communication error."
-msgstr "Error komunikasi jaringan."
-
-#: src/addon/manager_ui.cpp:84 src/addon/manager_ui.cpp:323
+#: src/addon/manager_ui.cpp:55
 msgid "Remote host disconnected."
 msgstr "Remote host terputus hubungan."
 
-#: src/addon/manager_ui.cpp:87 src/addon/manager_ui.cpp:326
+#: src/addon/manager_ui.cpp:63
+msgid "Raw network error:"
+msgstr ""
+
+#: src/addon/manager_ui.cpp:97 src/addon/manager_ui.cpp:336
+msgid "Network communication error."
+msgstr "Error komunikasi jaringan."
+
+#: src/addon/manager_ui.cpp:103 src/addon/manager_ui.cpp:342
 msgid ""
 "A problem occurred when trying to create the files necessary to install this "
 "add-on."
@@ -6190,7 +6170,7 @@ msgstr ""
 "Sebuah masalah terjadi ketika mencoba menciptakan file yang diperlukan untuk "
 "menginstal tambahan ini."
 
-#: src/addon/manager_ui.cpp:96 src/addon/manager_ui.cpp:335
+#: src/addon/manager_ui.cpp:112 src/addon/manager_ui.cpp:351
 msgid ""
 "A local file with add-on publishing information could not be read.\n"
 "\n"
@@ -6198,20 +6178,20 @@ msgid ""
 "Error message: $msg"
 msgstr ""
 
-#: src/addon/manager_ui.cpp:104 src/addon/manager_ui.cpp:341
+#: src/addon/manager_ui.cpp:120 src/addon/manager_ui.cpp:357
 msgid "The add-ons server address specified is not valid."
 msgstr ""
 
-#: src/addon/manager_ui.cpp:117
+#: src/addon/manager_ui.cpp:133
 msgid "You have no add-ons installed."
 msgstr "Anda tidak memiliki tambahan terinstal."
 
-#: src/addon/manager_ui.cpp:166
+#: src/addon/manager_ui.cpp:182
 msgid "Are you sure you want to remove the following installed add-on?"
 msgid_plural "Are you sure you want to remove the following installed add-ons?"
 msgstr[0] "Apakah anda yakin anda mau menghapus add-on terinstal berikut?"
 
-#: src/addon/manager_ui.cpp:192
+#: src/addon/manager_ui.cpp:208
 msgid ""
 "The following add-on appears to have publishing or version control "
 "information stored locally, and will not be removed:"
@@ -6222,28 +6202,28 @@ msgstr[0] ""
 "Add-on berikut tampaknya telah menerbitkan atau versi  informasi kontrol "
 "disimpan secara lokal, dan tidak akan dihapus:"
 
-#: src/addon/manager_ui.cpp:202
+#: src/addon/manager_ui.cpp:218
 msgid "The following add-on could not be deleted properly:"
 msgid_plural "The following add-ons could not be deleted properly:"
 msgstr[0] "Add-on berikut tidak bisa dihapus sebagaimana mestinya:"
 
-#: src/addon/manager_ui.cpp:209
+#: src/addon/manager_ui.cpp:225
 msgid "Add-on Deleted"
 msgid_plural "Add-ons Deleted"
 msgstr[0] "Add-on sudah dihapus"
 
-#: src/addon/manager_ui.cpp:211
+#: src/addon/manager_ui.cpp:227
 msgid "The following add-on was successfully deleted:"
 msgid_plural "The following add-ons were successfully deleted:"
 msgstr[0] "Add-on berikut telah berhasil dihapus:"
 
-#: src/addon/manager_ui.cpp:268
+#: src/addon/manager_ui.cpp:284
 #, fuzzy
 #| msgid "An error occurred while communicating with the server."
 msgid "An error occurred while downloading the add-ons list from the server."
 msgstr "Sebuah error terjadi ketika berkomunikasi dengan server."
 
-#: src/addon/manager_ui.cpp:313
+#: src/addon/manager_ui.cpp:329
 #, fuzzy
 #| msgid "Could not find any updated add-ons on this server."
 msgid ""
@@ -9532,23 +9512,23 @@ msgstr "Jam"
 msgid "This Time of Day is only a Stub!"
 msgstr ""
 
-#: src/units/abilities.cpp:1140
+#: src/units/abilities.cpp:1141
 #, fuzzy
 #| msgid "slowed: "
 msgid "Owned: "
 msgstr "diperlambat: "
 
 #. TRANSLATORS: Past-participle of "teach", used for an ability similar to leadership
-#: src/units/abilities.cpp:1142
+#: src/units/abilities.cpp:1143
 msgid "Taught: "
 msgstr ""
 
 #. TRANSLATORS: Past-participle of "teach", used for an ability similar to leadership
-#: src/units/abilities.cpp:1144
+#: src/units/abilities.cpp:1145
 msgid "Taught: (by an enemy): "
 msgstr ""
 
-#: src/units/abilities.cpp:1145
+#: src/units/abilities.cpp:1146
 msgid "Used by opponent: "
 msgstr ""
 
@@ -9878,6 +9858,27 @@ msgstr "Sembunyikan rencana untuk $player"
 #: src/whiteboard/manager.cpp:1140
 msgid "Whiteboard Options"
 msgstr "Pilihan Papan Tulis Putih"
+
+#~ msgid ""
+#~ "\n"
+#~ "100% of finishing gold carried over to the next scenario."
+#~ msgstr ""
+#~ "\n"
+#~ "100% emas dimiliki ketika selesai dibawa ke skenario berikutnya."
+
+#~ msgid ""
+#~ "\n"
+#~ "40% of finishing gold carried over to the next scenario."
+#~ msgstr ""
+#~ "\n"
+#~ "40% emas dimiliki ketika selesai dibawa ke skenario berikutnya."
+
+#~ msgid ""
+#~ "\n"
+#~ "20% of finishing gold carried over to the next scenario."
+#~ msgstr ""
+#~ "\n"
+#~ "20% emas dimiliki ketika selesai dibawa ke skenario berikutnya."
 
 #, fuzzy
 #~| msgid "Do you still want to download it?"

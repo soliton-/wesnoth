@@ -18,7 +18,7 @@
 .\" This file was generated with po4a. Translate the source file.
 .\"
 .\"*******************************************************************
-.TH WESNOTH 6 2022 wesnoth "Bataille pour Wesnoth"
+.TH WESNOTH 6 2025 wesnoth "Bataille pour Wesnoth"
 .
 .SH NOM
 wesnoth \- Bataille pour Wesnoth, un jeu fantasy de stratégie tour par tour
@@ -74,7 +74,7 @@ Adds the option to show a clock for testing the drawing timer. Also adds the
 option for showing the GUI Test Dialog.
 .TP 
 \fB\-\-core\fP\fI\ id_core\fP
-Overrides the loaded core with the one whose id is specified.
+Remplace le noyau chargé par celui spécifié par l'identifiant.
 .TP 
 \fB\-\-data\-dir\fP\fI\ répertoire\fP
 Overrides the data directory with the one specified. The data directory is
@@ -94,7 +94,7 @@ active certains mécanismes de débogage pour Lua.
 \fB\-\-strict\-lua\fP
 Désactive les appels obsolètes à l'interface lua.
 .TP 
-\fB\-D,\ \-\-diff\fP\fI\ left\-file\fP\fB\ \fP\fIright\-file\fP
+\fB\-D,\ \-\-diff\fP\fI\ fichier\-original\fP\fB\ \fP\fIfichier\-nouveau\fP
 Fait la différence entre deux fichiers WML sans résolution préalable des
 macros (pour appliquer cela, utiliser d'abord \fB\-p\fP). La sortie de la
 différence sous format DiffWML se fait vers la sortie par défaut ou vers le
@@ -137,10 +137,10 @@ This option can be specified multiple times.
 Affiche les horodatages avec plus de précision dans le fichier de
 journalisation.
 .TP 
-\fB\-\-log\-strict\fP\fI\ level\fP
-sets the strict \fIlevel\fP of the logger. Any messages sent to log domains of
-this \fIlevel\fP or more severe will cause the unit test to fail regardless of
-the victory result. Only relevant when used with \fB\-u\fP.
+\fB\-\-log\-strict\fP\fI\ niveau\fP
+Positionne le \fIniveau\fP strict pour ce journal. Tout message journalisé avec
+ce niveau ou plus sévère causera l'échec du test unitaire, quelque soit le
+résultat du jeu. Uniquement utile avec l'option \fB\-u\fP.
 .TP 
 \fB\-\-logdomains[\fP\fI=filtre\fP\fB]\fP
 Liste les types de journaux définis (uniquement ceux contenant \fIfiltre\fP si
@@ -152,8 +152,8 @@ WESNOTH_NO_LOG_FILE can also be set as an alternative. Log files are created
 in the logs directory under the userdata folder.
 .TP 
 \fB\-\-log\-to\-file\fP
-log output is written to a file. Cancels the effect of \-\-no\-log\-to\-file
-whether implicit or explicit.
+Un fichier de journalisation est créé. Annule l'effet du \-\-no\-log\-to\-file
+implicite ou donné explicitement.
 .TP 
 \fB\-\-no\-log\-sanitize\fP
 disables the anonymization that's normally applied when logging, for example
@@ -215,11 +215,11 @@ Utilise \fImot de passe\fP lors de la connexion à un serveur, en ignorant
 d'autres préférences. Dangereux.
 .TP 
 \fB\-\-plugin\fP\fI\ script\fP
-load a \fIscript\fP which defines a Wesnoth plugin. Lua file should return a
-function which will be run as a coroutine and periodically woken up with
-updates.
+charge un \fIscript\fP qui défini un plugin Wesnoth. Le fichier Lua devrait
+retourner une fonction qui sera exécutée comme une coroutine et réveillée
+périodiquement avec des mises à jour.
 .TP 
-\fB\-P,\ \-\-patch\fP\fI\ base\-file\fP\fB\ \fP\fIpatch\-file\fP
+\fB\-P,\ \-\-patch\fP\fI\ fichier\-cible\fP\fB\ \fP\fIfichier\-patch\fP
 Applique une différence au format DiffWML à un fichier WML sans résolution
 préalable des macros dans les fichiers. La sortie du fichier WML modifié se
 fait vers la sortie par défaut ou vers le fichier spécifié par \fI\-\-output\fP.
@@ -234,26 +234,24 @@ spécifiées. Exemple : \fB\-p ~/wesnoth/data/campaigns/tutorial ~/result.\fP Po
 plus de détails concernant le prétraitement visiter :
 https://wiki.wesnoth.org/PreprocessorRef#Command\-line_preprocessor.
 .TP 
-\fB\-\-preprocess\-string\fP\fI\ source\-string\fP
+\fB\-\-preprocess\-string\fP\fI\ fichier source\fP
 preprocesses a given string and writes the output to stdout.
 .TP 
 \fB\-\-preprocess\-defines=\fP\fIDEFINITION1\fP\fB,\fP\fIDEFINITION2\fP\fB,\fP\fI...\fP
-comma separated list of defines to be used by the \fB\-\-preprocess\fP or
-\fB\-\-preprocess\-string\fP command. If \fBSKIP_CORE\fP is in the define list the
-"data/core" directory won't be preprocessed.
+Une liste séparée par des virgules de définitions pour être utilisée par la
+commande \fB\-\-preprocess\fP ou \fB\-\-preprocess\-string\fP. Si \fBSKIP_CORE\fP est
+définie dans la liste le répertoire « data/core » ne sera pas prétraité.
 .TP 
 \fB\-\-preprocess\-input\-macros\fP\fI\ fichier source\fP
-used only by the \fB\-\-preprocess\fP or \fB\-\-preprocess\-string\fP
-command. Specifies a file that contains \fB[preproc_define]\fPs to be included
-before preprocessing.
+Utilisé uniquement par la commande \fB\-\-preprocess\fP ou
+\fB\-\-preprocess\-string\fP. Spécifie un fichier qui contient des \fB[définition pour préprocesseur]\fP à inclure avant le prétraitement.
 .TP 
 \fB\-\-preprocess\-output\-macros[\fP\fI=fichier cible\fP\fB]\fP
-used only by the \fB\-\-preprocess\fP command (But not by the
-\fB\-\-preprocess\-string\fP command). Will output all preprocessed macros in the
-target file. If the file is not specified the output will be file
-\&'_MACROS_.cfg' in the target directory of preprocess's command. The output
-file can be passed to \fB\-\-preprocess\-input\-macros\fP.  This switch should be
-typed before the \fB\-\-preprocess\fP command.
+Utilisé uniquement par la commande \fB\-\-preprocess\fP ou
+\fB\-\-preprocess\-string\fP.  La sortie des macros prétraitées sera envoyée dans
+le fichier cible. Si le fichier n'est pas spécifié, la sortie sera envoyée
+dans «\ _MACROS_.cfg\ » situé dans le répertoire cible de la commande du
+préprocesseur.  Cette commande doit être saisie avant \fB\-\-preprocess\fP.
 .TP 
 \fB\-r\ \fP\fIX\fP\fBx\fP\fIY\fP\fB,\ \-\-resolution\fP\ \fIX\fP\fBx\fP\fIY\fP
 Définit la résolution de l'écran. Exemple\ : \fB\-r\fP \fB800x600\fP.
@@ -308,8 +306,8 @@ charger n'importe quel package. Ne faites cela qu'avec des scripts de
 confiance ! Cette action donne aux scripts Lua les mêmes permissions que
 l'exécutable de Wesnoth.
 .TP 
-\fB\-S,\ \-\-use\-schema\fP\fI\ path\fP
-sets the WML schema for use with \fB\-V,\ \-\-validate\fP.
+\fB\-S,\ \-\-use\-schema\fP\fI\ chemin\fP
+Donne le schéma WML à utiliser dans \fB\-V,\ \-\-validate\fP.
 .TP 
 \fB\-\-userdata\-dir\fP\fI\ nom\fP
 Définit le répertoire de données à \fInom\fP dans $HOME ou dans "Mes
@@ -335,7 +333,7 @@ Valide le code WML d'une extension durant le jeu.
 \fB\-\-validate\-core\fP
 Valide le code WML d'un noyau durant le jeu.
 .TP 
-\fB\-\-validate\-schema\fP\fI\ path\fP
+\fB\-\-validate\-schema\fP\fI\ chemin\fP
 Valide un fichier en tant que schéma WML.
 .TP 
 \fB\-\-validcache\fP

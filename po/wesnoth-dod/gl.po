@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2026-02-26 01:03 UTC\n"
+"POT-Creation-Date: 2026-04-20 03:20 UTC\n"
 "PO-Revision-Date: 2025-12-05 13:11+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -36,8 +36,12 @@ msgstr ""
 
 #. [campaign]: id=Dusk_of_Dawn
 #: data/campaigns/Dusk_of_Dawn/_main.cfg:20
+#, fuzzy
+#| msgid ""
+#| "This is an exerpt from the Book of Crelanu, as transcribed by the Weldyn "
+#| "Royal Scholars Society."
 msgid ""
-"This is an exerpt from the Book of Crelanu, as transcribed by the Weldyn "
+"This is an excerpt from the Book of Crelanu, as transcribed by the Weldyn "
 "Royal Scholars Society."
 msgstr ""
 "Este é un extracto do Libro de Crelanu, segundo a transcrición da Weldyn "
@@ -1837,6 +1841,11 @@ msgstr "fouce"
 msgid "Ougl...!"
 msgstr "Ougl...!"
 
+#. [message]: speaker=narrator
+#: data/campaigns/Dusk_of_Dawn/utils/items.cfg:23
+msgid "Should $unit.name| drink the potion?"
+msgstr ""
+
 #. [message]: speaker=$unit.id|
 #. [message]: speaker=narrator
 #: data/campaigns/Dusk_of_Dawn/utils/items.cfg:24
@@ -1873,6 +1882,11 @@ msgstr ""
 msgid "No"
 msgstr ""
 
+#. [message]: speaker=narrator
+#: data/campaigns/Dusk_of_Dawn/utils/items.cfg:99
+msgid "Should $unit.name| take the branch?"
+msgstr ""
+
 #. [message]: speaker=$unit.id|
 #. [message]: speaker=narrator
 #: data/campaigns/Dusk_of_Dawn/utils/items.cfg:100
@@ -1888,6 +1902,11 @@ msgstr ""
 #. [object]: id={ID}
 #: data/campaigns/Dusk_of_Dawn/utils/items.cfg:108
 msgid "The magical branch of some great Wose."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: data/campaigns/Dusk_of_Dawn/utils/items.cfg:170
+msgid "Should $unit.name| touch the monolith?"
 msgstr ""
 
 #. [message]: speaker=narrator

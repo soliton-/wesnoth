@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Wesnoth\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2026-03-23 18:10-0500\n"
+"POT-Creation-Date: 2026-04-19 22:20-0500\n"
 "PO-Revision-Date: 2025-09-17 13:22+0200\n"
 "Last-Translator: Adrian Chaves <adrian@chaves.io>\n"
 "Language-Team: Galician <kde-i18n-doc@kde.org>\n"
@@ -415,7 +415,7 @@ msgid "Miscellaneous Contributors"
 msgstr "Outros colaboradores"
 
 #. [about]
-#: data/core/about.cfg:1894
+#: data/core/about.cfg:1897
 msgid "Bots"
 msgstr "Robots"
 
@@ -635,73 +635,73 @@ msgid "Portuguese (Brazil) Translation"
 msgstr "Tradución ao portugués (Brasil)"
 
 #. [about]
-#: data/core/about_i18n.cfg:1545
+#: data/core/about_i18n.cfg:1548
 msgid "Romanian Translation"
 msgstr "Tradución ao romanés"
 
 #. [about]
-#: data/core/about_i18n.cfg:1553
+#: data/core/about_i18n.cfg:1556
 msgid "Russian Translation"
 msgstr "Tradución ao ruso"
 
 #. [about]
-#: data/core/about_i18n.cfg:1660
+#: data/core/about_i18n.cfg:1663
 msgid "Scottish Gaelic Translation"
 msgstr "Tradución ao gaélico escocés"
 
 #. [about]
-#: data/core/about_i18n.cfg:1669
+#: data/core/about_i18n.cfg:1672
 msgid "Serbian Translation"
 msgstr "Tradución ao serbio"
 
 #. [about]
-#: data/core/about_i18n.cfg:1688
+#: data/core/about_i18n.cfg:1691
 msgid "Slovak Translation"
 msgstr "Tradución ao eslovaco"
 
 #. [about]
-#: data/core/about_i18n.cfg:1723
+#: data/core/about_i18n.cfg:1726
 msgid "Slovenian Translation"
 msgstr "Tradución ao esloveno"
 
 #. [about]
-#: data/core/about_i18n.cfg:1739
+#: data/core/about_i18n.cfg:1742
 msgid "Spanish Translation"
 msgstr "Tradución ao castelán"
 
 #. [about]
-#: data/core/about_i18n.cfg:1833
+#: data/core/about_i18n.cfg:1836
 msgid "Swedish Translation"
 msgstr "Tradución ao sueco"
 
 #. [about]
-#: data/core/about_i18n.cfg:1878
+#: data/core/about_i18n.cfg:1881
 msgid "Turkish Translation"
 msgstr "Tradución ao turco"
 
 #. [about]
-#: data/core/about_i18n.cfg:1903
+#: data/core/about_i18n.cfg:1906
 msgid "Ukrainian Translation"
 msgstr "Tradución ao ucraíno"
 
 #. [about]
-#: data/core/about_i18n.cfg:1937
+#: data/core/about_i18n.cfg:1940
 msgid "Valencian (southern Catalan) Translation"
 msgstr "Tradución ao valenciano"
 
 #. [about]
-#: data/core/about_i18n.cfg:1950
+#: data/core/about_i18n.cfg:1953
 msgid "Vietnamese Translation"
 msgstr "Tradución ao vietnamita"
 
 #. [about]
-#: data/core/about_i18n.cfg:1969
+#: data/core/about_i18n.cfg:1972
 msgid "Welsh Translation"
 msgstr "Tradución ao galés"
 
 #. [about]
 #. Real Acadèmia de Cultura Valenciana
-#: data/core/about_i18n.cfg:1978
+#: data/core/about_i18n.cfg:1981
 msgid "RACV’s Translation"
 msgstr "Tradución do RACV"
 
@@ -1719,53 +1719,13 @@ msgstr ""
 msgid "This unit has been renamed to: "
 msgstr "Esta unidade renomeouse como: "
 
-#. [lua]: generate_objectives
-#: data/core/macros/deprecated-utils.cfg:52 data/lua/wml/objectives.lua:106
-msgid "Early finish bonus."
-msgstr "Bonificación por rematar cedo."
-
-#. [lua]: generate_objectives
-#: data/core/macros/deprecated-utils.cfg:56 data/lua/wml/objectives.lua:109
-msgid "No early finish bonus."
-msgstr "Sen bonificación por rematar cedo."
-
-#. [lua]: generate_objectives
-#: data/core/macros/deprecated-utils.cfg:60 data/lua/wml/objectives.lua:117
-msgid "No gold carried over to the next scenario."
-msgstr "Non se conserva ouro para o seguinte escenario."
-
-#: data/core/macros/deprecated-utils.cfg:64
-msgid ""
-"\n"
-"100% of finishing gold carried over to the next scenario."
-msgstr ""
-"\n"
-"Conservarase todo o ouro co que se remate para o seguinte escenario."
-
-#: data/core/macros/deprecated-utils.cfg:69
-msgid ""
-"\n"
-"40% of finishing gold carried over to the next scenario."
-msgstr ""
-"\n"
-"Conservarase o 40% do ouro co que se remate para o seguinte escenario."
-
-#: data/core/macros/deprecated-utils.cfg:74
-msgid ""
-"\n"
-"20% of finishing gold carried over to the next scenario."
-msgstr ""
-"\n"
-"Conservarase unha quinta parte do ouro co que se remate para o seguinte "
-"escenario."
-
 #. [chance_to_hit]: id=deflect
-#: data/core/macros/deprecated-utils.cfg:400
+#: data/core/macros/deprecated-utils.cfg:124
 msgid "deflect"
 msgstr "desviar"
 
 #. [chance_to_hit]: id=deflect
-#: data/core/macros/deprecated-utils.cfg:401
+#: data/core/macros/deprecated-utils.cfg:125
 msgid ""
 "When used defensively, this attack reduces the opponent’s chance to hit by "
 "10%."
@@ -1774,7 +1734,7 @@ msgstr ""
 "de acerto do inimigo."
 
 #. [chance_to_hit]: id=deflect
-#: data/core/macros/deprecated-utils.cfg:402
+#: data/core/macros/deprecated-utils.cfg:126
 msgid ""
 "This unit’s defensive techniques reduce the chance of a successful enemy "
 "attack."
@@ -1783,12 +1743,12 @@ msgstr ""
 "ataque inimigo teña éxito."
 
 #. [damage]: id=absorb
-#: data/core/macros/deprecated-utils.cfg:415
+#: data/core/macros/deprecated-utils.cfg:139
 msgid "absorb"
 msgstr "absorber"
 
 #. [damage]: id=absorb
-#: data/core/macros/deprecated-utils.cfg:416
+#: data/core/macros/deprecated-utils.cfg:140
 msgid ""
 "This attack puts the unit in good defensive position, and it absorbs some of "
 "the damage dealt by an enemy strike."
@@ -1797,7 +1757,7 @@ msgstr ""
 "dano causado por un golpe inimigo."
 
 #. [damage]: id=absorb
-#: data/core/macros/deprecated-utils.cfg:417
+#: data/core/macros/deprecated-utils.cfg:141
 msgid ""
 "This unit can block enemy strikes, so that it takes reduced damage when hit."
 msgstr ""
@@ -4707,6 +4667,21 @@ msgstr[0] "(queda esta rolda)"
 msgstr[1] "($remaining_turns roldas restantes)"
 
 #. [lua]: generate_objectives
+#: data/lua/wml/objectives.lua:106
+msgid "Early finish bonus."
+msgstr "Bonificación por rematar cedo."
+
+#. [lua]: generate_objectives
+#: data/lua/wml/objectives.lua:109
+msgid "No early finish bonus."
+msgstr "Sen bonificación por rematar cedo."
+
+#. [lua]: generate_objectives
+#: data/lua/wml/objectives.lua:117
+msgid "No gold carried over to the next scenario."
+msgstr "Non se conserva ouro para o seguinte escenario."
+
+#. [lua]: generate_objectives
 #: data/lua/wml/objectives.lua:119
 msgid "$percent|% of gold carried over to the next scenario."
 msgstr "$percent|% de ouro transferido ao seguinte escenario."
@@ -6211,7 +6186,7 @@ msgstr "Información do sistema de control de versións (VCS)"
 msgid "Do you really wish to continue?"
 msgstr "Queres continuar?"
 
-#: src/addon/client.cpp:722 src/addon/manager_ui.cpp:171
+#: src/addon/client.cpp:722 src/addon/manager_ui.cpp:187
 #: src/game_initialization/multiplayer.cpp:373
 msgid "Confirm"
 msgstr "Confirmar"
@@ -6279,15 +6254,21 @@ msgstr "(descoñecido)"
 msgid "unit_byte^B"
 msgstr "B"
 
-#: src/addon/manager_ui.cpp:81 src/addon/manager_ui.cpp:320
-msgid "Network communication error."
-msgstr "Erro de comunicación da rede."
-
-#: src/addon/manager_ui.cpp:84 src/addon/manager_ui.cpp:323
+#: src/addon/manager_ui.cpp:55
 msgid "Remote host disconnected."
 msgstr "O servidor remoto desconectouse."
 
-#: src/addon/manager_ui.cpp:87 src/addon/manager_ui.cpp:326
+#: src/addon/manager_ui.cpp:63
+#, fuzzy
+#| msgid "Map generator error: "
+msgid "Raw network error:"
+msgstr "Erro do xerador de mapas: "
+
+#: src/addon/manager_ui.cpp:97 src/addon/manager_ui.cpp:336
+msgid "Network communication error."
+msgstr "Erro de comunicación da rede."
+
+#: src/addon/manager_ui.cpp:103 src/addon/manager_ui.cpp:342
 msgid ""
 "A problem occurred when trying to create the files necessary to install this "
 "add-on."
@@ -6295,7 +6276,7 @@ msgstr ""
 "Houbo un problema ao crear os ficheiros necesarios para instalar o "
 "complemento."
 
-#: src/addon/manager_ui.cpp:96 src/addon/manager_ui.cpp:335
+#: src/addon/manager_ui.cpp:112 src/addon/manager_ui.cpp:351
 msgid ""
 "A local file with add-on publishing information could not be read.\n"
 "\n"
@@ -6308,21 +6289,21 @@ msgstr ""
 "Ficheiro: $path\n"
 "Mensaxe de erro: $msg"
 
-#: src/addon/manager_ui.cpp:104 src/addon/manager_ui.cpp:341
+#: src/addon/manager_ui.cpp:120 src/addon/manager_ui.cpp:357
 msgid "The add-ons server address specified is not valid."
 msgstr "O enderezo indicado do servidor de complementos non é correcto."
 
-#: src/addon/manager_ui.cpp:117
+#: src/addon/manager_ui.cpp:133
 msgid "You have no add-ons installed."
 msgstr "Non tes ningún complemento instalado."
 
-#: src/addon/manager_ui.cpp:166
+#: src/addon/manager_ui.cpp:182
 msgid "Are you sure you want to remove the following installed add-on?"
 msgid_plural "Are you sure you want to remove the following installed add-ons?"
 msgstr[0] "Seguro que queres eliminar este complemento?"
 msgstr[1] "Seguro que queres eliminar estes complementos?"
 
-#: src/addon/manager_ui.cpp:192
+#: src/addon/manager_ui.cpp:208
 msgid ""
 "The following add-on appears to have publishing or version control "
 "information stored locally, and will not be removed:"
@@ -6336,29 +6317,29 @@ msgstr[1] ""
 "Estes complementos parecen conter información local de publicación ou "
 "control de versións, e non se eliminarán:"
 
-#: src/addon/manager_ui.cpp:202
+#: src/addon/manager_ui.cpp:218
 msgid "The following add-on could not be deleted properly:"
 msgid_plural "The following add-ons could not be deleted properly:"
 msgstr[0] "Non foi posíbel eliminar correctamente o seguinte complemento:"
 msgstr[1] "Non foi posíbel eliminar correctamente os seguintes complementos:"
 
-#: src/addon/manager_ui.cpp:209
+#: src/addon/manager_ui.cpp:225
 msgid "Add-on Deleted"
 msgid_plural "Add-ons Deleted"
 msgstr[0] "Complemento eliminado"
 msgstr[1] "Complementos eliminados"
 
-#: src/addon/manager_ui.cpp:211
+#: src/addon/manager_ui.cpp:227
 msgid "The following add-on was successfully deleted:"
 msgid_plural "The following add-ons were successfully deleted:"
 msgstr[0] "O seguinte complemento eliminouse correctamente:"
 msgstr[1] "Os seguintes complementos elimináronse correctamente:"
 
-#: src/addon/manager_ui.cpp:268
+#: src/addon/manager_ui.cpp:284
 msgid "An error occurred while downloading the add-ons list from the server."
 msgstr "Houbo un erro ao descargar a lista de complementos do servidor."
 
-#: src/addon/manager_ui.cpp:313
+#: src/addon/manager_ui.cpp:329
 msgid ""
 "Could not find add-ons matching the ids $addon_ids on the add-on server."
 msgstr ""
@@ -9415,21 +9396,21 @@ msgid "This Time of Day is only a Stub!"
 msgstr "Este momento do día é só un bosquexo!"
 
 # Aparece como inicio dunha fiestra de axuda, de aí a maiúscula.
-#: src/units/abilities.cpp:1140
+#: src/units/abilities.cpp:1141
 msgid "Owned: "
 msgstr "Posuído: "
 
 #. TRANSLATORS: Past-participle of "teach", used for an ability similar to leadership
-#: src/units/abilities.cpp:1142
+#: src/units/abilities.cpp:1143
 msgid "Taught: "
 msgstr "Ensinado: "
 
 #. TRANSLATORS: Past-participle of "teach", used for an ability similar to leadership
-#: src/units/abilities.cpp:1144
+#: src/units/abilities.cpp:1145
 msgid "Taught: (by an enemy): "
 msgstr "Ensinado: (por un inimigo): "
 
-#: src/units/abilities.cpp:1145
+#: src/units/abilities.cpp:1146
 msgid "Used by opponent: "
 msgstr "Usado polo oponente: "
 
@@ -9706,6 +9687,28 @@ msgstr "Agochar os plans de $player"
 #: src/whiteboard/manager.cpp:1140
 msgid "Whiteboard Options"
 msgstr "Opcións de planificación"
+
+#~ msgid ""
+#~ "\n"
+#~ "100% of finishing gold carried over to the next scenario."
+#~ msgstr ""
+#~ "\n"
+#~ "Conservarase todo o ouro co que se remate para o seguinte escenario."
+
+#~ msgid ""
+#~ "\n"
+#~ "40% of finishing gold carried over to the next scenario."
+#~ msgstr ""
+#~ "\n"
+#~ "Conservarase o 40% do ouro co que se remate para o seguinte escenario."
+
+#~ msgid ""
+#~ "\n"
+#~ "20% of finishing gold carried over to the next scenario."
+#~ msgstr ""
+#~ "\n"
+#~ "Conservarase unha quinta parte do ouro co que se remate para o seguinte "
+#~ "escenario."
 
 #, fuzzy
 #~| msgid "Bare Branch"

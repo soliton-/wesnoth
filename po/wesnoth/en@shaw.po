@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: en@shaw\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2026-03-23 18:10-0500\n"
+"POT-Creation-Date: 2026-04-19 22:20-0500\n"
 "PO-Revision-Date: 2009-10-11 21:15-0400\n"
 "Last-Translator: Arc Riley <arcriley@ubuntu.com>\n"
 "Language-Team: Shavian English <ubuntu-l10n-en-shaw@lists.launchpad.net>\n"
@@ -408,7 +408,7 @@ msgid "Miscellaneous Contributors"
 msgstr "𐑥𐑦𐑕𐑩𐑤𐑱𐑯𐑰𐑩𐑕 𐑒𐑩𐑯𐑑𐑮𐑦𐑚𐑘𐑩𐑑𐑻𐑟"
 
 #. [about]
-#: data/core/about.cfg:1894
+#: data/core/about.cfg:1897
 msgid "Bots"
 msgstr "𐑚𐑭𐑑𐑕"
 
@@ -637,71 +637,71 @@ msgid "Portuguese (Brazil) Translation"
 msgstr "𐑐𐑹𐑗𐑩𐑜𐑰𐑟 (𐑚𐑮𐑩𐑟𐑦𐑤) 𐑑𐑮𐑩𐑯𐑕𐑤𐑱𐑖𐑩𐑯"
 
 #. [about]
-#: data/core/about_i18n.cfg:1545
+#: data/core/about_i18n.cfg:1548
 msgid "Romanian Translation"
 msgstr "𐑮𐑴𐑥𐑱𐑯𐑰𐑩𐑯 𐑑𐑮𐑩𐑯𐑕𐑤𐑱𐑖𐑩𐑯"
 
 #. [about]
-#: data/core/about_i18n.cfg:1553
+#: data/core/about_i18n.cfg:1556
 msgid "Russian Translation"
 msgstr "𐑮𐑳𐑖𐑩𐑯 𐑑𐑮𐑩𐑯𐑕𐑤𐑱𐑖𐑩𐑯"
 
 #. [about]
-#: data/core/about_i18n.cfg:1660
+#: data/core/about_i18n.cfg:1663
 #, fuzzy
 #| msgid "Galician Translation"
 msgid "Scottish Gaelic Translation"
 msgstr "𐑜𐑨𐑤𐑦𐑕𐑾𐑯 𐑑𐑮𐑩𐑯𐑕𐑤𐑱𐑖𐑩𐑯"
 
 #. [about]
-#: data/core/about_i18n.cfg:1669
+#: data/core/about_i18n.cfg:1672
 msgid "Serbian Translation"
 msgstr "𐑕𐑻𐑚𐑰𐑩𐑯 𐑑𐑮𐑩𐑯𐑕𐑤𐑱𐑖𐑩𐑯"
 
 #. [about]
-#: data/core/about_i18n.cfg:1688
+#: data/core/about_i18n.cfg:1691
 msgid "Slovak Translation"
 msgstr "𐑕𐑤𐑴𐑝𐑨𐑒 𐑑𐑮𐑩𐑯𐑕𐑤𐑱𐑖𐑩𐑯"
 
 #. [about]
-#: data/core/about_i18n.cfg:1723
+#: data/core/about_i18n.cfg:1726
 msgid "Slovenian Translation"
 msgstr "𐑕𐑤𐑴𐑝𐑰𐑯𐑰𐑩𐑯 𐑑𐑮𐑩𐑯𐑕𐑤𐑱𐑖𐑩𐑯"
 
 #. [about]
-#: data/core/about_i18n.cfg:1739
+#: data/core/about_i18n.cfg:1742
 msgid "Spanish Translation"
 msgstr "𐑕𐑐𐑨𐑯𐑦𐑖 𐑑𐑮𐑩𐑯𐑕𐑤𐑱𐑖𐑩𐑯"
 
 #. [about]
-#: data/core/about_i18n.cfg:1833
+#: data/core/about_i18n.cfg:1836
 msgid "Swedish Translation"
 msgstr "𐑕𐑢𐑰𐑛𐑦𐑖 𐑑𐑮𐑩𐑯𐑕𐑤𐑱𐑖𐑩𐑯"
 
 #. [about]
-#: data/core/about_i18n.cfg:1878
+#: data/core/about_i18n.cfg:1881
 msgid "Turkish Translation"
 msgstr "𐑑𐑻𐑒𐑦𐑖 𐑑𐑮𐑩𐑯𐑕𐑤𐑱𐑖𐑩𐑯"
 
 #. [about]
-#: data/core/about_i18n.cfg:1903
+#: data/core/about_i18n.cfg:1906
 #, fuzzy
 #| msgid "Romanian Translation"
 msgid "Ukrainian Translation"
 msgstr "𐑮𐑴𐑥𐑱𐑯𐑰𐑩𐑯 𐑑𐑮𐑩𐑯𐑕𐑤𐑱𐑖𐑩𐑯"
 
 #. [about]
-#: data/core/about_i18n.cfg:1937
+#: data/core/about_i18n.cfg:1940
 msgid "Valencian (southern Catalan) Translation"
 msgstr "𐑝𐑨𐑤𐑧𐑯𐑕𐑰𐑨𐑯 (𐑕𐑳𐑞𐑼𐑯 𐑒𐑨𐑑𐑩𐑤𐑩𐑯) 𐑑𐑮𐑩𐑯𐑕𐑤𐑱𐑖𐑩𐑯"
 
 #. [about]
-#: data/core/about_i18n.cfg:1950
+#: data/core/about_i18n.cfg:1953
 msgid "Vietnamese Translation"
 msgstr "𐑝𐑰𐑧𐑑𐑯𐑭𐑥𐑰𐑕 𐑑𐑮𐑩𐑯𐑕𐑤𐑱𐑖𐑩𐑯"
 
 #. [about]
-#: data/core/about_i18n.cfg:1969
+#: data/core/about_i18n.cfg:1972
 #, fuzzy
 #| msgid "Polish Translation"
 msgid "Welsh Translation"
@@ -709,7 +709,7 @@ msgstr "𐑐𐑪𐑤𐑦𐑖 𐑑𐑮𐑩𐑯𐑕𐑤𐑱𐑖𐑩𐑯"
 
 #. [about]
 #. Real Acadèmia de Cultura Valenciana
-#: data/core/about_i18n.cfg:1978
+#: data/core/about_i18n.cfg:1981
 msgid "RACV’s Translation"
 msgstr "RACV’s 𐑑𐑮𐑩𐑯𐑕𐑤𐑱𐑖𐑩𐑯"
 
@@ -1777,52 +1777,13 @@ msgstr ""
 msgid "This unit has been renamed to: "
 msgstr "𐑯𐑴 𐑿𐑟𐑩𐑚𐑩𐑤 𐑢𐑧𐑐𐑩𐑯"
 
-#. [lua]: generate_objectives
-#: data/core/macros/deprecated-utils.cfg:52 data/lua/wml/objectives.lua:106
-msgid "Early finish bonus."
-msgstr "𐑻𐑤𐑰 𐑓𐑦𐑯𐑦𐑖 𐑚𐑴𐑯𐑩𐑕."
-
-#. [lua]: generate_objectives
-#: data/core/macros/deprecated-utils.cfg:56 data/lua/wml/objectives.lua:109
-msgid "No early finish bonus."
-msgstr "𐑯𐑴 𐑻𐑤𐑰 𐑓𐑦𐑯𐑦𐑖 𐑚𐑴𐑯𐑩𐑕."
-
-#. [lua]: generate_objectives
-#: data/core/macros/deprecated-utils.cfg:60 data/lua/wml/objectives.lua:117
-msgid "No gold carried over to the next scenario."
-msgstr "𐑯𐑴 𐑜𐑴𐑤𐑛 𐑒𐑨𐑮𐑦𐑛 𐑴𐑝𐑼 𐑑 𐑞 𐑯𐑧𐑒𐑕𐑑 𐑕𐑦𐑯𐑺𐑰𐑴."
-
-#: data/core/macros/deprecated-utils.cfg:64
-msgid ""
-"\n"
-"100% of finishing gold carried over to the next scenario."
-msgstr ""
-"\n"
-"100% 𐑝 𐑓𐑦𐑯𐑦𐑖𐑦𐑙 𐑜𐑴𐑤𐑛 𐑒𐑨𐑮𐑦𐑛 𐑴𐑝𐑼 𐑑 𐑞 𐑯𐑧𐑒𐑕𐑑 𐑕𐑦𐑯𐑺𐑰𐑴."
-
-#: data/core/macros/deprecated-utils.cfg:69
-msgid ""
-"\n"
-"40% of finishing gold carried over to the next scenario."
-msgstr ""
-"\n"
-"40% 𐑝 𐑓𐑦𐑯𐑦𐑖𐑦𐑙 𐑜𐑴𐑤𐑛 𐑒𐑨𐑮𐑦𐑛 𐑴𐑝𐑼 𐑑 𐑞 𐑯𐑧𐑒𐑕𐑑 𐑕𐑦𐑯𐑺𐑰𐑴."
-
-#: data/core/macros/deprecated-utils.cfg:74
-msgid ""
-"\n"
-"20% of finishing gold carried over to the next scenario."
-msgstr ""
-"\n"
-"20% 𐑝 𐑓𐑦𐑯𐑦𐑖𐑦𐑙 𐑜𐑴𐑤𐑛 𐑒𐑨𐑮𐑦𐑛 𐑴𐑝𐑼 𐑑 𐑞 𐑯𐑧𐑒𐑕𐑑 𐑕𐑦𐑯𐑺𐑰𐑴."
-
 #. [chance_to_hit]: id=deflect
-#: data/core/macros/deprecated-utils.cfg:400
+#: data/core/macros/deprecated-utils.cfg:124
 msgid "deflect"
 msgstr ""
 
 #. [chance_to_hit]: id=deflect
-#: data/core/macros/deprecated-utils.cfg:401
+#: data/core/macros/deprecated-utils.cfg:125
 #, fuzzy
 #| msgid ""
 #| "Marksman:\n"
@@ -1836,26 +1797,26 @@ msgstr ""
 "𐑢𐑧𐑯 𐑫𐑖𐑔𐑴𐑵𐑿𐑕𐑑 𐑩𐑓𐑧𐑯𐑕𐑦𐑝𐑤𐑰, 𐑞𐑦𐑕 𐑩𐑑𐑨𐑒 𐑷𐑤𐑢𐑱𐑟 𐑣𐑨𐑟 𐑨𐑑 𐑤𐑰𐑕𐑑 𐑩 60% 𐑗𐑭𐑯𐑕 𐑑 𐑣𐑦𐑑."
 
 #. [chance_to_hit]: id=deflect
-#: data/core/macros/deprecated-utils.cfg:402
+#: data/core/macros/deprecated-utils.cfg:126
 msgid ""
 "This unit’s defensive techniques reduce the chance of a successful enemy "
 "attack."
 msgstr ""
 
 #. [damage]: id=absorb
-#: data/core/macros/deprecated-utils.cfg:415
+#: data/core/macros/deprecated-utils.cfg:139
 msgid "absorb"
 msgstr ""
 
 #. [damage]: id=absorb
-#: data/core/macros/deprecated-utils.cfg:416
+#: data/core/macros/deprecated-utils.cfg:140
 msgid ""
 "This attack puts the unit in good defensive position, and it absorbs some of "
 "the damage dealt by an enemy strike."
 msgstr ""
 
 #. [damage]: id=absorb
-#: data/core/macros/deprecated-utils.cfg:417
+#: data/core/macros/deprecated-utils.cfg:141
 msgid ""
 "This unit can block enemy strikes, so that it takes reduced damage when hit."
 msgstr ""
@@ -4374,6 +4335,21 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. [lua]: generate_objectives
+#: data/lua/wml/objectives.lua:106
+msgid "Early finish bonus."
+msgstr "𐑻𐑤𐑰 𐑓𐑦𐑯𐑦𐑖 𐑚𐑴𐑯𐑩𐑕."
+
+#. [lua]: generate_objectives
+#: data/lua/wml/objectives.lua:109
+msgid "No early finish bonus."
+msgstr "𐑯𐑴 𐑻𐑤𐑰 𐑓𐑦𐑯𐑦𐑖 𐑚𐑴𐑯𐑩𐑕."
+
+#. [lua]: generate_objectives
+#: data/lua/wml/objectives.lua:117
+msgid "No gold carried over to the next scenario."
+msgstr "𐑯𐑴 𐑜𐑴𐑤𐑛 𐑒𐑨𐑮𐑦𐑛 𐑴𐑝𐑼 𐑑 𐑞 𐑯𐑧𐑒𐑕𐑑 𐑕𐑦𐑯𐑺𐑰𐑴."
+
+#. [lua]: generate_objectives
 #: data/lua/wml/objectives.lua:119
 #, fuzzy
 msgid "$percent|% of gold carried over to the next scenario."
@@ -5844,7 +5820,7 @@ msgstr ""
 msgid "Do you really wish to continue?"
 msgstr "𐑛𐑵 𐑿 𐑢𐑪𐑯𐑑 𐑑 𐑕𐑱𐑝 𐑿𐑼 𐑜𐑱𐑥?"
 
-#: src/addon/client.cpp:722 src/addon/manager_ui.cpp:171
+#: src/addon/client.cpp:722 src/addon/manager_ui.cpp:187
 #: src/game_initialization/multiplayer.cpp:373
 msgid "Confirm"
 msgstr "𐑒𐑪𐑯𐑓𐑻𐑥"
@@ -5911,21 +5887,25 @@ msgstr "(𐑳𐑯𐑯𐑴𐑯)"
 msgid "unit_byte^B"
 msgstr ""
 
-#: src/addon/manager_ui.cpp:81 src/addon/manager_ui.cpp:320
-msgid "Network communication error."
-msgstr "𐑯𐑧𐑑𐑢𐑻𐑒 𐑒𐑩𐑥𐑿𐑯𐑦𐑒𐑱𐑖𐑩𐑯 𐑻𐑹."
-
-#: src/addon/manager_ui.cpp:84 src/addon/manager_ui.cpp:323
+#: src/addon/manager_ui.cpp:55
 msgid "Remote host disconnected."
 msgstr "𐑮𐑦𐑥𐑴𐑑 𐑣𐑴𐑕𐑑 𐑛𐑦𐑕𐑒𐑩𐑯𐑧𐑒𐑑𐑩𐑛."
 
-#: src/addon/manager_ui.cpp:87 src/addon/manager_ui.cpp:326
+#: src/addon/manager_ui.cpp:63
+msgid "Raw network error:"
+msgstr ""
+
+#: src/addon/manager_ui.cpp:97 src/addon/manager_ui.cpp:336
+msgid "Network communication error."
+msgstr "𐑯𐑧𐑑𐑢𐑻𐑒 𐑒𐑩𐑥𐑿𐑯𐑦𐑒𐑱𐑖𐑩𐑯 𐑻𐑹."
+
+#: src/addon/manager_ui.cpp:103 src/addon/manager_ui.cpp:342
 msgid ""
 "A problem occurred when trying to create the files necessary to install this "
 "add-on."
 msgstr "𐑩 𐑐𐑮𐑪𐑚𐑤𐑩𐑥 𐑪𐑒𐑻𐑛 𐑢𐑧𐑯 𐑑𐑮𐑲𐑦𐑙 𐑑 𐑒𐑮𐑰𐑱𐑑 𐑞 𐑓𐑲𐑤𐑟 𐑯𐑧𐑕𐑩𐑕𐑼𐑦 𐑑 𐑦𐑯𐑕𐑑𐑷𐑤 𐑞𐑦𐑕 𐑨𐑛-𐑪𐑯."
 
-#: src/addon/manager_ui.cpp:96 src/addon/manager_ui.cpp:335
+#: src/addon/manager_ui.cpp:112 src/addon/manager_ui.cpp:351
 msgid ""
 "A local file with add-on publishing information could not be read.\n"
 "\n"
@@ -5933,15 +5913,15 @@ msgid ""
 "Error message: $msg"
 msgstr ""
 
-#: src/addon/manager_ui.cpp:104 src/addon/manager_ui.cpp:341
+#: src/addon/manager_ui.cpp:120 src/addon/manager_ui.cpp:357
 msgid "The add-ons server address specified is not valid."
 msgstr ""
 
-#: src/addon/manager_ui.cpp:117
+#: src/addon/manager_ui.cpp:133
 msgid "You have no add-ons installed."
 msgstr "𐑿 𐑣𐑨𐑝 𐑯𐑴 𐑨𐑛-𐑭𐑯𐑟 𐑦𐑯𐑕𐑑𐑷𐑤𐑛."
 
-#: src/addon/manager_ui.cpp:166
+#: src/addon/manager_ui.cpp:182
 #, fuzzy
 #| msgid "Are you sure you want to remove the add-on '$addon|'?"
 msgid "Are you sure you want to remove the following installed add-on?"
@@ -5949,7 +5929,7 @@ msgid_plural "Are you sure you want to remove the following installed add-ons?"
 msgstr[0] "𐑸 𐑿 𐑖𐑫𐑼 𐑿 𐑢𐑪𐑯𐑑 𐑑 𐑮𐑰𐑥𐑵𐑝 𐑞 𐑨𐑛-𐑪𐑯 '$addon|'?"
 msgstr[1] "𐑸 𐑿 𐑖𐑫𐑼 𐑿 𐑢𐑪𐑯𐑑 𐑑 𐑮𐑰𐑥𐑵𐑝 𐑞 𐑨𐑛-𐑪𐑯 '$addon|'?"
 
-#: src/addon/manager_ui.cpp:192
+#: src/addon/manager_ui.cpp:208
 msgid ""
 "The following add-on appears to have publishing or version control "
 "information stored locally, and will not be removed:"
@@ -5959,7 +5939,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/addon/manager_ui.cpp:202
+#: src/addon/manager_ui.cpp:218
 #, fuzzy
 #| msgid "Add-on could not be deleted properly:"
 msgid "The following add-on could not be deleted properly:"
@@ -5967,7 +5947,7 @@ msgid_plural "The following add-ons could not be deleted properly:"
 msgstr[0] "𐑨𐑛-𐑪𐑯 𐑒𐑫𐑛 𐑯𐑪𐑑 𐑚𐑰 𐑛𐑦𐑤𐑰𐑑𐑩𐑛 𐑐𐑮𐑪𐑐𐑼𐑤𐑦:"
 msgstr[1] "𐑨𐑛-𐑪𐑯 𐑒𐑫𐑛 𐑯𐑪𐑑 𐑚𐑰 𐑛𐑦𐑤𐑰𐑑𐑩𐑛 𐑐𐑮𐑪𐑐𐑼𐑤𐑦:"
 
-#: src/addon/manager_ui.cpp:209
+#: src/addon/manager_ui.cpp:225
 #, fuzzy
 #| msgid "Add-on deleted"
 msgid "Add-on Deleted"
@@ -5975,7 +5955,7 @@ msgid_plural "Add-ons Deleted"
 msgstr[0] "𐑨𐑛-𐑪𐑯 𐑛𐑦𐑤𐑰𐑑𐑩𐑛"
 msgstr[1] "𐑨𐑛-𐑪𐑯 𐑛𐑦𐑤𐑰𐑑𐑩𐑛"
 
-#: src/addon/manager_ui.cpp:211
+#: src/addon/manager_ui.cpp:227
 #, fuzzy
 #| msgid "The following add-on had errors and could not be loaded:"
 #| msgid_plural "The following add-ons had errors and could not be loaded:"
@@ -5984,13 +5964,13 @@ msgid_plural "The following add-ons were successfully deleted:"
 msgstr[0] "𐑞 𐑓𐑪𐑤𐑴𐑦𐑙 𐑨𐑛-𐑪𐑯 𐑣𐑨𐑛 𐑻𐑼𐑟 𐑯 𐑒𐑫𐑛 𐑯𐑪𐑑 𐑚𐑰 𐑤𐑴𐑛𐑩𐑛:"
 msgstr[1] "𐑞 𐑓𐑪𐑤𐑴𐑦𐑙 𐑨𐑛-𐑭𐑯𐑟 𐑣𐑨𐑛 𐑻𐑼𐑟 𐑯 𐑒𐑫𐑛 𐑯𐑪𐑑 𐑚𐑰 𐑤𐑴𐑛𐑩𐑛:"
 
-#: src/addon/manager_ui.cpp:268
+#: src/addon/manager_ui.cpp:284
 #, fuzzy
 #| msgid "An error occurred while communicating with the server."
 msgid "An error occurred while downloading the add-ons list from the server."
 msgstr "𐑩𐑯 𐑻𐑹 𐑪𐑒𐑻𐑛 𐑢𐑲𐑤 𐑒𐑩𐑥𐑿𐑯𐑦𐑒𐑱𐑑𐑦𐑙 𐑢𐑦𐑞 𐑞 𐑕𐑻𐑝𐑻."
 
-#: src/addon/manager_ui.cpp:313
+#: src/addon/manager_ui.cpp:329
 #, fuzzy
 #| msgid "Could not find any updated add-ons on this server."
 msgid ""
@@ -9237,23 +9217,23 @@ msgstr "𐑑𐑲𐑥 𐑝 𐑛𐑱"
 msgid "This Time of Day is only a Stub!"
 msgstr ""
 
-#: src/units/abilities.cpp:1140
+#: src/units/abilities.cpp:1141
 #, fuzzy
 #| msgid "slowed: "
 msgid "Owned: "
 msgstr "𐑕𐑤𐑴𐑛: "
 
 #. TRANSLATORS: Past-participle of "teach", used for an ability similar to leadership
-#: src/units/abilities.cpp:1142
+#: src/units/abilities.cpp:1143
 msgid "Taught: "
 msgstr ""
 
 #. TRANSLATORS: Past-participle of "teach", used for an ability similar to leadership
-#: src/units/abilities.cpp:1144
+#: src/units/abilities.cpp:1145
 msgid "Taught: (by an enemy): "
 msgstr ""
 
-#: src/units/abilities.cpp:1145
+#: src/units/abilities.cpp:1146
 msgid "Used by opponent: "
 msgstr ""
 
@@ -9602,6 +9582,27 @@ msgstr "𐑮𐑦𐑐𐑤𐑱𐑕 𐑢𐑦𐑞 $player"
 #: src/whiteboard/manager.cpp:1140
 msgid "Whiteboard Options"
 msgstr ""
+
+#~ msgid ""
+#~ "\n"
+#~ "100% of finishing gold carried over to the next scenario."
+#~ msgstr ""
+#~ "\n"
+#~ "100% 𐑝 𐑓𐑦𐑯𐑦𐑖𐑦𐑙 𐑜𐑴𐑤𐑛 𐑒𐑨𐑮𐑦𐑛 𐑴𐑝𐑼 𐑑 𐑞 𐑯𐑧𐑒𐑕𐑑 𐑕𐑦𐑯𐑺𐑰𐑴."
+
+#~ msgid ""
+#~ "\n"
+#~ "40% of finishing gold carried over to the next scenario."
+#~ msgstr ""
+#~ "\n"
+#~ "40% 𐑝 𐑓𐑦𐑯𐑦𐑖𐑦𐑙 𐑜𐑴𐑤𐑛 𐑒𐑨𐑮𐑦𐑛 𐑴𐑝𐑼 𐑑 𐑞 𐑯𐑧𐑒𐑕𐑑 𐑕𐑦𐑯𐑺𐑰𐑴."
+
+#~ msgid ""
+#~ "\n"
+#~ "20% of finishing gold carried over to the next scenario."
+#~ msgstr ""
+#~ "\n"
+#~ "20% 𐑝 𐑓𐑦𐑯𐑦𐑖𐑦𐑙 𐑜𐑴𐑤𐑛 𐑒𐑨𐑮𐑦𐑛 𐑴𐑝𐑼 𐑑 𐑞 𐑯𐑧𐑒𐑕𐑑 𐑕𐑦𐑯𐑺𐑰𐑴."
 
 #, fuzzy
 #~| msgid "Do you want to save your game?"

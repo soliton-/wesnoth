@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2026-03-23 23:11 UTC\n"
+"POT-Creation-Date: 2026-04-20 03:20 UTC\n"
 "PO-Revision-Date: 2026-04-13 00:05+0800\n"
 "Last-Translator: vimacs <vimacs.hacks@gmail.com>\n"
 "Language-Team: none\n"
@@ -1866,10 +1866,10 @@ msgstr ""
 #. [side]
 #. [unit]: type={TYPE}
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:724
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1653
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1688
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1749
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1779
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1654
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1689
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1750
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1780
 #: data/campaigns/The_Deceivers_Gambit/scenarios/07_The_Great_River.cfg:307
 #: data/campaigns/The_Deceivers_Gambit/scenarios/10_Houses_of_the_Dead.cfg:20
 #: data/campaigns/The_Deceivers_Gambit/scenarios/11_Clan_Blackcrest.cfg:1014
@@ -2276,13 +2276,13 @@ msgstr "帕兰德拉"
 
 #. [unit]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:101
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1295
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1296
 msgid "Kalenz"
 msgstr "卡雷兹"
 
 #. [unit]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:111
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1311
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1312
 msgid "Chantal"
 msgstr "香黛尔"
 
@@ -2554,7 +2554,7 @@ msgstr "德法多，德欧兰，香黛尔或卡雷兹死亡"
 #. [note]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:429
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:465
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1387
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1388
 msgid "Kalenz and Chantal will not follow you to the next scenario."
 msgstr "卡雷兹和香黛尔不会跟着你到下一幕。"
 
@@ -2803,55 +2803,55 @@ msgstr "看来这整片镜中世界正在分崩离析！我必须争分夺秒了
 
 #. [message]
 #. the player's units have just been transported into a strange realm, and aren't sure what's going on. Kalenz probably knows more than anybody else, and is calling out to see where Elende is (and what exactly she's doing)
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1278
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1279
 msgid "Elende!"
 msgstr "艾莲德！"
 
 # Translated by openai with model qwen3.5-35b-a3b.
 #. [message]
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1283
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1284
 #, fuzzy
 msgid "Elende, I come with friends, seeking foresight! Deoran and Del—"
 msgstr "艾莲德，我携挚友而来，只为求得预知之明！德欧兰与德——"
 
 #. [message]
 #. immediately after this, magically created "mirror image" units of younger/older versions of Kalenz, Chantal, and Deoran appear
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1289
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1290
 msgid ""
 "I know who you are, Delfador of Alduin. But how well do you know yourselves?"
 msgstr "我知道你是谁，奥渡因的德法多。但你们又对自己了解几分？"
 
 #. [unit]
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1327
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1328
 #: data/campaigns/The_Deceivers_Gambit/utils/unified_characters.cfg:65
 msgid "Deoran"
 msgstr "德欧兰"
 
 #. [message]
 #. referencing the mirror image of Deoran
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1343
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1344
 msgid "Deoran, is that... you? You look so much younger."
 msgstr "德欧兰，那是……你吗？你看起来年轻了好多。"
 
 #. [message]
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1347
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1348
 msgid "What’s going on?! Kalenz, is this normal?"
 msgstr "发生什么事了？！卡雷兹，这是正常的吗？"
 
 #. [objective]: condition=win
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1373
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1374
 msgid "Defeat all enemies"
 msgstr "击败所有敌方首领"
 
 #. [objective]: condition=lose
 #. if reduced to 0 hp, Delfador doesn't die. Instead, he's kicked out of the mirror world, and fails the scenario
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1378
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1379
 msgid "Loss of Delfador"
 msgstr "德法多死亡"
 
 # Translated by openai with model qwen3.5-35b-a3b.
 #. [note]
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1390
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1391
 #, fuzzy
 msgid ""
 "In this strange world, fate guides every strike. <i>(attacks never miss)</i>"
@@ -2859,7 +2859,7 @@ msgstr "在这片诡谲的天地中，命运指引着每一击。<i>（攻击必
 
 # Translated by openai with model qwen3.5-35b-a3b.
 #. [event]: id=always_hit
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1416
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1417
 #, fuzzy
 msgid ""
 "The mortal world beckons; tell me the rest of the prophecy when next we meet!"
@@ -2867,14 +2867,14 @@ msgstr "尘世在呼唤；待下次相逢，愿闻预言之其余篇章！"
 
 # Translated by openai with model qwen3.5-35b-a3b.
 #. [event]: id=always_hit
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1417
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1418
 #, fuzzy
 msgid "Elende, I hope you know what you’re doing. Good luck, the rest of you!"
 msgstr "艾莲德，但愿知你所为。诸位，祝好运！"
 
 # Translated by openai with model qwen3.5-35b-a3b.
 #. [event]: id=always_hit
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1418
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1419
 #, fuzzy
 msgid ""
 "Owww! Elende, it’s very rude to banish someone without their permission!"
@@ -2883,21 +2883,21 @@ msgstr "哎哟！艾莲德，未经允许就把人强行送走，未免太无礼
 # Translated by openai with model qwen3.5-35b-a3b.
 #. [message]: speaker=Delfador
 #. Delfador has just been reduced to 0hp, and been "kicked out" of Elenede's "mirror realm" or wherever she was giving the prophecy
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1426
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1427
 #, fuzzy
 msgid "Hey, stop—"
 msgstr "等等，停下——"
 
 #. [time]
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1443
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1931
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1444
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1937
 msgid "Dawn"
 msgstr "黎明"
 
 # Translated by openai with model qwen3.5-35b-a3b.
 #. [message]: speaker=Delfador
 #. Delfador has missed the ending of the prophecy, and the player loses the scenario
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1467
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1468
 #, fuzzy
 msgid "I didn’t get to finish hearing everything..."
 msgstr "我未能听完这预言的终章……"
@@ -2905,7 +2905,7 @@ msgstr "我未能听完这预言的终章……"
 # Translated by openai with model qwen3.5-35b-a3b.
 #. [message]
 #. spoken by Elende (through Kalenz's mirror image), referencing Legend of Wesmere's invisibility potion and Landar
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1497
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1498
 #, fuzzy
 msgid ""
 "Lich’s eye and brother’s bone; what have you sacrificed to save your people, "
@@ -2916,7 +2916,7 @@ msgstr ""
 
 # Translated by openai with model qwen3.5-35b-a3b.
 #. [message]
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1501
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1502
 #, fuzzy
 msgid "That was long ago, Elende! This is about the humans’ story, not mine."
 msgstr "那是久远的往事了，艾莲德！这关乎人类的命运，并非我个人的故事。"
@@ -2924,7 +2924,7 @@ msgstr "那是久远的往事了，艾莲德！这关乎人类的命运，并非
 # Translated by openai with model qwen3.5-35b-a3b.
 #. [message]
 #. spoken by Elende (through Deoran's mirror image), referencing his exile. I intend "nation" more in the "people" sense than the "country" sense.
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1538
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1539
 #, fuzzy
 msgid ""
 "Deoran the exile returns home; returns to a nation that scorned him, ignored "
@@ -2936,7 +2936,7 @@ msgstr ""
 
 # Translated by openai with model qwen3.5-35b-a3b.
 #. [message]
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1542
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1543
 #, fuzzy
 msgid ""
 "I know my duty! A captain of Wesnoth will never entertain doubts of loyalty, "
@@ -2947,13 +2947,13 @@ msgstr ""
 
 #. [message]
 #. spoken by Elende (through Chantal's mirror image), referencing Cleodil's historic death and foreshadowing Deoran's upcoming death
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1555
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1556
 msgid "Chantal—"
 msgstr "香黛尔——"
 
 # Translated by openai with model qwen3.5-35b-a3b.
 #. [message]
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1559
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1560
 #, fuzzy
 msgid ""
 "I already know what you’re going to say Elende! Don’t you dare; I will when "
@@ -2962,7 +2962,7 @@ msgstr "我早已知晓你待言何辞，艾莲德！休要逼我；待我时机
 
 # Translated by openai with model qwen3.5-35b-a3b.
 #. [message]
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1565
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1566
 #, fuzzy
 msgid ""
 "Then you may soon understand some measure of your great-grandfather’s bygone "
@@ -2970,16 +2970,16 @@ msgid ""
 msgstr "届时，你或能将你曾祖父昔日之哀伤，略窥一二……"
 
 #. [message]
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1644
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1882
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1889
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1645
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1883
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1890
 msgid "Elende"
 msgstr "艾莲德"
 
 # Translated by openai with model qwen3.5-35b-a3b.
 #. [message]
 #. Elende reaveals that she's the one who gave the weird prophecy thing to Delfador at Alduin, even though she wasn't physically there
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1647
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1648
 #, fuzzy
 msgid ""
 "And what of the fire mage? Young but ambitious, brilliant yet foolish. It "
@@ -2990,7 +2990,7 @@ msgstr ""
 
 # Translated by openai with model qwen3.5-35b-a3b.
 #. [message]
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1651
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1652
 #, fuzzy
 msgid ""
 "That was you, back at graduation? I knew I heard a voice! Master Leollyn "
@@ -2999,8 +2999,8 @@ msgstr ""
 "那就是你，在毕业典礼上？我就说曾听过那个声音！利欧林大师还以为我疯了呢……"
 
 #. [event]
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1654
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1781
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1655
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1782
 msgid ""
 "Spend 8 XP to gain flight and the skirmisher ability until the start of your "
 "next turn or until cancelled."
@@ -3009,7 +3009,7 @@ msgstr "花费8经验以获得飞行和散兵能力，直到你的下一个回�
 # Translated by openai with model qwen3.5-35b-a3b.
 #. [message]
 #. pale spy meaning Asheviere. Referencing Asheviere resolving to kill Garard, and working with orcs to arrange the events of the next two scenarios
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1684
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1685
 #, fuzzy
 msgid ""
 "I see secrets in the dark; a pale spy slips their bonds. A death, a "
@@ -3021,7 +3021,7 @@ msgstr ""
 # Translated by openai with model qwen3.5-35b-a3b.
 #. [message]
 #. referencing Delfador's adventures in scenarios 8-10, where he works with (or kills) poachers to fight saurians, then fights undead and a ghost given the appearance of a living drake.
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1745
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1746
 #, fuzzy
 msgid ""
 "The dark swamp looms. Purses and poachers, mirror and smoke. A figure of "
@@ -3032,7 +3032,7 @@ msgstr ""
 
 # Translated by openai with model qwen3.5-35b-a3b.
 #. [event]
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1750
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1751
 #, fuzzy
 msgid ""
 "Spend 16 XP to disallow magical attacks in a 3-hex radius, until cancelled."
@@ -3041,7 +3041,7 @@ msgstr "消耗 16 点经验值，在 3 格范围内禁止魔法攻击，直至�
 # Translated by openai with model qwen3.5-35b-a3b.
 #. [message]
 #. referencing the civil war when Asheviere takes power
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1775
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1776
 #, fuzzy
 msgid ""
 "Brother against brother, father against child. From the barren throne will "
@@ -3054,7 +3054,7 @@ msgstr ""
 
 # Translated by openrouter with model z-ai/glm-4.5-air:free.
 #. [event]
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1780
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1781
 #, fuzzy
 msgid ""
 "Spend 48 XP to grant yourself and all allies double movement and a second "
@@ -3067,7 +3067,7 @@ msgstr ""
 # Translated by openai with model qwen3.5-35b-a3b.
 #. [message]
 #. referncing the future events of HttT; Konrad and Li'Sar retriving the sceptre of fire
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1871
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1872
 #, fuzzy
 msgid ""
 "Black soot rains over Weldyn. The line of kings sundered; the ruby of the "
@@ -3079,7 +3079,7 @@ msgstr ""
 # Translated by openai with model qwen3.5-35b-a3b.
 #. [message]
 #. referencing Delfador's choice in S10x
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1885
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1886
 #, fuzzy
 msgid ""
 "But this fate is not the only path. Mage of Alduin, you stand at a knot in "
@@ -3093,7 +3093,7 @@ msgstr ""
 # Translated by openai with model qwen3.5-35b-a3b.
 #. [message]
 #. referencing Delfador's choice in S10x. He can either listen to a drunk Garard and kill Garard's brother Arand based on false reports of a betrayal, or refuse, stay with Garard, and find out more about Arand before attacking
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1892
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1893
 #, fuzzy
 msgid ""
 "When that moment comes, remember... endeavor to bestow not destruction with "
@@ -3104,14 +3104,14 @@ msgstr ""
 "理那光辉之光。在恐惧的烈焰吞噬世间万物之前，务必将其浇熄。"
 
 #. [message]
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1896
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1897
 msgid "But, what? I don’t understa—"
 msgstr "但是，什么？！我还不明——"
 
 # Translated by openai with model qwen3.5-35b-a3b.
 #. [message]: speaker=Delfador
 #. Delfador previously said "But, what? I don’t understa—", but has now been kicked out of Elende's 'mirror world' and is back in the normal world. The scenario is over.
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1953
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1959
 #, fuzzy
 msgid "—nd what you’re saying..."
 msgstr "——你所说的……"
@@ -4836,8 +4836,8 @@ msgid ""
 "$companion_name?"
 msgstr ""
 "女声^只要我们能找到他们的营地。此处曾是他们种族的一座宏伟都市——即便仅存之残"
-"骸，其规模亦大得令我等无法尽数搜罗。此乃你说你的向导将与我们会合之处，"
-"$companion_name？"
+"骸，其规模亦大得令我等无法尽数搜罗。此乃你说你的向导将与我们会合之"
+"处，$companion_name？"
 
 # Translated by openai with model qwen3.5-35b-a3b.
 #. [message]: speaker=Delfador
@@ -7955,8 +7955,8 @@ msgid ""
 "fighting to gain his favor. Today I’m “The Great”, but I didn’t even have a "
 "name before I first began to battle."
 msgstr ""
-"而且……况且，我已大半生与国王并肩作战，竭力赢得他的青睐。今日我虽被称为“大”"
-"师，但在我初次披甲上阵之前，却连个名字都无。"
+"而且……况且，我已大半生与国王并肩作战，竭力赢得他的青睐。今日我虽被称"
+"为“大”师，但在我初次披甲上阵之前，却连个名字都无。"
 
 # Translated by openai with model qwen3.5-35b-a3b.
 #. [message]: speaker=Delfador

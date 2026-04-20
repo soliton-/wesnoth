@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Eastern_Invasion-1.12\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2026-03-23 23:11 UTC\n"
+"POT-Creation-Date: 2026-04-20 03:20 UTC\n"
 "PO-Revision-Date: 2025-01-21 09:37 UTC\n"
 "Last-Translator: François Houdebert\n"
 "Language-Team: French <wesnothfr@lists.tuxfamily.org>\n"
@@ -1447,8 +1447,8 @@ msgid ""
 msgstr ""
 "<i>La pluie est purement visuelle et n’influence pas le jeu. Si elle vous "
 "distrait ou réduit les performances, vous pouvez la désactiver en ouvrant le "
-"menu Préférences (Ctrl-P), en sélectionnant « Affichage » et en décochant "
-"« Animer la carte ».</i>"
+"menu Préférences (Ctrl-P), en sélectionnant « Affichage » et en décochant « "
+"Animer la carte ».</i>"
 
 #. [scenario]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:494
@@ -1967,10 +1967,10 @@ msgstr ""
 #. [side]
 #. [unit]: type={TYPE}
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:724
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1653
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1688
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1749
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1779
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1654
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1689
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1750
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1780
 #: data/campaigns/The_Deceivers_Gambit/scenarios/07_The_Great_River.cfg:307
 #: data/campaigns/The_Deceivers_Gambit/scenarios/10_Houses_of_the_Dead.cfg:20
 #: data/campaigns/The_Deceivers_Gambit/scenarios/11_Clan_Blackcrest.cfg:1014
@@ -2003,8 +2003,8 @@ msgid ""
 "Yes, yes, well done to you both. Now that that’s settled, “Delfador”, it’s "
 "time to pack your bags. You have a long journey ahead of you!"
 msgstr ""
-"Oui, oui, félicitations à vous deux. Tout étant désormais réglé, "
-"« Delfador », il est temps de faire tes bagages. Un long périple t’attend !"
+"Oui, oui, félicitations à vous deux. Tout étant désormais réglé, « Delfador "
+"», il est temps de faire tes bagages. Un long périple t’attend !"
 
 #. [message]: speaker=Vidrug
 #: data/campaigns/The_Deceivers_Gambit/scenarios/02_Fort_Garard.cfg:766
@@ -2365,13 +2365,13 @@ msgstr "Parandra"
 
 #. [unit]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:101
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1295
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1296
 msgid "Kalenz"
 msgstr "Kalenz"
 
 #. [unit]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:111
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1311
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1312
 msgid "Chantal"
 msgstr "Chantal"
 
@@ -2640,7 +2640,7 @@ msgstr "Mort de Delfador, Deoran, Chantal ou Kalenz"
 #. [note]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:429
 #: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:465
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1387
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1388
 msgid "Kalenz and Chantal will not follow you to the next scenario."
 msgstr "Kalenz et Chantal ne vous suivront pas dans le prochain scénario."
 
@@ -2887,19 +2887,19 @@ msgstr ""
 
 #. [message]
 #. the player's units have just been transported into a strange realm, and aren't sure what's going on. Kalenz probably knows more than anybody else, and is calling out to see where Elende is (and what exactly she's doing)
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1278
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1279
 msgid "Elende!"
 msgstr "Elende !"
 
 #. [message]
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1283
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1284
 msgid "Elende, I come with friends, seeking foresight! Deoran and Del—"
 msgstr ""
 "Elende, je viens avec des amis, en quête de clairvoyance ! Deoran et Del—"
 
 #. [message]
 #. immediately after this, magically created "mirror image" units of younger/older versions of Kalenz, Chantal, and Deoran appear
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1289
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1290
 msgid ""
 "I know who you are, Delfador of Alduin. But how well do you know yourselves?"
 msgstr ""
@@ -2907,36 +2907,36 @@ msgstr ""
 "connaissez-vous ?"
 
 #. [unit]
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1327
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1328
 #: data/campaigns/The_Deceivers_Gambit/utils/unified_characters.cfg:65
 msgid "Deoran"
 msgstr "Deoran"
 
 #. [message]
 #. referencing the mirror image of Deoran
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1343
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1344
 #, fuzzy
 msgid "Deoran, is that... you? You look so much younger."
 msgstr "Deoran, c'est... toi ? Tu as l'air tellement plus jeune."
 
 #. [message]
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1347
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1348
 msgid "What’s going on?! Kalenz, is this normal?"
 msgstr "Que se passe-t-il ?! Kalenz, est-ce normal ?"
 
 #. [objective]: condition=win
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1373
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1374
 msgid "Defeat all enemies"
 msgstr "Vaincre tous les ennemis"
 
 #. [objective]: condition=lose
 #. if reduced to 0 hp, Delfador doesn't die. Instead, he's kicked out of the mirror world, and fails the scenario
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1378
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1379
 msgid "Loss of Delfador"
 msgstr "Perte de Delfador"
 
 #. [note]
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1390
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1391
 #, fuzzy
 msgid ""
 "In this strange world, fate guides every strike. <i>(attacks never miss)</i>"
@@ -2945,7 +2945,7 @@ msgstr ""
 "ratent jamais leur cible)</i>"
 
 #. [event]: id=always_hit
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1416
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1417
 msgid ""
 "The mortal world beckons; tell me the rest of the prophecy when next we meet!"
 msgstr ""
@@ -2953,13 +2953,13 @@ msgstr ""
 "notre prochaine rencontre !"
 
 #. [event]: id=always_hit
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1417
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1418
 msgid "Elende, I hope you know what you’re doing. Good luck, the rest of you!"
 msgstr ""
 "Elende, j'espère que tu sais ce que tu fais. Bonne chance à vous tous !"
 
 #. [event]: id=always_hit
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1418
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1419
 msgid ""
 "Owww! Elende, it’s very rude to banish someone without their permission!"
 msgstr ""
@@ -2968,26 +2968,26 @@ msgstr ""
 
 #. [message]: speaker=Delfador
 #. Delfador has just been reduced to 0hp, and been "kicked out" of Elenede's "mirror realm" or wherever she was giving the prophecy
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1426
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1427
 msgid "Hey, stop—"
 msgstr "Hé, arrêtez—"
 
 #. [time]
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1443
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1931
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1444
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1937
 msgid "Dawn"
 msgstr "Aube"
 
 #. [message]: speaker=Delfador
 #. Delfador has missed the ending of the prophecy, and the player loses the scenario
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1467
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1468
 msgid "I didn’t get to finish hearing everything..."
 msgstr "Je n'ai pas pu tout entendre..."
 
 # "à l'avant de toi" compris comme "dans le futur pour toi"
 #. [message]
 #. spoken by Elende (through Kalenz's mirror image), referencing Legend of Wesmere's invisibility potion and Landar
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1497
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1498
 #, fuzzy
 msgid ""
 "Lich’s eye and brother’s bone; what have you sacrificed to save your people, "
@@ -2998,7 +2998,7 @@ msgstr ""
 "toi ?"
 
 #. [message]
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1501
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1502
 msgid "That was long ago, Elende! This is about the humans’ story, not mine."
 msgstr ""
 "C'était il y a bien longtemps, Elende ! Il s'agit de l'histoire des humains, "
@@ -3006,7 +3006,7 @@ msgstr ""
 
 #. [message]
 #. spoken by Elende (through Deoran's mirror image), referencing his exile. I intend "nation" more in the "people" sense than the "country" sense.
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1538
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1539
 #, fuzzy
 msgid ""
 "Deoran the exile returns home; returns to a nation that scorned him, ignored "
@@ -3018,7 +3018,7 @@ msgstr ""
 "construite parmi les franges crépusculaires de Lintanir ?"
 
 #. [message]
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1542
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1543
 #, fuzzy
 msgid ""
 "I know my duty! A captain of Wesnoth will never entertain doubts of loyalty, "
@@ -3029,12 +3029,12 @@ msgstr ""
 
 #. [message]
 #. spoken by Elende (through Chantal's mirror image), referencing Cleodil's historic death and foreshadowing Deoran's upcoming death
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1555
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1556
 msgid "Chantal—"
 msgstr "Chantal—"
 
 #. [message]
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1559
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1560
 msgid ""
 "I already know what you’re going to say Elende! Don’t you dare; I will when "
 "I’m ready."
@@ -3043,7 +3043,7 @@ msgstr ""
 "ferai quand le moment sera venu."
 
 #. [message]
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1565
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1566
 #, fuzzy
 msgid ""
 "Then you may soon understand some measure of your great-grandfather’s bygone "
@@ -3053,15 +3053,15 @@ msgstr ""
 "passés de ton arrière-grand-père..."
 
 #. [message]
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1644
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1882
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1889
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1645
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1883
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1890
 msgid "Elende"
 msgstr "Elende"
 
 #. [message]
 #. Elende reaveals that she's the one who gave the weird prophecy thing to Delfador at Alduin, even though she wasn't physically there
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1647
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1648
 msgid ""
 "And what of the fire mage? Young but ambitious, brilliant yet foolish. It "
 "has been many moons since I spoke to you at Alduin."
@@ -3070,7 +3070,7 @@ msgstr ""
 "Cela fait de nombreuses lunes que je t'ai parlé à Alduin."
 
 #. [message]
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1651
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1652
 msgid ""
 "That was you, back at graduation? I knew I heard a voice! Master Leollyn "
 "thought I was going crazy..."
@@ -3079,8 +3079,8 @@ msgstr ""
 "une voix ! Le maître Leollyn pensait que je perdais la tête..."
 
 #. [event]
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1654
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1781
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1655
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1782
 msgid ""
 "Spend 8 XP to gain flight and the skirmisher ability until the start of your "
 "next turn or until cancelled."
@@ -3091,7 +3091,7 @@ msgstr ""
 # "Ringed swords" ferait référence à une alliance de deux armées
 #. [message]
 #. pale spy meaning Asheviere. Referencing Asheviere resolving to kill Garard, and working with orcs to arrange the events of the next two scenarios
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1684
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1685
 #, fuzzy
 msgid ""
 "I see secrets in the dark; a pale spy slips their bonds. A death, a "
@@ -3102,7 +3102,7 @@ msgstr ""
 
 #. [message]
 #. referencing Delfador's adventures in scenarios 8-10, where he works with (or kills) poachers to fight saurians, then fights undead and a ghost given the appearance of a living drake.
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1745
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1746
 #, fuzzy
 msgid ""
 "The dark swamp looms. Purses and poachers, mirror and smoke. A figure of "
@@ -3113,7 +3113,7 @@ msgstr ""
 "pendant que les guerres sont perdues."
 
 #. [event]
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1750
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1751
 msgid ""
 "Spend 16 XP to disallow magical attacks in a 3-hex radius, until cancelled."
 msgstr ""
@@ -3122,7 +3122,7 @@ msgstr ""
 
 #. [message]
 #. referencing the civil war when Asheviere takes power
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1775
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1776
 #, fuzzy
 msgid ""
 "Brother against brother, father against child. From the barren throne will "
@@ -3136,7 +3136,7 @@ msgstr ""
 "de Haldric."
 
 #. [event]
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1780
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1781
 msgid ""
 "Spend 48 XP to grant yourself and all allies double movement and a second "
 "attack this turn. When this turn ends, affected units become slowed."
@@ -3147,7 +3147,7 @@ msgstr ""
 
 #. [message]
 #. referncing the future events of HttT; Konrad and Li'Sar retriving the sceptre of fire
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1871
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1872
 msgid ""
 "Black soot rains over Weldyn. The line of kings sundered; the ruby of the "
 "wesfolk restored. The nameless son and the ashen daughter."
@@ -3158,7 +3158,7 @@ msgstr ""
 # focale?
 #. [message]
 #. referencing Delfador's choice in S10x
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1885
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1886
 #, fuzzy
 msgid ""
 "But this fate is not the only path. Mage of Alduin, you stand at a knot in "
@@ -3173,7 +3173,7 @@ msgstr ""
 
 #. [message]
 #. referencing Delfador's choice in S10x. He can either listen to a drunk Garard and kill Garard's brother Arand based on false reports of a betrayal, or refuse, stay with Garard, and find out more about Arand before attacking
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1892
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1893
 msgid ""
 "When that moment comes, remember... endeavor to bestow not destruction with "
 "that fire that you possess, but the gleaming light of truth instead. Quench "
@@ -3185,13 +3185,13 @@ msgstr ""
 "consumé."
 
 #. [message]
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1896
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1897
 msgid "But, what? I don’t understa—"
 msgstr "Mais, quoi ? Je ne com—"
 
 #. [message]: speaker=Delfador
 #. Delfador previously said "But, what? I don’t understa—", but has now been kicked out of Elende's 'mirror world' and is back in the normal world. The scenario is over.
-#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1953
+#: data/campaigns/The_Deceivers_Gambit/scenarios/04_The_Sylvan_Seer.cfg:1959
 msgid "—nd what you’re saying..."
 msgstr "—prends pas ce que tu dis..."
 
@@ -9788,8 +9788,8 @@ msgid ""
 "Brothers of a ruling king are traditionally titled ‘Prince’ and bequeathed "
 "wide swathes of land to rule."
 msgstr ""
-"Les frères d'un roi régnant portent traditionnellement le titre de "
-"« prince » et reçoivent en apanage de vastes étendues de terres à gouverner."
+"Les frères d'un roi régnant portent traditionnellement le titre de « prince "
+"» et reçoivent en apanage de vastes étendues de terres à gouverner."
 
 #. [attack]
 #: data/campaigns/The_Deceivers_Gambit/units/Human_Arand.cfg:28
