@@ -39,7 +39,7 @@ jobs:
 
         ## Get changed maps
         git fetch --depth=1 origin "$SHA"
-        mapfile -t map_paths < <(git diff --name-only HEAD "$SHA" | grep '\.map$')
+        mapfile -t map_paths < <(git diff --name-only HEAD "$SHA" -- ':/:**.map')
 
         for map_path in "${map_paths[@]}"
         do
