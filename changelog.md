@@ -1,36 +1,37 @@
 ## Version 1.19.22+dev
-### Add-ons client
-### Add-ons server
 ### Campaigns
-### Editor
-### Multiplayer
-### Lua API
-### Packaging
-### Terrain
+   * Heir to the Throne
+     * Granite Golem: added "regenerates +4" ability, cost reduced from 35 -> 30, damage reduced from 35 -> 32
+     * Fix Elrian's Tath event triggering even if you hadn't yet completed Isle of Alduin.
+     * Fix Elrian's Tath event not trigering after completing The Sceptre of Fire.
+     * S06 "Isle of Alduin": fix Konrad and Elrian discussing Seimus too early.
+     * S22 "Glamdrol": end when turns run out, not when side 1's last turn ends.
+     * S30 "The Sceptre of Fire": made Giant Spider AI more predictable.
+     * S43 "Cliffs of Thoria": fix the Horn of Glamdrol healing Warven before he's been spotted.
+     * S50 "The Battle For Wesnoth": rebalanced to encourage dominating the map rather than rushing Asheviere.
 ### Translations
    * Updated translations: Bengali, British English, Chinese (Simplified), Czech, Finnish, French, German, Italian, Portuguese (Brazil), Spanish
-### Units
-### User interface
 ### WML Engine
    * WFL: fixed serialization of empty map literals
    * WFL: fixed double multiplication when converting a config attribute to a decimal value
-  * Removed deprecated macros
-    * `EARLY_FINISH_BONUS_NOTE`
-    * `NO_EARLY_FINISH_BONUS_NOTE`
-    * `NO_GOLD_CARRYOVER_NOTE`
-    * `NEW_GOLD_CARRYOVER_NOTE_100`
-    * `NEW_GOLD_CARRYOVER_NOTE_40`
-    * `NEW_GOLD_CARRYOVER_NOTE_20`
-    * `MISSILE_FRAME_FIREBALL`
-    * `MESSAGE`
-    * `STORY_PART_SPEECH`
-    * `LOYAL_UNDEAD_UNIT`
-    * `ON_SIGHTING`
-    * `MAKE_AI_SIDE_PERSISTENT`
-    * `DRAKE_FLYING_ANIM`
-    * `NO_INTERRUPT_NO_UNDO`
-    * `ENABLE_NIGHTBLADE`
+   * Removed deprecated macros
+     * `EARLY_FINISH_BONUS_NOTE`
+     * `NO_EARLY_FINISH_BONUS_NOTE`
+     * `NO_GOLD_CARRYOVER_NOTE`
+     * `NEW_GOLD_CARRYOVER_NOTE_100`
+     * `NEW_GOLD_CARRYOVER_NOTE_40`
+     * `NEW_GOLD_CARRYOVER_NOTE_20`
+     * `MISSILE_FRAME_FIREBALL`
+     * `MESSAGE`
+     * `STORY_PART_SPEECH`
+     * `LOYAL_UNDEAD_UNIT`
+     * `ON_SIGHTING`
+     * `MAKE_AI_SIDE_PERSISTENT`
+     * `DRAKE_FLYING_ANIM`
+     * `NO_INTERRUPT_NO_UNDO`
+     * `ENABLE_NIGHTBLADE`
 ### Miscellaneous and Bug Fixes
+   * Fixed crashes when starting some campaigns when playing on Steam+Linux
 
 ## Version 1.19.22
 ### Campaigns
