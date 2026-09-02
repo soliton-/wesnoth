@@ -397,16 +397,7 @@ void manager::try_scenario_by_index(int index, bool force)
 
 int manager::get_era_index() const
 {
-	int result = 0;
-	for(const config& i : depinfo_.child_range("era")) {
-		if(i["id"] == era_) {
-			return result;
-		}
-
-		result++;
-	}
-
-	return -1;
+	get_era_index(era_);
 }
 
 int manager::get_era_index(const std::string& id) const
