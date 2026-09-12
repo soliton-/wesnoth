@@ -293,7 +293,7 @@ jobs:
       - name: Build wesnoth, wesnothd, campaignd and unit tests
         working-directory: projectfiles/Xcode
         run: |
-          xcodebuild ARCHS=x86_64 -project "The Battle for Wesnoth.xcodeproj" -configuration "$CFG" -target "The Battle for Wesnoth" -target "unit_tests" -target wesnothd -target campaignd
+          xcodebuild -project "The Battle for Wesnoth.xcodeproj" -configuration "$CFG" -target "The Battle for Wesnoth" -target "unit_tests" -target wesnothd -target campaignd
           # xcodebuild or maybe clang do not appear to fail properly when input files cannot be found; double check executables were produced
           [ -x "build/$CFG/The Battle for Wesnoth.app" ] || { printf 'Failed to build wesnoth executable!\n' >&2; exit 1; }
           [ -x "build/$CFG/wesnothd"   ] || { printf 'Failed to build wesnothd executable!\n' >&2; exit 1; }
