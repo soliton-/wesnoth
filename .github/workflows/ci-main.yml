@@ -164,7 +164,23 @@ jobs:
         run: ./utils/CI/mp_test_executor.sh
       - name: Run unit tests
         if: matrix.cc == 'clang' && (success() || steps.build.outcome == 'success')
-        run: ./run_boost_tests
+        run: |
+          ./run_boost_tests
+          # check if schedule is in sync with the actual tests
+          ./boost_unit_tests --list_content 2>&1 | {
+            printed=true; while IFS= read -r; do
+              if [[ $REPLY = ' '* ]] then
+                [[ $REPLY = '     '* ]] && continue # ignore test data entries; each test is run with all test data
+                case=${REPLY%\*}
+                printf '%s/%s\n' "$suite" "${case##*( )}"
+                printed=true
+              else
+                [[ $printed ]] || printf '%s\n' "$suite"
+                printed= suite=${REPLY%\*}
+              fi
+            done
+            [[ $printed ]] || printf %s\\n "$suite"
+          } | sort | diff -u <(sort boost_test_schedule) -
 
   steam-runtime:
     runs-on: ubuntu-latest
