@@ -159,7 +159,9 @@ static config parse_entity(std::string::const_iterator& beg, std::string::const_
 			break;
 		}
 	}
-	if(type == NAMED) {
+
+	switch(type) {
+	case NAMED: {
 		std::string name = s.str();
 		entity["name"] = name;
 		if(name == "lt") {
@@ -173,14 +175,27 @@ static config parse_entity(std::string::const_iterator& beg, std::string::const_
 		} else if(name == "amp") {
 			entity["code_point"] = '&';
 		}
-	} else {
+		break;
+	}
+	case DECIMAL:
+	case HEX: {
+		if(s.str().empty()) {
+			throw parse_error(beg, "invalid entity: numeric entity must contain at least one digit.");
+		}
+
 		s.seekg(0);
 		if(type == HEX) {
 			s >> std::hex;
 		}
 		int n;
-		s >> n;
+		if(!(s >> n)) {
+			throw parse_error(beg, "invalid entity: numeric value out of range.");
+		}
 		entity["code_point"] = n;
+		break;
+	}
+	case UNKNOWN:
+		throw parse_error(beg, "invalid entity: expected a named or numeric value.");
 	}
 	return entity;
 }
