@@ -103,14 +103,18 @@ const std::array old_style_tags{ "bold"s, "italic"s, "header"s, "format"s, "img"
 const std::array old_style_attr{ /*ref*/ "dst"s, "text"s, "force"s, /*jump*/ "to"s, "amount"s, /*img*/ "src"s, "align"s, "float"s, /*format*/ "bold"s, "italic"s, "color"s, "font_size"s };
 }
 
-static std::string position_info(const std::string::const_iterator& text_start, const std::string::const_iterator& error_position)
+static std::string position_info(const std::string::const_iterator& text_start, const std::string::const_iterator& text_end, const std::string::const_iterator& error_position)
 {
 	// line numbers start from 1
 	int lines = std::count(text_start, error_position, '\n') + 1;
 	// Find the start position of the line where the current position is.
 	// We do this by searching in reverse from cursor_position toward text_start.
 	auto pos = error_position;
-	for(; pos != text_start && *pos != '\n'; pos--);
+	// avoid dereferencing end
+	if(pos == text_end && pos != text_start) {
+		--pos;
+	}
+	for(; pos != text_start && *pos != '\n'; --pos);
 	return formatter()
 		<< "line " << lines
 		<< ", character " << utf8::size(pos, error_position);
@@ -478,7 +482,7 @@ config parse_text(const std::string& text)
 		// NOTE: The text.begin() itor is in scope here, so we add the error location info
 		// to the error message here and rethrow. Both itors used in the call to
 		// position_info below can go out of scope otherwise.
-		e.message = position_info(text.begin(), e.error_location()) + ": " + e.message;
+		e.message = position_info(text.begin(), text.end(), e.error_location()) + ": " + e.message;
 		throw e;
 	}
 	return res;
